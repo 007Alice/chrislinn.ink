@@ -43,12 +43,12 @@
 ---
 # 回顾历史
 
-为保证开发环境的正确（Bug 不是环境因素造成），想出一系列的隔离方式：虚拟机、容器虚拟化、语言虚拟机、应用容器（Java Tomcat）、虚拟环境（Python virtualenv），甚至是独立于语言的 DSL。
+从最早的物理服务器开始，我们都在不断地抽象或者虚拟化服务器。
+![虚拟化](https://chrislinn.ink/img/cloud-native/server-growth.jpg)
 
 ---
 
-从最早的物理服务器开始，我们都在不断地抽象或者虚拟化服务器。
-![虚拟化](https://chrislinn.ink/img/cloud-native/server-growth.jpg)
+为保证开发环境的正确（Bug 不是环境因素造成），想出一系列的隔离方式：虚拟机、容器虚拟化、语言虚拟机、应用容器（Java Tomcat）、虚拟环境（Python virtualenv），甚至是独立于语言的 DSL。
 
 ---
 
@@ -200,25 +200,29 @@ Swarm、Mesos和Kubernetes
 + 不中断业务持续更新
 
 ---
+# 云原生所需要的能力和特征
+
+![cloud-native-architecutre-mindnode](https://chrislinn.ink/img/cloud-native/cloud-native-architecutre-mindnode.jpg)
+
+<!-- ---
 # 云原生应用的三大特征
 + 容器化包装：软件应用的进程应该包装在容器中独立运行。
 + 动态管理：通过集中式的编排调度系统来动态的管理和调度。
 + 微服务化：明确服务间的依赖，互相解耦。
+ -->
 
 ---
 # 云原生的设计理念
 
----
-
-+ 面向分布式设计（Distribution）：容器、微服务、API 驱动的开发
-+ 面向配置设计（Configuration）：一个镜像，多个环境配置
-+ 面向韧性设计（Resistancy）：故障容忍和自愈
-+ 面向弹性设计（Elasticity）：弹性扩展和对环境变化（负载）做出响应
-+ 面向交付设计（Delivery）：自动拉起，缩短交付时间
-+ 面向性能设计（Performance）：响应式，并发和资源高效利用
-+ 面向自动化设计（Automation）：自动化的 DevOps
-+ 面向诊断性设计（Diagnosability）：集群级别的日志、metric 和追踪
-+ 面向安全性设计（Security）：安全端点、API Gateway、端到端加密
++ 面向分布式：容器、微服务、API 驱动的开发
++ 面向配置：一个镜像，多个环境配置
++ 面向韧性：故障容忍和自愈
++ 面向弹性：弹性扩展和对环境变化（负载）做出响应
++ 面向交付：自动拉起，缩短交付时间
++ 面向性能：响应式，并发和资源高效利用
++ 面向自动化：自动化的 DevOps
++ 面向诊断性：集群级别的日志、metric 和追踪
++ 面向安全：安全端点、API Gateway、端到端加密
 
 
 ---
@@ -239,11 +243,6 @@ Swarm、Mesos和Kubernetes
 
 ---
 ![service-discovery-in-microservices](https://chrislinn.ink/img/cloud-native/service-discovery-in-microservices.png)
-
----
-# 云原生所需要的能力和特征
-
-![cloud-native-architecutre-mindnode](https://chrislinn.ink/img/cloud-native/cloud-native-architecutre-mindnode.jpg)
 
 ---
 云端架构(分布式系统)，相对单体架构来说会带来很多挑战。一致性、延迟和网络分区、服务监控的变革、服务暴露、权限的管控等。
