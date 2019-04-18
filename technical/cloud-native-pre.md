@@ -4,6 +4,7 @@
 # Cloud Native
 
 ## 如何成为 Uber、Netflix、Airbnb 这样快速创新、快速增长的公司?
+
 <!--
 传统应用升级缓慢、架构臃肿、不能快速迭代、故障不能快速定位、问题无法快速解决
 
@@ -32,14 +33,13 @@
 + 对比图
 
 ---
-# 虚拟化使云计算成为可能
-
-__云计算和虚拟化的关系？？？__
-+ https://www.infoq.cn/article/fA42rfjV*dYGAvRANFqE
-
-+ IaaS
-+ PaaS
-+ SaaS
+# 云计算
++ 为什么要上云
++ 虚拟化使云计算成为可能
++ 云计算的发展历程
+    * IaaS
+    * PaaS
+    * SaaS
 
 ---
 # 虚拟机 vs 容器 
@@ -50,14 +50,14 @@ __云计算和虚拟化的关系？？？__
 
 ---
 # k8s 与 docker 的关系
-_docker_ vs _docker compose_ vs  _docker swarm_ vs  _k8s_ 
+__docker__ vs __docker compose__ vs  __docker swarm__ vs  __k8s__ 
 
 ---
 # k8s 的好处是什么
 + 解决了 单纯用 docker 的什么问题
 + 为什么方便强大
     * Deployment
-    * service discovering
+    * service discovery
     * DevOps
     * CI/CD
 
