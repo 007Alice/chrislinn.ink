@@ -80,7 +80,9 @@
 
 
 ## TODOS
-+ IPFS vs BitTorrent
++ 闪电网络
++ pedersen-commitment
++ 预言机
 + 致盲攻击
 + 盲签名
 + mimblewimble
