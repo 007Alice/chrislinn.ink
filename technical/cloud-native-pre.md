@@ -7,16 +7,18 @@
 ![虚拟化](https://chrislinn.ink/img/cloud-native/server-growth.jpg)
 
 ---
-# 物理机 vs 虚拟机
-+ 对比图
+# 虚拟化
++ 为什么要虚拟化
+    * 资源隔离
+    * 解决环境问题
+        - 运行时
+        - 系统工具
+        - 系统库
++ 有什么虚拟化方案
 
 ---
-# 虚拟化
-+ 为什么虚拟化可以解决环境问题
-    * 运行时
-    * 系统工具
-    * 系统库
-+ 有什么虚拟化方案
+# 物理机 vs 虚拟机
++ 对比图
 
 ---
 # 虚拟化使云计算成为可能
@@ -61,6 +63,9 @@ _docker_ vs _docker compose_ vs  _docker swarm_ vs  _k8s_
     * Node
     * Cluster
 
+---
+# k8s 中的资源隔离层次的区别
+![k8s-node-port](https://chrislinn.ink/img/cloud-native/k8s-node-port.png)
 
 ---
 # k8s 存在的问题
@@ -80,7 +85,15 @@ _docker_ vs _docker compose_ vs  _docker swarm_ vs  _k8s_
 # istio 的架构
 ![istio-arch](https://chrislinn.ink/img/cloud-native/istio-arch.jpg)
 
+Istio架构分为控制层和数据层:
 
++ 数据层：由一组智能代理（Envoy）作为sidecar部署，协调和控制所有microservices之间的网络通信。
++ 控制层：负责管理和配置代理路由流量，以及在运行时执行的政策。
+
+<!-- 
+https://jimmysong.io/posts/istio-overview/
+https://jimmysong.io/posts/why-do-we-need-istio/
+ -->
 
 ---
 # k8s + service mesh = cloud native
@@ -93,6 +106,7 @@ _docker_ vs _docker compose_ vs  _docker swarm_ vs  _k8s_
 ---
 # micro-service
 + micro-service 是什麽
++ micro-service vs 单体架构
 + micro-service 的优缺点
 
 ---
