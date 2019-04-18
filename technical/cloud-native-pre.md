@@ -1,10 +1,15 @@
 # Cloud Native
 
 ---
-# 为什么要讲  cloud-native???
+# Cloud Native
+
+## 如何成为 Uber、Netflix、Airbnb 这样快速创新、快速增长的公司?
+<!--
+传统应用升级缓慢、架构臃肿、不能快速迭代、故障不能快速定位、问题无法快速解决
 
 + https://jimmysong.io/posts/what-is-cloud-native-application-architecture/
 + https://zhuanlan.zhihu.com/p/28663432
+ -->
 
 ---
 # 回顾历史
