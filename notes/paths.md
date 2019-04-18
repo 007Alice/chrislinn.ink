@@ -20,7 +20,7 @@ a collection of type `std::vec::Vec<ethereum_types::H256>` cannot be built from 
 
 
 version: _modified_
-curl --data '{"method":"parity_listStorageKeys","params":["0xbb9bc244d798123fde783fcc1c72d3bb8c189413",99999999,null],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545 
+curl --data '{"method":"parity_listStorageKeys","params":["0xab7c74abC0C4d48d1bdad5DCB26153FC8780f83E",null,null],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545 
 
 curl --data '{"method":"parity_listStorageKeys","params":["0xab7c74abC0C4d48d1bdad5DCB26153FC8780f83E",null,null],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545 
 
@@ -33,8 +33,9 @@ curl --data '{"method":"parity_listStorageKeys","params":["0xab7c74abC0C4d48d1bd
 + 0x75bA02c5bAF9cc3E9fE01C51Df3cB1437E8690D4
 + 0x7da82C7AB4771ff031b66538D2fB9b0B047f6CF9
 
-./target/release/parity --fat-db=on --mode=offline
-cargo build --release --features final
+./target/debug/parity --fat-db=on --mode=offline
+
+cargo build
 
 > There are paths for everyone
 
