@@ -49,6 +49,7 @@
                 * 孤块管理
                 * 链重组
     - 自我提升
+        + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
         - [Trading](notes/trading.md)
         + [EnglishPod Notes](notes/englishpod.md)

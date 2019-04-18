@@ -3,6 +3,8 @@
 ---
 # 为什么要讲  cloud-native???
 
++ https://jimmysong.io/posts/what-is-cloud-native-application-architecture/
++ https://zhuanlan.zhihu.com/p/28663432
 
 ---
 # 回顾历史
@@ -28,6 +30,7 @@
 # 虚拟化使云计算成为可能
 
 __云计算和虚拟化的关系？？？__
++ https://www.infoq.cn/article/fA42rfjV*dYGAvRANFqE
 
 + IaaS
 + PaaS
