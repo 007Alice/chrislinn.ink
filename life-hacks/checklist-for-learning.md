@@ -5,6 +5,15 @@
 + 静心
 + 迅速搭建起框架
     * what
+        - Mendeley
+        - EndNote
+        - referencemanager
+        - Readcube
+        - Zotero
+        - NoteExpress
+        - papers3
+        - Circus Ponies Notebook
+        - citavi
     * why
         - really?
     * how
@@ -16,10 +25,14 @@
     * 强行联想
         - 声色味形
     * 便于记忆
-+ 扩展
-    * 上下左右
-        - 归纳
-        - 细化例子
-        - 相关
-        - 无关
++ 输出
+    * 笔记
+        - https://mathpix.com/
+        - https://www.tablesgenerator.com/
+    * 扩展
+        - 上下左右
+            + 归纳
+            + 细化例子
+            + 相关
+            + 无关
 + 复习
