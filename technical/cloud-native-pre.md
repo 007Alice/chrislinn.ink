@@ -32,6 +32,8 @@
 # 物理机 vs 虚拟机
 + 对比图
 
+https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
+
 ---
 # 云计算
 + 为什么要上云
