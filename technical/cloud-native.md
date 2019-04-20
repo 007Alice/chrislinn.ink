@@ -494,10 +494,10 @@ Serverless 是构建在虚拟机和容器之上的一层，与应用本身的关
 + 物理机 vs 虚拟机 (10%) - 6 min
 + Docker vs 虚拟机 (15%) - 9 min
 + k8s (20%) - 12 min
-+ cloud-native (10%) - 6 min
++ k8s ecosys (10%) - 6 min
 + mirco-service (10%) - 6 min
 + serverless (10%) - 6 min
-+ service mesh, istio (10%) - 6 min
++ cloud native = k8s + service mesh, istio (10%) - 6 min
 + 公司 (10%) - 6 min
 
 ======demo案例======
