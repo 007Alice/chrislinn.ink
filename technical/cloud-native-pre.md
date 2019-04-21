@@ -101,7 +101,7 @@ https://jimmysong.io/posts/istio-overview/
 
 ---
 # 虚拟机 vs 容器 
-![vm](https://chrislinn.ink/img/cloud-native/vm-vs-container.jpg)
+![vm](https://chrislinn.ink/img/cloud-native/vm-vs-container.png)
 
 <!-- 
 https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
