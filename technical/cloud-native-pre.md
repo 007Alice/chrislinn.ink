@@ -46,14 +46,29 @@ https://jimmysong.io/posts/istio-overview/
  -->
 
 ---
+# Cloud Native
+## 如何成为下一个 Uber、Netflix、Airbnb?
+
+---
+# Cloud Native
+## 如何成为下一个 Uber、Netflix、Airbnb?
+> how valuable your technology was. ... the number of users you have.
+> 
+> Users are the only real proof that you've created wealth.
+> 
+> ... solve problems that users care about.
+
+-- Hackers & Painters
+
+---
 # 回顾历史
 
 从最早的物理服务器开始，我们都在不断地抽象或者虚拟化服务器。
 ![虚拟化](https://chrislinn.ink/img/cloud-native/server-growth.jpg)
 
 ---
-# 物理机时代
-![physical](/img/cloud-native/physical.jpg)
+# physical
+![physical](https://chrislinn.ink/img/cloud-native/physical.jpg)
 
 ---
 # 虚拟化
@@ -63,26 +78,32 @@ https://jimmysong.io/posts/istio-overview/
         - 运行时
         - 系统工具
         - 系统库
-+ 虚拟化方案
 
 ---
 # 物理机 vs 虚拟机
-![vm](/img/cloud-native/vm.jpg)
-
+![vm](https://chrislinn.ink/img/cloud-native/vm.jpg)
 
 ---
 # 云计算
-+ 为什么要上云
+
+* IaaS
+* PaaS
+* SaaS 
+
+<!-- + 为什么要上云
 + 虚拟化使云计算成为可能
 + 云计算的发展历程
-    * IaaS
-    * PaaS
-    * SaaS
+-->
+
+---
+# 容器 
+![container](https://chrislinn.ink/img/cloud-native/why-container.svg)
 
 ---
 # 虚拟机 vs 容器 
-![vm](/img/cloud-native/vm-vs-container.jpg)
+![vm](https://chrislinn.ink/img/cloud-native/vm-vs-container.jpg)
 
+<!-- 
 https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
 
 虚拟机中需要模拟一台物理机的所有资源，比如你要模拟出有多少CPU、网卡、显卡等等，这些都是在软件层面通过计算资源实现的，这就给物理机凭空增加了不必要的计算量。容器仅仅在操作系统层面向上，对应用的所需各类资源进行了隔离。
@@ -91,6 +112,7 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 + 优缺点
 * docker 与 容器的关系
 + 为什么可以解决环境问题
+ -->
 
 ---
 # k8s 与 docker 的关系
