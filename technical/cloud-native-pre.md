@@ -1,3 +1,36 @@
+<!-- 
+
+https://jimmysong.io/kubernetes-handbook/
+
+http://kubernetes.kansea.com/docs/
+
+https://www.kubernetes.org.cn/docs
+
+http://docs.kubernetes.org.cn/
+
+http://docs.kubernetes.org.cn/92.html
+
+http://docs.kubernetes.org.cn/227.html
+
+http://docs.kubernetes.org.cn/230.html
+
+https://www.kubernetes.org.cn/kubernetes-pod
+
+https://www.kubernetes.org.cn/kubernetes-services
+
+https://www.kubernetes.org.cn/kubernetes%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84
+
+https://www.kubernetes.org.cn/kubernetes%E8%AE%BE%E8%AE%A1%E7%90%86%E5%BF%B5
+
+https://www.abhishek-tiwari.com/a-sidecar-for-your-service-mesh/
+
+https://jimmysong.io/posts/why-do-we-need-istio/
+
+https://jimmysong.io/posts/istio-overview/
+
+ -->
+
+
 # Cloud Native
 
 ---
