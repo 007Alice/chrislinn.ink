@@ -97,7 +97,7 @@ https://jimmysong.io/posts/istio-overview/
 
 ---
 # 容器 
-![container](https://chrislinn.ink/img/cloud-native/why-container.svg)
+![container](https://chrislinn.ink/img/cloud-native/why_container.svg)
 
 ---
 # 虚拟机 vs 容器 
