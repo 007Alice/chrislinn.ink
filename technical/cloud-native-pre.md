@@ -97,7 +97,7 @@ https://jimmysong.io/posts/istio-overview/
 
 ---
 # 容器 
-![container](https://chrislinn.ink/img/cloud-native/why_container.svg)
+![container](https://chrislinn.ink/img/cloud-native/why_containers.svg)
 
 ---
 # 虚拟机 vs 容器 
@@ -115,8 +115,16 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
  -->
 
 ---
+# 容器 vs docker
+容器的一种封装，提供简单易用的容器使用接口。目前最流行的容器解决方案。
+
++ 基于 LXC -> runc
++ 利用 namespaces 来做权限的控制和隔离
++ 利用 cgroups 来进行资源的配置
++ 通过 aufs 提高文件系统的资源利用率
+
+---
 # k8s 与 docker 的关系
-__docker__ vs __docker compose__ vs  __docker swarm__ vs  __k8s__ 
 
 ---
 # k8s 的好处是什么
