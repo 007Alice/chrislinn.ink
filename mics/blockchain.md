@@ -82,6 +82,7 @@
 ## TODOS
 + 闪电网络
 + pedersen-commitment
++ vbytes
 + 预言机
 + 致盲攻击
 + 盲签名
