@@ -1,5 +1,7 @@
 <!-- 
 
+https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
+
 https://jimmysong.io/kubernetes-handbook/
 
 http://kubernetes.kansea.com/docs/
