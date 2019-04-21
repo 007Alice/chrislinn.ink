@@ -1,7 +1,5 @@
 <!-- 
 
-https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
-
 https://jimmysong.io/kubernetes-handbook/
 
 http://kubernetes.kansea.com/docs/
@@ -37,10 +35,10 @@ https://jimmysong.io/posts/istio-overview/
 
 ---
 # Cloud Native
-
-## 如何成为 Uber、Netflix、Airbnb 这样快速创新、快速增长的公司?
+## 什么样的工作能为你带来价值感?
 
 <!--
+如何成为 Uber、Netflix、Airbnb 这样快速创新、快速增长的公司?
 传统应用升级缓慢、架构臃肿、不能快速迭代、故障不能快速定位、问题无法快速解决
 
 + https://jimmysong.io/posts/what-is-cloud-native-application-architecture/
@@ -54,6 +52,10 @@ https://jimmysong.io/posts/istio-overview/
 ![虚拟化](https://chrislinn.ink/img/cloud-native/server-growth.jpg)
 
 ---
+# 物理机时代
+![physical](/img/cloud-native/physical.jpg)
+
+---
 # 虚拟化
 + 为什么要虚拟化
     * 资源隔离
@@ -61,13 +63,12 @@ https://jimmysong.io/posts/istio-overview/
         - 运行时
         - 系统工具
         - 系统库
-+ 有什么虚拟化方案
++ 虚拟化方案
 
 ---
 # 物理机 vs 虚拟机
-+ 对比图
+![vm](/img/cloud-native/vm.jpg)
 
-https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
 
 ---
 # 云计算
@@ -80,6 +81,11 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 
 ---
 # 虚拟机 vs 容器 
+
+https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
+
+虚拟机中需要模拟一台物理机的所有资源，比如你要模拟出有多少CPU、网卡、显卡等等，这些都是在软件层面通过计算资源实现的，这就给物理机凭空增加了不必要的计算量。容器仅仅在操作系统层面向上，对应用的所需各类资源进行了隔离。
+
 + 对比图
 + 优缺点
 * docker 与 容器的关系
