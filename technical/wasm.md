@@ -12,6 +12,9 @@ __阅读列表__
 * 玄武 https://sec.today
 * https://bbs.chainon.io/
 * DailyCodingInterview
+* stackexchange
+    - https://bitcoin.stackexchange.com/users/52021/g-maxwell
+    - https://bitcoin.stackexchange.com/users/120/cdecker
 
 ---
 

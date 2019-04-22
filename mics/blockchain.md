@@ -82,11 +82,41 @@
 ## TODOS
 + 闪电网络
 + pedersen-commitment
++ time warp attack
+    * https://bitcoinops.org/en/newsletters/2019/03/05/
++ vbytes
 + 预言机
 + 致盲攻击
 + 盲签名
++ https://en.wikipedia.org/wiki/Authenticated_encryption
 + mimblewimble
++ bullet proof
++ rsa accumulators
+    * https://bitcoinops.org/en/newsletters/2019/02/05/
+    * 节省存储在磁盘上的 UTXO commitment 的大小
+    * UTXO 累加器相关
+        - UTXO Hash Set（UHO）理念结合起来，以便整个节点存储UTXO的哈希值，而不是完整的UTXO，以便显着减少整个节点使用的存储量，而不需要任何改变共识规则。
+        - a scalable drop-in replacement for merkle trees
 + lightning & lapp
+    * loop
+    * https://bitcoin.stackexchange.com/a/85259
+    * https://bitcoin.stackexchange.com/a/84953
++ privacy
+    * https://en.bitcoin.it/wiki/Privacy
+    * https://en.bitcoin.it/wiki/Category:Privacy
+    * Dandelion protocol
+        - https://arxiv.org/abs/1701.04439
+    * Pay-to-EndPoint（P2EP）
++ Schnorr-based signatures
+    * https://github.com/sipa/bips/blob/bip-schnorr/bip-schnorr.mediawiki
+    * https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-January/015614.html
+    * https://bitcoin.stackexchange.com/questions/77234/schnorr-vs-ecdsa/77235#77235
+    * https://bitcoin.stackexchange.com/questions/85213/when-schnorr-signatures-are-part-of-bitcoin-will-it-be-possible-validate-each-bl
+    * https://bitcoin.stackexchange.com/questions/85101/does-musig-have-the-same-security-as-2-2-multisig
+    * https://bitcoin.stackexchange.com/questions/84086/how-are-scriptless-scripts-and-taproot-different
+    * https://www.8btc.com/article/390831
+    * [Schnorr即将开启的多签时代意味着什么](https://mp.weixin.qq.com/s?__biz=MzUzNTg4MTE2MQ==&mid=2247483727&idx=1&sn=b4183119af89a78cfd146d8826e739f8&chksm=fafff5e9cd887cffe4269aaf6be7cb8f0b94696f3039edfce85e72404219c3f4f8cde05837d1&mpshare=1&scene=1&srcid=0403b9cxWSLRjoc0oPSimDPI&pass_ticket=TYxGOa7GCVcTL1vSpTis8Nbdu0oUNyiEQ%2Fha2tpydiRmUm3KK5JZ4uKMQYy2dXDe#rd)
+    * [What makes batch verification of Schnorr signatures effective?](https://bitcoin.stackexchange.com/a/80702)
 + fibre
     * http://bitcoinfibre.org/
     * https://github.com/bitcoinfibre/bitcoinfibre
@@ -106,6 +136,7 @@
 + Secp256k1
     * https://bitcointalk.org/index.php?topic=151120.0
     * https://en.bitcoin.it/wiki/Secp256k1
+    * https://bitcoin.stackexchange.com/questions/85387/what-is-the-reasoning-behind-the-choice-of-2256-232-977-for-the-prime-on-the-s
 
 ## Books
 

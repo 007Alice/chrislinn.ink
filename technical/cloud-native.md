@@ -490,6 +490,16 @@ Serverless 是构建在虚拟机和容器之上的一层，与应用本身的关
 七. 介绍Istio的框架，和k8s配合使用可以获得什么好处 （10%）
 八. 畅想一下公司未来在docker + k8s + istio框架下的好处与便利性（5%）
 
++ 物理机 (5%) - 3 min
++ 物理机 vs 虚拟机 (10%) - 6 min
++ Docker vs 虚拟机 (15%) - 9 min
++ k8s (20%) - 12 min
++ k8s ecosys (10%) - 6 min
++ mirco-service (10%) - 6 min
++ serverless (10%) - 6 min
++ cloud native = k8s + service mesh, istio (10%) - 6 min
++ 公司 (10%) - 6 min
+
 ======demo案例======
 google一个k8s + Istio的hello world例子，低优先级
 
