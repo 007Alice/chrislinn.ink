@@ -1,5 +1,14 @@
 # Compiler
 
+## TODOS
++ https://www.itcodemonkey.com/article/3521.html
++ [Learning Parser Combinators With Rust](https://www.reddit.com/r/rust/comments/bepi63/learning_parser_combinators_with_rust/)
++ C compiler in Rust., https://github.com/onehr/crust
++ https://bodil.lol/parser-combinators/
+ 
+
+
+# Notes
 + [klee](https://github.com/klee/klee)
     * KLEE is a symbolic virtual machine built on top of the LLVM compiler infrastructure. 
 + Tokens
