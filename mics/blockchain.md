@@ -89,6 +89,8 @@
 + 致盲攻击
 + 盲签名
 + https://en.wikipedia.org/wiki/Authenticated_encryption
+* https://learnblockchain.cn/2019/04/18/learn-zkSNARK/
+* [IPFS/filecoin 技术架构分析](https://www.jianshu.com/c/06ddad58490f)
 + mimblewimble
 + bullet proof
 + rsa accumulators
@@ -122,12 +124,8 @@
     * https://github.com/bitcoinfibre/bitcoinfibre
     * http://bitcoinfibre.org/public-network.html
     * https://bitcoin.stackexchange.com/questions/56485/can-someone-please-explain-fibre-to-me-like-im-5-and-why-is-it-useful/56494
-+ cardano
-+ bo ka
-+ cosmos
++ chain.com, ada(iohk, cardano, upolos), cosmos(tendermint), PolkaDot(parity)
 + taint
-+ mint
-+ chain
 + P2P
     * https://github.com/AmarRSingh/NotThatNetworking_Research
 + layer2
