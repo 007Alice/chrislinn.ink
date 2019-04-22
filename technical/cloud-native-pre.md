@@ -207,7 +207,7 @@ https://jimmysong.io/posts/why-do-we-need-istio/
 
 ---
 # serverless
-![serverless-architecture](https://chrislinn.ink/img/serverless-architecture.png)
+![serverless-architecture](https://chrislinn.ink/img/cloud-native/serverless-architecture.png)
 
 ---
 # cloud history
