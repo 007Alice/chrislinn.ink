@@ -50,15 +50,16 @@ https://jimmysong.io/posts/istio-overview/
 ## 如何成为下一个 Uber、Netflix、Airbnb?
 
 ---
-# Cloud Native
-## 如何成为下一个 Uber、Netflix、Airbnb?
+# 如何成为下一个 Uber、Netflix、Airbnb?
+
+Hackers & Painters:
+
 > how valuable your technology was. ... the number of users you have.
 > 
 > Users are the only real proof that you've created wealth.
 > 
 > ... solve problems that users care about.
 
--- Hackers & Painters
 
 ---
 # 回顾历史
