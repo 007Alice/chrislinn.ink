@@ -1,5 +1,23 @@
 # GoLang
 
+## list
++ [Effective Go](https://golang.org/doc/effective_go.html)
++ https://github.com/tmrts/go-patterns
++ https://github.com/chai2010/go2-book/blob/master/README.md
++ golang-china / gopl-zh (Go语言圣经中文版)
++ go  perfbook
++ 《The Way to Go》中文译本，中文正式名《Go 入门指南》
++ hantmac / Mastering_Go_ZH_CN
+    * 《Mastering GO》中文译本，暂时命名为《玩转 GO》。阅读本书之前，您应该阅读有关Go的介绍性书籍，或者已经完成了Go By Example。本书的内容包括但不限于并发、网络编程、垃圾回收、组合、GO UNIX系统编程、基本数据类型（Array,Slice,Map）、GO源码、反射，接口，类型方法等高级概念。阅读本书需要一定的编程经验。如果你在工作中使用Go或者业余时间爱好GO，那…
++ https://github.com/chai2010/advanced-go-programming-book
++ polaris1119 / The-Golang-Standard-Library-by-Example
+    * Golang标准库。对于程序员而言，标准库与语言本身同样重要，它好比一个百宝箱，能为各种常见的任务提供完美的解决方案。以示例驱动的方式讲解Golang的标准库。
++ sausheong / gwp
+    * Go Web Programming code repository
++ sheepbao / golang_runtime_reading
+    + golang 1.10.2 runtime code reading - golang runtime源码分析
+
+
 ## CSP 并发模型, communicating sequential processes
 不同于传统的多线程通过共享内存来通信，CSP讲究的是以通信的方式来共享内存。
 
@@ -32,9 +50,6 @@
 ### channel
 
 ## pprof
-
-## [Effective Go](https://golang.org/doc/effective_go.html)
-
 
 ## Mem leak & GC
 + 减少对象分配
