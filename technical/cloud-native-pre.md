@@ -132,6 +132,7 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 # k8s 的方便强大
 
 * Deployment
+* Service Discovery
 * DevOps: 开发测试环境一致、CI/CD，监控
 
 ---
