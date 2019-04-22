@@ -182,7 +182,7 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 
 ---
 # istio 的架构
-![istio-arch](https://chrislinn.ink/img/cloud-native/istio-arch.jpg)
+![istio-arch](https://chrislinn.ink/img/cloud-native/istio-arch.svg)
 
 <!-- 
 Istio架构分为控制层和数据层:
