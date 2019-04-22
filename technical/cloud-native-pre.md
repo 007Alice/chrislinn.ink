@@ -147,6 +147,10 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 
 ---
 # k8s service
+![services](https://chrislinn.ink/img/cloud-native/services.svg)
+
+---
+# k8s service
 ![k8s-node-port](https://chrislinn.ink/img/cloud-native/k8s-node-port.png)
 
 ---
