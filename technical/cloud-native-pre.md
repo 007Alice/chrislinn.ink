@@ -158,19 +158,22 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 + 如何解决? service mesh!
 
 ---
+# service mesh
++ 是什麽
++ 解决了什么问题
+
+---
 # service mesh 方案
-+ service mesh 是什麽
-+ service mesh 解决了什么问题
-+ 现有的 service mesh 方案
-    * istio
++ 第一代
++ 第二代
 
 ---
 # istio 的架构
 ![istio-arch](https://chrislinn.ink/img/cloud-native/istio-arch.jpg)
 
+<!-- 
 Istio架构分为控制层和数据层:
 
-<!-- 
 + 数据层：由一组智能代理（Envoy）作为sidecar部署，协调和控制所有microservices之间的网络通信。
 + 控制层：负责管理和配置代理路由流量，以及在运行时执行的政策。
 
