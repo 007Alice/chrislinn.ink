@@ -187,23 +187,31 @@ https://jimmysong.io/posts/why-do-we-need-istio/
 
 
 ---
-# k8s + service mesh = cloud native
-+ cloud native 架构特点
-    * ![cloud-native-architecutre-mindnode](https://chrislinn.ink/img/cloud-native/cloud-native-architecutre-mindnode.jpg)
-    * 引出 micro-service & serverless
-        - micro-service 原生贴合 cloud-native
-        - cloud native 也在推 serverless 这种架构
+# k8s + service mesh = cloud native!
+![cloud-native-architecutre-mindnode](https://chrislinn.ink/img/cloud-native/cloud-native-architecutre-mindnode.jpg)
+
+<!-- 
+* 引出 micro-service & serverless
+    - micro-service 原生贴合 cloud-native
+    - cloud native 也在推 serverless 这种架构
+ -->
 
 ---
 # micro-service
-+ micro-service 是什麽
-+ micro-service vs 单体架构
-+ micro-service 的优缺点
+![monolithic-vs-microservices](https://chrislinn.ink/img/cloud-native/monolithic-vs-microservices.png)
+<!-- 
++ account, inventory, shipping
++ api gateway
++ service discovery
+ -->
 
 ---
 # serverless
-+ serverless 是什麽
-+ serverless 的优缺点
+![serverless-architecture](https://chrislinn.ink/img/serverless-architecture.png)
+
+---
+# cloud history
+![history](https://chrislinn.ink/img/cloud-native/history.png)
 
 ---
 # 8btc
