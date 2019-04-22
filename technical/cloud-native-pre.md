@@ -68,7 +68,7 @@ https://jimmysong.io/posts/istio-overview/
 
 ---
 # physical
-![physical](https://chrislinn.ink/img/cloud-native/physical.jpg)
+![physical](https://chrislinn.ink/img/cloud-native/physical.png)
 
 ---
 # 虚拟化
