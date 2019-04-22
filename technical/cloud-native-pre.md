@@ -142,7 +142,6 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 # k8s 中的资源隔离层次
 * Containner
 * Pod
-* Sandbox
 * Node
 * Cluster
 
@@ -184,6 +183,9 @@ https://jimmysong.io/posts/why-do-we-need-istio/
 # sidecar
 ![sidecar](https://chrislinn.ink/img/cloud-native/sidecar.jpg)
 
+---
+# sidecar
+![ContainerSidecarPattern](https://chrislinn.ink/img/cloud-native/ContainerSidecarPattern.png)
 
 ---
 # k8s + service mesh = cloud native!
