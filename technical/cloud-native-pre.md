@@ -74,11 +74,11 @@ Hackers & Painters:
 ---
 # 虚拟化
 + 为什么要虚拟化
-    * 资源隔离
     * 解决环境问题
         - 运行时
         - 系统工具
         - 系统库
+    * 资源隔离
 
 ---
 # 物理机 vs 虚拟机
@@ -132,9 +132,7 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 # k8s 的方便强大
 
 * Deployment
-* Service Discovery
-* DevOps
-* CI/CD
+* DevOps: 开发测试环境一致、CI/CD，监控
 
 ---
 # k8s 的架构
