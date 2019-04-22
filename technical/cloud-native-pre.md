@@ -175,7 +175,9 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 ---
 # service mesh 方案
 + 第一代
+    * Hystrix, Stubby
 + 第二代
+    * Linkerd, Istio, Linkerd2
 
 ---
 # istio 的架构
