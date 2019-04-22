@@ -146,6 +146,14 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 * Cluster
 
 ---
+# sidecar
+![sidecar](https://chrislinn.ink/img/cloud-native/sidecar.jpg)
+
+---
+# sidecar
+![ContainerSidecarPattern](https://chrislinn.ink/img/cloud-native/ContainerSidecarPattern.png)
+
+---
 # k8s service
 ![services](https://chrislinn.ink/img/cloud-native/services.svg)
 
@@ -182,14 +190,6 @@ Istio架构分为控制层和数据层:
 https://jimmysong.io/posts/istio-overview/
 https://jimmysong.io/posts/why-do-we-need-istio/
  -->
-
----
-# sidecar
-![sidecar](https://chrislinn.ink/img/cloud-native/sidecar.jpg)
-
----
-# sidecar
-![ContainerSidecarPattern](https://chrislinn.ink/img/cloud-native/ContainerSidecarPattern.png)
 
 ---
 # k8s + service mesh = cloud native!
