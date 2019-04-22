@@ -100,8 +100,8 @@ https://jimmysong.io/posts/istio-overview/
 ![container](https://chrislinn.ink/img/cloud-native/why_containers.svg)
 
 ---
-# 虚拟机 vs 容器 
-![vm](https://chrislinn.ink/img/cloud-native/vm-vs-container.png)
+# 容器 vs 虚拟机
+![vm-vs-container](https://chrislinn.ink/img/cloud-native/vm-vs-container.png)
 
 <!-- 
 https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine
@@ -125,46 +125,40 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 
 ---
 # k8s 与 docker 的关系
+编排，应用上云，让容器应用进入大规模工业生产时代
 
 ---
-# k8s 的好处是什么
-+ 解决了 单纯用 docker 的什么问题
-+ 为什么方便强大
-    * Deployment
-    * service discovery
-    * DevOps
-    * CI/CD
+# k8s 的方便强大
+
+* Deployment
+* Service Discovery
+* DevOps
+* CI/CD
 
 ---
 # k8s 的架构
 ![k8s-arch](https://chrislinn.ink/img/cloud-native/k8s-arch.jpg)
 
-+ 解释 各个接口，和 组件的作用
-
 ---
 # k8s 中的资源隔离层次
-+ 为什么要资源隔离
-    * 保证对集群资源的最大化和最优利用率
-+ 隔离层次
-    * containner
-    * Pod
-    * Sandbox
-    * Node
-    * Cluster
+* Containner
+* Pod
+* Sandbox
+* Node
+* Cluster
 
 ---
-# k8s 中的资源隔离层次的区别
+# k8s service
 ![k8s-node-port](https://chrislinn.ink/img/cloud-native/k8s-node-port.png)
 
 ---
 # k8s 存在的问题
 + 流量控制
 + 负载均衡
-+ 如何解决
-    * 使用 service mesh
++ 如何解决? service mesh!
 
 ---
-# service mesh
+# service mesh 方案
 + service mesh 是什麽
 + service mesh 解决了什么问题
 + 现有的 service mesh 方案
@@ -176,13 +170,18 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 
 Istio架构分为控制层和数据层:
 
+<!-- 
 + 数据层：由一组智能代理（Envoy）作为sidecar部署，协调和控制所有microservices之间的网络通信。
 + 控制层：负责管理和配置代理路由流量，以及在运行时执行的政策。
 
-<!-- 
 https://jimmysong.io/posts/istio-overview/
 https://jimmysong.io/posts/why-do-we-need-istio/
  -->
+
+---
+# sidecar
+![sidecar](https://chrislinn.ink/img/cloud-native/sidecar.jpg)
+
 
 ---
 # k8s + service mesh = cloud native
@@ -206,4 +205,4 @@ https://jimmysong.io/posts/why-do-we-need-istio/
 ---
 # 8btc
 + 8btc 目前的方案
-+ 使用 cloud native 可以带来哪些优点
++ 使用 cloud native 可以带来什么变化
