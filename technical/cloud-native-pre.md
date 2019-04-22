@@ -126,7 +126,7 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 
 ---
 # k8s 与 docker 的关系
-编排，应用上云，让容器应用进入大规模工业生产时代
+容器编排，应用上云，让容器应用进入大规模工业生产时代
 
 ---
 # k8s 的方便强大
