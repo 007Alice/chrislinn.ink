@@ -172,13 +172,8 @@ https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virt
 # service mesh
 + 是什麽
 + 解决了什么问题
++ 流行方案: istio
 
----
-# service mesh 方案
-+ 第一代
-    * Hystrix, Stubby
-+ 第二代
-    * Linkerd, Istio, Linkerd2
 
 ---
 # istio 的架构
@@ -223,10 +218,8 @@ https://jimmysong.io/posts/why-do-we-need-istio/
 
 <!-- 
 
-1. 什么样的工作带来价值感，控制一下时间
+1. 什么样的工作带来价值感，控制一下时间 & ppt 页数
 2. 牛B -> 伟大
-3. 压缩一下前3页的PPT?
-4. 感觉前面的PPT占用的页数有点多？
 5. 云计算 这个页面对我们这次的主题帮助是？
 6. 加入一点数字案例来表示精准，比如用虚拟机可以启动多少个服务，用dockr可以启动多少个服务？
 7. 没有了解到k8s到底是做什么的？是不是可以尝试加入一张图来说明？
