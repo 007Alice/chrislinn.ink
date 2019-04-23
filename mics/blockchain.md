@@ -136,7 +136,20 @@
     * https://en.bitcoin.it/wiki/Secp256k1
     * https://bitcoin.stackexchange.com/questions/85387/what-is-the-reasoning-behind-the-choice-of-2256-232-977-for-the-prime-on-the-s
 + lfs
+    * c
+    * rust
 + 编译器
+    * type check
+        - rust
+        - ml/func
+        - typescript
+        - python
+        - c
+    * opt
+        - c
+        - rust
+        - ml/func
++ stl
 
 ## Books
 
