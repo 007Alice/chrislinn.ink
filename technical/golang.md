@@ -16,6 +16,8 @@
     * Go Web Programming code repository
 + sheepbao / golang_runtime_reading
     + golang 1.10.2 runtime code reading - golang runtime源码分析
+- https://bloodzer0.github.io/ossa/application-security/sdl/go-scp/
+    + go语言安全编码规范（中文版）
 
 
 ## CSP 并发模型, communicating sequential processes

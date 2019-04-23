@@ -135,6 +135,8 @@
     * https://bitcointalk.org/index.php?topic=151120.0
     * https://en.bitcoin.it/wiki/Secp256k1
     * https://bitcoin.stackexchange.com/questions/85387/what-is-the-reasoning-behind-the-choice-of-2256-232-977-for-the-prime-on-the-s
++ lfs
++ 编译器
 
 ## Books
 
