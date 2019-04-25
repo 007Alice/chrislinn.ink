@@ -10,6 +10,7 @@
     - 自我提升
         + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
         + [Life Hacks](life-hacks/life-hacks.md)
+        + [Life Hacks](life-hacks/checklist-for-learning.md)
         + [How to Procrastinate Properly](life-hacks/how-to-procrastinate.md)
     - Notes
         - [我读哈耶克](notes/hayek.md)
