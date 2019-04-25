@@ -42,12 +42,7 @@
             + [源码解读-链式交易](technical/bytom/chained-tx.md)
             + [源码解读-验证交易](technical/bytom/validate-tx.md)
             + 源码解读-虚拟机验证
-            + 源码解读-processBlock
-                * 区块是否已存在
-                * 是否是孤块
-                * 区块链接、上链
-                * 孤块管理
-                * 链重组
+            + [源码解读-processBlock](technical/bytom/process-block.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
