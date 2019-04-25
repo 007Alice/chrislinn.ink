@@ -174,9 +174,15 @@ cargo build
 
 
 # paper
-搜索论文用dblp.org
+
+<!-- 
++ http://users.monash.edu.au/~kailiu/
++ http://www.jiangshanyu.com/
+ -->
 
 ## direction
+security的论文 实验和出成果都不难, 工业界比学术界领先, 论文还没出工业界就把事情搞出来了(不像密码学,没论文是几乎不可能搞出事情的), 关键在 methodology 和 motivation 要好, __角度要刁钻__(实现不难，然后统计分析一下), 解决实际问题, 
+
 + https://www.zhihu.com/question/23647187/answer/568803695
     * 模仿, 一开始的时候idea的新颖程度低一些，工作量夯实一些
     * 优先阅读该方向里最近五年的survey
@@ -187,6 +193,24 @@ cargo build
     * 阅读论文，最好能细致一点，把论文之间的引用关系理清楚，把近几年的发展脉络理清楚
     * 如果你不会设计实验/写论文，请模仿和你的工作最相关的论文
     * 逻辑第一
++ 搜索论文用 dblp.org
++ download at https://sci-hub.tw/
+
+## step
++ 先把用学术的语言描述出来
+    * 形式化的方式写出来, 比如伪代码或者其他形式
++ 再看这篇文章怎么写
+    * scope多大
+    * focus在哪
+    * contribution在哪
++ 写的过程就能明白其对应的现实环境 也就是security model
++ solution
++ 想完solution就开始实现
++ 写文章
++ 改文章
++ 跑实验画图
++ draft
++ 再拿出去投 边投边改
 
 ## reference
 + Mendeley
@@ -207,3 +231,4 @@ cargo build
 + 分布式计算理论的几个会 PODC, DISC, OPODIS
 + 隐私的会议 PETS
 + FC (Financial Cryptography)
+
