@@ -15,6 +15,25 @@
 ---
 + 微服务
     * _服务发现_
+        - traditional
+            + client-side
+                * code/framework in app
+                    - Eureka
+        - k8s
+            + network layer
+                * dns
+                * service
+                * ingress
+    * load-balancing
+        - traditional
+            + ribbon
+
+---
++ 微服务治理
+    * 限流
+    * 熔断
+    * 灰度发布
+    * ...
 
 ---
 + 加机器
@@ -27,6 +46,8 @@
             + 成本
             + single point
             + k8s 动态扩容
+                * 一个命令动态扩展10个 nginx 节点，线上运行
+                * 流量洪峰, 响应调度
     * 折旧率
         - 想放上云
             + 弹性计算
@@ -58,6 +79,10 @@
                     - devices
                     - hang process
                     - bandwidth, flow_priv
+            + 应用才是价值所在
+                * compose
+                * swarm
+                * k8s
 
 ---
 + k8s 成本
@@ -79,3 +104,16 @@
     * 多少请求
     * 多少测试
     * 多久回复
+
+
+---
++ service mesh
+    * traffic management, api gateway
+    * observability
+        - 服务调用
+        - 性能分析
+    * policy enforcement
+        - 控制服务访问策略
+            + 多级调用
+        - service identity & security
+            + 安全保护
