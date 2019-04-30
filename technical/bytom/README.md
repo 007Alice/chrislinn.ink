@@ -18,25 +18,6 @@
     - 实现 stratumn miner，cpu 版本和 gpu 版本
     - 节点 solo mining 集成显卡挖矿算法
     - 全局交易索引
-        + config
-        + merge account
-            * GetTransactionsSummary
-            * GetTransactionByTxID
-                - calcTxIndexKey
-                - calcAnnotatedKey
-                - annotateTxsAsset
-        + test
-            * GetAccountBalances
-                - indexBalances?
-            * GetTransactions
-                - filterAccountTxs
-                - findTransactionsByAccount
-            * GetTransactionsSummary
-            * GetTransactionByTxID
-            * deleteAccountTxs
-            * DeleteAccount
-            * deleteUtxos
-            * UpdateAccountAlias
 + Precogs
     * 负责先知节点计划，进行比原网络中的节点发现和状态统计
     * 涉及 P2P
@@ -64,6 +45,17 @@
         - server-side max exec time
         - https://dev.mysql.com/doc/refman/8.0/en/full-text-adding-collation.html
     * redis
++ vapor
+    * https://cloud.tencent.com/developer/news/207423
+    * Chain Interoperability
+    * https://www.jianshu.com/p/de1d15f0986b
+    * https://press.one/file/preview/275ef602e15cdb0cb8364e7640a8d7905d687af6a760caf01b4216a938ab740f
+    * https://www.odaily.com/post/5133506
+    * liquity
+        - https://github.com/liquidity-network/revive
+    * ElementsProject
+        - https://github.com/ElementsProject
+    * https://github.com/RSKSmart
 
 <!-- 
 
