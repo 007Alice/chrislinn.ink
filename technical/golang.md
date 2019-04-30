@@ -1,5 +1,12 @@
 # GoLang
 
+## framework
++ https://github.com/TarsCloud/TarsGo
++ bilibili / kratos
++ Terry-Mao / goim
++ panjf2000 / ants
++ GoCollaborate / src
+
 ## list
 + [Effective Go](https://golang.org/doc/effective_go.html)
 + https://github.com/tmrts/go-patterns
@@ -18,6 +25,14 @@
     + golang 1.10.2 runtime code reading - golang runtime源码分析
 - https://bloodzer0.github.io/ossa/application-security/sdl/go-scp/
     + go语言安全编码规范（中文版）
+- PacktPublishing / Security-with-Go
+- [go-concurrent-quiz](https://github.com/smallnest/go-concurrent-quiz)
++ quii / learn-go-with-tests
++ eranyanay / 1m-go-websockets
++ teivah / golang-good-code-bad-code
++ feixiao / Distributed-Systems
++ chaozh / MIT-6.824
+
 
 
 ## CSP 并发模型, communicating sequential processes
