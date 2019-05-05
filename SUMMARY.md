@@ -15,7 +15,6 @@
         - [我读哈耶克](notes/hayek.md)
         - [Westworld beautiful words](notes/westworld-subtitle.md)
         - TheEconomist 读报笔记
-            + [20161119](notes/the-economist/20161119.md)
         + [Linux](notes/linux.md)
         + [Sublime Text](notes/subl.md)
         + [Pentesting resource](notes/pres.md)
