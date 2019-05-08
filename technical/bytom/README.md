@@ -56,6 +56,10 @@
     * ElementsProject
         - https://github.com/ElementsProject
     * https://github.com/RSKSmart
+    * federation
+        * https://github.com/nsqio/nsq
+    * https://btcpayserver.org/
+        - https://github.com/btcpayserver
 
 <!-- 
 
