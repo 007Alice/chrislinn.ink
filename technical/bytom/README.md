@@ -58,6 +58,9 @@
     * https://github.com/RSKSmart
     * federation
         * https://github.com/nsqio/nsq
+    + 充值提现手续费闭环
+        * 侧链可改造成手续费使用非 btm
+        * 充值收取一定 btm，提现时可以用
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
 
