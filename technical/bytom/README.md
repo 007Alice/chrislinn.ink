@@ -66,6 +66,8 @@
     * coding
         - protocol/bc/tx.go
         - check contruct IntraChainOutput
+        - map
+        - validation
 
 <!-- 
 
