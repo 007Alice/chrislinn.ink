@@ -63,6 +63,9 @@
         * 充值收取一定 btm，提现时可以用
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
+    * coding
+        - protocol/bc/tx.go
+        - check contruct IntraChainOutput
 
 <!-- 
 
