@@ -558,6 +558,8 @@ function sproxy_goflyway() {
             + `source ~/.profile` 
 + powerline
     * `apt install powerline` 
+    * `/usr/share/powerline/config_files/config.json`
+        - ["shell"]["theme"] = "default_leftonly"
     * `~/.bashrc`
         ```bash
         POWERLINE_SCRIPT=/usr/share/powerline/bindings/bash/powerline.sh
