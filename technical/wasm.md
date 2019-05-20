@@ -15,6 +15,9 @@ __阅读列表__
 * stackexchange
     - https://bitcoin.stackexchange.com/users/52021/g-maxwell
     - https://bitcoin.stackexchange.com/users/120/cdecker
+* gitmemory
+    - https://gitmemory.com/yxliang01
+    - 
 
 ---
 

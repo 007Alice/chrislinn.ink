@@ -1,5 +1,11 @@
 # Paths
 
+## Slides
++ https://github.com/gnab/remark
++ https://github.com/yhatt/marp
++ https://github.com/hiroppy/fusuma
++ https://github.com/jacksingleton/hacker-slides
+
 ## Blockchain json statetest
 ### Modify parity_listStorageKeys
 + Make argument _Quantity_ oponal. When `Quantity == null` , return all storage keys.
