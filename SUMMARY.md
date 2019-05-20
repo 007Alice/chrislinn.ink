@@ -48,6 +48,7 @@
         - [Trading](notes/trading.md)
         + [EnglishPod Notes](notes/englishpod.md)
         - [《苏菲的世界》笔记](notes/sophies-world.md)
+        - [我读梁冬吴伯凡](notes/dongwu.md)
         + [My trip on Vim](notes/vim.md)
     * 随笔
         - [王小波读后感](mics/wangxiaobo.md)
