@@ -7,6 +7,7 @@
     * https://github.com/crypto-meetup-dev
     * https://github.com/smart-signature
     * https://kyubey.network/
+    * https://kyubey.net/
 
 ## Reading List
 + paper
