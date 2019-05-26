@@ -91,6 +91,7 @@
 + https://en.wikipedia.org/wiki/Authenticated_encryption
 * https://learnblockchain.cn/2019/04/18/learn-zkSNARK/
 * [IPFS/filecoin 技术架构分析](https://www.jianshu.com/c/06ddad58490f)
+* https://github.com/wupeaking/tendermint_code_analysis
 + mimblewimble
 + bullet proof
 + rsa accumulators
