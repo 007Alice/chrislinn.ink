@@ -70,11 +70,15 @@
             + tp.utxo[]
         - ApplyTransaction
         - validation/map hard-code
-        - cover SpentOutputIDs?
-        - SaveChainStatus
-            + protocol.go
-                * L84
-                * L114
+        - chain.setState
+            + protocol/block.go
+                * 102, connectBlock
+                    - func (b *bbft) ApplyBlock?
+                    - func (view *UtxoViewpoint) ApplyBlock?
+                        + refer to all NewUtxoViewpoint...
+                * 177, reorganizeChain
+            + SaveChainStatus
+                * many...
 
 <!-- 
 
