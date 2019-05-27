@@ -1,5 +1,14 @@
 # Blockchain
 
++ https://github.com/lychees
+    * http://www.shuizilong.com/house/
+    * https://docs.google.com/presentation/d/1pN3BnxIxXiEehaVoubyj6NgWG_tFR6KILp15SDf_HF4/edit#slide=id.g49ebd34165_0_20
+    * https://docs.google.com/presentation/d/1muk78VswzkNdBn-ctTWHJyd0dop7Bz6Fe9ScwVxn62Y/edit#slide=id.g242c11a304_0_336
+    * https://github.com/crypto-meetup-dev
+    * https://github.com/smart-signature
+    * https://kyubey.network/
+    * https://kyubey.net/
+
 ## Reading List
 + paper
     * [theoretical-blockchain-research-papers](https://github.com/mathetake/theoretical-blockchain-research-papers)
