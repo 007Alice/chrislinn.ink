@@ -68,7 +68,13 @@
         - gbt
         - txpool remove orphan?
             + tp.utxo[]
+        - ApplyTransaction
         - validation/map hard-code
+        - cover SpentOutputIDs?
+        - SaveChainStatus
+            + protocol.go
+                * L84
+                * L114
 
 <!-- 
 
