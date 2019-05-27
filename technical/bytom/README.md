@@ -64,10 +64,11 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
     * coding
-        - protocol/bc/tx.go
-        - check contruct IntraChainOutput
-        - map
-        - validation
+        - block insert tx
+        - gbt
+        - txpool remove orphan?
+            + tp.utxo[]
+        - validation/map hard-code
 
 <!-- 
 
