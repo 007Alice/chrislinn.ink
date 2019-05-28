@@ -46,16 +46,6 @@
         - https://dev.mysql.com/doc/refman/8.0/en/full-text-adding-collation.html
     * redis
 + vapor
-    * https://cloud.tencent.com/developer/news/207423
-    * Chain Interoperability
-    * https://www.jianshu.com/p/de1d15f0986b
-    * https://press.one/file/preview/275ef602e15cdb0cb8364e7640a8d7905d687af6a760caf01b4216a938ab740f
-    * https://www.odaily.com/post/5133506
-    * liquity
-        - https://github.com/liquidity-network/revive
-    * ElementsProject
-        - https://github.com/ElementsProject
-    * https://github.com/RSKSmart
     * federation
         * https://github.com/nsqio/nsq
     + 充值提现手续费闭环
@@ -72,17 +62,17 @@
                 * 177, reorganizeChain
             + fix SaveChainStatus
                 * many...
-        - storage.NewUtxoEntry
-            + kept ATM
-        - rework to mainchain utxo
-        - txpool remove orphan?
-            + tp.utxo[]
+        - ApplyBlock
+        - DetachBlock
         - ApplyTransaction
-        - block insert tx
-        - gbt
+        - storage.NewUtxoEntry
+            + fill in mainchain
+            + compare length?
+        - txpool
+            + gbt
+            + remove orphan?
+                * tp.utxo[]
         - validation/map hard-code
-        - saveBlock
-        - saveSubBlock
 
 <!-- 
 
