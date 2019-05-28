@@ -1,14 +1,5 @@
 # Blockchain
 
-+ https://github.com/lychees
-    * http://www.shuizilong.com/house/
-    * https://docs.google.com/presentation/d/1pN3BnxIxXiEehaVoubyj6NgWG_tFR6KILp15SDf_HF4/edit#slide=id.g49ebd34165_0_20
-    * https://docs.google.com/presentation/d/1muk78VswzkNdBn-ctTWHJyd0dop7Bz6Fe9ScwVxn62Y/edit#slide=id.g242c11a304_0_336
-    * https://github.com/crypto-meetup-dev
-    * https://github.com/smart-signature
-    * https://kyubey.network/
-    * https://kyubey.net/
-
 ## Reading List
 + paper
     * [theoretical-blockchain-research-papers](https://github.com/mathetake/theoretical-blockchain-research-papers)
@@ -22,6 +13,8 @@
         - Han Runchao list
         - https://github.com/tyrchen/unchained
         - why it takes 20 min to mine this block
++ https://github.com/satoshilabs/slips
++ https://bitcointechtalk.com/
 + [Ethereum Research](https://ethresear.ch/)
 + [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
 + 《精通比特币》第二版
@@ -95,6 +88,7 @@
     * https://bitcoinops.org/en/newsletters/2019/03/05/
 + vbytes
 + 预言机
++ VDF
 + 致盲攻击
 + 盲签名
 + https://en.wikipedia.org/wiki/Authenticated_encryption
