@@ -64,21 +64,25 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
     * coding
-        - block insert tx
-        - gbt
-        - txpool remove orphan?
-            + tp.utxo[]
-        - ApplyTransaction
-        - validation/map hard-code
         - chain.setState
             + protocol/block.go
                 * 102, connectBlock
-                    - func (b *bbft) ApplyBlock?
                     - func (view *UtxoViewpoint) ApplyBlock?
                         + refer to all NewUtxoViewpoint...
                 * 177, reorganizeChain
-            + SaveChainStatus
+            + fix SaveChainStatus
                 * many...
+        - storage.NewUtxoEntry
+            + kept ATM
+        - rework to mainchain utxo
+        - txpool remove orphan?
+            + tp.utxo[]
+        - ApplyTransaction
+        - block insert tx
+        - gbt
+        - validation/map hard-code
+        - saveBlock
+        - saveSubBlock
 
 <!-- 
 
