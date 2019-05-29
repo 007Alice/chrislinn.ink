@@ -54,8 +54,11 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
     * coding
-        - chain.setState
+        - database/utxo_view_test.go
             + TestGetTransactionsUtxo
+        - test/chain_test_util.go
+        - add more test
+        - config
         - validation/map hard-code
 
 <!-- 
