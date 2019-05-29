@@ -54,10 +54,16 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
     * coding
+        - database/store_test.go
+            + figure logic again
         - database/utxo_view_test.go
             + TestGetTransactionsUtxo
+        - protocol/state/utxo_view_test.go
+        - protocol/txpool_test.go
+        - test/bench_blockchain_test.go
         - test/chain_test_util.go
-        - add more test
+        - test/utxo_view/utxo_view_test.go
+        - add more test?
         - config
         - validation/map hard-code
 
