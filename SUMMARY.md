@@ -4,6 +4,7 @@
 - Published
     - Technical
         + [如何学习编程](technical/programming.md)
+        + [Kerberos](technical/kerberos.md)
         + [也体验一把密码朋克](technical/cypher-punk.md)
         + [MimbleWimble Origin](technical/mimblewimble-origin.md)
         + [爬虫抓代理](technical/proxy-crawler.md)

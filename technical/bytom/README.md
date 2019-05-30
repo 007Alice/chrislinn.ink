@@ -54,25 +54,16 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
     * coding
-        - chain.setState
-            + protocol/block.go
-                * 102, connectBlock
-                    - func (view *UtxoViewpoint) ApplyBlock?
-                        + refer to all NewUtxoViewpoint...
-                * 177, reorganizeChain
-            + fix SaveChainStatus
-                * many...
-        - ApplyBlock
-        - DetachBlock
-        - ApplyTransaction
-        - storage.NewUtxoEntry
-            + fill in mainchain
-            + compare length?
-        - txpool
-            + gbt
-            + remove orphan?
-                * tp.utxo[]
-        - validation/map hard-code
+        - [x] database/store_test.go
+        - [ ] database/utxo_view_test.go
+            + TestGetTransactionsUtxo
+        - [ ] protocol/state/utxo_view_test.go
+        - [ ] protocol/txpool_test.go
+        - [ ] test/bench_blockchain_test.go
+        - [ ] test/chain_test_util.go
+        - [ ] test/utxo_view/utxo_view_test.go
+        - add more test?
+        - config in build
 
 <!-- 
 
