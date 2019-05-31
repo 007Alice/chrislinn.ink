@@ -8,6 +8,7 @@
 + GoCollaborate / src
 
 ## list
++ https://github.com/dariubs/GoBooks
 + [Effective Go](https://golang.org/doc/effective_go.html)
 + https://github.com/tmrts/go-patterns
 + https://github.com/chai2010/go2-book/blob/master/README.md

@@ -81,6 +81,9 @@
 
 3. 游戏结束后，发起解锁
 
+# satoshi dice
+
+# fair pocker
 
 # LAPP
 
@@ -93,8 +96,6 @@
     * https://github.com/ElementsProject/lightning-jukebox
     * https://github.com/ElementsProject/nanotip
     * https://github.com/ElementsProject/ifpaytt
-+ nodes
-    * https://1ml.com/
 + knowledge
     * https://segmentfault.com/a/1190000016454672
     * https://medium.com/cryptocow/lightning-vs-raiden-1-can-watchtowers-and-monitoring-services-scale-f3b59906114b

@@ -8,6 +8,11 @@
         + [也体验一把密码朋克](technical/cypher-punk.md)
         + [MimbleWimble Origin](technical/mimblewimble-origin.md)
         + [爬虫抓代理](technical/proxy-crawler.md)
+        - Bytom
+            + [源码解读-链式交易](technical/bytom/chained-tx.md)
+            + [源码解读-验证交易](technical/bytom/validate-tx.md)
+            + [源码解读-跨链](technical/bytom/cross-chain.md)
+        + [Interpreter in Python](technical/py-interpreter.md)
     - 自我提升
         + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
         + [Life Hacks](life-hacks/life-hacks.md)
@@ -15,7 +20,6 @@
     - Notes
         - [我读哈耶克](notes/hayek.md)
         - [Westworld beautiful words](notes/westworld-subtitle.md)
-        - TheEconomist 读报笔记
         + [Linux](notes/linux.md)
         + [Sublime Text](notes/subl.md)
         + [Pentesting resource](notes/pres.md)
@@ -35,15 +39,11 @@
         + [concurrent & parallel](technical/concurrent-parallel.md)
         + [Programming Language Picked](technical/prog-lang.md)
         + [杭州链家二手房爬虫](technical/second-hand-house.md)
-        + [Interpreter in Python](technical/py-interpreter.md)
         + [DApps](technical/dapps.md)
         + [WASM 关注列表](technical/wasm.md)
         - [Bytom](technical/bytom/README.md)
-            + [源码解读-链式交易](technical/bytom/chained-tx.md)
-            + [源码解读-验证交易](technical/bytom/validate-tx.md)
             + 源码解读-虚拟机验证
             + [源码解读-processBlock](technical/bytom/process-block.md)
-            + [源码解读-跨链](technical/bytom/cross-chain.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
