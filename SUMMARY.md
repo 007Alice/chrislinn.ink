@@ -43,6 +43,8 @@
             + [源码解读-验证交易](technical/bytom/validate-tx.md)
             + 源码解读-虚拟机验证
             + [源码解读-processBlock](technical/bytom/process-block.md)
+            + [源码解读-跨链](technical/bytom/cross-chain.md)
+            + 源码解读-Federation
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
