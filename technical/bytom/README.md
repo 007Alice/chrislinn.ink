@@ -54,10 +54,12 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
     * fail to verify
+        - need to verify
+            + input
+        - path
+            + seems working, fk
         - p2s?
         - p2sh?
-        - path
-        - need to verify
     * coding
         - [x] database/store_test.go
         - [ ] database/utxo_view_test.go
