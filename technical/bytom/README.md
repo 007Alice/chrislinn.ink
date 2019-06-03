@@ -53,6 +53,11 @@
         * 充值收取一定 btm，提现时可以用
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
+    * fail to verify
+        - p2s?
+        - p2sh?
+        - path
+        - need to verify
     * coding
         - [x] database/store_test.go
         - [ ] database/utxo_view_test.go
