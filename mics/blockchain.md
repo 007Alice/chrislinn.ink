@@ -8,6 +8,7 @@
         - Bitcoin: A Peer-to-Peer Electronic Cash System
         - Information propagation in the Bitcoin network
     * https://github.com/bitcoinops/scaling-book
+    * https://github.com/UCL-InfoSec/blockchain-reading
     * other
         - Boost Blockchain Broadcast Propagation with Tree Routing
         - Han Runchao list
