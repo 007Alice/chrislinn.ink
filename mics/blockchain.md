@@ -8,6 +8,7 @@
         - Bitcoin: A Peer-to-Peer Electronic Cash System
         - Information propagation in the Bitcoin network
     * https://github.com/bitcoinops/scaling-book
+    * https://github.com/UCL-InfoSec/blockchain-reading
     * other
         - Boost Blockchain Broadcast Propagation with Tree Routing
         - Han Runchao list
@@ -77,6 +78,7 @@
         - Implements a proof of concept beacon chain for a sharded pos ethereum 2.0. Spec in progress can be found here.
 + btccom
     * https://github.com/btccom/btcpool
+    * 
     * https://github.com/btccom/parity-ethereum
 + Master Bitcoin
 
