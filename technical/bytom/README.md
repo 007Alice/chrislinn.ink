@@ -58,6 +58,7 @@
             + input
         - path
             + seems working, fk
+        + program seems correct, fk
         - p2s?
         - p2sh?
     * coding
