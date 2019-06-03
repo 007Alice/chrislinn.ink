@@ -59,8 +59,9 @@
         - path
             + seems working, fk
         + program seems correct, fk
-        - p2s?
-        - p2sh?
+        + i think i need to run vm now...
+            + p2s?
+            + p2sh?
     * coding
         - [x] database/store_test.go
         - [ ] database/utxo_view_test.go
