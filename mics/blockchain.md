@@ -77,6 +77,7 @@
         - Implements a proof of concept beacon chain for a sharded pos ethereum 2.0. Spec in progress can be found here.
 + btccom
     * https://github.com/btccom/btcpool
+    * https://github.com/fengchunjian/btcpool_code_notes
     * https://github.com/btccom/parity-ethereum
 + Master Bitcoin
 
