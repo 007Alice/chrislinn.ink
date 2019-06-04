@@ -62,6 +62,11 @@
         + i think i need to run vm now...
             + p2s?
             + p2sh?
+            + 对比 p2s 和 p2sh
+            + p2s 到底是什么鬼
+            + 虚拟机怎么过
+            + checkMultiSig 是什么鬼
+            + 自己搞个 program 试试
     * coding
         - [x] database/store_test.go
         - [ ] database/utxo_view_test.go
@@ -72,7 +77,6 @@
         - [ ] test/chain_test_util.go
         - [ ] test/utxo_view/utxo_view_test.go
         - add more test?
-        - config in build
 
 <!-- 
 
