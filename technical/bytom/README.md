@@ -53,20 +53,6 @@
         * 充值收取一定 btm，提现时可以用
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
-    * fail to verify
-        - need to verify
-            + input
-        - path
-            + seems working, fk
-        + program seems correct, fk
-        + i think i need to run vm now...
-            + p2s?
-            + p2sh?
-            + 对比 p2s 和 p2sh
-            + p2s 到底是什么鬼
-            + 虚拟机怎么过
-            + checkMultiSig 是什么鬼
-            + 自己搞个 program 试试
     * coding
         - [x] database/store_test.go
         - [ ] database/utxo_view_test.go
