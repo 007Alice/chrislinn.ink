@@ -8,7 +8,6 @@
         + [也体验一把密码朋克](technical/cypher-punk.md)
         + [MimbleWimble Origin](technical/mimblewimble-origin.md)
         + [爬虫抓代理](technical/proxy-crawler.md)
-        - [Bytom 源码解读](technical/bytom/SUMMARY.md)
         + [Interpreter in Python](technical/py-interpreter.md)
     - 自我提升
         + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
@@ -38,6 +37,12 @@
         + [杭州链家二手房爬虫](technical/second-hand-house.md)
         + [DApps](technical/dapps.md)
         + [WASM 关注列表](technical/wasm.md)
+        - Bytom 源码解读
+            + [processBlock](technical/bytom/process-block.md)
+            + [虚拟机验证](technical/bytom/vm-verification.md)
+            + [验证交易](technical/bytom/validate-tx.md)
+            + [链式交易](technical/bytom/chained-tx.md)
+            + [跨链](technical/bytom/cross-chain.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
