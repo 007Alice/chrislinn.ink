@@ -49,7 +49,6 @@
     * federation
         * https://github.com/nsqio/nsq
         * etcd raft
-        * service/node.go
     + 充值提现手续费闭环
         * 侧链可改造成手续费使用非 btm
         * 充值收取一定 btm，提现时可以用
@@ -65,6 +64,10 @@
         - [ ] test/chain_test_util.go
         - [ ] test/utxo_view/utxo_view_test.go
         - add more test?
+        - federation
+            * service/node.go
+            - types
+            - keeper
 
 <!-- 
 
