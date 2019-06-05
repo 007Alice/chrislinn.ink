@@ -1,5 +1,8 @@
 # GoLang
 
+## 性能
+重性能的 api 别用反射
+
 ## framework
 + https://github.com/TarsCloud/TarsGo
 + bilibili / kratos
@@ -110,6 +113,7 @@
 + `fmt.Sprint`, 这个函数会把对象分配到堆上
 
 ## pitfalls
++ https://github.com/chai2010/advanced-go-programming-book/blob/master/appendix/appendix-a-trap.md
 + copy, zcc
 + sync/atomic/
 
