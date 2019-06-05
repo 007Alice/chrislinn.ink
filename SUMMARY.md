@@ -9,6 +9,10 @@
         + [MimbleWimble Origin](technical/mimblewimble-origin.md)
         + [爬虫抓代理](technical/proxy-crawler.md)
         + [Interpreter in Python](technical/py-interpreter.md)
+        - Bytom 源码解读
+            + [验证交易](technical/bytom/validate-tx.md)
+            + [链式交易](technical/bytom/chained-tx.md)
+            + [跨链](technical/bytom/cross-chain.md)
     - 自我提升
         + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
         + [Life Hacks](life-hacks/life-hacks.md)
@@ -40,9 +44,6 @@
         - Bytom 源码解读
             + [processBlock](technical/bytom/process-block.md)
             + [虚拟机验证](technical/bytom/vm-verification.md)
-            + [验证交易](technical/bytom/validate-tx.md)
-            + [链式交易](technical/bytom/chained-tx.md)
-            + [跨链](technical/bytom/cross-chain.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
