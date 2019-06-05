@@ -8,7 +8,7 @@
         + [也体验一把密码朋克](technical/cypher-punk.md)
         + [MimbleWimble Origin](technical/mimblewimble-origin.md)
         + [爬虫抓代理](technical/proxy-crawler.md)
-        - [Bytom 源码解读](technical/SUMMARY.md)
+        - [Bytom 源码解读](technical/bytom/SUMMARY.md)
         + [Interpreter in Python](technical/py-interpreter.md)
     - 自我提升
         + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
