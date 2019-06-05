@@ -10,6 +10,7 @@
         + [爬虫抓代理](technical/proxy-crawler.md)
         + [Interpreter in Python](technical/py-interpreter.md)
         - Bytom 源码解读
+            + [UTXO 选择](technical/bytom/utxo-selection.md)
             + [验证交易](technical/bytom/validate-tx.md)
             + [链式交易](technical/bytom/chained-tx.md)
             + [跨链](technical/bytom/cross-chain.md)
