@@ -11,6 +11,7 @@
         - Bytom
             + [源码解读-链式交易](technical/bytom/chained-tx.md)
             + [源码解读-验证交易](technical/bytom/validate-tx.md)
+            + [源码解读-虚拟机验证](technical/bytom/vm-verification.md)
             + [源码解读-跨链](technical/bytom/cross-chain.md)
         + [Interpreter in Python](technical/py-interpreter.md)
     - 自我提升
@@ -42,7 +43,6 @@
         + [DApps](technical/dapps.md)
         + [WASM 关注列表](technical/wasm.md)
         - [Bytom](technical/bytom/README.md)
-            + 源码解读-虚拟机验证
             + [源码解读-processBlock](technical/bytom/process-block.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
