@@ -65,8 +65,9 @@
         - [ ] test/utxo_view/utxo_view_test.go
         - add more test?
         - federation
-            * service/node.go
             - types
+                + use btmTypes/btmBc atm
+            * service/node.go
             - keeper
 
 <!-- 
