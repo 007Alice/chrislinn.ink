@@ -34,6 +34,11 @@
 - [go-concurrent-quiz](https://github.com/smallnest/go-concurrent-quiz)
 + quii / learn-go-with-tests
 + eranyanay / 1m-go-websockets
++ https://github.com/smallnest/1m-go-tcp-server
+    * https://colobu.com/2019/02/23/1m-go-tcp-connection/
+    * https://colobu.com/2019/02/27/1m-go-tcp-connection-2/
+    * https://colobu.com/2019/02/28/1m-go-tcp-connection-3/
++ https://blog.51cto.com/youerning/2089930
 + teivah / golang-good-code-bad-code
 + feixiao / Distributed-Systems
 + chaozh / MIT-6.824
