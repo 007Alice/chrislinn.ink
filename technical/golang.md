@@ -176,3 +176,26 @@ https://go-critic.github.io/overview.html#builtinshadow
 https://stackoverflow.com/questions/27622083/performance-slices-of-structs-vs-slices-of-pointers-to-structs
 
 AppendingStructs is faster than AppendingPointers
+
+
+## 百万长连接
+
+### 前言
+最近在看 golang 如何建立百万 tcp 连接 https://github.com/smallnest/1m-go-tcp-server , 觉得会对 blockcenter 有帮助 这里是我的一些总结
+
+[A Million WebSockets and Go](https://medium.freecodecamp.org/million-websockets-and-go-cc58418460bb) 2017 Sergey Kamardin 就已经介绍过 golang 如何实现百万 WebSocket 连接. 介绍了epoll的使用 (https://github.com/mailru/easygo)
+
+2019 2月 Eran Yanay 也进行了一个 百万 websocket 链接的分享, 对epoll的处理做了简化，而且提供了docker测试的脚本，很方便的在单机上进行百万连接的测试。
+
+### 动机
+go 常见处理连接的方式是一个连接一个goroutine. goroutine 虽然开销便宜，但如果上到一百万的连接, 一百万个goroutine 锁使用的栈大小(gostack) 就要花费十几G内存，
+
+典型场景
+
+当然，当上到百万连接时也可以 多服务器负载均衡
+
+
+
+### 其他
+[今日头条Go建千亿级微服务的实践](https://zhuanlan.zhihu.com/p/26695984)中提到
+> 尽量避免反射，在高性能服务中杜绝反射的使用
