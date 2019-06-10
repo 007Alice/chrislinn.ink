@@ -187,6 +187,8 @@ AppendingStructs is faster than AppendingPointers
 
 2019 2月 Eran Yanay 也进行了一个 百万 websocket 链接的分享, 对epoll的处理做了简化，而且提供了docker测试的脚本，很方便的在单机上进行百万连接的测试。
 
+这篇文章 则是探讨了 更通用的 tcp 连接，而非 websocket
+
 ### 动机
 go 常见处理连接的方式是一个连接一个goroutine. goroutine 虽然开销便宜，但如果上到一百万的连接, 一百万个goroutine 锁使用的栈大小(gostack) 就要花费十几G内存，如果在每个goroutine中在分配byte buffer用以从连接中读写数据，
 内存开销就要几十G。
