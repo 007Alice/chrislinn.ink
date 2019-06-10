@@ -188,12 +188,40 @@ AppendingStructs is faster than AppendingPointers
 2019 2月 Eran Yanay 也进行了一个 百万 websocket 链接的分享, 对epoll的处理做了简化，而且提供了docker测试的脚本，很方便的在单机上进行百万连接的测试。
 
 ### 动机
-go 常见处理连接的方式是一个连接一个goroutine. goroutine 虽然开销便宜，但如果上到一百万的连接, 一百万个goroutine 锁使用的栈大小(gostack) 就要花费十几G内存，
+go 常见处理连接的方式是一个连接一个goroutine. goroutine 虽然开销便宜，但如果上到一百万的连接, 一百万个goroutine 锁使用的栈大小(gostack) 就要花费十几G内存，如果在每个goroutine中在分配byte buffer用以从连接中读写数据，
+内存开销就要几十G。
 
-典型场景
+典型场景: 消息推送、IOT、页游等场景，追求的是大量连接，并发量相对不大的场景
 
-当然，当上到百万连接时也可以 多服务器负载均衡
+当然，当上到百万连接时也可以 多服务器负载均衡 但如果能垂直扩展，则能有效降低成本.
 
+### 对比
+Eran Yanay使用epoll的方式代替goroutine-per-connection, 显然这个单goroutine处理的模式不适合耗时较长的业务处理, 对于并发量很大，延迟要求比较低的场景，可能存在问题。
+
+1. 多 epoller vs 单 epoller 
+多 epoller 吞吐率大幅增加，而延迟略微增加。
+
+2. prefork vs 多 epoller
+prefork的服务器客户端吞吐率大幅增加，而延迟比多poller翻倍。
+
+3. workerpool
+Reactor的方式，将I/O goroutine和业务goroutine分离， I/O goroutine采用单goroutine的方式，监听的消息交给一个goroutine池 (workerpool)去处理，这样可以并行的处理业务消息，而不会阻塞I/O goroutine。
+
+吞吐率 (tps)   延迟 (latency)
+goroutine-per-conn  202830  4.9s
+单epoller    42402   0.8s
+多epoller    197814  0.9s
+prefork 444415  1.5s
+workerpool  190022  0.3s
+
+从测试结果来看, 在百万并发的情况下， workerpool既能达到很高的吞吐率, 延迟也很低
+prefork可以大幅提高吞吐率，但是延迟要稍微长一些。
+
+### 正常连接数量情况下 多epoller服务器 vs goroutine-per-conn
+
+I/O密集型: 吞吐率会和连接数相关，但不是线性，随着连接数的增加，，连接数的增加带来的吞吐率的增加将变得很小。连接数比较小的情况下，正统的goroutine-per-connection可以取得很好的延迟，并且为了提高吞吐率，可以适当增加连接数。
+
+计算密集型: 两种方式的性能差别不大。
 
 
 ### 其他
