@@ -45,6 +45,7 @@
         - Bytom 源码解读
             + [processBlock](technical/bytom/process-block.md)
             + [虚拟机验证](technical/bytom/vm-verification.md)
+        + [Erlay](technical/erlay.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
