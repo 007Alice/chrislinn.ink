@@ -46,7 +46,8 @@
         - https://dev.mysql.com/doc/refman/8.0/en/full-text-adding-collation.html
     * redis
 + vapor
-    * federation
+    * 设计跨链交易
+    * 设计federation模块
         * https://github.com/nsqio/nsq
         * etcd raft
     + 充值提现手续费闭环
@@ -54,7 +55,7 @@
         * 充值收取一定 btm，提现时可以用
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
-    * coding
+    * test
         - [x] database/store_test.go
         - [ ] database/utxo_view_test.go
             + TestGetTransactionsUtxo
@@ -64,11 +65,6 @@
         - [ ] test/chain_test_util.go
         - [ ] test/utxo_view/utxo_view_test.go
         - add more test?
-        - federation
-            - types
-                + use btmTypes/btmBc atm
-            * service/node.go
-            - keeper
 
 <!-- 
 
