@@ -14,9 +14,11 @@
         - Han Runchao list
         - https://github.com/tyrchen/unchained
         - why it takes 20 min to mine this block
+    * https://github.com/UCL-InfoSec/blockchain-reading/wiki
 + https://github.com/satoshilabs/slips
 + https://bitcointechtalk.com/
 + [Ethereum Research](https://ethresear.ch/)
++ https://github.com/ScottWorks/ConsenSys-Academy-Notes
 + [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
 + 《精通比特币》第二版
     * https://legacy.gitbook.com/book/wizardforcel/masterbitcoin2cn/details
