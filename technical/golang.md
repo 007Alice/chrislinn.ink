@@ -16,6 +16,10 @@
 + [Effective Go](https://golang.org/doc/effective_go.html)
 + https://github.com/tmrts/go-patterns
 + https://github.com/chai2010/go2-book/blob/master/README.md
++ https://github.com/cch123/golang-notes
+    * Go runtime source code analysis(zh-cn)
++ sheepbao / golang_runtime_reading
+    + golang 1.10.2 runtime code reading - golang runtime源码分析
 + golang-china / gopl-zh (Go语言圣经中文版)
 + go  perfbook
 + 《The Way to Go》中文译本，中文正式名《Go 入门指南》
@@ -25,10 +29,10 @@
 + https://github.com/chai2010/advanced-go-programming-book
 + polaris1119 / The-Golang-Standard-Library-by-Example
     * Golang标准库。对于程序员而言，标准库与语言本身同样重要，它好比一个百宝箱，能为各种常见的任务提供完美的解决方案。以示例驱动的方式讲解Golang的标准库。
++ https://github.com/achilleasa/gopher-os
+    * A proof of concept OS kernel written in Go
 + sausheong / gwp
     * Go Web Programming code repository
-+ sheepbao / golang_runtime_reading
-    + golang 1.10.2 runtime code reading - golang runtime源码分析
 - https://bloodzer0.github.io/ossa/application-security/sdl/go-scp/
     + go语言安全编码规范（中文版）
 - PacktPublishing / Security-with-Go
