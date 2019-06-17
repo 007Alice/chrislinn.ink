@@ -46,6 +46,7 @@
 + https://blog.51cto.com/youerning/2089930
 + teivah / golang-good-code-bad-code
 + https://github.com/coldnight/go-memory-allocator-visual-guide
++ https://github.com/Workiva/go-datastructures
 + feixiao / Distributed-Systems
 + chaozh / MIT-6.824
 
