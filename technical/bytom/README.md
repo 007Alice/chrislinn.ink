@@ -54,6 +54,8 @@
             - 使用 builder template
                 + 是否需要区分 vapor 和 bytom？
                 + signInst
+                    * 我觉得 根本就不需要 signInsts
+                    * 那么 数据库里面存什么呢
     + 充值提现手续费闭环
         * 侧链可改造成手续费使用非 btm
         * 充值收取一定 btm，提现时可以用
