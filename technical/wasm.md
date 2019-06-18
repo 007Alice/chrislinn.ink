@@ -4,20 +4,23 @@
 
 __阅读列表__
 
-+ https://webassembly.eu/
-+ https://wasmweekly.news/
-+ https://github.com/webassembly
-* https://rust.cc/
-+ https://www.8btc.com/author/3708
+* github.com
+* gitmemory
+    - https://gitmemory.com/yxliang01
 * 玄武 https://sec.today
-* https://bbs.chainon.io/
-* DailyCodingInterview
 * stackexchange
     - https://bitcoin.stackexchange.com/users/52021/g-maxwell
     - https://bitcoin.stackexchange.com/users/120/cdecker
-* gitmemory
-    - https://gitmemory.com/yxliang01
-    - 
++ https://www.8btc.com/author/3708
++ https://github.com/developer-learning/learning-rust
++ https://github.com/developer-learning/reading-go
++ https://github.com/developer-learning/learning-linux/
+* https://rust.cc/
++ https://webassembly.eu/
++ https://wasmweekly.news/
++ https://github.com/webassembly
+* https://bbs.chainon.io/
+* DailyCodingInterview
 
 ---
 
