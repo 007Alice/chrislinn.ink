@@ -4,6 +4,9 @@
 
 __阅读列表__
 
+* bitcoin optech
+* medium weekly digest
+* 橙皮书
 * github.com
 * gitmemory
     - https://gitmemory.com/yxliang01
