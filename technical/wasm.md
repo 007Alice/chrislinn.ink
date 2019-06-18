@@ -18,6 +18,8 @@ __阅读列表__
 + https://github.com/developer-learning/learning-rust
 + https://github.com/developer-learning/reading-go
 + https://github.com/developer-learning/learning-linux/
++ https://github.com/wty4427300/learn-tidb
++ https://github.com/pingcap/talent-plan
 * https://rust.cc/
 + https://webassembly.eu/
 + https://wasmweekly.news/
