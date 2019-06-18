@@ -50,6 +50,10 @@
     * 设计federation模块
         * https://github.com/nsqio/nsq
         * etcd raft
+        * build
+            - 使用 builder template
+                + 是否需要区分 vapor 和 bytom？
+                + signInst
     + 充值提现手续费闭环
         * 侧链可改造成手续费使用非 btm
         * 充值收取一定 btm，提现时可以用
