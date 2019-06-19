@@ -1,30 +1,35 @@
-# WASM 关注列表
+# 阅读列表
 
----
-
-__阅读列表__
-
-* bitcoin optech
-* medium weekly digest
-* 橙皮书
-* github.com
-* gitmemory
-    - https://gitmemory.com/yxliang01
-* 玄武 https://sec.today
-* stackexchange
-    - https://bitcoin.stackexchange.com/users/52021/g-maxwell
-    - https://bitcoin.stackexchange.com/users/120/cdecker
-+ https://www.8btc.com/author/3708
-+ https://github.com/developer-learning/learning-rust
-+ https://github.com/developer-learning/reading-go
+* git
+    - github.com
+    - gitmemory
+        + https://gitmemory.com/yxliang01
+* blockchain
+    - bitcoin optech
+    - medium weekly digest
+    - 橙皮书
+    - stackexchange
+        + https://bitcoin.stackexchange.com/users/52021/g-maxwell
+        + https://bitcoin.stackexchange.com/users/120/cdecker
+    * https://www.8btc.com/author/3708
+    - https://bbs.chainon.io/
+    - papers....
+    - [blockchain](/mics/blockchain.md)
+* sec
+    - 玄武 https://sec.today
+* rust
+    * https://github.com/pingcap/talent-plan
+    - https://rust.cc/
+    * https://github.com/developer-learning/learning-rust
+    * https://github.com/RustStudy
+* go
+    * https://github.com/developer-learning/reading-go
+    * https://github.com/wty4427300/learn-tidb
+* wasm
+    * https://webassembly.eu/
+    * https://wasmweekly.news/
+    * https://github.com/webassembly
 + https://github.com/developer-learning/learning-linux/
-+ https://github.com/wty4427300/learn-tidb
-+ https://github.com/pingcap/talent-plan
-* https://rust.cc/
-+ https://webassembly.eu/
-+ https://wasmweekly.news/
-+ https://github.com/webassembly
-* https://bbs.chainon.io/
 * DailyCodingInterview
 
 ---

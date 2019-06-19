@@ -15,6 +15,7 @@
         - https://github.com/tyrchen/unchained
         - why it takes 20 min to mine this block
     * https://github.com/UCL-InfoSec/blockchain-reading/wiki
+    * https://github.com/trailofbits/publications
 + https://github.com/satoshilabs/slips
 + https://bitcointechtalk.com/
 + [Ethereum Research](https://ethresear.ch/)

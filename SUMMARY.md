@@ -35,13 +35,13 @@
         - [影评《不在让你孤单》](mics/a-beautiful-life.md)
 - Draft
     - Technical
+        + [阅读列表](technical/reading-list.md)
         + [GoLang](technical/golang.md)
         + [compiler](technical/compiler.md)
         + [concurrent & parallel](technical/concurrent-parallel.md)
         + [Programming Language Picked](technical/prog-lang.md)
         + [杭州链家二手房爬虫](technical/second-hand-house.md)
         + [DApps](technical/dapps.md)
-        + [WASM 关注列表](technical/wasm.md)
         - Bytom 源码解读
             + [processBlock](technical/bytom/process-block.md)
             + [虚拟机验证](technical/bytom/vm-verification.md)
