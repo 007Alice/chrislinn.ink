@@ -37,6 +37,7 @@
     - Technical
         + [阅读列表](technical/reading-list.md)
         + [GoLang](technical/golang.md)
+        + [Raft](technical/raft.md)
         + [compiler](technical/compiler.md)
         + [concurrent & parallel](technical/concurrent-parallel.md)
         + [Programming Language Picked](technical/prog-lang.md)
