@@ -31,6 +31,7 @@
     * https://github.com/rustcc/rust-zh
     * https://github.com/nrc/r4cppp
     * https://github.com/rust-unofficial/awesome-rust
+    * https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/wty4427300/learn-tidb
