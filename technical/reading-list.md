@@ -22,6 +22,15 @@
     - https://rust.cc/
     * https://github.com/developer-learning/learning-rust
     * https://github.com/RustStudy
+    * https://github.com/zkat/rust-notes
+    * https://github.com/rust-lang/rustlings
+    * https://github.com/dtolnay/rust-quiz
+    * https://github.com/ANSSI-FR/rust-guide
+    * https://github.com/rust-lang/book
+    * https://github.com/KaiserY/trpl-zh-cn
+    * https://github.com/rustcc/rust-zh
+    * https://github.com/nrc/r4cppp
+    * https://github.com/rust-unofficial/awesome-rust
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/wty4427300/learn-tidb
