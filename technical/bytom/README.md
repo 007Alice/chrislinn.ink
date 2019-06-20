@@ -356,7 +356,6 @@ XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的We
 + bytom email system
 + equity debugger
 + CVE wanner for bytom
-+ 比原 供应链攻击检测）
 + bytomd compilation optimizer
 + terram
 
