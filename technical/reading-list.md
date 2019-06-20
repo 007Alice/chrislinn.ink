@@ -13,7 +13,6 @@
         + https://bitcoin.stackexchange.com/users/120/cdecker
     * https://www.8btc.com/author/3708
     - https://bbs.chainon.io/
-    - papers....
     - [blockchain](/mics/blockchain.md)
 * sec
     - 玄武 https://sec.today

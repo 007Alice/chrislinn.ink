@@ -1,7 +1,7 @@
 # Blockchain
 
 ## Reading List
-+ paper
++ papers
     * [theoretical-blockchain-research-papers](https://github.com/mathetake/theoretical-blockchain-research-papers)
     * [blockchain-papers](https://github.com/decrypto-org/blockchain-papers)
     * [scalingbitcoin](https://scalingbitcoin.org/papers/)
@@ -88,12 +88,10 @@
 
 ## TODOS
 + 闪电网络
-+ pedersen-commitment
 + time warp attack
     * https://bitcoinops.org/en/newsletters/2019/03/05/
 + vbytes
 + 预言机
-+ VDF
 + 致盲攻击
 + 盲签名
 + https://en.wikipedia.org/wiki/Authenticated_encryption
@@ -111,10 +109,19 @@
     * UTXO 累加器相关
         - UTXO Hash Set（UHO）理念结合起来，以便整个节点存储UTXO的哈希值，而不是完整的UTXO，以便显着减少整个节点使用的存储量，而不需要任何改变共识规则。
         - a scalable drop-in replacement for merkle trees
++ FlyClient
++ A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels
++ Bolt: Anonymous Payment Channels for Decentralized Currencies
++ eltoo: A Simple Layer2 Protocol for Bitcoin
++ SoK: Off The Chain Transactions
 + lightning & lapp
+    * The bitcoin lightning network: Scalable off-chain instant payments
     * loop
     * https://bitcoin.stackexchange.com/a/85259
     * https://bitcoin.stackexchange.com/a/84953
++ ninji
++ GHOST
++ Bitcoin-NG
 + privacy
     * https://en.bitcoin.it/wiki/Privacy
     * https://en.bitcoin.it/wiki/Category:Privacy
