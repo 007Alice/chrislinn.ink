@@ -309,6 +309,7 @@ If you look into the Bytom mining code, you will find it hard to understand. In 
 
 
 
+<!-- 
 ## blockcenter
 
 最近在负责　blockcenter　session　登录交互这一部分，记录一下开发时的所习所想。
@@ -321,6 +322,7 @@ If you look into the Bytom mining code, you will find it hard to understand. In 
 + Applied Cryptography: Protocols, Algorithms, and Source Code in C 应用密码学
 + [An Intensive Introduction to Cryptography](https://intensecrypto.org/public/index.html)
 + [HTTP 身份验证](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication)
+ -->
 
 ### Cross-Origin Resource Sharing (CORS)
 
