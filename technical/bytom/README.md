@@ -340,13 +340,16 @@ XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的We
 <!-- 
 
 ## DevCon
-+ payment channel
-+ UBC
-    * btcpayserver
-+ dao
-    + smart signature
-    + DEX
-    + games
+### mine
+    + payment channel
+    + UBC
+        * btcpayserver
+    + dao
+        + smart signature
+        + DEX
+        + games
+
+### other
 + 邮件订阅
 + love wall
 + 在线生成 bycoin手机钱包打赏二维码
@@ -355,6 +358,7 @@ XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的We
 + CVE wanner for bytom
 + 比原 供应链攻击检测）
 + bytomd compilation optimizer
++ terram
 
 
 -->
