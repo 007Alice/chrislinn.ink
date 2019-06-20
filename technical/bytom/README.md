@@ -350,10 +350,9 @@ XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的We
         + games
 
 ### other
-+ 邮件订阅
++ bytom email system
 + love wall
 + 在线生成 bycoin手机钱包打赏二维码
-+ bytom email system
 + equity debugger
 + CVE wanner for bytom
 + bytomd compilation optimizer
