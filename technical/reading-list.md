@@ -1,9 +1,11 @@
 # 阅读列表
 
 * git
-    - github.com
+    - https://github.com
     - gitmemory
         + https://gitmemory.com/yxliang01
+        + https://gitmemory.com/SebastianElvis
+        + https://gitmemory.com/Fullstop000
 * blockchain
     - bitcoin optech
     - medium weekly digest
@@ -41,6 +43,7 @@
     * https://github.com/webassembly
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
+* http://xargin.com/readings/
 
 ---
 
