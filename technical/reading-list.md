@@ -6,6 +6,9 @@
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
         + https://gitmemory.com/Fullstop000
+        + https://gitmemory.com/iovxw
+        + https://gitmemory.com/csmoe
+            * https://rustacean.org/blog/
 * blockchain
     - bitcoin optech
     - medium weekly digest
@@ -19,8 +22,10 @@
 * sec
     - 玄武 https://sec.today
 * rust
-    * https://github.com/pingcap/talent-plan
+    - https://iovxw.net/
     - https://rust.cc/
+    * https://github.com/pingcap/talent-plan
+    - https://github.com/bhuztez/porus
     * https://github.com/developer-learning/learning-rust
     * https://github.com/RustStudy
     * https://github.com/zkat/rust-notes
