@@ -10,6 +10,7 @@
         + https://gitmemory.com/iovxw
         + https://gitmemory.com/csmoe
             * https://rustacean.org/blog/
+        + https://gitmemory.com/icexin
 * blockchain
     - bitcoin optech
     - medium weekly digest
