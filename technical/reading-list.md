@@ -6,6 +6,7 @@
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
         + https://gitmemory.com/Fullstop000
+        + https://gitmemory.com/LEXUGE
         + https://gitmemory.com/iovxw
         + https://gitmemory.com/csmoe
             * https://rustacean.org/blog/
@@ -22,10 +23,9 @@
 * sec
     - 玄武 https://sec.today
 * rust
-    - https://iovxw.net/
     - https://rust.cc/
+    - https://iovxw.net/
     * https://github.com/pingcap/talent-plan
-    - https://github.com/bhuztez/porus
     * https://github.com/developer-learning/learning-rust
     * https://github.com/RustStudy
     * https://github.com/zkat/rust-notes
@@ -38,6 +38,7 @@
     * https://github.com/nrc/r4cppp
     * https://github.com/rust-unofficial/awesome-rust
     * https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
+    - https://github.com/bhuztez/porus
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/wty4427300/learn-tidb
