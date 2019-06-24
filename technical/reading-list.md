@@ -73,20 +73,20 @@
 * https://github.com/nrc/r4cppp
 
 __articles__
+* https://medium.com/@richardanaya/a-journey-through-rust-lifetimes-5a08782c7091
+* https://www.ibm.com/developerworks/cn/opensource/os-developers-know-rust/
+* https://www.reddit.com/r/rust/comments/c326e0/rust_streams/
+* https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
+* https://github.com/whoiscc/shattuck
+* https://speakerdeck.com/_rvidal/concurrency-in-rust-is-boring
+* https://estada.ch/2019/6/7/rusts-hidden-talents/
 * https://m.aliyun.com/yunqi/articles/62505
 * https://www.zhihu.com/question/31038569
 * https://www.zhihu.com/question/30407715
-* https://www.ibm.com/developerworks/cn/opensource/os-developers-know-rust/
-* https://medium.com/@richardanaya/a-journey-through-rust-lifetimes-5a08782c7091
 * https://mgattozzi.com/turning-github-into-your-own-registry/
-* https://estada.ch/2019/6/7/rusts-hidden-talents/
 * https://blog.sentry.io/2019/06/13/building-a-sentry-symbolicator
-* https://github.com/whoiscc/shattuck
 * https://zhuanlan.zhihu.com/p/69269688
-* https://www.reddit.com/r/rust/comments/c326e0/rust_streams/
-* https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
 * https://ngoldbaum.github.io/posts/project-euler/
-* https://speakerdeck.com/_rvidal/concurrency-in-rust-is-boring
 * https://www.reddit.com/r/rust/comments/c33u9m/the_typestate_pattern_in_rust/
 * https://content.riscv.org/wp-content/uploads/2019/06/14.05-building_secure_systems-1.pdf
 * oop
