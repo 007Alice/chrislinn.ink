@@ -51,7 +51,7 @@
 + https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
 * https://github.com/rust-unofficial/awesome-rust
-+ https://github.com/rust-unofficial/awesome-rust
++ https://github.com/rust-unofficial/patterns
 + https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
 * https://github.com/rustcc/rust-zh
 * https://github.com/developer-learning/learning-rust
