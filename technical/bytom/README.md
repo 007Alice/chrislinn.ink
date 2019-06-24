@@ -93,6 +93,8 @@
 
 
 ```
+X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filekey.go:120] - G101: Potential hardcoded credentials (Confidence: LOW, Severity: HIGH)
+  > password := "jingbo is handsome!"
 
 
 [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:383] - G301: Expect directory permissions to be 0750 or less (Confidence: HIGH, Severity: MEDIUM)
