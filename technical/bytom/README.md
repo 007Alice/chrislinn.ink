@@ -257,7 +257,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > tp.context.UtxoBatch.Put([]byte(keyVoteCandidate), []byte(strconv.FormatInt(voteInfo.ballots, 10)))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/consensus/tdpos/rollback.go:130] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/consensus/tdpos/rollback.go:130] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > txid, _ := tp.utxoVM.GetFromTable(nil, []byte(key))
 
 
@@ -389,7 +389,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > tp.context.UtxoBatch.Put([]byte(keyRevoke), desc.Tx.Txid)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/consensus/tdpos/run.go:302] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/consensus/tdpos/run.go:302] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > proposersJSON, _ := json.Marshal(proposers)
 
 
@@ -405,27 +405,27 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > tp.context.UtxoBatch.Put([]byte(key), []byte(strconv.FormatInt(value.ballots, 10)))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/contract.go:148] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/contract.go:148] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > handler.vm.SetContext(ctx)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/contract.go:155] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/contract.go:155] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > handler.vm.Finalize(blockid)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/bridge/context.go:37] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/bridge/context.go:37] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > _, wset, _ := c.Cache.GetRWSets()
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/acl.go:77] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/acl.go:77] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > json.Unmarshal(aclJSON, aclBuf)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/acl.go:123] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/acl.go:123] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > json.Unmarshal(aclJSON, aclBuf)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/acl.go:157] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/acl.go:157] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > json.Unmarshal(aclJSON, aclBuf)
 
 
@@ -445,7 +445,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > os.RemoveAll(fullpath)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/kernel.go:217] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/kernel/kernel.go:217] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > utxovm.DebugTx(tx)
 
 
@@ -453,11 +453,11 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > os.RemoveAll(fullpath)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/driver.go:131] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/driver.go:131] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > client, _ := client.NewEnvClient()
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/driver.go:162] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/driver.go:162] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > process.Stop(time.Duration(snc.mgr.cfg.StopTimeout) * time.Second)
 
 
@@ -465,19 +465,19 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > rootpath, _ = filepath.Abs(rootpath)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:76] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:76] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > framework.register()
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:156] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:156] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > descbuf, _ := proto.Marshal(vc.desc)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:165] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:165] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > descbuf, _ := proto.Marshal(snc.desc)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:189] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:189] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > client.Close()
 
 
@@ -493,30 +493,30 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > os.Rename(binpath, binpath+".old")
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:445] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:445] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > descbuf, _ := proto.Marshal(oldsnc.desc)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:446] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:446] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > vsnc.gscf.versionTable.Put(makeNativeCodeName(oldsnc.desc), descbuf)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:488] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/framework.go:488] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > gscf.db.Delete(getNativeCodeKey(name))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/runtime.go:152-155] - G204: Subprocess launching should be audited (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/runtime.go:152-155] - G204: Subprocess launching should be audited (Confidence: HIGH, Severity: LOW)
   > exec.Command(h.binpath,
         "--sock", h.sockpath,
         "--chain-sock", h.chainSockPath,
     )
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/runtime.go:177] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/runtime.go:177] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > h.cmd.Process.Signal(syscall.SIGTERM)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/runtime.go:187] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/native/runtime.go:187] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > h.cmd.Process.Kill()
 
 
@@ -528,7 +528,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > prp.context.UtxoBatch.Put([]byte(utxoKey), uItemBinary)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/proposal/proposal.go:427] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/proposal/proposal.go:427] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > descThaw, _ := contract.Parse(string(tx.Desc))
 
 
@@ -540,11 +540,11 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > prp.context.UtxoBatch.Put([]byte(utxoKey), uItemBinary)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm_manager.go:76] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm_manager.go:76] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > vmconfig, _ := v.getVMConfig(v.config.Driver)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm_manager.go:157] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm_manager.go:157] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > descbuf, _ = proto.Marshal(&desc)
 
 
@@ -556,7 +556,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > store.Put("contract", contractCodeKey(contractName), code)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm/memory/creator.go:62] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm/memory/creator.go:62] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > requestBuf, _ := proto.Marshal(request)
 
 
@@ -564,7 +564,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > pc.context.UtxoBatch.Delete([]byte(key))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm/xvm/code_manager.go:118] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contract/wasm/vm/xvm/code_manager.go:118] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > descbuf, _ := json.Marshal(desc)
 
 
@@ -596,51 +596,51 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > f.Close()
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/driver/native/driver.go:50] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/driver/native/driver.go:50] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > flagset.Parse(os.Args[1:])
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/driver/native/driver.go:100] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/driver/native/driver.go:100] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > nativeCodeService.Close()
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c1/c1.go:20] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c1/c1.go:20] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > cntstr, _ := ctx.GetObject([]byte("cnt"))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c1/c1.go:22] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c1/c1.go:22] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > cnt, _ = strconv.Atoi(string(cntstr))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c2/c2.go:19] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c2/c2.go:19] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > cntstr, _ := ctx.GetObject([]byte("cnt"))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c2/c2.go:21] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/call/c2/c2.go:21] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > cnt, _ = strconv.Atoi(string(cntstr))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/counter/counter.go:32] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/counter/counter.go:32] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > cnt, _ = strconv.Atoi(string(value))
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/eleccert/eleccert.go:108] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/eleccert/eleccert.go:108] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > tsInt, _ := strconv.ParseInt(ts, 10, 64)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/eleccert/eleccert.go:110] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/eleccert/eleccert.go:110] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > userJSON, _ := json.Marshal(userStruc)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/eleccert/eleccert.go:140] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/eleccert/eleccert.go:140] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > userFileJSON, _ := json.Marshal(userFile)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:62] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:62] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > json.Unmarshal(value, vals)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/common/common.go:58] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/common/common.go:58] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > f, _ := ioutil.ReadFile(file)
 
 
@@ -648,43 +648,43 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > e.ctx.PutObject([]byte(key), valsJSON)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:75] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:75] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > valsJSON, _ := json.Marshal(e.approvalOf[key])
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:76] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:76] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > e.ctx.PutObject([]byte(key), valsJSON)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:199] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:199] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > num, _ := strconv.ParseInt(s, 10, 64)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:209] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:209] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > supplyJSON, _ := json.Marshal(vals)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:210] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:210] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ctx.PutObject([]byte("totalsupply"), supplyJSON)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:258] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:258] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > tokenID, _ := strconv.ParseInt(tokenIDStr, 10, 64)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:292] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:292] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > tokenID, _ := strconv.ParseInt(tokenIDStr, 10, 64)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:324] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:324] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > tokenID, _ := strconv.ParseInt(tokenIDStr, 10, 64)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:48] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:48] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > rawid, _ := hex.DecodeString(id)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:53] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:53] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > out, _ := json.MarshalIndent(tx, "", "  ")
 
 
@@ -692,11 +692,11 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > os.Stderr.Write(out)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:57] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:57] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > rawid, _ := hex.DecodeString(id)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:61] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:61] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > out, _ := json.MarshalIndent(block, "", "  ")
 
 
@@ -704,86 +704,86 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > os.Stderr.Write(out)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:96] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:96] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > bodyStr, _ := json.Marshal(body)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:110] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/math/math.go:110] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > value, _ := nci.GetObject(key)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:20] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:20] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ctx.SetOutput(&resp)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:29-32] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:29-32] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ctx.SetOutput(&code.Response{
                 Status:  code.StatusError,
                 Message: string(buf[:n]),
             })
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:42] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:42] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ctx.SetOutput(&resp)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:48] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:48] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ctx.SetOutput(&resp)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:52] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/exec/runner.go:52] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ctx.SetOutput(&resp)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/pipeline.go:152] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/pipeline.go:152] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ok, _ := pm.xc.Utxovm.HasTx(tx.Txid)
 
-
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/pipeline.go:155] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+!!!
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/pipeline.go:155] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > pm.xc.Utxovm.RollbackContract([]byte(""), tx)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/sync.go:52] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/sync.go:52] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > bcsBuf, _ := proto.Marshal(bcs)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/cmd/xchain/xchain.go:113] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/cmd/xchain/xchain.go:113] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > flags.Parse(os.Args[1:])
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:273] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:273] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > xc.Utxovm.RegisterVM3(x3kernel.GetName(), x3kernel)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:295] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:295] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > inUnconfirm, _ := xc.Utxovm.HasTx(tx.Txid)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:307] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:307] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > msgInfo, _ := proto.Marshal(batchTxMsg)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:308] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:308] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > msg, _ := xuper_p2p.NewXuperMessage(xuper_p2p.XuperMsgVersion1, xc.bcname, header.GetLogid(), xuper_p2p.XuperMessage_BATCHPOSTTX, msgInfo, xuper_p2p.XuperMessage_SUCCESS)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:372] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:372] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > ib, _ := xc.Ledger.GetPendingBlock(preblkhash)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:413] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:413] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > res, _ := xc.con.CheckMinerMatch(in.Header, block.Block)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:480] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:480] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > xc.con.ProcessConfirmBlock(in.Block)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:620] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:620] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > xc.con.ProcessConfirmBlock(b)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:630] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchaincore.go:630] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > msgInfo, _ := proto.Marshal(block)
 
 
@@ -819,11 +819,11 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > xm.P2pv2.SendMessage(context.Background(), msg, opts...)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:68] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/contractsdk/go/example/erc721/erc721.go:68] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > valsJSON, _ := json.Marshal(e.balanceOf[key])
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchainmg_net.go:281] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchainmg_net.go:281] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > resBuf, _ := proto.Marshal(block)
 
 
@@ -832,7 +832,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
             xuper_p2p.XuperMessage_GET_BLOCK_RES, resBuf, xuper_p2p.XuperMessage_CHECK_SUM_ERROR)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchainmg_net.go:291] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchainmg_net.go:291] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > resBuf, _ := proto.Marshal(block)
 
 
@@ -1007,7 +1007,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > f.Close()
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchainmg_net.go:264] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/core/xchainmg_net.go:264] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > _, needRepost, _ := xm.ProcessTx(v)
 
 
@@ -1212,11 +1212,11 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > oneOut, needRepost, _ := s.mg.ProcessTx(v)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/server/server.go:88] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/server/server.go:88] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > msg, _ := xuper_p2p.NewXuperMessage(xuper_p2p.XuperMsgVersion1, "", in.GetHeader().GetLogid(), xuper_p2p.XuperMessage_BATCHPOSTTX, txsData, xuper_p2p.XuperMessage_NONE)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/server/server.go:93] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/server/server.go:93] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > s.mg.P2pv2.SendMessage(context.Background(), msg, opts...)
 
 
@@ -1448,7 +1448,7 @@ X [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/crypto/account/filek
   > valBuf, _ := proto.Marshal(val)
 
 
-[/home/gavin/work/go/src/github.com/xuperchain/xuperunion/xmodel/xmodel_cache.go:153] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
+??? [/home/gavin/work/go/src/github.com/xuperchain/xuperunion/xmodel/xmodel_cache.go:153] - G104: Errors unhandled. (Confidence: HIGH, Severity: LOW)
   > _, _ = xc.Get(bucket, key)
 
 
