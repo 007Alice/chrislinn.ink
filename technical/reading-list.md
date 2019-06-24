@@ -1,5 +1,7 @@
 # 阅读列表
 
+## Daily
+
 * git
     - https://github.com
     - gitmemory
@@ -8,6 +10,7 @@
         + https://gitmemory.com/Fullstop000
         + https://gitmemory.com/LEXUGE
         + https://gitmemory.com/iovxw
+            * https://iovxw.net/
         + https://gitmemory.com/csmoe
             * https://rustacean.org/blog/
 * blockchain
@@ -24,21 +27,6 @@
     - 玄武 https://sec.today
 * rust
     - https://rust.cc/
-    - https://iovxw.net/
-    * https://github.com/pingcap/talent-plan
-    * https://github.com/developer-learning/learning-rust
-    * https://github.com/RustStudy
-    * https://github.com/zkat/rust-notes
-    * https://github.com/rust-lang/rustlings
-    * https://github.com/dtolnay/rust-quiz
-    * https://github.com/ANSSI-FR/rust-guide
-    * https://github.com/rust-lang/book
-    * https://github.com/KaiserY/trpl-zh-cn
-    * https://github.com/rustcc/rust-zh
-    * https://github.com/nrc/r4cppp
-    * https://github.com/rust-unofficial/awesome-rust
-    * https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
-    - https://github.com/bhuztez/porus
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/wty4427300/learn-tidb
@@ -51,7 +39,75 @@
 * DailyCodingInterview
 * http://xargin.com/readings/
 
----
+## Rust
+
+* https://doc.rust-lang.org/book/
+    * https://www.rust-lang.org/learn
+    * https://doc.rust-lang.org/stable/rust-by-example/
+    * https://github.com/rust-lang
+        + https://github.com/rust-lang/book
+            * + https://prev.rust-lang.org/en-US/documentation.html
++ https://research.mozilla.org/rust/
+* https://github.com/KaiserY/trpl-zh-cn
+* https://github.com/rust-unofficial/awesome-rust
++ https://github.com/rust-unofficial/awesome-rust
++ https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
+* https://github.com/rustcc/rust-zh
+* https://github.com/developer-learning/learning-rust
++ https://github.com/ctjhoa/rust-learning
+* https://github.com/rust-lang/rustlings
+* https://github.com/dtolnay/rust-quiz
+* https://github.com/ANSSI-FR/rust-guide
+* https://github.com/zkat/rust-notes
+* https://github.com/RustStudy
+    * __https://rust.cc/__
+    * https://github.com/RustStudy/tao_of_rust_docs
+* https://github.com/pingcap/talent-plan
+* https://github.com/rustcc/writing-an-os-in-rust
+- https://github.com/bhuztez/porus
++ https://github.com/rust-lang-cn
+    * https://rustlang-cn.org/office/rust/book/
+        - poor translation
++ https://rustlang-cn.org/office/rust/
+* https://github.com/nrc/r4cppp
+
+__articles__
+* https://m.aliyun.com/yunqi/articles/62505
+* https://www.zhihu.com/question/31038569
+* https://www.zhihu.com/question/30407715
+* https://www.ibm.com/developerworks/cn/opensource/os-developers-know-rust/
+* https://medium.com/@richardanaya/a-journey-through-rust-lifetimes-5a08782c7091
+* https://mgattozzi.com/turning-github-into-your-own-registry/
+* https://estada.ch/2019/6/7/rusts-hidden-talents/
+* https://blog.sentry.io/2019/06/13/building-a-sentry-symbolicator
+* https://github.com/whoiscc/shattuck
+* https://zhuanlan.zhihu.com/p/69269688
+* https://www.reddit.com/r/rust/comments/c326e0/rust_streams/
+* https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio
+* https://ngoldbaum.github.io/posts/project-euler/
+* https://speakerdeck.com/_rvidal/concurrency-in-rust-is-boring
+* https://www.reddit.com/r/rust/comments/c33u9m/the_typestate_pattern_in_rust/
+* https://content.riscv.org/wp-content/uploads/2019/06/14.05-building_secure_systems-1.pdf
+* oop
+    - https://oribenshir.github.io/afternoon_rusting/blog/rust-for-oop
+    - https://oribenshir.github.io/afternoon_rusting//blog/project-management
+    - https://oribenshir.github.io/afternoon_rusting/blog/enum-and-pattern-matching-part-1
+    - https://oribenshir.github.io/afternoon_rusting/blog/enum-and-pattern-matching-part-2
+    - https://chilimatic.hashnode.dev/threads-in-rust-cjwmbxw9e003pzjs19n7pa0bt
+* lock
+    - https://preshing.com/20120612/an-introduction-to-lock-free-programming
+    - https://preshing.com/20120625/memory-ordering-at-compile-time
+    - https://preshing.com/20120710/memory-barriers-are-like-source-control-operations
+    - https://preshing.com/20120913/acquire-and-release-semantics
+    - https://preshing.com/20120930/weak-vs-strong-memory-models
+    - https://preshing.com/20121019/this-is-why-they-call-it-a-weakly-ordered-cpu
+
+__rust NG!__
++ https://github.com/rust-lang-nursery
+    * https://rust-lang-nursery.github.io/rust-cookbook/
+
+
+## WASM
 
 + https://wasi.dev/
     * https://github.com/CraneStation/wasmtime/blob/master/docs/WASI-documents.md
@@ -106,36 +162,6 @@
     * https://segmentfault.com/a/1190000016434809
     * https://blog.csdn.net/ITleaks/article/details/80394703
 
-
-
-__rust...__
-适合区块链: 代码尺寸小，安全性高，可靠性高，资源使用最少
-
-+ https://m.aliyun.com/yunqi/articles/62505
-+ https://www.zhihu.com/question/31038569
-+ https://www.zhihu.com/question/30407715
-+ https://github.com/ctjhoa/rust-learning
-+ https://research.mozilla.org/rust/
-+ https://www.ibm.com/developerworks/cn/opensource/os-developers-know-rust/
-+ https://github.com/RustStudy
-    * __https://rust.cc/__
-    * https://github.com/RustStudy/tao_of_rust_docs
-+ https://doc.rust-lang.org/
-    * https://rust-lang.org/
-    * https://doc.rust-lang.org/stable/rust-by-example/
-+ https://github.com/rust-lang
-+ https://prev.rust-lang.org/en-US/documentation.html
-+ https://www.rust-lang.org/learn
-+ https://github.com/rust-lang-cn
-    * https://rustlang-cn.org/office/rust/book/
-        - poor translation
-+ https://rustlang-cn.org/office/rust/
-+ https://github.com/rust-unofficial/awesome-rust
-+ https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
-
-__rust NG!__
-+ https://github.com/rust-lang-nursery
-    * https://rust-lang-nursery.github.io/rust-cookbook/
 
 
 __iohk?__
