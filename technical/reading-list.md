@@ -7,6 +7,7 @@
     - gitmemory
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
+        + https://gitmemory.com/rjl493456442
         + https://gitmemory.com/Fullstop000
         + https://gitmemory.com/LEXUGE
         + https://gitmemory.com/iovxw
@@ -28,6 +29,7 @@
     - 玄武 https://sec.today
 * rust
     - https://rust.cc/
+    - https://stackoverflow.com/questions/tagged/rust
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/wty4427300/learn-tidb
