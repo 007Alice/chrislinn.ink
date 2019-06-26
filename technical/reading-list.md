@@ -16,10 +16,13 @@
             * https://rustacean.org/blog/
         + https://gitmemory.com/icexin
 * blockchain
-    - __https://bitcoin-core-review-club.github.io/__ 
-        + `#bitcoin-core-pr-reviews` Freenode IRC channel
-            * 17:00 UTC on Wednesdays.
-            * 01:00 UTC+8 Thursday
+    - IRC
+        + `#bitcoin-dev`
+        + `#bitcoin-core-dev`
+        + __https://bitcoin-core-review-club.github.io/__ 
+            * `#bitcoin-core-pr-reviews` Freenode IRC channel
+                - 17:00 UTC on Wednesdays.
+                - 01:00 UTC+8 Thursday
     - bitcoin optech
     - medium weekly digest
     - 橙皮书
