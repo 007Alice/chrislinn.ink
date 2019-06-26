@@ -95,6 +95,13 @@ __articles__
 * https://ngoldbaum.github.io/posts/project-euler/
 * https://www.reddit.com/r/rust/comments/c33u9m/the_typestate_pattern_in_rust/
 * https://content.riscv.org/wp-content/uploads/2019/06/14.05-building_secure_systems-1.pdf
+* https://medium.com/swlh/on-memoization-291fd1dd924
+* https://ngoldbaum.github.io/posts/helpful-rust-cli-crates/
+* https://chilimatic.hashnode.dev/experiment-with-streams-reading-files-with-futures-cjx1q0gmo001eurs1pt0c27kz
+* https://www.linuxjournal.com/content/getting-started-rust-working-files-and-doing-file-io
+* https://medium.com/apolitical-engineering/how-do-you-impl-display-for-vec-b8dbb21d814f
+* http://kmdouglass.github.io/posts/a-simple-plugin-interface-for-the-rust-ffi/
+* https://gregoryszorc.com/blog/2019/06/24/building-standalone-python-applications-with-pyoxidizer/
 * oop
     - https://oribenshir.github.io/afternoon_rusting/blog/rust-for-oop
     - https://oribenshir.github.io/afternoon_rusting//blog/project-management
@@ -108,6 +115,8 @@ __articles__
     - https://preshing.com/20120913/acquire-and-release-semantics
     - https://preshing.com/20120930/weak-vs-strong-memory-models
     - https://preshing.com/20121019/this-is-why-they-call-it-a-weakly-ordered-cpu
+    - https://mtak-blog.github.io/are-we-lock-free-yet
+    * https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/
 
 __rust NG!__
 + https://github.com/rust-lang-nursery
