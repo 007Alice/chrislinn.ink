@@ -16,6 +16,7 @@
             * https://rustacean.org/blog/
         + https://gitmemory.com/icexin
 * blockchain
+    - __https://bitcoin-core-review-club.github.io/__
     - bitcoin optech
     - medium weekly digest
     - 橙皮书
@@ -31,7 +32,7 @@
     - https://rust.cc/
     - https://stackoverflow.com/questions/tagged/rust
 * go
-    * https://github.com/developer-learning/reading-go
+    * __https://github.com/developer-learning/reading-go__
     * https://github.com/wty4427300/learn-tidb
     * https://draveness.me/
 * wasm
