@@ -237,6 +237,8 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
 + citavi
 
 ## 区块链的文章都发在哪几个会
+http://www.conferenceranks.com/ ,randA & rankB
+
 + 三大密码会Eurocrypt, CRYPTO, Asiacrypt
 + 四大安全会CCS, IEEE S&P, Usenix Security, NDSS
 + 操作系统会OSDI, SOSP
