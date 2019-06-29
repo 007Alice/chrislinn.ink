@@ -15,6 +15,9 @@
         + https://gitmemory.com/csmoe
             * https://rustacean.org/blog/
         + https://gitmemory.com/icexin
+    - gitcoin
+        + https://gitcoin.co/explorer
+        + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
     - IRC
         + `#bitcoin-dev`
