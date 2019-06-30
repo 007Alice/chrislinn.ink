@@ -18,6 +18,8 @@
     * https://github.com/trailofbits/publications
 + https://github.com/satoshilabs/slips
 + https://bitcointechtalk.com/
++ http://readingbitcoin.org
++ https://scalingbitcoin.org/
 + [Ethereum Research](https://ethresear.ch/)
 + https://github.com/ScottWorks/ConsenSys-Academy-Notes
 + [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
