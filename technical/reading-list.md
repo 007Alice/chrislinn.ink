@@ -83,6 +83,8 @@
         - poor translation
 + https://rustlang-cn.org/office/rust/
 * https://github.com/nrc/r4cppp
+* https://github.com/segmentio/analytics-rust
+* https://github.com/rust-analyzer/rust-analyzer
 
 __rust NG!__
 + https://github.com/rust-lang-nursery
