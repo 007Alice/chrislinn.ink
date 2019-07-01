@@ -6,14 +6,17 @@
         + [如何学习编程](technical/programming.md)
         + [Kerberos](technical/kerberos.md)
         + [也体验一把密码朋克](technical/cypher-punk.md)
-        + [MimbleWimble Origin](technical/mimblewimble-origin.md)
         + [爬虫抓代理](technical/proxy-crawler.md)
         + [Interpreter in Python](technical/py-interpreter.md)
-        - Bytom 源码解读
-            + [UTXO 选择](technical/bytom/utxo-selection.md)
-            + [验证交易](technical/bytom/validate-tx.md)
-            + [链式交易](technical/bytom/chained-tx.md)
-            + [跨链](technical/bytom/cross-chain.md)
+        + blockchain
+            * [Erlay](technical/blockchain/erlay.md)
+            * [PBFT](technical/blockchain/pbft.md)
+            + [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
+            - Bytom 源码解读
+                * [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
+                * [验证交易](technical/blockchain/bytom/validate-tx.md)
+                * [链式交易](technical/blockchain/bytom/chained-tx.md)
+                * [跨链](technical/blockchain/bytom/cross-chain.md)
     - 自我提升
         + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
         + [Life Hacks](life-hacks/life-hacks.md)
@@ -42,11 +45,10 @@
         + [concurrent & parallel](technical/concurrent-parallel.md)
         + [Programming Language Picked](technical/prog-lang.md)
         + [杭州链家二手房爬虫](technical/second-hand-house.md)
-        + [DApps](technical/dapps.md)
-        - Bytom 源码解读
-            + [processBlock](technical/bytom/process-block.md)
-            + [虚拟机验证](technical/bytom/vm-verification.md)
-        + [Erlay](technical/erlay.md)
+        + blockchain
+            + Bytom 源码解读
+                * [processBlock](technical/blockchain/bytom/process-block.md)
+                * [虚拟机验证](technical/blockchain/bytom/vm-verification.md)
     - 自我提升
         + [Checklist for Learning](life-hacks/checklist-for-learning.md)
     - Notes
@@ -57,5 +59,4 @@
         + [My trip on Vim](notes/vim.md)
     * 随笔
         - [王小波读后感](mics/wangxiaobo.md)
-        - [Blockchain](mics/blockchain.md)
         + [我读周金涛](mics/zhoujintao.md)
