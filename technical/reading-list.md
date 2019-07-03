@@ -14,7 +14,10 @@
             * https://iovxw.net/
         + https://gitmemory.com/csmoe
             * https://rustacean.org/blog/
+        + https://gitmemory.com/jonhoo
+        + https://gitmemory.com/upsuper
         + https://gitmemory.com/icexin
+        + https://gitmemory.com/sticnarf
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
