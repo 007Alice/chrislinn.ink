@@ -1058,6 +1058,7 @@
     - [browser-pwn](https://github.com/m1ghtym0/browser-pwn)
     - [Security](https://github.com/cokepluscarbon/Security)
     - [Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
+    - [PENTESTING-BIBLE](https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE)
     - [Software-Security-Learning](https://github.com/CHYbeta/Software-Security-Learning)
     - [web应用渗透测试流程](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484215&idx=1&sn=951af728e4087a99f5522da5623d31cf&scene=21#wechat_redirect)
     - [web测试方法工具篇](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484926&idx=1&sn=4ce5b4a013f7a21b7240d81d87576ddb&chksm=ec1e35d6db69bcc0d8516811dae974c10cb5e3cb39929b7cac206f8e343bfbcff1004a7c0d35&scene=21#wechat_redirect)
