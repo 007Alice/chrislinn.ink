@@ -242,6 +242,11 @@
         ```
         sudo apt-get -c /etc/apt/apt.conf update
         ```
++ git
+    ```
+    git config --global http.proxy http://127.0.0.1:8118
+    git config --global https.proxy https://127.0.0.1:8118
+    ```
 + gfwlist
     * for provixy: `https://www.igfw.net/archives/1178`
 + GenPAC
