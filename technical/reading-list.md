@@ -15,6 +15,7 @@
         + https://gitmemory.com/csmoe
             * https://rustacean.org/blog/
         + https://gitmemory.com/jonhoo
+        + https://gitmemory.com/stjepang
         + https://gitmemory.com/upsuper
         + https://gitmemory.com/icexin
         + https://gitmemory.com/sticnarf
