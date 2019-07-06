@@ -46,6 +46,9 @@
 * rust
     - https://rust.cc/
     - https://stackoverflow.com/questions/tagged/rust
+    - https://www.reddit.com/r/rust/
+    - https://users.rust-lang.org/
+    - https://internals.rust-lang.org/
 * go
     * __https://github.com/developer-learning/reading-go__
     * https://github.com/wty4427300/learn-tidb
