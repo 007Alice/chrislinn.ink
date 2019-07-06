@@ -45,6 +45,7 @@
     - 玄武 https://sec.today
 * rust
     - https://rust.cc/
+    - https://this-week-in-rust.org/
     - https://stackoverflow.com/questions/tagged/rust
     - https://www.reddit.com/r/rust/
     - https://users.rust-lang.org/
