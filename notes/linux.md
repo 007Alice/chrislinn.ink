@@ -26,7 +26,7 @@
         "server":"XXXX服务器地址",
         "server_port":XXXX端口,
         "local_address":"127.0.0.1",
-        "local_port":1080,
+        "local_port":1081,
         "password":"XXXX密码",
         "timeout":60,
         "method":"chacha20-ietf-poly1305",
@@ -252,12 +252,12 @@
     * HTTP
     ```
     git config --global http.proxy http://127.0.0.1:8118
-    git config --global http.https://github.com.proxy socks5://127.0.0.1:8118
     ```
     * socks5
     ```
     git config --global http.proxy socks5://127.0.0.1:1081
-    git config --global http.proxy socks5h://127.0.0.1:1081
+    #or git config --global http.proxy socks5h://127.0.0.1:1081
+    #specifically git config --global http.https://github.com.proxy socks5://127.0.0.1:1081
     ```
     * SSH git@ -- `~/.ssh/config`
     ```
