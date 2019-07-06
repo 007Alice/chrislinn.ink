@@ -26,7 +26,7 @@
         "server":"XXXX服务器地址",
         "server_port":XXXX端口,
         "local_address":"127.0.0.1",
-        "local_port":1080,
+        "local_port":1081,
         "password":"XXXX密码",
         "timeout":60,
         "method":"chacha20-ietf-poly1305",
@@ -36,6 +36,7 @@
     ```
     ```
     sudo sslocal -c /etc/shadowsocks/jp1.json -d start
+    # or $HOME/.shadowsocks/config.json
     ```
     + auto-start
         1. `/etc/rc.local`
@@ -69,6 +70,7 @@
             name=sslocal
             BIN=/usr/local/bin/sslocal
             conf=/etc/shadowsocks/client.json
+            # or $HOME/.shadowsocks/config.json
 
             start(){
                 $BIN -c $conf -d start
@@ -223,13 +225,17 @@
         function proxy_off(){
             unset http_proxy
             unset https_proxy
+            unset APT_CONFIG
             echo -e "proxy off!"
         }
 
         function proxy_on() {
+            sudo service privoxy restart
+            sudo service sslocal restart
             export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
             export http_proxy="http://127.0.0.1:8118"
             export https_proxy=$http_proxy
+            export APT_CONFIG=~/.apt_proxy.conf
             echo -e "proxy on!"
         }
         ```
@@ -246,12 +252,12 @@
     * HTTP
     ```
     git config --global http.proxy http://127.0.0.1:8118
-    git config --global http.https://github.com.proxy socks5://127.0.0.1:8118
     ```
     * socks5
     ```
     git config --global http.proxy socks5://127.0.0.1:1081
-    git config --global http.proxy socks5h://127.0.0.1:1081
+    #or git config --global http.proxy socks5h://127.0.0.1:1081
+    #specifically git config --global http.https://github.com.proxy socks5://127.0.0.1:1081
     ```
     * SSH git@ -- `~/.ssh/config`
     ```
