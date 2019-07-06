@@ -248,6 +248,23 @@
         ```
         sudo apt-get -c /etc/apt/apt.conf update
         ```
++ git, https://gist.github.com/laispace/666dd7b27e9116faece6 
+    * HTTP
+    ```
+    git config --global http.proxy http://127.0.0.1:8118
+    git config --global http.https://github.com.proxy socks5://127.0.0.1:8118
+    ```
+    * socks5
+    ```
+    git config --global http.proxy socks5://127.0.0.1:1081
+    git config --global http.proxy socks5h://127.0.0.1:1081
+    ```
+    * SSH git@ -- `~/.ssh/config`
+    ```
+    Host github.com
+    ProxyCommand nc -X 5 -x 127.0.0.1:1081 %h %p # (For linux. Change to "ProxyCommand connect -S 127.0.0.1:1081 %h %p" for Windows.)
+    ```
+    * `git config --global --unset http.https://github.com.proxy`
 + gfwlist
     * for provixy: `https://www.igfw.net/archives/1178`
 + GenPAC
