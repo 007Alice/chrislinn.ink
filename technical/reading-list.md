@@ -50,6 +50,7 @@
     - https://www.reddit.com/r/rust/
     - https://users.rust-lang.org/
     - https://internals.rust-lang.org/
+    - https://rustforce.net/
 * go
     * __https://github.com/developer-learning/reading-go__
     * https://github.com/wty4427300/learn-tidb
@@ -64,6 +65,7 @@
 
 ## Rust
 
+* https://rustforce.net/
 * https://doc.rust-lang.org/book/
     * https://www.rust-lang.org/learn
     * https://doc.rust-lang.org/stable/rust-by-example/
