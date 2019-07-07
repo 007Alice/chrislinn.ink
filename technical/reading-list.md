@@ -62,6 +62,22 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
+* Jobs
+    - https://gitcoin.co/explorer
+    - patreon
+    - open_collective: # Replace with a single Open Collective username
+    - ko_fi: # Replace with a single Ko-fi username
+    - tidelift
+    - community_bridge
+    - liberapay
+    - issuehunt
+    - otechie
+    - https://github.com/t9tio/open-source-jobs
+    - https://github.com/KZen-networks/bulletproofs/issues
+        + written with inspiration from https://github.com/dalek-cryptography/bulletproofs
+            * dalek now using Merlin, bringing Merlin to KZen would be amazing
+        + proving a number is in interval
+
 
 ## Rust
 
