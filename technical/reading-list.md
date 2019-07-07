@@ -72,8 +72,11 @@
     * https://github.com/rust-lang
         + https://github.com/rust-lang/book
             * + https://prev.rust-lang.org/en-US/documentation.html
+* https://github.com/nikomatsakis/intorust
+    - Rust核心开发人员Niko Matsakis 的Rust教程
 + https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
+* https://kaisery.gitbooks.io/rust-book-chinese/content/
 * https://github.com/rust-unofficial/awesome-rust
 + https://github.com/rust-unofficial/patterns
 + https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
