@@ -20,6 +20,7 @@
         + https://gitmemory.com/upsuper
         + https://gitmemory.com/icexin
         + https://gitmemory.com/sticnarf
+        + https://gitmemory.com/cathieyun
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
@@ -54,7 +55,8 @@
     - https://internals.rust-lang.org/
     - https://rustforce.net/
 * go
-    * __https://github.com/developer-learning/reading-go__
+    * https://github.com/developer-learning/reading-go
+    * https://github.com/qichengzx/gopher-reading-list-zh_CN
     * https://github.com/wty4427300/learn-tidb
     * https://draveness.me/
 * wasm
@@ -64,6 +66,12 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
+* papers
+    - [the morning paper](https://blog.acolyer.org/)
+        + a random walk through Computer Science research, by Adrian Colyer
+    - https://github.com/yangwenmai/awesome-papers
+    - https://github.com/dyweb/papers-notebook
+    - https://github.com/developer-learning/paper-reading
 * Jobs
     - https://gitcoin.co/explorer
     - patreon

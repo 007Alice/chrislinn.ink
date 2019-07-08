@@ -11,10 +11,12 @@
 + GoCollaborate / src
 
 ## list
-+ https://github.com/dariubs/GoBooks
++ __https://github.com/yangwenmai/learning-golang__
++ https://github.com/qichengzx/gopher-reading-list-zh_CN
 + https://github.com/golang/go/wiki/
     * https://github.com/golang/go/wiki/SliceTricks
-+ https://github.com/yangwenmai/learning-golang
++ https://github.com/dariubs/GoBooks
++ https://github.com/developer-learning/reading-go
 + https://github.com/qcrao/Go-Questions
 + [Effective Go](https://golang.org/doc/effective_go.html)
 + https://github.com/tmrts/go-patterns
