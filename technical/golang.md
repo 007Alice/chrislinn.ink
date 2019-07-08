@@ -12,6 +12,8 @@
 
 ## list
 + https://github.com/dariubs/GoBooks
++ https://github.com/golang/go/wiki/
+    * https://github.com/golang/go/wiki/SliceTricks
 + https://github.com/yangwenmai/learning-golang
 + https://github.com/qcrao/Go-Questions
 + [Effective Go](https://golang.org/doc/effective_go.html)
