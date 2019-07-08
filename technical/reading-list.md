@@ -24,6 +24,7 @@
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
+    - __https://www.liancai01.cn/__
     - IRC
         + `#bitcoin-dev`
         + `#bitcoin-core-dev`
@@ -35,6 +36,7 @@
     - https://ethresear.ch/
     - medium weekly digest
     - 橙皮书
+    - https://wiki.learnblockchain.cn/
     - stackexchange
         + https://bitcoin.stackexchange.com/users/52021/g-maxwell
         + https://bitcoin.stackexchange.com/users/120/cdecker
