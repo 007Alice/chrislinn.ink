@@ -44,6 +44,7 @@
     * https://www.8btc.com/author/3708
     - https://bbs.chainon.io/
     - [blockchain](/mics/blockchain.md)
+    - http://sebastianelvis.github.io
 * sec
     - 玄武 https://sec.today
 * rust
@@ -66,6 +67,7 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
+* http://www.shuizilong.com/house/
 * papers
     - [the morning paper](https://blog.acolyer.org/)
         + a random walk through Computer Science research, by Adrian Colyer
