@@ -42,13 +42,17 @@
         + https://bitcoin.stackexchange.com/users/52021/g-maxwell
         + https://bitcoin.stackexchange.com/users/120/cdecker
     * https://www.8btc.com/author/3708
-    - https://bbs.chainon.io/
-    - [blockchain](/mics/blockchain.md)
+    * __http://stevenbai.top/__
+        - 白振轩
+        - https://github.com/nkbai
     - http://sebastianelvis.github.io
     - https://blog.iany.me/
         + zhangyaning
     - https://xxuejie.github.io
         + xiao xue jie, ckb-vm
+    - https://bbs.chainon.io/
+    - [blockchain](/mics/blockchain.md)
+    - https://www.jianshu.com/c/06ddad58490f
 * sec
     - 玄武 https://sec.today
 * rust
