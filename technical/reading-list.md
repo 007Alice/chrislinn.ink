@@ -45,6 +45,10 @@
     - https://bbs.chainon.io/
     - [blockchain](/mics/blockchain.md)
     - http://sebastianelvis.github.io
+    - https://blog.iany.me/
+        + zhangyaning
+    - https://xxuejie.github.io
+        + xiao xue jie, ckb-vm
 * sec
     - 玄武 https://sec.today
 * rust
