@@ -1,62 +1,54 @@
 # Summary
 
 * [About Me](README.md)
-- Published
-    - Technical
-        + [如何学习编程](technical/programming.md)
-        + [Kerberos](technical/kerberos.md)
-        + [也体验一把密码朋克](technical/cypher-punk.md)
-        + [爬虫抓代理](technical/proxy-crawler.md)
-        + [Interpreter in Python](technical/py-interpreter.md)
-        + blockchain
-            * [Erlay](technical/blockchain/erlay.md)
-            * [PBFT](technical/blockchain/pbft.md)
-            + [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
-            - Bytom 源码解读
-                * [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
-                * [验证交易](technical/blockchain/bytom/validate-tx.md)
-                * [链式交易](technical/blockchain/bytom/chained-tx.md)
-                * [跨链](technical/blockchain/bytom/cross-chain.md)
-    - 自我提升
-        + [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
-        + [Life Hacks](life-hacks/life-hacks.md)
-        + [How to Procrastinate Properly](life-hacks/how-to-procrastinate.md)
-    - Notes
-        - [我读哈耶克](notes/hayek.md)
-        - [Westworld beautiful words](notes/westworld-subtitle.md)
-        + [Linux](notes/linux.md)
-        + [Sublime Text](notes/subl.md)
-        + [Pentesting resource](notes/pres.md)
-        + [How to Ask a Good Question](notes/how-to-ask-a-good-question.md)
-        + [Subway 点餐指南](notes/subway.md)
-        + [We Bare Bears 英语学习笔记](notes/we-bare-bears.md)
-    * 随笔
-        + [5G](mics/5g.md)
-        - [我也谈写作](mics/writing.md)
-        - [《上海堡垒》读后感](mics/once-upon-a-time-in-Shanghai.md)
-        - [黑镜 第三季 影评](mics/black-mirror-s3.md)
-        - [影评《不在让你孤单》](mics/a-beautiful-life.md)
-- Draft
-    - Technical
-        + [阅读列表](technical/reading-list.md)
-        + [GoLang](technical/golang.md)
-        + [Raft](technical/raft.md)
-        + [compiler](technical/compiler.md)
-        + [concurrent & parallel](technical/concurrent-parallel.md)
-        + [Programming Language Picked](technical/prog-lang.md)
-        + [杭州链家二手房爬虫](technical/second-hand-house.md)
-        + blockchain
-            + Bytom 源码解读
-                * [processBlock](technical/blockchain/bytom/process-block.md)
-                * [虚拟机验证](technical/blockchain/bytom/vm-verification.md)
-    - 自我提升
-        + [Checklist for Learning](life-hacks/checklist-for-learning.md)
-    - Notes
-        - [Trading](notes/trading.md)
-        + [EnglishPod Notes](notes/englishpod.md)
-        - [《苏菲的世界》笔记](notes/sophies-world.md)
-        - [我读梁冬吴伯凡](notes/dongwu.md)
-        + [My trip on Vim](notes/vim.md)
-    * 随笔
-        - [王小波读后感](mics/wangxiaobo.md)
-        + [我读周金涛](mics/zhoujintao.md)
+* Technical
+    - [如何学习编程](technical/programming.md)
+    - [Kerberos](technical/kerberos.md)
+    - [也体验一把密码朋克](technical/cypher-punk.md)
+    - [爬虫抓代理](technical/proxy-crawler.md)
+    - [Interpreter in Python](technical/py-interpreter.md)
+    - blockchain
+        + [Erlay](technical/blockchain/erlay.md)
+        + [PBFT](technical/blockchain/pbft.md)
+        - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
+        * Bytom 源码解读
+            + [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
+            + [验证交易](technical/blockchain/bytom/validate-tx.md)
+            + [链式交易](technical/blockchain/bytom/chained-tx.md)
+            + [跨链](technical/blockchain/bytom/cross-chain.md)
+            + [(WIP) processBlock](technical/blockchain/bytom/process-block.md)
+            + [(WIP) 虚拟机验证](technical/blockchain/bytom/vm-verification.md)
+    - [(WIP) GoLang](technical/golang.md)
+    - [(WIP) Raft](technical/raft.md)
+    - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
+    - [(WIP) compiler](technical/compiler.md)
+    - [(WIP) Programming Language Picked](technical/prog-lang.md)
+    - [(WIP) 杭州链家二手房爬虫](technical/second-hand-house.md)
+    - [(WIP) 阅读列表](technical/reading-list.md)
+* 自我提升
+    - [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
+    - [Life Hacks](life-hacks/life-hacks.md)
+    - [How to Procrastinate Properly](life-hacks/how-to-procrastinate.md)
+    - [(WIP) Checklist for Learning](life-hacks/checklist-for-learning.md)
+* Notes
+    * [我读哈耶克](notes/hayek.md)
+    - [How to Ask a Good Question](notes/how-to-ask-a-good-question.md)
+    * [Westworld beautiful words](notes/westworld-subtitle.md)
+    - [Linux](notes/linux.md)
+    - [Sublime Text](notes/subl.md)
+    - [Pentesting resource](notes/pres.md)
+    * [我读梁冬吴伯凡](notes/dongwu.md)
+    - [Subway 点餐指南](notes/subway.md)
+    - [We Bare Bears 英语学习笔记](notes/we-bare-bears.md)
+    * [(WIP) Trading](notes/trading.md)
+    - [(WIP) EnglishPod Notes](notes/englishpod.md)
+    * [(WIP) 《苏菲的世界》笔记](notes/sophies-world.md)
+    - [(WIP) My trip on Vim](notes/vim.md)
++ 随笔
+    - [5G](mics/5g.md)
+    * [我也谈写作](mics/writing.md)
+    * [《上海堡垒》读后感](mics/once-upon-a-time-in-Shanghai.md)
+    * [黑镜 第三季 影评](mics/black-mirror-s3.md)
+    * [影评《不在让你孤单》](mics/a-beautiful-life.md)
+    * [(WIP) 王小波读后感](mics/wangxiaobo.md)
+    - [(WIP) 我读周金涛](mics/zhoujintao.md)
