@@ -40,7 +40,7 @@
     * https://www.8btc.com/author/3708
     - https://bbs.chainon.io/
     - [blockchain](/mics/blockchain.md)
-    - https://github.com/jpmorganchase/quorum
+    - https://concourseopen.com/
 * sec
     - 玄武 https://sec.today
 * rust
