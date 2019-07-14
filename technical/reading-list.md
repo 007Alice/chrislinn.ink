@@ -20,10 +20,12 @@
         + https://gitmemory.com/upsuper
         + https://gitmemory.com/icexin
         + https://gitmemory.com/sticnarf
+        + https://gitmemory.com/cathieyun
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
+    - __https://www.liancai01.cn/__
     - IRC
         + `#bitcoin-dev`
         + `#bitcoin-core-dev`
@@ -32,14 +34,25 @@
                 - 17:00 UTC on Wednesdays.
                 - 01:00 UTC+8 Thursday
     - bitcoin optech
+    - https://ethresear.ch/
     - medium weekly digest
     - 橙皮书
+    - https://wiki.learnblockchain.cn/
     - stackexchange
         + https://bitcoin.stackexchange.com/users/52021/g-maxwell
         + https://bitcoin.stackexchange.com/users/120/cdecker
     * https://www.8btc.com/author/3708
+    * __http://stevenbai.top/__
+        - 白振轩
+        - https://github.com/nkbai
+    - http://sebastianelvis.github.io
+    - https://blog.iany.me/
+        + zhangyaning
+    - https://xxuejie.github.io
+        + xiao xue jie, ckb-vm
     - https://bbs.chainon.io/
     - [blockchain](/mics/blockchain.md)
+    - https://www.jianshu.com/c/06ddad58490f
     - https://concourseopen.com/
 * sec
     - 玄武 https://sec.today
@@ -50,8 +63,10 @@
     - https://www.reddit.com/r/rust/
     - https://users.rust-lang.org/
     - https://internals.rust-lang.org/
+    - https://rustforce.net/
 * go
-    * __https://github.com/developer-learning/reading-go__
+    * https://github.com/developer-learning/reading-go
+    * https://github.com/qichengzx/gopher-reading-list-zh_CN
     * https://github.com/wty4427300/learn-tidb
     * https://draveness.me/
 * wasm
@@ -61,17 +76,44 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
+* http://www.shuizilong.com/house/
+* papers
+    - [the morning paper](https://blog.acolyer.org/)
+        + a random walk through Computer Science research, by Adrian Colyer
+    - https://github.com/yangwenmai/awesome-papers
+    - https://github.com/dyweb/papers-notebook
+    - https://github.com/developer-learning/paper-reading
+* Jobs
+    - https://gitcoin.co/explorer
+    - patreon
+    - open_collective: # Replace with a single Open Collective username
+    - ko_fi: # Replace with a single Ko-fi username
+    - tidelift
+    - community_bridge
+    - liberapay
+    - issuehunt
+    - otechie
+    - https://github.com/t9tio/open-source-jobs
+    - https://github.com/KZen-networks/bulletproofs/issues
+        + written with inspiration from https://github.com/dalek-cryptography/bulletproofs
+            * dalek now using Merlin, bringing Merlin to KZen would be amazing
+        + proving a number is in interval
+
 
 ## Rust
 
+* https://rustforce.net/
 * https://doc.rust-lang.org/book/
     * https://www.rust-lang.org/learn
     * https://doc.rust-lang.org/stable/rust-by-example/
     * https://github.com/rust-lang
         + https://github.com/rust-lang/book
             * + https://prev.rust-lang.org/en-US/documentation.html
+* https://github.com/nikomatsakis/intorust
+    - Rust核心开发人员Niko Matsakis 的Rust教程
 + https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
+* https://kaisery.gitbooks.io/rust-book-chinese/content/
 * https://github.com/rust-unofficial/awesome-rust
 + https://github.com/rust-unofficial/patterns
 + https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
