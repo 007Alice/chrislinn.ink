@@ -35,6 +35,11 @@
                 - 01:00 UTC+8 Thursday
     - bitcoin optech
     - https://ethresear.ch/
+    - https://nakamotoinstitute.org/
+    - https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities - Prerelease.pdf
+    - https://proto.school/#/chapters
+    - https://www.initc3.org/
+    - https://tlu.tarilabs.com/
     - medium weekly digest
     - 橙皮书
     - https://wiki.learnblockchain.cn/
