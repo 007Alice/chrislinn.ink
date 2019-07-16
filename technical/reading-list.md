@@ -101,6 +101,7 @@
 
 ## Rust
 
+* https://resource.rs/
 * https://rustforce.net/
 * https://doc.rust-lang.org/book/
     * https://www.rust-lang.org/learn
@@ -108,6 +109,7 @@
     * https://github.com/rust-lang
         + https://github.com/rust-lang/book
             * + https://prev.rust-lang.org/en-US/documentation.html
++ https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
     - Rust核心开发人员Niko Matsakis 的Rust教程
 + https://research.mozilla.org/rust/
