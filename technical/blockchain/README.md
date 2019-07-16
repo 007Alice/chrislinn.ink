@@ -86,6 +86,10 @@
     * https://github.com/fengchunjian/btcpool_code_notes
     * https://github.com/btccom/parity-ethereum
 + Master Bitcoin
++ https://tlu.tarilabs.com/
++ https://nakamotoinstitute.org/
+- https://proto.school/#/chapters
+- https://github.com/crypto-cypher/privacy-for-identities/
 
 
 ## TODOS
