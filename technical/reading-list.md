@@ -101,7 +101,7 @@
 
 ## Rust
 
-* https://resource.rs/
+* __https://resource.rs/__
 * https://rustforce.net/
 * https://doc.rust-lang.org/book/
     * https://www.rust-lang.org/learn
