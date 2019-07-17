@@ -69,6 +69,7 @@
     - https://users.rust-lang.org/
     - https://internals.rust-lang.org/
     - https://rustforce.net/
+    - https://github.com/rustlang-cn/resourses
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/qichengzx/gopher-reading-list-zh_CN
