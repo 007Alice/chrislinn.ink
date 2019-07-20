@@ -31,6 +31,9 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
     * BracketHighlighter
     - allautocomplete
     - CompareSideBySide
+    - rust enhanced
+    - go sublime
+    - json formatter
     - ~~sublimerge?~~
     - latextools
         + "open_pdf_on_build": true,
