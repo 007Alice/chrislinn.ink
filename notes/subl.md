@@ -33,7 +33,16 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
     - CompareSideBySide
     - rust enhanced
     - go sublime
-    - preytty json
+    - pretty json
+        + `ctrl+alt+j`
+        ```
+        {
+            "keys": [
+                "ctrl+alt+m"
+            ],
+            "command": "un_pretty_json"
+        },
+        ```
     - ~~sublimerge?~~
     - latextools
         + "open_pdf_on_build": true,
