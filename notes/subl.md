@@ -33,7 +33,7 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
     - CompareSideBySide
     - rust enhanced
     - go sublime
-    - json formatter
+    - preytty json
     - ~~sublimerge?~~
     - latextools
         + "open_pdf_on_build": true,
