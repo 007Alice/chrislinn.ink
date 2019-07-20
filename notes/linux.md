@@ -510,6 +510,8 @@ function sproxy_goflyway() {
     - `/etc/hosts`: github.global.ssl.fastly.net
 * `--dry-run`
     - to see the result of running it without actually running it
+* vim commit editor
+    - `git config --global core.editor vim`
 * [cleaning up old remote git branches](https://stackoverflow.com/questions/3184555/cleaning-up-old-remote-git-branches) (or `--system` for system-wide)
     ```
     git config --global fetch.prune true
