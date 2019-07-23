@@ -23,6 +23,7 @@
         + https://gitmemory.com/cathieyun
         + https://gitmemory.com/longcpp
         + https://gitmemory.com/amanusk
+        + https://gitmemory.com/danielkeep
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
