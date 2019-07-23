@@ -21,6 +21,7 @@
         + https://gitmemory.com/icexin
         + https://gitmemory.com/sticnarf
         + https://gitmemory.com/cathieyun
+        + https://gitmemory.com/longcpp
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
