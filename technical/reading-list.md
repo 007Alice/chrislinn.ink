@@ -86,6 +86,7 @@
 * papers
     - [the morning paper](https://blog.acolyer.org/)
         + a random walk through Computer Science research, by Adrian Colyer
+    - https://github.com/devinmcgloin/theory
     - https://github.com/yangwenmai/awesome-papers
     - https://github.com/dyweb/papers-notebook
     - https://github.com/developer-learning/paper-reading
