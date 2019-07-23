@@ -17,7 +17,6 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
     - MarkdownEditing
         - gfm
             - exclude txt extension
-            - color_scheme: dark
         * make scope gfm
     - MarkdownPreview
         - `"parser": "github",`
@@ -32,6 +31,18 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
     * BracketHighlighter
     - allautocomplete
     - CompareSideBySide
+    - rust enhanced
+    - go sublime
+    - pretty json
+        + `ctrl+alt+j`
+        ```
+        {
+            "keys": [
+                "ctrl+alt+m"
+            ],
+            "command": "un_pretty_json"
+        },
+        ```
     - ~~sublimerge?~~
     - latextools
         + "open_pdf_on_build": true,
@@ -131,24 +142,8 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
 ## Apprearance
 + hide menu?
     + don't hide on Linux
-+ use the theme file in [my __Sublime Text 3__ config](https://bitbucket.org/chris_linn/my-subl-config/).
-    * label_control
-        - "font.size": 26
-    * title_label_control
-        - "font.size": 26
-    * tool_tip_label_control
-        - "font.size": 26
-    * sidebar_heading
-        - "font.size": 26
-    * sidebar_label
-        - "font.size": 26
-    * sidebar_tree
-        - "row_padding": [16, 4, 16, 4],
-        - "indent": 26,
-    * icon_file_type
-        - "content_margin": [18, 16]
-    * quick_panel_label
-        - font.size
++ Dracula
++ or maybe try the theme file (Adaptive) in [my __Sublime Text 3__ config](https://bitbucket.org/chris_linn/my-subl-config/).
 - show folder (side bar) but hide open file
 
 

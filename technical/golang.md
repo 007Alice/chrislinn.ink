@@ -55,6 +55,8 @@
 + https://github.com/Workiva/go-datastructures
 + feixiao / Distributed-Systems
 + chaozh / MIT-6.824
++ https://github.com/avelino/awesome-go
++ https://github.com/jobbole/awesome-go-cn
 
 
 
