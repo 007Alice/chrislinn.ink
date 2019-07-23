@@ -65,6 +65,7 @@
 * sec
     - 玄武 https://sec.today
 * rust
+    - https://rniczh.github.io/blog/
     - https://rust.cc/
     - https://this-week-in-rust.org/
     - https://stackoverflow.com/questions/tagged/rust
@@ -73,6 +74,7 @@
     - https://internals.rust-lang.org/
     - https://rustforce.net/
     - https://github.com/rustlang-cn/resourses
+    - https://rniczh.github.io/#me
 * go
     * https://github.com/developer-learning/reading-go
     * https://github.com/qichengzx/gopher-reading-list-zh_CN
@@ -126,6 +128,9 @@
 + https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
 * https://kaisery.gitbooks.io/rust-book-chinese/content/
+* https://danielkeep.github.io/
+    - https://danielkeep.github.io/tlborm/book/README.html
+    - https://danielkeep.github.io/practical-intro-to-macros.html
 * https://github.com/rust-unofficial/awesome-rust
 + https://github.com/rust-unofficial/patterns
 + https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
