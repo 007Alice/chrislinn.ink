@@ -87,6 +87,7 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
+* https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
 * papers
     - [the morning paper](https://blog.acolyer.org/)

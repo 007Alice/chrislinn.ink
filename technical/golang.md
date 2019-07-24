@@ -11,6 +11,7 @@
 + GoCollaborate / src
 
 ## list
++ https://github.com/jakescript/go-bible
 + __https://github.com/yangwenmai/learning-golang__
 + https://github.com/qichengzx/gopher-reading-list-zh_CN
 + https://github.com/golang/go/wiki/
@@ -18,6 +19,7 @@
 + https://github.com/dariubs/GoBooks
 + https://github.com/developer-learning/reading-go
 + https://github.com/qcrao/Go-Questions
++ https://github.com/gopherdata/gophernotes
 + [Effective Go](https://golang.org/doc/effective_go.html)
 + https://github.com/tmrts/go-patterns
 + https://github.com/chai2010/go2-book/blob/master/README.md
