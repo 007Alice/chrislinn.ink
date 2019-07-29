@@ -59,7 +59,7 @@
     - https://xxuejie.github.io
         + xiao xue jie, ckb-vm
     - https://bbs.chainon.io/
-    - [blockchain](/mics/blockchain.md)
+    - [blockchain](/technical/blockchain/README.md)
     - https://www.jianshu.com/c/06ddad58490f
     - https://concourseopen.com/
 * sec
@@ -87,6 +87,7 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
+* https://github.com/riusksk/secbook
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
 * papers
