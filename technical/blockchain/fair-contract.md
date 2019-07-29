@@ -25,7 +25,7 @@ Some nice papers:
     * Honest-Preserving Autions
         - vs [uncheatable auctions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.24.6692&rep=rep1&type=pdf)
     * in Zero-Knowledge
-        - by using force-opening
+        - constant time/rounds by using force-opening
 
 ## Homomorphic Time-Lock
 _TODO_
