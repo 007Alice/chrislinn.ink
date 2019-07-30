@@ -17,6 +17,7 @@
 + https://github.com/golang/go/wiki/
     * https://github.com/golang/go/wiki/SliceTricks
 + https://github.com/dariubs/GoBooks
++ https://github.com/ardanlabs/gotraining
 + https://github.com/developer-learning/reading-go
 + https://github.com/qcrao/Go-Questions
 + https://github.com/gopherdata/gophernotes
