@@ -1,5 +1,7 @@
 # Fairness & Privacy
 
+First, priewienv's [_secret sharing_](https://blog.priewienv.me/post/randomness-blockchain-1/) draws my attentions.
+
 Some nice papers:
 
 + [Timed Commitments](https://www.iacr.org/archive/crypto2000/18800237/18800237.pdf)
@@ -14,10 +16,45 @@ Some nice papers:
 + 输入独立性
 + 公平性
     * 一个参与者获得了输出，则其他参与者也必须获得输出
++ 保证输出送达
+    * 每个诚实参与者都能获得输出
 
-### Homomorphic Encryption
+### Homomorphic Encryption, 同态加密
++ The computations are represented as either Boolean or arithmetic(加减乘除) circuits.
++ [What is the link, if any, between Zero Knowledge Proof (ZKP) and Homomorphic encryption?](https://crypto.stackexchange.com/questions/57747/what-is-the-link-if-any-between-zero-knowledge-proof-zkp-and-homomorphic-enc)
++分类:
+    * partially homomorphic
+        - 只能实现一个运算
+    * somewhat homomorphic
+        - 实现两种门电路(运算), but only for a subset of circuits
+    * leveled fully homomorphic
+        - 先决有限深度的任意运算
+    * fully homomorphic
+        - 无限深度任意运算
+        - 对于实际应用来说，主要是乘法深度比较重要
 
-priewienv's [_secret sharing_](https://blog.priewienv.me/post/randomness-blockchain-1/) draws my attentions.
+### Garbled Circuit & Oblivious Transfer
+和电路也紧密相关
+
+### Verifiable Secret Sharing
+重建 secret, VSS 允许恶意参与者(submitting fake shares).
+
+####  Shamir's Secret Sharing, SSS
+其实就是门限 Secret Sharing
+
+May not be VSS:
+
++ https://crypto.stackexchange.com/questions/47230/does-shamir-secret-sharing-provide-integrity
++ https://en.wikipedia.org/wiki/Lagrange_polynomial
++ https://crypto.stackexchange.com/questions/54578/how-to-forge-a-shamir-secret-share
+
+
+## Threshold Signature Scheme
+密钥打碎分开存储，然后在需要时通过MPC多方安全计算生成签名
+
+和传统的 多签方案不同的是 多签是有多把私钥，如果私钥复用则泄漏了就有危险。传统多签是链上的，和链采用哪条曲线有关。tss 是链下的纯密码学的计算，目的是为了生成签名，兼容性更强。
+
+和 secret sharing也不一样，secret sharing 虽然也打碎了密钥，但是最终要有一个 dealer 重构出密钥并进行签名，那么就存在 单点故障和重构出的密钥可能被泄露的问题。而 tss不需要 重构出密钥，就不用怕 密钥泄漏。（tss还有一些别的nice feature，key rotation 也就是私钥可变，更增加了攻击的难度）
 
 ## Timed Commitments
 + the receiver is kinda guaranteed (I mean, with high probability) to recover the signature from the commitment after given time
