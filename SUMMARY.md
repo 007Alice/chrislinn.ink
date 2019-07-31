@@ -10,7 +10,7 @@
     - blockchain
         + [Erlay](technical/blockchain/erlay.md)
         + [PBFT](technical/blockchain/pbft.md)
-        + [Erlay](technical/blockchain/fair-contract.md)
+        + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
         - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
         * Bytom 源码解读
             + [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
