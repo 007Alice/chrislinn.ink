@@ -124,6 +124,7 @@
     * https://github.com/rust-lang
         + https://github.com/rust-lang/book
             * + https://prev.rust-lang.org/en-US/documentation.html
++ http://www.rustinaction.com/
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
     - Rust核心开发人员Niko Matsakis 的Rust教程

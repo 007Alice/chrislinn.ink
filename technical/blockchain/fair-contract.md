@@ -29,3 +29,17 @@ Some nice papers:
 
 ## Homomorphic Time-Lock
 _TODO_
+
+
+## Atomic Swap
+
+Atomic Swap 的一些解释说明。论文rephrase可用。
+
++ https://en.wikipedia.org/wiki/Atomicity_(database_systems)
+    * An indivisible and irreducible series of operations such that either all occur, or nothing occurs.
+    * At one moment in time, it has not yet happened, and at the next it has already occurred in whole (or nothing happened if the transaction was cancelled in progress).
++ Atomic Cross-Chain Swaps, https://arxiv.org/pdf/1801.09515.pdf
+    * An atomic swap protocol guarantees
+        - (1) if all parties conform to the protocol, then all swaps take place,
+        - (2) if some coalition deviates from the protocol, then no conforming party ends up worse off, and
+        - (3) no coalition has an incentive to deviate from the protocol.
