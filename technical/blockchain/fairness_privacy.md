@@ -22,7 +22,7 @@ Some nice papers:
 ### Homomorphic Encryption, 同态加密
 + The computations are represented as either Boolean or arithmetic(加减乘除) circuits.
 + [What is the link, if any, between Zero Knowledge Proof (ZKP) and Homomorphic encryption?](https://crypto.stackexchange.com/questions/57747/what-is-the-link-if-any-between-zero-knowledge-proof-zkp-and-homomorphic-enc)
-+分类:
++ 分类
     * partially homomorphic
         - 只能实现一个运算
     * somewhat homomorphic
@@ -86,3 +86,12 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
         - (1) if all parties conform to the protocol, then all swaps take place,
         - (2) if some coalition deviates from the protocol, then no conforming party ends up worse off, and
         - (3) no coalition has an incentive to deviate from the protocol.
+
+## Differential Privacy, 差分隐私
+注入噪音或扰动
+
+在或者不在这个数据集中，对查询结果没有影响。
+
+攻击者通过对该数据集的任何查询或者背景知识都无法准确推断出是否在数据集中。
+
+在不在数据集中都不会影响最终的查询结果，那么可以认为就不在这个数据集中，而如果不在数据集中，数据自然不会泄露。
