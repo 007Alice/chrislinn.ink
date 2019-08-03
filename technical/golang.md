@@ -16,6 +16,7 @@
 + https://github.com/qichengzx/gopher-reading-list-zh_CN
 + https://github.com/golang/go/wiki/
     * https://github.com/golang/go/wiki/SliceTricks
++ https://github.com/golang/go/wiki/CodeReviewComments
 + https://github.com/dariubs/GoBooks
 + https://github.com/ardanlabs/gotraining
 + https://github.com/developer-learning/reading-go
