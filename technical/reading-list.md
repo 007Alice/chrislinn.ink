@@ -91,6 +91,7 @@
 * https://github.com/riusksk/secbook
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
+* https://ice1000.org/
 * papers
     - [the morning paper](https://blog.acolyer.org/)
         + a random walk through Computer Science research, by Adrian Colyer
