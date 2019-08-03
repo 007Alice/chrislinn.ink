@@ -36,7 +36,8 @@
             * `#bitcoin-core-pr-reviews` Freenode IRC channel
                 - 17:00 UTC on Wednesdays.
                 - 01:00 UTC+8 Thursday
-    - bitcoin optech
+    - https://bitcoinops.org/en/newsletters/
+    - https://zkcapital.substack.com/
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
     - https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities - Prerelease.pdf
@@ -90,6 +91,7 @@
 * https://github.com/riusksk/secbook
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
+* https://ice1000.org/
 * papers
     - [the morning paper](https://blog.acolyer.org/)
         + a random walk through Computer Science research, by Adrian Colyer
