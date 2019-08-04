@@ -136,11 +136,6 @@
 + 考虑到程序中为了更好地做抽象，使用了反射操作，而 `reflect.Value` 会将对象拷贝并分配到堆上，程序中的对象都是消息体，有的消息体会超大，因此会分配较多的堆内存。对程序做了一版优化，去掉这个反射逻辑，改为 `switch case`
 + `fmt.Sprint`, 这个函数会把对象分配到堆上
 
-## pitfalls
-+ https://github.com/chai2010/advanced-go-programming-book/blob/master/appendix/appendix-a-trap.md
-+ copy, zcc
-+ sync/atomic/
-
 
 ## pool
 + https://golang.org/pkg/sync/#Pool
@@ -148,53 +143,6 @@
 + https://www.reddit.com/r/golang/comments/6ng0aq/correct_use_of_syncpool/
 + http://www.akshaydeo.com/blog/2017/12/23/How-did-I-improve-latency-by-700-percent-using-syncPool/
 + https://stackoverflow.com/questions/50851421/sync-pool-is-much-slower-than-using-channel-so-why-should-we-use-sync-pool
-
-
-## bytom-cc
-bytom coding code
-
-### casting check
-uint 转 int 要检查会不会 变成负数
-
-尤其是 存在 用户输入的  p2p交换 和 合约
-
-
-### avoid copying arrays in loops
-https://github.com/ethereum/go-ethereum/pull/17265/
-
-https://go-critic.github.io/overview.html#rangeexprcopy
-
-
-### rangeValCopy
-Avoid copying big objects during each iteration.
-
-Use index access or take address and make use pointer instead.
-
-https://go-critic.github.io/overview.html#rangevalcopy
-
-
-### builtinshadow
-变量名不要和关键字重复， 比如 `len`, `error`
-
-https://go-critic.github.io/overview.html#builtinshadow
-
-### submodule 
-+ Delete the relevant section from the .gitmodules file.
-+ Stage the .gitmodules changes git add .gitmodules
-+ Delete the relevant section from .git/config.
-+ Run git rm --cached path_to_submodule (no trailing slash).
-+ Run rm -rf .git/modules/path_to_submodule (no trailing slash).
-+ ~~Commit git commit -m "Removed submodule "~~
-+ ~~Delete the now untracked submodule files rm -rf path_to_submodule~~
-
-### map mutex
-
-
-### append
-
-https://stackoverflow.com/questions/27622083/performance-slices-of-structs-vs-slices-of-pointers-to-structs
-
-AppendingStructs is faster than AppendingPointers
 
 
 ## 百万长连接
@@ -248,3 +196,73 @@ I/O密集型: 吞吐率会和连接数相关，但不是线性，随着连接数
 ### 其他
 [今日头条Go建千亿级微服务的实践](https://zhuanlan.zhihu.com/p/26695984)中提到
 > 尽量避免反射，在高性能服务中杜绝反射的使用
+> 
+> 
+
+## Checklist
+
+### styleguide
++ https://github.com/golang/go/wiki/CodeReviewComments
+
+### goreportcard
++ https://goreportcard.com/
++ https://medium.com/@arshamshirvani/lint-your-golang-code-like-a-pro-668dc6637b39
+    * gofmt
+    * gocyclo
+    * interfacer
+    * deadcode
+    * gotype
+    * misspell
+    * staticcheck
+    * gosimple
+    * goconst
+
+### pitfalls
++ https://github.com/chai2010/advanced-go-programming-book/blob/master/appendix/appendix-a-trap.md
++ copy by value
++ sync/atomic
+    * lock?
+    * map mutex
+
+### go-critic
+
+#### casting check
+uint 转 int 要检查会不会 变成负数
+
+尤其是 存在 用户输入的  p2p交换 和 合约
+
+
+#### avoid copying arrays in loops
+https://github.com/ethereum/go-ethereum/pull/17265/
+
+https://go-critic.github.io/overview.html#rangeexprcopy
+
+
+#### rangeValCopy
+Avoid copying big objects during each iteration.
+
+Use index access or take address and make use pointer instead.
+
+https://go-critic.github.io/overview.html#rangevalcopy
+
+#### builtinshadow
+变量名不要和关键字重复， 比如 `len`, `error`
+
+https://go-critic.github.io/overview.html#builtinshadow
+
+### Mics
+
+#### submodule 
++ Delete the relevant section from the .gitmodules file.
++ Stage the .gitmodules changes git add .gitmodules
++ Delete the relevant section from .git/config.
++ Run git rm --cached path_to_submodule (no trailing slash).
++ Run rm -rf .git/modules/path_to_submodule (no trailing slash).
++ ~~Commit git commit -m "Removed submodule "~~
++ ~~Delete the now untracked submodule files rm -rf path_to_submodule~~
+
+#### append
+
+https://stackoverflow.com/questions/27622083/performance-slices-of-structs-vs-slices-of-pointers-to-structs
+
+AppendingStructs is faster than AppendingPointers
