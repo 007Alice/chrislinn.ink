@@ -26,7 +26,7 @@ My SNS accounts:
 + Blockchain Developer @ [bytom](https://github.com/Bytom/), _March 2018 – Present_
     * PoW-related:
         - optimize bytom's PoW algorithm, from __900+ ms to 100+ ms__
-        - optimize bytomd node mining pool, updating blocktemplate timely
+        - optimize bytomd node mining pool, updating blocktemplate __timely__
         - implement other mining-related functionalities in bytomd (the bytomd daemon node), including set-mining-address and set-coinbase-arbitrary
     - chain-interoperability-related:
         - __take charge of__ bystack's chain interoperability, mainly cross-chain transactions and two-way peg federation
