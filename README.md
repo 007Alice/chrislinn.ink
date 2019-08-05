@@ -15,7 +15,7 @@ I am a Gopher. And I am also a Rustacean.
 + 我在 [豆瓣](https://www.douban.com/people/NanderFour/)
 + 我在 GitHub
     + [大号](https://github.com/ChrisLinn)
-    + [小号 (alt account on github)](https://github.com/HAOYUatHZ)
+    + [小号](https://github.com/HAOYUatHZ)
 + 我在 [LinkedIn](http://linkedin.com/in/haoyu-lin-239474123)
 
 
@@ -25,8 +25,8 @@ I am a Gopher. And I am also a Rustacean.
 + Blockchain Developer @ [bytom](https://github.com/Bytom/), _March 2018 – Present_
     * PoW-related:
         - optimize bytom's PoW algorithm, from __900+ ms to 100+ ms__
-        - optimize bytomd node mining pool, including new block notification and packing new transactions
-        - implement some other mining-related functionalities in bytomd (the bytomd daemon node), including set-mining-address and set-coinbase-arbitrary
+        - optimize bytomd node mining pool, updating blocktemplate timely
+        - implement other mining-related functionalities in bytomd (the bytomd daemon node), including set-mining-address and set-coinbase-arbitrary
     - chain-interoperability-related:
         - take charge of bystack's chain interoperability, mainly cross-chain transactions and two-way peg federation
     * wallet-related:
@@ -51,9 +51,9 @@ I am a Gopher. And I am also a Rustacean.
 
 ## Education
 + Master of Engneering (Information Technology) @ [University of Melbourne](https://www.unimelb.edu.au/), Australia, _February 2016 - December 2017_
-    * 比特币交易追踪及其可视化
-    * Snick 语言编译器
-    * UC Berkeley Pacman AI 校内赛 7/100 名
+    * Master Project: __Bitcoin Transaction Tracing & Visualization System__
+    * Snick language compiler, __a compiler in OCaml__
+    * Rank __7/100__ in UC Berkeley Pacman AI campus competition
 
 ## Open-source contribution
 那些年我在开源社区水过的 PR
