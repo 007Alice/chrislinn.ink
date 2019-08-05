@@ -1,43 +1,76 @@
-# My Blog
+# About Me
+
+Hi all, I'm 醒来在刚果.
+
+I have experience with blockchain PoW, P2P, wallet, script language and smart contract, atomic swap and chain interoperability. 
+
+My current interests include but are not limited to: distributed system security, sharding and payment channel.
+
+I am a Gopher. I am also a Rustacean.
 
 <!-- ex_nonav -->
 
-+ 我在 [知乎](https://www.zhihu.com/people/LiqueurTofu/)
 + 我在 [豆瓣](https://www.douban.com/people/NanderFour/)
-+ 我在 [GitHub](https://github.com/ChrisLinn)
++ 我在 GitHub
+    + [大号](https://github.com/ChrisLinn)
+    + [小号 (alt account on github)](https://github.com/HAOYUatHZ)
++ 我在 [LinkedIn](http://linkedin.com/in/haoyu-lin-239474123)
+
+
+--- 
+
+## Experience
++ Blockchain Developer @ [bytom](https://github.com/Bytom/), _March 2018 – Present_
+    * PoW-related:
+        - optimize bytom's PoW algorithm, from __900+ ms to 100+ ms__
+        - optimize bytomd node mining pool, including new block notification and packing new transactions
+        - implement some other mining-related functionalities in bytomd (the bytomd daemon node), including set-mining-address and set-coinbase-arbitrary
+    - chain-interoperability-related:
+        - take charge of bystack's chain interoperability, mainly cross-chain transactions and two-way peg federation
+    * wallet-related:
+        - work as core developer of blockcenter, a semi-centralized crypto-currency wallet back-end server, supporting mutiple blockchains and assets on them
+            + take part in the architecture design
+            + get highly involved in the database scheme design
+            + get highly involved in the implementation and optimization 
+        - implement wallet related functionalities in bytomd, including global transaction index and version update mechanism
+    * p2p-related:
+        * take charge of the PreCogs Projects, discovering and monitoring global bytomd nodes status
+        * implement node version checking & update functionalities in bytomd
+        <!-- - p2p 层实现节点保持连接? -->
+
+## Publication
++ Co-author of [_On the optionality and fairness of Atomic Swaps_](https://aft19.hotcrp.com/paper/19)
+    + Paper accepted by _the Advances in Financial Technology 2019_ (AFT19)
+        * AFT is a new conference and its [committee](https://aft.acm.org/committees) chairs includes: Ittai Abraham (_VMware research_), Ittay Eyal (_Technion_) & Emin Gun Sire (_Cornell University_)
+- Reviewer for [_go语言公链开发实战_](https://book.douban.com/subject/34659372/)
+- Author & maintainer of https://github.com/ChrisLinn/blockchain-cheatsheet
+- Maintainer of https://github.com/rust-interview
+
+
+## Education
++ Master of Engneering (Information Technology) @ [University of Melbourne](https://www.unimelb.edu.au/), Australia, _February 2016 - December 2017_
+    * 比特币交易追踪及其可视化
+    * Snick 语言编译器
+    * UC Berkeley Pacman AI 校内赛 7/100 名
+
+## Open-source contribution
+那些年我在开源社区水过的 PR
+
+| repo | PR | status|
+| - | - | - |
+| ethereum/go-ethereum | [#17571](https://github.com/ethereum/go-ethereum/pull/17571)  | merged |
+| ethereum/vyper | [#1046](https://github.com/ethereum/vyper/pull/1046)  | merged |
+| KZen-networks/class-groups | [#15](https://github.com/KZen-networks/class-groups/pull/15)  | merged |
+| Fullstop000/wickdb | [#12](https://github.com/Fullstop000/wickdb/pull/12)  | merged |
+| bilibili/kratos | [#240](https://github.com/bilibili/kratos/pull/240)  | merged |
+| xuperchain/xuperunion | [#143](https://github.com/xuperchain/xuperunion/pull/143)  | merged |
+| xuperchain/xuperunion | [#132](https://github.com/xuperchain/xuperunion/pull/132)  | merged |
+
 
 ---
 
 My friends:
 
++ [Runchao Han](https://github.com/SebastianElvis)
 + [Jyuwan](https://www.douban.com/people/10566855/)
 + [yxliang01](https://github.com/yxliang01)
-+ [Runchao Han](https://github.com/SebastianElvis)
-
-<!-- 
-## The University of Melbourne 墨尔本大学 IT 硕士
-+ 比特币交易追踪及其可视化
-+ Snick 语言编译器
-+ UC Berkeley Pacman AI 校内赛 7/100 名
-
-## bytom 比原链开发
-+ pow 共识代码优化, 920ms -> 6ms
-+ 提高 get-work 接口效率，防止算力浪费
-+ 实现 block-recommit，提高交易入池效率
-+ 节点 solo mining 集成显卡挖矿算法
-+ 实现 stratumn miner，cpu 版本和 gpu 版本
-+ 负责先知节点计划，进行比原网络中的节点发现和状态统计
-+ p2p 层实现节点保持连接
-+ p2p 层实现 bytomd 版本控制
-+ 钱包层实现全局交易索引
-+ 实现 set-mining-address & set-coinbase-arbitrary 等挖矿相关功能 
-
-## blockcenter 去中心化钱包后端开发
-+ 参与系统架构设计
-+ 参与数据库设计和优化
-+ 负责 api 实现以及相应优化
-
-## 其他
-+ 为 go-ethereum p2p 模块，和 以太坊 vyper 语言贡献过代码
-+ https://github.com/ChrisLinn/blockchain-cheatsheet 作者 
--->
