@@ -5,18 +5,19 @@
 
 Hi all, I'm 醒来在刚果.
 
-I have experience with blockchain PoW, P2P, wallet, script language and smart contract, atomic swap and chain interoperability. 
+I have __experience__ with blockchain PoW, P2P, wallet, script language and smart contract, atomic swap and chain interoperability. 
 
-My current interests include but are not limited to: distributed system security, sharding and payment channel.
+My current __interests__ include but are not limited to: distributed system security, sharding and payment channel.
 
 I am a Gopher. And I am also a Rustacean.
 
+My SNS accounts:
 
-+ 我在 [豆瓣](https://www.douban.com/people/NanderFour/)
-+ 我在 GitHub
-    + [大号](https://github.com/ChrisLinn)
-    + [小号](https://github.com/HAOYUatHZ)
-+ 我在 [LinkedIn](http://linkedin.com/in/haoyu-lin-239474123)
++ GitHub
+    + [main account](https://github.com/ChrisLinn)
+    + [alt account](https://github.com/HAOYUatHZ)
++ [LinkedIn](http://linkedin.com/in/haoyu-lin-239474123)
++ [豆瓣](https://www.douban.com/people/NanderFour/)
 
 
 --- 
@@ -28,7 +29,7 @@ I am a Gopher. And I am also a Rustacean.
         - optimize bytomd node mining pool, updating blocktemplate timely
         - implement other mining-related functionalities in bytomd (the bytomd daemon node), including set-mining-address and set-coinbase-arbitrary
     - chain-interoperability-related:
-        - take charge of bystack's chain interoperability, mainly cross-chain transactions and two-way peg federation
+        - __take charge of__ bystack's chain interoperability, mainly cross-chain transactions and two-way peg federation
     * wallet-related:
         - work as core developer of blockcenter, a semi-centralized crypto-currency wallet back-end server, supporting mutiple blockchains and assets on them
             + take part in the architecture design
@@ -36,17 +37,17 @@ I am a Gopher. And I am also a Rustacean.
             + get highly involved in the implementation and optimization 
         - implement wallet related functionalities in bytomd, including global transaction index and version update mechanism
     * p2p-related:
-        * take charge of the PreCogs Projects, discovering and monitoring global bytomd nodes status
+        * __take charge of__ the PreCogs Projects, discovering and monitoring global bytomd nodes status
         * implement node version checking & update functionalities in bytomd
         <!-- - p2p 层实现节点保持连接? -->
 
 ## Publication
-+ Co-author of [_On the optionality and fairness of Atomic Swaps_](https://aft19.hotcrp.com/paper/19)
-    + Paper accepted by _the Advances in Financial Technology 2019_ (AFT19)
++ [_On the optionality and fairness of Atomic Swaps_](https://aft19.hotcrp.com/paper/19), _co-author_
+    + Paper __accepted__ by _the Advances in Financial Technology 2019_ (AFT19)
         * AFT is a new conference and its [committee](https://aft.acm.org/committees) chairs includes: Ittai Abraham (_VMware research_), Ittay Eyal (_Technion_) & Emin Gun Sire (_Cornell University_)
-- Reviewer for [_go语言公链开发实战_](https://book.douban.com/subject/34659372/)
-- Author & maintainer of https://github.com/ChrisLinn/blockchain-cheatsheet
-- Maintainer of https://github.com/rust-interview
+- [_go语言公链开发实战_](https://book.douban.com/subject/34659372/), _reviewer_
+- https://github.com/ChrisLinn/blockchain-cheatsheet, _author & maintainer_
+- https://github.com/rust-interview, _maintainer_
 
 
 ## Education
@@ -58,7 +59,7 @@ I am a Gopher. And I am also a Rustacean.
 ## Open-source contribution
 那些年我在开源社区水过的 PR
 
-| repo | PR | status|
+| project | PR | status|
 | - | - | - |
 | ethereum/go-ethereum | [#17571](https://github.com/ethereum/go-ethereum/pull/17571)  | merged |
 | ethereum/vyper | [#1046](https://github.com/ethereum/vyper/pull/1046)  | merged |
