@@ -1,14 +1,16 @@
 # About Me
 
+<!-- ex_nonav -->
+<!-- ex_nolevel -->
+
 Hi all, I'm 醒来在刚果.
 
 I have experience with blockchain PoW, P2P, wallet, script language and smart contract, atomic swap and chain interoperability. 
 
 My current interests include but are not limited to: distributed system security, sharding and payment channel.
 
-I am a Gopher. I am also a Rustacean.
+I am a Gopher. And I am also a Rustacean.
 
-<!-- ex_nonav -->
 
 + 我在 [豆瓣](https://www.douban.com/people/NanderFour/)
 + 我在 GitHub
