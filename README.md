@@ -42,8 +42,8 @@ My SNS accounts:
         <!-- - p2p 层实现节点保持连接? -->
 
 ## Publication
-+ [_On the optionality and fairness of Atomic Swaps_](https://aft19.hotcrp.com/paper/19), _co-author_
-    + Paper __accepted__ by _the Advances in Financial Technology 2019_ (AFT19)
++ [_On the optionality and fairness of Atomic Swaps_](https://eprint.iacr.org/2019/896), _co-author_
+    + Paper __accepted__ by _The first ACM conference on Advances in Financial Technologies (AFT’19)_
         * AFT is a new conference and its [committee](https://aft.acm.org/committees) chairs includes: Ittai Abraham (_VMware research_), Ittay Eyal (_Technion_) & Emin Gun Sire (_Cornell University_)
 - [_go语言公链开发实战_](https://book.douban.com/subject/34659372/), _reviewer_
 - https://github.com/ChrisLinn/blockchain-cheatsheet, _author & maintainer_
