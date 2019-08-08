@@ -133,6 +133,8 @@
 + https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
 * https://kaisery.gitbooks.io/rust-book-chinese/content/
+* https://github.com/exercism/rust
+* https://rust-unofficial.github.io/too-many-lists/
 * https://danielkeep.github.io/
     - https://danielkeep.github.io/tlborm/book/README.html
     - https://danielkeep.github.io/practical-intro-to-macros.html
