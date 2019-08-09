@@ -131,9 +131,14 @@
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
     - Rust核心开发人员Niko Matsakis 的Rust教程
-+ https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
 * https://kaisery.gitbooks.io/rust-book-chinese/content/
+* https://cheats.rs/
+    - https://github.com/ralfbiedert/cheats.rs/
+* https://upsuper.github.io/rust-cheatsheet/
+* https://rust-lang.github.io/rust-clippy/master/index.html
+* https://huangjj27.github.io/async-book/index.html
++ https://research.mozilla.org/rust/
 * 练习
     - https://github.com/bwasty/vulkan-tutorial-rs
     - https://www.codewars.com/
