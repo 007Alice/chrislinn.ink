@@ -106,6 +106,15 @@
 + https://github.com/google/styleguide
 + https://github.com/golang/go/wiki/CodeReviewComments
 
+## project lead
++ 确定需求（功能）
++ 选型
++ 文档
+    * api
+    * db
++ 链路
+* task、人员、进度
+
 ## architect
 + 经验，正确的方法和项目数量
     * 一个框架师需要大量的项目经验，超级长的编码时间。坚持正确的方法和一个融洽配合的团队。国外的架构师都是大胡子，而国内程序员到30岁，老婆就催着要去做管理岗位了。和研发工作拼智商不同，架构师就拼的是经验，没大胡子没五六十岁很难成为xx之父这个级别。
