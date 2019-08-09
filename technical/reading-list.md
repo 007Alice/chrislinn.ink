@@ -24,6 +24,7 @@
         + https://gitmemory.com/longcpp
         + https://gitmemory.com/amanusk
         + https://gitmemory.com/danielkeep
+        + https://gitmemory.com/wayslog
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
