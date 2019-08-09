@@ -134,7 +134,12 @@
 + https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
 * https://kaisery.gitbooks.io/rust-book-chinese/content/
-* https://github.com/exercism/rust
+* 练习
+    - https://github.com/bwasty/vulkan-tutorial-rs
+    - https://www.codewars.com/
+    - https://exercism.io
+        + https://github.com/exercism/rust
+    - issuehub.com? http://issuehub.io? 搜索 “rust + help wanted”
 * https://rust-unofficial.github.io/too-many-lists/
 * https://danielkeep.github.io/
     - https://danielkeep.github.io/tlborm/book/README.html
