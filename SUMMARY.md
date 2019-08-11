@@ -44,7 +44,7 @@
     * [(WIP) Trading](notes/trading.md)
     - [(WIP) EnglishPod Notes](notes/englishpod.md)
     * [(WIP) 《苏菲的世界》笔记](notes/sophies-world.md)
-    - [(WIP) My trip on Vim](notes/vim.md)
+    - [(WIP) Vim](notes/vim.md)
 + 随笔
     - [5G](mics/5g.md)
     * [我也谈写作](mics/writing.md)

@@ -24,6 +24,7 @@
         + https://gitmemory.com/longcpp
         + https://gitmemory.com/amanusk
         + https://gitmemory.com/danielkeep
+        + https://gitmemory.com/wayslog
     - gitcoin
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
@@ -132,9 +133,21 @@
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
     - Rust核心开发人员Niko Matsakis 的Rust教程
-+ https://research.mozilla.org/rust/
 * https://github.com/KaiserY/trpl-zh-cn
 * https://kaisery.gitbooks.io/rust-book-chinese/content/
+* https://cheats.rs/
+    - https://github.com/ralfbiedert/cheats.rs/
+* https://upsuper.github.io/rust-cheatsheet/
+* https://rust-lang.github.io/rust-clippy/master/index.html
+* https://huangjj27.github.io/async-book/index.html
++ https://research.mozilla.org/rust/
+* 练习
+    - https://github.com/bwasty/vulkan-tutorial-rs
+    - https://www.codewars.com/
+    - https://exercism.io
+        + https://github.com/exercism/rust
+    - issuehub.com? http://issuehub.io? 搜索 “rust + help wanted”
+* https://rust-unofficial.github.io/too-many-lists/
 * https://danielkeep.github.io/
     - https://danielkeep.github.io/tlborm/book/README.html
     - https://danielkeep.github.io/practical-intro-to-macros.html

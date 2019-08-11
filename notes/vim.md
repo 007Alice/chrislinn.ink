@@ -1,4 +1,4 @@
-# My trip on Vim
+# Vim Notes
 
 ## Setup
 + ~~[vim-plug](https://github.com/junegunn/vim-plug)~~
