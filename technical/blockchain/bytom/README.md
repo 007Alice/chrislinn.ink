@@ -21,6 +21,10 @@
 + Precogs
     * 负责先知节点计划，进行比原网络中的节点发现和状态统计
     * 涉及 P2P
+        - test dialing
+        - add seed
+        - add discov print
+        - Ignoring inbound connection: error while adding peer. address:192.168.30.12:48970 error:Error creating peer: EOF
 + 中心化钱包
     * api & database schema
     * build tx
