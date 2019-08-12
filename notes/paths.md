@@ -1,11 +1,14 @@
 # Paths
 
+> There are paths for everyone
+
 ## Slides
 + https://github.com/gnab/remark
 + https://github.com/yhatt/marp
 + https://github.com/hiroppy/fusuma
 + https://github.com/jacksingleton/hacker-slides
 
+<!-- 
 ## Blockchain json statetest
 ### Modify parity_listStorageKeys
 + Make argument _Quantity_ oponal. When `Quantity == null` , return all storage keys.
@@ -42,8 +45,8 @@ curl --data '{"method":"parity_listStorageKeys","params":["0xab7c74abC0C4d48d1bd
 ./target/debug/parity --fat-db=on --mode=offline
 
 cargo build
+ -->
 
-> There are paths for everyone
 
 <!-- 
 利益才是前进的动力，金钱、成就感。名誉当然也是有助于利益的，对于人脉而言。（所以在甲方做安全还是有点亏的，因为难以直接看到收益。虽然企业多么希望招到牛逼的安全开发、运维、架构，高薪一口气解决问题。）
@@ -208,6 +211,15 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
     * 逻辑第一
 + 搜索论文用 dblp.org
 + download at https://sci-hub.tw/
+
+## [How To Read a Paper](https://github.com/papers-we-love/papers-we-love#how-to-read-a-paper)
+
++ [How to read an academic article](http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/)
++ [Advice on reading academic papers](https://www.cc.gatech.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html)
++ [How to read and understand a scientific paper](http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/)
++ [Should I Read Papers?](http://michaelrbernste.in/2014/10/21/should-i-read-papers.html)
++ [The Refreshingly Rewarding Realm of Research Papers](https://www.youtube.com/watch?v=8eRx5Wo3xYA)
+
 
 ## step
 + 先把用学术的语言描述出来
