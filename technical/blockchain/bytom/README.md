@@ -52,6 +52,7 @@
                 * listening/ensure....
             + startInitPeer????
         - __reactor__ ???
+        - peer on start???
         - chainmgr??? netsync???
         - stopAndRemovePeer
             + gracefully
