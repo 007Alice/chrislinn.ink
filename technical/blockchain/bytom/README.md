@@ -21,11 +21,39 @@
 + Precogs
     * 负责先知节点计划，进行比原网络中的节点发现和状态统计
     * 涉及 P2P
+        - __Add Log__
+            + `dialPeers:[]` 
+            + peerConnected
         - can dail seeds now
         - test dialing
         - print for chainID and networkID comparison
         - print for discovery result
-        - pass NodeInfo.compatibleWith()
+        - pass __NodeInfo.compatibleWith()__
+        - __nodeInfo__ ?
+        ```
+        //NodeInfo peer node info
+        type NodeInfo struct {
+            PubKey  string `json:"pub_key"`
+            Moniker string `json:"moniker"`
+            Network string `json:"network"`
+            //NetworkID used to isolate subnets with same network name
+            NetworkID   uint64                `json:"network_id"`
+            RemoteAddr  string                `json:"remote_addr"`
+            ListenAddr  string                `json:"listen_addr"`
+            Version     string                `json:"version"` // major.minor.revision
+            ServiceFlag consensus.ServiceFlag `json:"service_flag"`
+            // other application specific data
+            Other []string `json:"other"`
+        }
+        ```
+        - DialPeerWithAddress
+        - IsRunning()
+            + OnStart
+                * listening/ensure....
+            + startInitPeer????
+        - __reactor__ ???
+        - stopAndRemovePeer
+            + gracefully
         - `INFO[0008] disconnect with peer                          address="47.102.193.119:56656" average_received_rate=7 average_sent_rate=7 duration=140ms module=p2p peer num=1 reason="Error: Panicked questionably: Unknown channel 40\nStack: goroutine 99 [running]:\nruntime/debug.Stack(0xc4205a95c8, 0x9a74e0, 0xc420258f80)\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0xa7\ngithub.com/vapor/p2p/connection.(*MConnection)._recover(0xc4200c2870)\n\t/home/gavin/work/go/src/github.com/vapor/p2p/connection/connection.go:257 +0x6e\npanic(0x9a74e0, 0xc420258f80)\n\t/usr/local/go/src/runtime/panic.go:505 +0x229\ngithub.com/vapor/vendor/github.com/tendermint/tmlibs/common.PanicQ(0x9a74e0, 0xc420258f60)\n\t/home/gavin/work/go/src/github.com/vapor/vendor/github.com/tendermint/tmlibs/common/errors.go:44 +0xe4\ngithub.com/vapor/p2p/connection.(*MConnection).recvRoutine(0xc4200c2870)\n\t/home/gavin/work/go/src/github.com/vapor/p2p/connection/connection.go:314 +0xbe3\ncreated by github.com/vapor/p2p/connection.(*MConnection).OnStart\n\t/home/gavin/work/go/src/github.com/vapor/p2p/connection/connection.go:156 +0xea\n" total_received=1 total_sent=1`
 + 中心化钱包
     * api & database schema
