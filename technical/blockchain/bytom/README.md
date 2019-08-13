@@ -51,11 +51,33 @@
             + OnStart
                 * listening/ensure....
             + startInitPeer????
+        - ~~peer on start~~
         - __reactor__ ???
-        - peer on start???
-        - chainmgr??? netsync???
+            + reactor add peer
+        - netsync???
+            + ~~chainmgr~~
+            + __ConsensusReactor__
+        - peerSet? bestPeer? bestHeight?
+            + (sm *SyncManager) BestPeer() *peers.PeerInfo
+            + (sm *SyncManager) GetPeerInfos() []*peers.PeerInfo
+            ```
+            type PeerInfo struct {
+                ID                  string `json:"peer_id"`
+                RemoteAddr          string `json:"remote_addr"`
+                Height              uint64 `json:"height"`
+                Ping                string `json:"ping"`
+                Duration            string `json:"duration"`
+                TotalSent           int64  `json:"total_sent"`
+                TotalReceived       int64  `json:"total_received"`
+                AverageSentRate     int64  `json:"average_sent_rate"`
+                AverageReceivedRate int64  `json:"average_received_rate"`
+                CurrentSentRate     int64  `json:"current_sent_rate"`
+                CurrentReceivedRate int64  `json:"current_received_rate"`
+            }
+            ```
         - stopAndRemovePeer
-            + gracefully
+            + ~~gracefully~~
+                * no need but dail
         - `INFO[0008] disconnect with peer                          address="47.102.193.119:56656" average_received_rate=7 average_sent_rate=7 duration=140ms module=p2p peer num=1 reason="Error: Panicked questionably: Unknown channel 40\nStack: goroutine 99 [running]:\nruntime/debug.Stack(0xc4205a95c8, 0x9a74e0, 0xc420258f80)\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0xa7\ngithub.com/vapor/p2p/connection.(*MConnection)._recover(0xc4200c2870)\n\t/home/gavin/work/go/src/github.com/vapor/p2p/connection/connection.go:257 +0x6e\npanic(0x9a74e0, 0xc420258f80)\n\t/usr/local/go/src/runtime/panic.go:505 +0x229\ngithub.com/vapor/vendor/github.com/tendermint/tmlibs/common.PanicQ(0x9a74e0, 0xc420258f60)\n\t/home/gavin/work/go/src/github.com/vapor/vendor/github.com/tendermint/tmlibs/common/errors.go:44 +0xe4\ngithub.com/vapor/p2p/connection.(*MConnection).recvRoutine(0xc4200c2870)\n\t/home/gavin/work/go/src/github.com/vapor/p2p/connection/connection.go:314 +0xbe3\ncreated by github.com/vapor/p2p/connection.(*MConnection).OnStart\n\t/home/gavin/work/go/src/github.com/vapor/p2p/connection/connection.go:156 +0xea\n" total_received=1 total_sent=1`
 + 中心化钱包
     * api & database schema
