@@ -13,6 +13,7 @@
 ## list
 + https://github.com/jakescript/go-bible
 + __https://github.com/yangwenmai/learning-golang__
++ https://github.com/hoanhan101/ultimate-go
 + https://github.com/qichengzx/gopher-reading-list-zh_CN
 + https://github.com/golang/go/wiki/
     * https://github.com/golang/go/wiki/SliceTricks
