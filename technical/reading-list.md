@@ -39,6 +39,7 @@
                 - 01:00 UTC+8 Thursday
     - https://bitcoinops.org/en/newsletters/
     - https://zkcapital.substack.com/
+    - https://blog.quarkslab.com/
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
     - https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities - Prerelease.pdf
