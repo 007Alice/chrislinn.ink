@@ -86,6 +86,8 @@
     * https://webassembly.eu/
     * https://wasmweekly.news/
     * https://github.com/webassembly
+* cpp
+    - https://changkun.de/modern-cpp/
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
