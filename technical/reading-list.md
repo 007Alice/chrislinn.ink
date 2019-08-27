@@ -82,6 +82,8 @@
     * https://github.com/qichengzx/gopher-reading-list-zh_CN
     * https://github.com/wty4427300/learn-tidb
     * https://draveness.me/
++ functional
+    * https://github.com/data61/fp-course
 * wasm
     * https://webassembly.eu/
     * https://wasmweekly.news/
