@@ -79,6 +79,20 @@
             + ~~gracefully~~
                 * no need but dail
         - `ERRO[0188] Connection failed @ sendRoutine               conn="MConn{47.103.17.22:56656}" error="write tcp 192.168.30.12:53484->47.103.17.22:56656: write: connection reset by peer" module=p2pConn INFO[0188] disconnect with peer                          address="47.103.17.22:56656" average_received_rate=13 average_sent_rate=0 duration=2m0.02s module=p2p peer num=17 reason="write tcp 192.168.30.12:53484->47.103.17.22:56656: write: connection reset by peer" total_received=1558 total_sent=51`
+        - .
+        ```
+        // TODO:
+        // msg := struct{ msgs.BlockchainMessage }{&msgs.GetBlockMessage{Height: bestHeight + 1}}
+        // for _, peer := range m.sw.GetPeers().List() {
+        //  peers.SendMsg(peer.ID(), msgs.BlockchainChannel, msg)
+        // }
+        ```
+        + TODO
+            * get lantency
+            * get best_height
+            * decide check_height("best best_height" - "confirmations")
+            * get blockhash by check_height, get latency
+            * update lantency, active_time and status
 + 中心化钱包
     * api & database schema
     * build tx
