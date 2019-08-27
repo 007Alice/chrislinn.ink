@@ -39,6 +39,8 @@ My SNS accounts:
     * p2p-related:
         * __take charge of__ the PreCogs Projects, discovering and monitoring global bytomd nodes status
         * implement node version checking & update functionalities in bytomd
+    + talks
+        * [_Bytom Smart Contract_](https://www.8btc.com/article/469596) on [Bytom Devcon 2](https://github.com/ChrisLinn/chrislinn.ink/raw/master/img/me/bytom-devcon-2.PNG) in _SF_
         <!-- - p2p 层实现节点保持连接? -->
 
 ## Publication

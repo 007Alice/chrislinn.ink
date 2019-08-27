@@ -68,6 +68,7 @@
 * sec
     - 玄武 https://sec.today
 * rust
+    - https://github.com/wezm/read-rust
     - https://rniczh.github.io/blog/
     - https://rust.cc/
     - https://this-week-in-rust.org/
@@ -83,10 +84,15 @@
     * https://github.com/qichengzx/gopher-reading-list-zh_CN
     * https://github.com/wty4427300/learn-tidb
     * https://draveness.me/
++ functional
+    * https://github.com/data61/fp-course
+    * https://github.com/hmemcpy/milewski-ctfp-pdf
 * wasm
     * https://webassembly.eu/
     * https://wasmweekly.news/
     * https://github.com/webassembly
+* cpp
+    - https://changkun.de/modern-cpp/
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/

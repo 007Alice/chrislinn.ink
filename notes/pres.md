@@ -1190,6 +1190,7 @@
         * File and directory permissions on Unix & Windows
 * sites
     * Linux
+        * https://www.prodefence.org/privilege-escalation-cheatsheet-vulnhub/
         * [http://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](http://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
         * [http://www.0daysecurity.com/penetration-testing/enumeration.html](http://www.0daysecurity.com/penetration-testing/enumeration.html)
         * [http://incolumitas.com/wp-content/uploads/2012/12/blackhats_view.pdf](http://incolumitas.com/wp-content/uploads/2012/12/blackhats_view.pdf)
