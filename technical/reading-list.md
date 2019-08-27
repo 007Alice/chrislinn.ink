@@ -67,6 +67,7 @@
 * sec
     - 玄武 https://sec.today
 * rust
+    - https://github.com/wezm/read-rust
     - https://rniczh.github.io/blog/
     - https://rust.cc/
     - https://this-week-in-rust.org/
@@ -84,6 +85,7 @@
     * https://draveness.me/
 + functional
     * https://github.com/data61/fp-course
+    * https://github.com/hmemcpy/milewski-ctfp-pdf
 * wasm
     * https://webassembly.eu/
     * https://wasmweekly.news/
