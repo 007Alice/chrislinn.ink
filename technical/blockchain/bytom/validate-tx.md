@@ -32,7 +32,7 @@ type validationState struct {
 `func checkValid(vs *validationState, e bc.Entry) ` 中反复有类似 `vs2 := *vs`
 的语句出现是为了防止 浅拷贝 造成修改
 
-`vm.Verify` 涉及到 [虚拟机验证](vm-verify.md)
+`vm.Verify` 涉及到 [虚拟机验证](vm-verification.md)
 
 其他的任务就落在了
 
