@@ -2,7 +2,7 @@
 
 侧链，跨链 有两篇文章值得一看:
 
-+ v 神的 [Chain Interoperability](https://static1.squarespace.com/static/55f73743e4b051cfcc0b02cf/t/5886800ecd0f68de303349b1/1485209617040/Chain+Interoperability.pdf)，介绍了 多种跨链方式，包括 1. trusted 委托人 2.多签 federation 和 3. hash locking
++ v 神的 [Chain Interoperability](https://www.r3.com/reports/chain-interoperability/)，介绍了 多种跨链方式，包括 1. trusted 委托人 2.多签 federation 和 3. hash locking
 + blockstream 的 [Enabling Blockchain Innovations with Pegged Sidechains](https://blockstream.com/sidechains.pdf)
 
 ## 概述
