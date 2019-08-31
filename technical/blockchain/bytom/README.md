@@ -21,64 +21,6 @@
 + Precogs
     * 负责先知节点计划，进行比原网络中的节点发现和状态统计
     * 涉及 P2P
-        - __Add Log__
-            + `dialPeers:[]` 
-            + peerConnected
-        - can dail seeds now
-        - test dialing
-        - print for chainID and networkID comparison
-        - print for discovery result
-        - pass __NodeInfo.compatibleWith()__
-        - __nodeInfo__ ?
-        ```
-        //NodeInfo peer node info
-        type NodeInfo struct {
-            PubKey  string `json:"pub_key"`
-            Moniker string `json:"moniker"`
-            Network string `json:"network"`
-            //NetworkID used to isolate subnets with same network name
-            NetworkID   uint64                `json:"network_id"`
-            RemoteAddr  string                `json:"remote_addr"`
-            ListenAddr  string                `json:"listen_addr"`
-            Version     string                `json:"version"` // major.minor.revision
-            ServiceFlag consensus.ServiceFlag `json:"service_flag"`
-            // other application specific data
-            Other []string `json:"other"`
-        }
-        ```
-        - DialPeerWithAddress
-        - IsRunning()
-            + OnStart
-                * listening/ensure....
-            + startInitPeer????
-        - ~~peer on start~~
-        - __reactor__ ???
-            + reactor add peer
-        - netsync???
-            + ~~chainmgr~~
-            + __ConsensusReactor__
-        - peerSet? bestPeer? bestHeight?
-            + (sm *SyncManager) BestPeer() *peers.PeerInfo
-            + (sm *SyncManager) GetPeerInfos() []*peers.PeerInfo
-            ```
-            type PeerInfo struct {
-                ID                  string `json:"peer_id"`
-                RemoteAddr          string `json:"remote_addr"`
-                Height              uint64 `json:"height"`
-                Ping                string `json:"ping"`
-                Duration            string `json:"duration"`
-                TotalSent           int64  `json:"total_sent"`
-                TotalReceived       int64  `json:"total_received"`
-                AverageSentRate     int64  `json:"average_sent_rate"`
-                AverageReceivedRate int64  `json:"average_received_rate"`
-                CurrentSentRate     int64  `json:"current_sent_rate"`
-                CurrentReceivedRate int64  `json:"current_received_rate"`
-            }
-            ```
-        - stopAndRemovePeer
-            + ~~gracefully~~
-                * no need but dail
-        - `ERRO[0188] Connection failed @ sendRoutine               conn="MConn{47.103.17.22:56656}" error="write tcp 192.168.30.12:53484->47.103.17.22:56656: write: connection reset by peer" module=p2pConn INFO[0188] disconnect with peer                          address="47.103.17.22:56656" average_received_rate=13 average_sent_rate=0 duration=2m0.02s module=p2p peer num=17 reason="write tcp 192.168.30.12:53484->47.103.17.22:56656: write: connection reset by peer" total_received=1558 total_sent=51`
         - .
         ```
         // TODO:
@@ -88,6 +30,8 @@
         // }
         ```
         + TODO
+            * moniker 理论是安全的，只是记得测试一下，这么改不会让vapor node出坑
+            * pagination?
             * get lantency
             * get best_height
             * decide check_height("best best_height" - "confirmations")
