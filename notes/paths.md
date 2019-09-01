@@ -2,7 +2,7 @@
 
 > There are paths for everyone
 > 
-## Jobs Opportunity
+## Jobs Opportunities
 + matrixport
 + 深圳金融研究院
 + polkadot
