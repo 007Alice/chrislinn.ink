@@ -2,11 +2,13 @@
 
 > There are paths for everyone
 > 
-## Job
+## Jobs Opportunity
 + matrixport
 + 深圳金融研究院
 + polkadot
-+ protocol lab
++ near
++ ProtocolLab
++ PingCAP
 + AntFin?
 + nervos?
 
