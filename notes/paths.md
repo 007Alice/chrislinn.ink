@@ -6,8 +6,8 @@
 + 先试试 深圳吧，不行留在 bytom 也可以
     * bytom?
         - can lead a team, but the bosses suck
+            + 小公司的 lead，其实没什么用
         - and I don't trust James, I don't know what he is thinking
-        - 小公司的 lead，其实没什么用
     * 深圳金融研究院
         - 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
         - 开发还是可以一试吧，讨生活而已
