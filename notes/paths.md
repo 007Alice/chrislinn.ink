@@ -3,21 +3,28 @@
 > There are paths for everyone
 > 
 ## Jobs Opportunities
-+ 深圳金融研究院
-    * 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
-+ matrixport
-    * 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
-+ 无交际 X
-    * polkadot
-    * near
-    * ProtocolLab
-+ PingCAP
-    * 薪资不会满意
-+ AntFin?
-    * 开会
-+ nervos?
-    * boss 可能坑
-    * 只是一个优秀开发，而不是一个默契开发
++ 先试试 深圳吧，不行留在 bytom 也可以
+    * bytom?
+        - can lead a team, but the bosses suck
+        - and I don't trust James, I don't know what he is thinking
+        - 小公司的 lead，其实没什么用
+    * 深圳金融研究院
+        - 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
+        - 开发还是可以一试吧，讨生活而已
+    * matrixport
+        - 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
+        - 而且要加班吧
+    * 无交际 X
+        - polkadot
+        - near
+        - ProtocolLab
+    * PingCAP
+        - 薪资不会满意
+    * AntFin?
+        - 开会
+    * nervos?
+        - boss 可能坑
+        - 只是一个优秀开发，而不是一个默契开发
 
 ## Slides
 + https://github.com/gnab/remark
