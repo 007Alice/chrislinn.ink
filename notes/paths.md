@@ -3,14 +3,21 @@
 > There are paths for everyone
 > 
 ## Jobs Opportunities
-+ matrixport
 + 深圳金融研究院
-+ polkadot
-+ near
-+ ProtocolLab
+    * 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
++ matrixport
+    * 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
++ 无交际 X
+    * polkadot
+    * near
+    * ProtocolLab
 + PingCAP
+    * 薪资不会满意
 + AntFin?
+    * 开会
 + nervos?
+    * boss 可能坑
+    * 只是一个优秀开发，而不是一个默契开发
 
 ## Slides
 + https://github.com/gnab/remark
