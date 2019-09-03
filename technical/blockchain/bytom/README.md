@@ -29,6 +29,20 @@
         //  peers.SendMsg(peer.ID(), msgs.BlockchainChannel, msg)
         // }
         ```
+        + .
+        ```
+        // for _, peer := range peerList {
+        //  p := m.peers.GetPeer(peer.ID())
+        //  if p == nil {
+        //      continue
+        //  }
+
+        //  if err := p.SendStatus(m.chain.BestBlockHeader(), m.chain.LastIrreversibleHeader()); err != nil {
+        //      log.WithFields(log.Fields{"peer": p, "err": err}).Error("SendStatus")
+        //      m.peers.RemovePeer(p.ID())
+        //  }
+        // }
+        ```
         + TODO
             * moniker 理论是安全的，只是记得测试一下，这么改不会让vapor node出坑
             * pagination?
