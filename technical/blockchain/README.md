@@ -89,7 +89,6 @@
 + https://tlu.tarilabs.com/
 + https://nakamotoinstitute.org/
 - https://proto.school/#/chapters
-- https://github.com/crypto-cypher/privacy-for-identities/
 - https://github.com/heidi-ann/distributed-consensus-reading-list
 
 
