@@ -10,6 +10,7 @@
         - Bitcoin: A Peer-to-Peer Electronic Cash System
         - Information propagation in the Bitcoin network
     * https://github.com/bitcoinops/scaling-book
+    * https://github.com/bellaj/Blockchain
     * https://github.com/UCL-InfoSec/blockchain-reading
     * other
         - Boost Blockchain Broadcast Propagation with Tree Routing
@@ -17,6 +18,9 @@
         - https://github.com/tyrchen/unchained
         - why it takes 20 min to mine this block
     * https://github.com/UCL-InfoSec/blockchain-reading/wiki
+    * https://bitcoinbook.cs.princeton.edu/
+        - https://www.lopp.net/pdf/princeton_bitcoin_book.pdf
+        - https://www.coursera.org/learn/cryptocurrency
     * https://github.com/trailofbits/publications
 + https://github.com/satoshilabs/slips
 + https://bitcointechtalk.com/
