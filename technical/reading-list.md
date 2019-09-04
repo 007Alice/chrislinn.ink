@@ -102,6 +102,7 @@
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
 * https://ice1000.org/
+* http://wjp2013.github.io/
 * papers
     + https://github.com/papers-we-love/papers-we-love
     + http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html

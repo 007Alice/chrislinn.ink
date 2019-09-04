@@ -215,6 +215,31 @@ I/O密集型: 吞吐率会和连接数相关，但不是线性，随着连接数
 
 ### goreportcard
 + https://goreportcard.com/
++ https://xz.aliyun.com/t/3040
+    * deadcode
+    * dupl
+    * errcheck
+    * gochecknoglobals
+    * gochecknoinits
+    * goconst
+    * gocyclo
+    * goimports
+    * golint
+    * gosec
+    * gotype
+    * gotypex
+    * ineffassign
+    * interfacer
+    * lll
+    * maligned
+    * misspell
+    * nakedret
+    * safesql
+    * staticcheck
+    * structcheck
+    * unconvert
+    * unparam
+    * varcheck
 + https://medium.com/@arshamshirvani/lint-your-golang-code-like-a-pro-668dc6637b39
     * gofmt
     * gocyclo
