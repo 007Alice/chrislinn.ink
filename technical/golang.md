@@ -210,6 +210,11 @@ I/O密集型: 吞吐率会和连接数相关，但不是线性，随着连接数
 
 ## Checklist
 
+### project structure
++ https://golang.org/doc/code.html#Organization
++ https://stackoverflow.com/questions/14867452/what-is-a-sensible-way-to-layout-a-go-project
++ https://github.com/golang-standards/project-layout
+
 ### styleguide
 + https://github.com/golang/go/wiki/CodeReviewComments
 
