@@ -43,7 +43,6 @@
     - https://github.com/pszal/teaching
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
-    - https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities - Prerelease.pdf
     - https://proto.school/#/chapters
     - https://www.initc3.org/
     - https://tlu.tarilabs.com/
@@ -70,7 +69,9 @@
     - https://concourseopen.com/
 * sec
     - 玄武 https://sec.today
+    * https://github.com/riusksk/secbook
 * rust
+    - https://oribenshir.github.io/afternoon_rusting/index.html
     - https://github.com/wezm/read-rust
     - https://rniczh.github.io/blog/
     - https://rust.cc/
@@ -99,7 +100,6 @@
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
 * http://xargin.com/readings/
-* https://github.com/riusksk/secbook
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
 * https://ice1000.org/
@@ -124,6 +124,7 @@
     - issuehunt
     - otechie
     - https://github.com/t9tio/open-source-jobs
+    - https://github.com/Department-of-Decentralization/Ecosystem-Job-Openings
     - https://github.com/KZen-networks/bulletproofs/issues
         + written with inspiration from https://github.com/dalek-cryptography/bulletproofs
             * dalek now using Merlin, bringing Merlin to KZen would be amazing
@@ -131,6 +132,14 @@
 * network
     - https://github.com/PrincetonUniversity/COS461-Public
     - https://github.com/pszal/teaching
+    - https://github.com/heidi-ann/distributed-consensus-reading-list
+- crypto
+    - https://intensecrypto.org/public/index.html
+        + https://www.boazbarak.org/cs127spring16/
+    - https://github.com/cryptosubtlety/intuitive-advanced-cryptography
+    - https://github.com/crypto-cypher/privacy-for-identities/
+    * [Crypto 101](https://github.com/crypto101/book)
+    * [Practical-Cryptography-for-Developers-Book](https://github.com/nakov/Practical-Cryptography-for-Developers-Book)
 
 
 ## Rust
