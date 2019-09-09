@@ -45,7 +45,6 @@
         ```
         + TODO
             * moniker 理论是安全的，只是记得测试一下，这么改不会让vapor node出坑
-            * pagination?
             * get lantency
             * get best_height
             * decide check_height("best best_height" - "confirmations")
@@ -103,6 +102,15 @@
         - [ ] test/chain_test_util.go
         - [ ] test/utxo_view/utxo_view_test.go
         - add more test?
++ TSS
+    * two-party-eddsa
+        - https://github.com/KZen-networks/two-party-eddsa-wrapper
+        - Aggregated Signatures
+    * multi-party-eddsa
+        - https://github.com/KZen-networks/multi-party-eddsa
+            + Aggregated Signatures
+            + Accountable-Subgroup Multisignatures
+            + **Threshold**
 
 <!-- 
 
