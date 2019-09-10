@@ -235,6 +235,12 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
     * 逻辑第一
 + 搜索论文用 dblp.org
 + download at https://sci-hub.tw/
++ 是否值得一读
+    * A good system (security) paper should at least have
+        - performance evaluation or modelling
+        * reference and comparison to state-of-the-art
+        * clear description on the protocol, including figures and pseudocodes
+        * security proof or justification
 
 ## [How To Read a Paper](https://github.com/papers-we-love/papers-we-love#how-to-read-a-paper)
 
@@ -248,6 +254,8 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
 ## step
 + 先把用学术的语言描述出来
     * 形式化的方式写出来, 比如伪代码或者其他形式
+    * https://github.com/SebastianElvis/english-research-lint
+    * https://sebastianelvis.github.io/categories/writing/
 + 再看这篇文章怎么写
     * scope多大
     * focus在哪

@@ -103,6 +103,10 @@
         - [ ] test/utxo_view/utxo_view_test.go
         - add more test?
 + TSS
+    * Rust language general purpose elliptic curve cryptography.
+        - https://github.com/KZen-networks/curv
+    * Mixing for Cryptocurrencies from Multiparty ECDSA
+        * https://github.com/KZen-networks/ShareLock
     * two-party-eddsa
         - https://github.com/KZen-networks/two-party-eddsa-wrapper
         - Aggregated Signatures
@@ -111,6 +115,19 @@
             + Aggregated Signatures
             + Accountable-Subgroup Multisignatures
             + **Threshold**
+    * sdk
+        - Javascript threshold signatures SDK
+            - https://github.com/KZen-networks/thresh-sig-js
+        * Zilliqa Threshold Signatures JavaScript Library
+            - https://github.com/KZen-networks/Zilliqa-JavaScript-Library
+        * Wallet for Binance chain powered by two-party ECDSA
+            - https://github.com/KZen-networks/binance-thresh-wallet
+                + Javascript SDK to communicate with Binance Chain.
+                    * https://github.com/KZen-networks/javascript-sdk
+        * Tezos
+            - eztz - Javascript API library for Tezos
+                - https://github.com/KZen-networks/eztz
+                - Work in progress for two-party signing.
 
 <!-- 
 
