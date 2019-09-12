@@ -10,6 +10,10 @@ Some nice papers:
 + [Concurrency and Privacy with Payment-Channel Networks](https://eprint.iacr.org/2017/820)
     * using Multihop HTLC
 
+## DKG
++ Bootstrapping Consensus Without Trusted Setup: Fully Asynchronous Distributed Key Generation
+    * https://eprint.iacr.org/2019/1015.pdf
+
 ## MPC
 + (输出结果)正确性
 + 隐私性
