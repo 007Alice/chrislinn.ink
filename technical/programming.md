@@ -90,10 +90,12 @@
     * 资源的上限
         - 产消模型，消费者挂掉了，队列一直堆积
         - 线程、连接、channel...
+    * corner case
 + 代码风格
     * 缺乏设计，流水帐过程式，不可扩展
     * helper util 过于宽泛，什么都往里面塞
     * (业务)逻辑代码与数据库代码是否分离
+    * 消灭 goto (易给后续留坑)
 + 代码效率
     * 循环中的冗余。循环中的操作是否在前几次循环中已经执行过了？
 + 代码精简
@@ -103,27 +105,124 @@
     * 是否参考了标准
         - 场景考虑是否全面
         - 是否便于别人理解、上手
+    * [API 杂谈](https://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&mid=2653788337&idx=1&sn=96f41ec3de2a622e7bb1746f744a1305&chksm=8bfdbbf9bc8a32ef4b86b23fe8ca77a3ed8dbbd73501a2f2dd4783347bd664a084778cb0378e)
+        - 有时候我们为了支持某一个功能，似乎不得不增加一个很违反设计的接口；而有时候我们为了保证 API 绝对规范，似乎又不得不放弃对某一些功能的直接支持，因此功能只能通过迭代调用或 client 端预处理来实现。
+            + 这种设计上的取舍，通常只有列出所有可行的方案，从简单的设计到繁杂的设计，然后通过分析各种使用实例的频率和使用某种设计时的复杂度，从实际的系统需求入手，尽可能让常用的功能得到最简单直接的支持，而一定程度上 “牺牲” 一些极少用到的功能。反复推敲系统场景，尽可能取得一个合理的折衷。
+        - 基本原则
+            + 保证 API 100% RESTful
+                * everything is a “resource”
+            + 在 request 和 response 中，都应该尽可能的保持参数的结构化。
+                * 如果是一个 hash，就传一个 hash（不要传 hash.to_string）。
+                    - 在 serialization / deserialization 中完成不同语言间类型的转换。
+            + Authentication 和 Security 的考虑，应该始终放在首位。
+                * Authentication 可能是使用证书和白名单，也可能是通过用户登陆的 credentials 生成的验证 token，或者 session / cookie 等方式来处理。
+                    * 对特定的用户永远只 expose 相关的接口和权限
+                * 所有的 API 层的 logging，应该保证不要 log 任何 sensitive 的信息
+            + API 本身应该是 client 无关的
+            + 尽可能让 API 是 Idempotent（幂等）的。
 + https://github.com/google/styleguide
 + https://github.com/golang/go/wiki/CodeReviewComments
 
 ## project lead
-+ 确定需求（功能）
-+ 选型
-+ 文档
-    * api
-    * db
-+ 链路
-* task、人员、进度
++ 写不写代码，做不做 code review 不是关键
+    * 有可信赖的资深工程师code review 的话
+* 必须对系统设计了如指掌
+    * 知道一个新功能, 需要现有框架如何改动，整体实现大概需要多少时间
+    * 以作出正确的决定
++ 利用人力资源高质量完成项目
+    * 定义项目，决定要怎么样做什么（包括架构、选型）
+        - 选型, 评估一个框架
+            + 对访问权限的统一控制
+            + 自动测试的支持
+            + 对 request 和 response 的 formatting，以及 serialization 和 deseialization 的支持
+            + 对 logging 和 logging filtering 的支持
+            + 对自动文档生成的支持
+            + 实际实现的架构以及性能的考虑
+        - 选型, 更清晰地考虑系统的设计，从而做出更好的选择( [拥抱约束](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208859872&idx=1&sn=0b3efde37aefc57d9603bd214b9a76f0) )
+            + CAP 只能三选二
+            + 被牺牲掉的，就是它们的约束条件
+                * 真正明白一个产品的内在约束条件，才能使你更好地考虑产品设计和工具的选择。
+                * 否则在设计里打个补丁，继续前行，这样的补丁会越来越多. 越来越复杂的结构只是为了应对越来越多的 "exception"，最终变成一个臃肿的夹杂着各种 corner case 的怪胎，从而不得不推倒重来。
+            + hash-key 的限制条件严苛，使用不方便, dynamodb 让人各种施展不开?
+                * 在什么场景下使用，是否真的必要，可否用其他技术?
+                * 真的避无可避，而且是非常重要的功能，则考虑换用其他
+    * 调动工程师潜力
+        - 擅长什么
+        - 积极性
+    * 帮组员清路障
+        - 提前清楚项目可能遇到的障碍
+        - 外组间需要进行的沟通和协作
+        - 技术难点需要寻求解决方案
+        - 挡一些产品上的不合理要求
++ plan
+    * 确定需求（功能）
+    * 选型
+    * 文档
+        - api
+        - db
+    * 链路
+    - task、人员、进度
 
 ## architect
 + 经验，正确的方法和项目数量
     * https://github.com/captn3m0/google-sre-ebook
     * 一个框架师需要大量的项目经验，超级长的编码时间。坚持正确的方法和一个融洽配合的团队。国外的架构师都是大胡子，而国内程序员到30岁，老婆就催着要去做管理岗位了。和研发工作拼智商不同，架构师就拼的是经验，没大胡子没五六十岁很难成为xx之父这个级别。
++ service interfaces
+    * All teams must expose their **data and functionality** through service interfaces
+    * [no interprocess communication](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208859872&idx=1&sn=0b3efde37aefc57d9603bd214b9a76f0)
+        - no direct linking
+        - no direct reads of another team’s data store
+        - no shared-memory model
+        - no back-doors
+    * Teams must communicate with each other through these interfaces
+        - The **only** communication allowed is via service interface calls over the network.
 + 强壮且易扩展
     * 测试驱动
     * 重构
         - 分层
         - 正确的依赖关系
         - 精简美丽的命名
+        - [<<重构>>](https://book.douban.com/subject/1229923/)
+            + 先写测试
+            + 太长，功能杂糅
+                * software entities should be open for extension, but closed for modification 代码对扩展开放，对修改封闭, [Open-close Principle](https://mp.weixin.qq.com/s/hwyfe31dG9SXt65YX4kJkg)
+                    * 拆解，功能专一
+                    - 易于适应业务逻辑变化(接口保持不变)
+                + 复用代码
+                + 看是否属于正确的类
+                    * 如果同时属于多个类？
+                        - 看业务更贴近哪个，将来与哪个业务的逻辑升级更相关
     * 持续集成
     * h/v scalability, load balancing, redirecting, logging, metrics....
+- 技术债
+    + the good, 适当引入技术债
+        * 销售要某个产品和别人对标打单，市场要编制一个美丽的五彩缤纷的故事来应付发布，客户要求在限期之内完成某个他们自己也不知道什么时候才使用的功能
+            - 完不成，产品卖不出去，市场推广不开，客户和你一拍两散
+            - 这种时刻引入技术债是不得已的聪明的做法。
+        * MVP, minimal viable product
+            * examples
+                - M$
+                    + basic
+                    + DOS
+                - mongodb vs rethinkdb
+                    + mongodb
+                        * call me maybe mongodb
+                            - 一个数据库竟然靠 mmap 来提高效率，通过 fsync 来保证持久化（如果你不打开 oplog 的话，就只能听天由命了），然后还好意思发布 1.0 一路到 2.x
+                            - mongodb 在购买了 wiredtiger 引擎后，基本解决了最让人诟病的技术债，在软件服务的路上走得还算顺畅。
+                    +  rethinkdb 错失了 NoSQL 的红利期，赚不到也筹不到足够的钱维持其运营，不得不解散团队
+    + the bad
+        * 针对其做了无数优化, 仍然挂/不稳定
+        * 债务的叠加
+        * backward compatibility
+            - 接口设计上的缺陷被使用者当成了功能去使用，使用的范围之广以至于开发者在新版本中无法还债，只能被动地一路保有这样的债务
+            - **对外的接口（API，SDK等）一定要小心设计**
+    + the TAO
+        * 拥抱 MVP。先解决温饱问题，再考虑还债。
+        * 把技术债外包出去 **给更合适的团队**
+        * 雇佣你所能获得的最优秀的人
+        * 拥抱匡威定律。组织架构决定了你的代码结构。
+            - 快速交付 -> 拥有直接决策权的端到端的功能团队, 而不是开发，测试，运维等彼此独立
+            - micro service -> 组织结构上就要打造彼此平行的 service team
+        * 在实现上可以多些负债，在接口上尽量减少负债
+        * 意识到软件本来就要不断修改、新增、删除
+        * 健全的监控和测试
