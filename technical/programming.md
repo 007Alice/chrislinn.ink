@@ -119,6 +119,7 @@
                     * 对特定的用户永远只 expose 相关的接口和权限
                 * 所有的 API 层的 logging，应该保证不要 log 任何 sensitive 的信息
             + API 本身应该是 client 无关的
+                * 避免对 client 是 mobile 还是 web 等的考虑client 无关的计算和处理，又应该尽可能的在 server 端统一处理。以提高性能和一致性。
             + 尽可能让 API 是 Idempotent（幂等）的。
 + https://github.com/google/styleguide
 + https://github.com/golang/go/wiki/CodeReviewComments
