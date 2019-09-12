@@ -92,6 +92,17 @@
         - 线程、连接、channel...
     * corner case
 + 代码风格
+    * [lint](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=402269704&idx=1&sn=40667c18a3b8d10f7b5df6188587fba5), 逼迫对要写的代码做更多的思考，把更多的代码逻辑转化成数据。代码到数据的转化是抽象思维的很重要一步. 将代码和代码进一步解耦，用数据（一些 rule）串联起来。
+        - [airbnb 的 javascript style](http://mmbiz.qpic.cn/mmbiz/SER9L29WQ0icEibnsKnTs5TUvzzcN5ySJaY9VibayPyBSy98qoM5Num5Ca49biamEpMiaw6H8qLibwgOMXMcTX2LhRxQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+            + and...
+                * 一个函数最多有 50 行代码。超过 50 行要么拆分之，要么精简之。
+                * 一个函数的嵌套不能超过 5 层。
+                    - 多个 for 循环，深层的 if-else，都是罪恶之源。
+                    - 如果超过这个限制，只能拆分，或者使用函数式编程：map/filter/reduce。
+                * 一个函数的复杂性不超过 10。
+                    - 所有分支，循环，回调等等统统加在一起，在一个函数里不超过 10 个（注意不是嵌套）。
+                * 代码中不能有任何形式的 console.xxx 出现。为此，我不惜定义 print 函数为 cli 使用。这是逼着程序员好好考虑如何 log，用什么样的 **log level** 合适。
+                * 一个函数最多有 3 层 callback。这是逼着程序员不要误用 callback，尽量多用 Promise。
     * 缺乏设计，流水帐过程式，不可扩展
     * helper util 过于宽泛，什么都往里面塞
     * (业务)逻辑代码与数据库代码是否分离
@@ -184,7 +195,7 @@
         - 正确的依赖关系
         - 精简美丽的命名
         - [<<重构>>](https://book.douban.com/subject/1229923/)
-            + 先写测试
+            + 先写(自动化)测试
             + 太长，功能杂糅
                 * software entities should be open for extension, but closed for modification 代码对扩展开放，对修改封闭, [Open-close Principle](https://mp.weixin.qq.com/s/hwyfe31dG9SXt65YX4kJkg)
                     * 拆解，功能专一
@@ -193,6 +204,19 @@
                 + 看是否属于正确的类
                     * 如果同时属于多个类？
                         - 看业务更贴近哪个，将来与哪个业务的逻辑升级更相关
+        * [什么时候？不舒服的时候](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=402269704&idx=1&sn=40667c18a3b8d10f7b5df6188587fba5)
+            - 当你写一段代码时，不得不从别处拷贝粘贴代码
+                + DRY, Don't repeat yourself
+            - 当你修改已有代码添加新功能时，发现已有代码总感觉哪里不对
+                + 逻辑写得太绕，太复杂，太难以理解
+                + 循环太多
+                + 分支太多
+                + 状态太多
+            - 当你调用已有的代码时（函数，类），不得不阅读被调用的代码才能确定怎么调用时. (代码用户体验的重构: 代码是一个程序员为另一个程序员精心打造的产品！函数（或者类）的 signature，以及对 signature 的说明是这个产品的 UI。)
+                + 接口定义的不好，比如说，一个函数有十多个参数
+                + 文档写的不好，比如说，关键性的函数没有对接口提供足够的说明
+            - 当你写一段代码时，连带着要改很多代码
+                + 意味着不仅代码本身有问题，相关代码的设计甚至架构也有很大的问题
     * 持续集成
     * h/v scalability, load balancing, redirecting, logging, metrics....
 - 技术债
