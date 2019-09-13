@@ -145,6 +145,7 @@
 ## Rust
 
 * __https://resource.rs/__
+* https://lester123.gitbook.io/rust/
 * https://rustforce.net/
 * https://doc.rust-lang.org/book/
     * https://www.rust-lang.org/learn
