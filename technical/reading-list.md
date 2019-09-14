@@ -146,6 +146,8 @@
 
 * __https://resource.rs/__
 * https://lester123.gitbook.io/rust/
+* https://github.com/DaseinPhaos/tlborm-chinese
+    - Rust宏小册, the Chinese translation of tlborm.
 * https://rustforce.net/
 * https://doc.rust-lang.org/book/
     * https://www.rust-lang.org/learn
