@@ -165,6 +165,7 @@
 + https://github.com/golang/go/wiki/CodeReviewComments
 
 ## project lead
++ https://littleblah.com/post/2019-09-01-senior-engineer-checklist/
 + 写不写代码，做不做 code review 不是关键
     * 有可信赖的资深工程师code review 的话
 * 必须对系统设计了如指掌
