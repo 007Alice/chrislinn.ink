@@ -158,6 +158,7 @@
             * + https://prev.rust-lang.org/en-US/documentation.html
 * 死灵书
     - https://doc.rust-lang.org/nomicon/
+* https://github.com/dtolnay/rust-quiz
 + http://www.rustinaction.com/
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
