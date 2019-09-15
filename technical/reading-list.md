@@ -57,6 +57,7 @@
         - 白振轩
         - https://github.com/nkbai
     - http://sebastianelvis.github.io
+    - https://xieyuheng.github.io
     - https://blog.iany.me/
         + zhangyaning
     - https://xxuejie.github.io
@@ -155,6 +156,8 @@
     * https://github.com/rust-lang
         + https://github.com/rust-lang/book
             * + https://prev.rust-lang.org/en-US/documentation.html
+* 死灵书
+    - https://doc.rust-lang.org/nomicon/
 + http://www.rustinaction.com/
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
