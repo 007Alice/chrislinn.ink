@@ -112,6 +112,11 @@
         - [airbnb 的 javascript style](http://mmbiz.qpic.cn/mmbiz/SER9L29WQ0icEibnsKnTs5TUvzzcN5ySJaY9VibayPyBSy98qoM5Num5Ca49biamEpMiaw6H8qLibwgOMXMcTX2LhRxQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
             + and...
                 * 一个函数最多有 50 行代码。超过 50 行要么拆分之，要么精简之。
+                    - 50 lines? 80 char?
+                        * 注意是不是 参数名太长、或者参数个数太多
+                        + too dogmatic. readability marrer.
+                            * https://github.com/golang/go/wiki/CodeReviewComments#line-length
+                        + 算是一个参造，可以用来反思是不是改进
                 * 一个函数的嵌套不能超过 5 层。
                     - 多个 for 循环，深层的 if-else，都是罪恶之源。
                     - 如果超过这个限制，只能拆分，或者使用函数式编程：map/filter/reduce。
@@ -130,7 +135,7 @@
 + 代码精简
     * 代码的中间变更是否清理了？(变来变去过程中，中途曾经有用但最后其实没用了)
     * 不用的函数是否清理了
-+ 当涉及设计 API 
++ 当涉及设计 API
     * 什么是合理的接口
         - 合理的名称
         - 合理的输入输出
@@ -180,7 +185,7 @@
             + 对 logging 和 logging filtering 的支持
             + 对自动文档生成的支持
             + 实际实现的架构以及性能的考虑
-        - 选型, 更清晰地考虑系统的设计，从而做出更好的选择( [拥抱约束](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208859872&idx=1&sn=0b3efde37aefc57d9603bd214b9a76f0) )
+        - 选型, 更清晰地考虑系统的设计，从而做出更好的选择( [拥抱约束](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208859872&idx=1&sn=0b3efde37aefc57d9603bd214b9a76f0) ). **trade-off**
             + CAP 只能三选二
             + 被牺牲掉的，就是它们的约束条件
                 * 真正明白一个产品的内在约束条件，才能使你更好地考虑产品设计和工具的选择。
@@ -209,7 +214,7 @@
 + 经验，正确的方法和项目数量
     * https://github.com/captn3m0/google-sre-ebook
     * 一个框架师需要大量的项目经验，超级长的编码时间。坚持正确的方法和一个融洽配合的团队。国外的架构师都是大胡子，而国内程序员到30岁，老婆就催着要去做管理岗位了。和研发工作拼智商不同，架构师就拼的是经验，没大胡子没五六十岁很难成为xx之父这个级别。
-+ service interfaces
++ **service interfaces**
     * All teams must expose their **data and functionality** through service interfaces
     * [no interprocess communication](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208859872&idx=1&sn=0b3efde37aefc57d9603bd214b9a76f0)
         - no direct linking
@@ -220,7 +225,7 @@
         - The **only** communication allowed is via service interface calls over the network.
 + 强壮且易扩展
     * 测试驱动
-    * 重构
+    * **重构**
         - 分层
         - 正确的依赖关系
         - 精简美丽的命名
@@ -234,7 +239,7 @@
                 + 看是否属于正确的类
                     * 如果同时属于多个类？
                         - 看业务更贴近哪个，将来与哪个业务的逻辑升级更相关
-        * [什么时候？不舒服的时候](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=402269704&idx=1&sn=40667c18a3b8d10f7b5df6188587fba5)
+        * [**什么时候？不舒服的时候**](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=402269704&idx=1&sn=40667c18a3b8d10f7b5df6188587fba5)
             - 当你写一段代码时，不得不从别处拷贝粘贴代码
                 + DRY, Don't repeat yourself
             - 当你修改已有代码添加新功能时，发现已有代码总感觉哪里不对
