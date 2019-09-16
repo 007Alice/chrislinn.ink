@@ -1,6 +1,6 @@
 # Fairness & Privacy
 
-First, priewienv's [_secret sharing_](https://blog.priewienv.me/post/randomness-blockchain-1/) draws my attentions.
+Orign: priewienv's [_secret sharing_](https://blog.priewienv.me/post/randomness-blockchain-1/) draws my attentions.
 
 Some nice papers:
 
@@ -92,6 +92,7 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
         - (3) no coalition has an incentive to deviate from the protocol.
 
 ## Differential Privacy, 差分隐私
+
 注入噪音或扰动
 
 在或者不在这个数据集中，对查询结果没有影响。
@@ -99,6 +100,9 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
 攻击者通过对该数据集的任何查询或者背景知识都无法准确推断出是否在数据集中。
 
 在不在数据集中都不会影响最终的查询结果，那么可以认为就不在这个数据集中，而如果不在数据集中，数据自然不会泄露。
+
+(Google: https://github.com/google/differential-privacy)
+(apple 也有用 差分隐私吧，但不开源？)
 
 
 ## Projects
@@ -108,3 +112,6 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
     * https://learn.hashicorp.com/vault
         - https://www.hashicorp.com/
             + https://hashiconf.hashicorp.com/?utm_source=vaultsubnav
++ https://github.com/Microsoft/SEAL
+    * Microsoft homomorphic encryption library
++ https://github.com/google/private-join-and-compute
