@@ -168,6 +168,11 @@
 + https://github.com/google/eng-practices
 + https://github.com/google/styleguide
 + https://github.com/golang/go/wiki/CodeReviewComments
++ commit message
+    * https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53
+    * http://karma-runner.github.io/4.0/dev/git-commit-msg.html
+    * description
+        - https://chris.beams.io/posts/git-commit/
 
 ## project lead
 + https://littleblah.com/post/2019-09-01-senior-engineer-checklist/
