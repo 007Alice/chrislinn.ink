@@ -15,9 +15,13 @@
         - 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
         - 而且要加班吧
     * 无交际 X
-        - polkadot
-        - near
+        - NEAR
+        - lightning
         - ProtocolLab
+        - polkadot
+        - cosmos
+        - kzen
+        - dfinity
     * PingCAP
         - 薪资不会满意
     * AntFin?
