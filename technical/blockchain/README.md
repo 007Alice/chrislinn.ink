@@ -99,6 +99,9 @@
 
 
 ## TODOS
++ framework
+    * https://github.com/dedis/cothority
+    * tendermint sdk
 + 闪电网络
     * Reject payments for expired invoices ([#1057](https://github.com/ACINQ/eclair/pull/1057))
     * Close channel if funding tx times out ([#1016](https://github.com/ACINQ/eclair/pull/1016))
