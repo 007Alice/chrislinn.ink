@@ -73,7 +73,7 @@
 甚至可以在前面提到的 Twitch 上直播自己编程的过程，参见 [我在 Twitch 平台直播编程的经验](https://mp.weixin.qq.com/s/ZrVHgAxgKJaP4IwDG2gZ9A)，这样的输出方式，促使自己认真准备，回答别人的问题也是一个查漏补缺自我交流提升的过程。
 
 ## Code review checklist
-+ 代码的注释适量，不多不少
++ [代码的注释适量，不多不少](https://zhuanlan.zhihu.com/p/20789488)
     * 要为函数名或者变量名额外注释说明?
         - 名字起得不好
     * 注释明显是在罗列你在一个函数里干的几件事情?
@@ -114,7 +114,7 @@
                 * 一个函数最多有 50 行代码。超过 50 行要么拆分之，要么精简之。
                     - 50 lines? 80 char?
                         * 注意是不是 参数名太长、或者参数个数太多
-                        + too dogmatic. readability marrer.
+                        + too dogmatic. readability matters.
                             * https://github.com/golang/go/wiki/CodeReviewComments#line-length
                         + 算是一个参造，可以用来反思是不是改进
                 * 一个函数的嵌套不能超过 5 层。
