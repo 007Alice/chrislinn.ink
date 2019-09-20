@@ -21,6 +21,7 @@
 + Precogs
     * 负责先知节点计划，进行比原网络中的节点发现和状态统计
     * 涉及 P2P
+    * vapor Precogs
         - .
         ```
         // TODO:
@@ -29,27 +30,9 @@
         //  peers.SendMsg(peer.ID(), msgs.BlockchainChannel, msg)
         // }
         ```
-        + .
-        ```
-        // for _, peer := range peerList {
-        //  p := m.peers.GetPeer(peer.ID())
-        //  if p == nil {
-        //      continue
-        //  }
-
-        //  if err := p.SendStatus(m.chain.BestBlockHeader(), m.chain.LastIrreversibleHeader()); err != nil {
-        //      log.WithFields(log.Fields{"peer": p, "err": err}).Error("SendStatus")
-        //      m.peers.RemovePeer(p.ID())
-        //  }
-        // }
-        ```
         + TODO
-            * moniker 理论是安全的，只是记得测试一下，这么改不会让vapor node出坑
-            * get lantency
-            * get best_height
             * decide check_height("best best_height" - "confirmations")
-            * get blockhash by check_height, get latency
-            * update lantency, active_time and status
+            * get blockhash by check_height
 + 中心化钱包
     * api & database schema
     * build tx
@@ -128,6 +111,40 @@
             - eztz - Javascript API library for Tezos
                 - https://github.com/KZen-networks/eztz
                 - Work in progress for two-party signing.
+* DEX
+    - viabtc_exchange_server
+        + accesshttp
+            * https://github.com/viabtc/viabtc_exchange_server/blob/master/accesshttp/ah_server.c
+                - order
+                    + put_limit
+                    + put_market
+                    + cancel
+                    + book
+                    + depth
+                    + pending
+                    + pending_detail
+                    + deals
+                    + finished
+                    + finished_detail
+                - market
+                    + last
+                    * deals
+                    * kline
+                    * status
+                    * status_today
+                    * user_deals
+                    * list
+                    * summary
+        * accessws
+            - https://github.com/viabtc/viabtc_exchange_server/blob/master/accessws/aw_depth.c
+                + depth?
+                + ...
+            - .
+        + marketprice
+            * https://github.com/viabtc/viabtc_exchange_server/blob/master/marketprice/mp_message.c
+    - https://github.com/HAOYUatHZ/awesome-dapps-source-code
+    - pico
+    - binance
 
 <!-- 
 

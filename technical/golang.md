@@ -27,6 +27,7 @@
 + https://github.com/gopherdata/gophernotes
 + [Effective Go](https://golang.org/doc/effective_go.html)
 + https://github.com/tmrts/go-patterns
++ https://github.com/sevenelevenlee/go-patterns
 + https://github.com/chai2010/go2-book/blob/master/README.md
 + https://github.com/cch123/golang-notes
     * Go runtime source code analysis(zh-cn)
