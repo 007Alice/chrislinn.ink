@@ -139,9 +139,18 @@
             - https://github.com/viabtc/viabtc_exchange_server/blob/master/accessws/aw_depth.c
                 + depth?
                 + ...
-            - .
+            - https://github.com/viabtc/viabtc_exchange_server/blob/master/accessws/aw_kline.c
+        * https://github.com/viabtc/viabtc_exchange_server/tree/master/sql
+            - create_trade_history.sql
+            - create_trade_log.sql
+        * readhistory
+            - https://github.com/viabtc/viabtc_exchange_server/tree/master/readhistory
+        - matchengine
+            - https://github.com/viabtc/viabtc_exchange_server/tree/master/matchengine
         + marketprice
             * https://github.com/viabtc/viabtc_exchange_server/blob/master/marketprice/mp_message.c
+        + network
+            * https://github.com/viabtc/viabtc_exchange_server/tree/master/network
     - https://github.com/HAOYUatHZ/awesome-dapps-source-code
     - pico
     - binance
