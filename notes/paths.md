@@ -54,40 +54,6 @@
 ### Modify parity_listStorageKeys
 + Make argument _Quantity_ oponal. When `Quantity == null` , return all storage keys.
 
-### parity_storage
-Arguments same as __Modified__ _parity_listStorageKeys . Return is a _JSON_ object
-```
-{
-    StorageKey(HexString): Corresponding value (HexString)
-}
-```
-
-
-impls/parity.rs
-client/client.rs
-
-a collection of type `std::vec::Vec<ethereum_types::H256>` cannot be built from `std::iter::Iterator<Item=(std::vec::Vec<u8>, elastic_array::ElasticArray128<u8>)>`
-
-
-version: _modified_
-curl --data '{"method":"parity_listStorageKeys","params":["0xab7c74abC0C4d48d1bdad5DCB26153FC8780f83E",null,null],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545 
-
-curl --data '{"method":"parity_listStorageKeys","params":["0xab7c74abC0C4d48d1bdad5DCB26153FC8780f83E",null,null],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545 
-
-加上--mode=offline黎停止同步
-
-
-+ 0xab7c74abC0C4d48d1bdad5DCB26153FC8780f83E
-+ 0x61EDCDf5bb737ADffE5043706e7C5bb1f1a56eEA
-+ 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe
-+ 0x75bA02c5bAF9cc3E9fE01C51Df3cB1437E8690D4
-+ 0x7da82C7AB4771ff031b66538D2fB9b0B047f6CF9
-
-./target/debug/parity --fat-db=on --mode=offline
-
-cargo build
- -->
-
 
 <!-- 
 利益才是前进的动力，金钱、成就感。名誉当然也是有助于利益的，对于人脉而言。（所以在甲方做安全还是有点亏的，因为难以直接看到收益。虽然企业多么希望招到牛逼的安全开发、运维、架构，高薪一口气解决问题。）
