@@ -29,15 +29,16 @@
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
+    - https://github.com/jonatack/bitcoin-development
+        + IRC
+            * `#bitcoin-dev`
+            * `#bitcoin-core-dev`
+            * __https://bitcoin-core-review-club.github.io/__ 
+                - `#bitcoin-core-pr-reviews` Freenode IRC channel
+                    + 17:00 UTC on Wednesdays.
+                    + 01:00 UTC+8 Thursday
+        - https://bitcoinops.org/en/newsletters/
     - __https://www.liancai01.cn/__
-    - IRC
-        + `#bitcoin-dev`
-        + `#bitcoin-core-dev`
-        + __https://bitcoin-core-review-club.github.io/__ 
-            * `#bitcoin-core-pr-reviews` Freenode IRC channel
-                - 17:00 UTC on Wednesdays.
-                - 01:00 UTC+8 Thursday
-    - https://bitcoinops.org/en/newsletters/
     - https://zkcapital.substack.com/
     - https://blog.quarkslab.com/
     - https://github.com/pszal/teaching
