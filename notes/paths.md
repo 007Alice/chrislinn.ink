@@ -15,9 +15,16 @@
         - 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
         - 而且要加班吧
     * 无交际 X
-        - NEAR
-        - lightning
+        - btcd
+            + code is better than core
+            + 开发进展缓慢，没人带，remote效率也低
+        - lnd
+            + 开发进展缓慢，没人带，remote效率也低
         - ProtocolLab
+            + ipfs doesn't scale up
+            + libp2p is good
+                * 看懂、会用就行
+        - NEAR
         - polkadot
         - cosmos
         - kzen
