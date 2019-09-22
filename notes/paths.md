@@ -4,6 +4,8 @@
 > 
 ## Jobs Opportunities
 + kzen & runchao & **tendermint.rs**
+    * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
+    * https://github.com/KZen-networks/white-city
 + 先试试 深圳吧，不行留在 bytom 也可以
     * bytom?
         - can lead a team, but the bosses suck
