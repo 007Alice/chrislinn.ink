@@ -3,6 +3,7 @@
 > There are paths for everyone
 > 
 ## Jobs Opportunities
++ kzen & runchao & **tendermint.rs**
 + 先试试 深圳吧，不行留在 bytom 也可以
     * bytom?
         - can lead a team, but the bosses suck
@@ -25,10 +26,13 @@
             + libp2p is good
                 * 看懂、会用就行
         - NEAR
+            + 不缺core 且协议有问题，干脆算了
         - polkadot
+            + 无关 sharding ，不如 btcd
         - cosmos
-        - kzen
+            + 无关 sharding ，不如 btcd
         - dfinity
+            + dunno
     * PingCAP
         - 薪资不会满意
     * AntFin?
