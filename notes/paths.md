@@ -130,6 +130,8 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
 + [How to read and understand a scientific paper](http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/)
 + [Should I Read Papers?](http://michaelrbernste.in/2014/10/21/should-i-read-papers.html)
 + [The Refreshingly Rewarding Realm of Research Papers](https://www.youtube.com/watch?v=8eRx5Wo3xYA)
++ [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf). S. Keshav. 2007. SIGCOMM Comput. Commun. Rev. 37, 3 (July 2007), 83-84.
++ [Reading a Computer Science Research Paper](http://www2.cs.uregina.ca/~pwlfong/CS499/reading-paper.pdf). Philip W.L. Fong. 2009. SIGCSE Bull. 41, 2 (June 2009), 138-140.
 
 
 ## step
