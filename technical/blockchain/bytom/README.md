@@ -149,8 +149,6 @@
             - https://github.com/viabtc/viabtc_exchange_server/tree/master/matchengine
         + marketprice
             * https://github.com/viabtc/viabtc_exchange_server/blob/master/marketprice/mp_message.c
-        + network
-            * https://github.com/viabtc/viabtc_exchange_server/tree/master/network
     - https://github.com/HAOYUatHZ/awesome-dapps-source-code
     - pico
     - binance
