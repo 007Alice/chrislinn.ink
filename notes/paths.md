@@ -161,6 +161,8 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
 + 想完solution就开始实现
 + 写文章
 + 改文章
+    * StyleWriter
+    * grammarly
 + 跑实验画图
 + draft
 + 再拿出去投 边投边改

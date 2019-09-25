@@ -160,6 +160,9 @@
 * 死灵书
     - https://doc.rust-lang.org/nomicon/
 * https://github.com/dtolnay/rust-quiz
+* 《Too Many Linked Lists》:一本学习Rust的好书
+    - https://rust-unofficial.github.io/too-many-lists/index.html
+    - https://zhuanlan.zhihu.com/p/83776098
 + http://www.rustinaction.com/
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
@@ -190,6 +193,7 @@
 + https://github.com/ctjhoa/rust-learning
 * https://github.com/rust-lang/rustlings
 * https://github.com/dtolnay/rust-quiz
+* https://github.com/ankur-anand/five-min-rust
 * https://github.com/ANSSI-FR/rust-guide
 * https://github.com/zkat/rust-notes
 * https://github.com/RustStudy
