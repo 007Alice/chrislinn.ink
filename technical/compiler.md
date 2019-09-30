@@ -5,6 +5,10 @@
 + [Learning Parser Combinators With Rust](https://www.reddit.com/r/rust/comments/bepi63/learning_parser_combinators_with_rust/)
 + C compiler in Rust., https://github.com/onehr/crust
 + https://bodil.lol/parser-combinators/
++ [Writing A Compiler In Go](https://compilerbook.com)
++ [Writing An Interpreter In Go](https://interpreterbook.com/)
++ http://davidchristiansen.dk/tutorials/nbe/
+    * https://github.com/xieyuheng/cicada
  
 
 

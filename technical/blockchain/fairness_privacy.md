@@ -112,6 +112,9 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
     * https://learn.hashicorp.com/vault
         - https://www.hashicorp.com/
             + https://hashiconf.hashicorp.com/?utm_source=vaultsubnav
++ https://github.com/microsoft/CCF
+    * Confidential Consortium Framework - a framework to build secure, highly available, and performant applications that focus on multi-party compute and data
+    * https://microsoft.github.io/CCF/
 + https://github.com/Microsoft/SEAL
     * Microsoft homomorphic encryption library
 + https://github.com/google/private-join-and-compute
