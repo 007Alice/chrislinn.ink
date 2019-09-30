@@ -189,6 +189,8 @@
 + https://github.com/ctjhoa/rust-learning
 * https://github.com/rust-lang/rustlings
 * https://github.com/dtolnay/rust-quiz
+* https://github.com/ferrous-systems/rust-three-days-course
+* https://github.com/ankur-anand/five-min-rust
 * https://github.com/ANSSI-FR/rust-guide
 * https://github.com/zkat/rust-notes
 * https://github.com/RustStudy
