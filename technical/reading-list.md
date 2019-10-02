@@ -5,6 +5,7 @@
 * git
     - https://github.com
     - gitmemory
+        + https://gitmemory.com/Himself65
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
         + https://gitmemory.com/PRIEWIENV
@@ -105,6 +106,8 @@
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
 * https://ice1000.org/
+* __https://himself65.com/__
+* https://zhehao.top/
 * http://wjp2013.github.io/
 * papers
     + https://github.com/papers-we-love/papers-we-love
