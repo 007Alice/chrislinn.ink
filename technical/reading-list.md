@@ -39,6 +39,20 @@
                     + 17:00 UTC on Wednesdays.
                     + 01:00 UTC+8 Thursday
         - https://bitcoinops.org/en/newsletters/
+            + 50
+            + 51
+            + 55
+            + 56
+            + 57
+            + 58
+            + 59
+            + 60
+            + 61
+            + 62
+            + 63
+            + 64
+            + 65
+            + ~~66~~
     - __https://www.liancai01.cn/__
     - https://zkcapital.substack.com/
     - https://blog.quarkslab.com/
