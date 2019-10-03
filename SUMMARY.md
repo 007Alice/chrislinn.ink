@@ -7,9 +7,9 @@
     - [也体验一把密码朋克](technical/cypher-punk.md)
     - [爬虫抓代理](technical/proxy-crawler.md)
     - [Interpreter in Python](technical/py-interpreter.md)
+    - [(WIP) Distributed System](technical/distcomp.md)
     - blockchain
         + [Erlay](technical/blockchain/erlay.md)
-        + [PBFT](technical/blockchain/pbft.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
         - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
         * Bytom 源码解读
@@ -20,7 +20,6 @@
             + [(WIP) processBlock](technical/blockchain/bytom/process-block.md)
             + [(WIP) 虚拟机验证](technical/blockchain/bytom/vm-verification.md)
     - [(WIP) GoLang](technical/golang.md)
-    - [(WIP) Raft](technical/raft.md)
     - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
     - [(WIP) compiler](technical/compiler.md)
     - [(WIP) Programming Language Picked](technical/prog-lang.md)

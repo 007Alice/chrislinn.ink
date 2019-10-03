@@ -1,4 +1,6 @@
-# PBFT
+# Distributed Computing
+
+## PBFT
 
 最近看 consensus 的 心得分享一下
 
@@ -28,3 +30,26 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 
 [Tendermint 也是对viewchange进行了 bracha 改造](http://drops.dagstuhl.de/opus/volltexte/2017/8016/pdf/LIPIcs-DISC-2017-1.pdf)<br>
 但是好像 tendermint 现在已经不用 PBFT 了（待考证）
+
+
+## SMR
+
+## Raft
+
++ https://draveness.me/etcd-introduction
++ https://zhuanlan.zhihu.com/p/49792009
++ https://jiajunhuang.com/articles/2018_11_20-etcd_source_code_analysis_raftexample.md.html
++ https://jiajunhuang.com/articles/2018_11_22-etcd_source_code_analysis_raft.md.html
++ https://blog.csdn.net/xxb249/article/details/80787501
++ https://zhuanlan.zhihu.com/p/43282243
++ https://reading.developerlearning.cn/reading/32-2019-03-02-etcd-raft/
++ https://jin-yang.github.io/post/golang-raft-etcd-sourcode-details.html
++ https://www.jianshu.com/p/ae462a2d49a8
++ https://studygolang.com/articles/14731
++ http://blog.betacat.io/post/raft-implementation-in-etcd/
+
+
+### Zookeeper vs Chubby
+
++ ZAB
++ https://draveness.me/zookeeper-chubby
