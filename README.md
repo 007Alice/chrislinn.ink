@@ -3,11 +3,11 @@
 <!-- ex_nonav -->
 <!-- ex_nolevel -->
 
-Hi all, I'm 醒来在刚果.
+Hi all, I'm Haoyu LIN. You can also call me Chris.
 
 I have __experience__ with blockchain PoW, P2P, wallet, script language and smart contract, atomic swap and chain interoperability. 
 
-My current __interests__ include but are not limited to: distributed system security, sharding and payment channel.
+My current __interests__ include but are not limited to: distributed system security, sharding, payment channel and MPC.
 
 I am a Gopher. And I am also a Rustacean.
 

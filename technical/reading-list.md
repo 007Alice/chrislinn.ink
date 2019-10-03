@@ -5,6 +5,7 @@
 * git
     - https://github.com
     - gitmemory
+        + https://gitmemory.com/Himself65
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
         + https://gitmemory.com/PRIEWIENV
@@ -119,6 +120,8 @@
 * https://github.com/songhuiqing/book
 * http://www.shuizilong.com/house/
 * https://ice1000.org/
+* __https://himself65.com/__
+* https://zhehao.top/
 * http://wjp2013.github.io/
 * papers
     + https://github.com/papers-we-love/papers-we-love
@@ -181,6 +184,7 @@
 + https://rust-lang-nursery.github.io/rust-cookbook/
 * https://github.com/nikomatsakis/intorust
     - Rust核心开发人员Niko Matsakis 的Rust教程
+* https://github.com/ferrous-systems/rust-three-days-course
 * https://github.com/KaiserY/trpl-zh-cn
 * https://kaisery.gitbooks.io/rust-book-chinese/content/
 * https://cheats.rs/
@@ -207,6 +211,7 @@
 + https://github.com/ctjhoa/rust-learning
 * https://github.com/rust-lang/rustlings
 * https://github.com/dtolnay/rust-quiz
+* https://github.com/ferrous-systems/rust-three-days-course
 * https://github.com/ankur-anand/five-min-rust
 * https://github.com/ANSSI-FR/rust-guide
 * https://github.com/zkat/rust-notes
@@ -223,6 +228,7 @@
 * https://github.com/nrc/r4cppp
 * https://github.com/segmentio/analytics-rust
 * https://github.com/rust-analyzer/rust-analyzer
+* https://github.com/omo/hello2015/tree/master/5min-rust
 
 __rust NG!__
 + https://github.com/rust-lang-nursery
