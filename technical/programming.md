@@ -170,6 +170,7 @@
 + https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
 + https://github.com/golang/go/wiki/CodeReviewComments
 + commit message
+    * https://github.com/conventional-changelog/commitlint
     * https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53
     * http://karma-runner.github.io/4.0/dev/git-commit-msg.html
     * description
