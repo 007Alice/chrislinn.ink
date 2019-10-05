@@ -64,6 +64,7 @@ My SNS accounts:
 | project | PR | status|
 | - | - | - |
 | ethereum/go-ethereum | [#17571](https://github.com/ethereum/go-ethereum/pull/17571)  | merged |
+| ethereum/EIPs | [EIP-2266](https://github.com/ethereum/EIPs/pull/2298)  | draft merged |
 | ethereum/vyper | [#1046](https://github.com/ethereum/vyper/pull/1046)  | merged |
 | KZen-networks/class-groups | [#15](https://github.com/KZen-networks/class-groups/pull/15)  | merged |
 | KZen-networks/class-groups | [#16](https://github.com/KZen-networks/class-groups/pull/16)  | merged |
