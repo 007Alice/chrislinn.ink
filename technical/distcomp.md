@@ -33,6 +33,12 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 
 
 ## SMR
++ https://en.wikipedia.org/wiki/State_machine_replication
++ https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf
++ http://www.di.fc.ul.pt/~bessani/publications/tutorial-smr.pdf
++ https://www.inf.usi.ch/faculty/pedone/Paper/2011/2011DSN.pdf
++ https://segmentfault.com/a/1190000004033730
+
 
 ## Raft
 
