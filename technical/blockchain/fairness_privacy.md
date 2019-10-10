@@ -2,17 +2,23 @@
 
 Orign: priewienv's [_secret sharing_](https://blog.priewienv.me/post/randomness-blockchain-1/) draws my attentions.
 
-Some nice papers:
+Some nice books&papers:
 
 + [Timed Commitments](https://www.iacr.org/archive/crypto2000/18800237/18800237.pdf)
++ [Timed-Release Secret Sharing Scheme with Information Theoretic Security](https://arxiv.org/pdf/1401.5895.pdf)
+    + [How to build time-lock encryption](https://eprint.iacr.org/2015/482.pdf)
++ [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
 + [Homomorphic Time-Lock](https://eprint.iacr.org/2019/635)
 + [Anonymous Multi-Hop Locks for Blockchain Scalability and Interoperability](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_09-4_Malavolta_paper.pdf)
 + [Concurrency and Privacy with Payment-Channel Networks](https://eprint.iacr.org/2017/820)
     * using Multihop HTLC
 
+
+is there an efficient way to do simple private information retrieval to get 1 out of N items, without the sender knowing which out of the N was requested?
+    + [oblivious transfer](https://en.wikipedia.org/wiki/Oblivious_transfer)
+        * 1-out-of-n oblivious transfer is incomparable to private information retrieval (PIR). On the one hand, 1-out-of-n oblivious transfer imposes an additional privacy requirement for the database: namely, that the receiver learn at most one of the database entries. On the other hand, PIR requires communication sublinear in n, whereas 1-out-of-n oblivious transfer has no such requirement.
+
 ## DKG
-+ Bootstrapping Consensus Without Trusted Setup: Fully Asynchronous Distributed Key Generation
-    * https://eprint.iacr.org/2019/1015.pdf
 
 ## MPC
 + (输出结果)正确性
@@ -106,15 +112,24 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
 
 
 ## Projects
-+ https://github.com/bitwarden
-    * https://github.com/dani-garcia/bitwarden_rs
-+ https://github.com/hashicorp/vault
-    * https://learn.hashicorp.com/vault
-        - https://www.hashicorp.com/
-            + https://hashiconf.hashicorp.com/?utm_source=vaultsubnav
-+ https://github.com/microsoft/CCF
-    * Confidential Consortium Framework - a framework to build secure, highly available, and performant applications that focus on multi-party compute and data
-    * https://microsoft.github.io/CCF/
-+ https://github.com/Microsoft/SEAL
-    * Microsoft homomorphic encryption library
-+ https://github.com/google/private-join-and-compute
++ 密钥托管
+    * https://github.com/bitwarden
+        - https://github.com/dani-garcia/bitwarden_rs
+    * https://github.com/hashicorp/vault
+        - https://learn.hashicorp.com/vault
+            + https://www.hashicorp.com/
+                * https://hashiconf.hashicorp.com/?utm_source=vaultsubnav
+    * KZen?
+        - [Universal Private Key Management for Cryptocurrencies](https://github.com/ChrisLinn/chrislinn.ink/tree/master/res/Universal+Private+Key+Management+for+Cryptocurrencies-draft23.pdf)
+    * SmartCustody
+        - https://www.smartcustody.com/index.html
+        - https://github.com/BlockchainCommons/SmartCustodyWhitePapers
+        - https://www.smartcustody.com/projects/Smart-Custody-Book/
+            + pdf: https://bit.ly/SmartCustodyBookV101
++ MPC
+    * https://github.com/microsoft/CCF
+        - Confidential Consortium Framework - a framework to build secure, highly available, and performant applications that focus on multi-party compute and data
+        - https://microsoft.github.io/CCF/
+    * https://github.com/Microsoft/SEAL
+        - Microsoft homomorphic encryption library
+    * https://github.com/google/private-join-and-compute

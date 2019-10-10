@@ -1,5 +1,22 @@
 # Distributed Computing
 
+## Curriculum
+
++ https://github.com/SebastianElvis/sharding-bib
++ MIT 6.852
++ ethz
+    * https://disco.ethz.ch/courses/ss04/distcomp/
+    * https://disco.ethz.ch/courses/ss03/distcomp/
+    * https://disco.ethz.ch/courses/podc/
+    * https://disco.ethz.ch/courses/distsys/
++ princeton
+    * https://www.cs.princeton.edu/courses/archive/fall18/cos418/schedule.html
++ MIT 6.S974
+    * theoretical
++ MIT 6.824
+    * distributed system
++ talent-plan
+
 ## PBFT
 
 最近看 consensus 的 心得分享一下
@@ -31,8 +48,13 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 [Tendermint 也是对viewchange进行了 bracha 改造](http://drops.dagstuhl.de/opus/volltexte/2017/8016/pdf/LIPIcs-DISC-2017-1.pdf)<br>
 但是好像 tendermint 现在已经不用 PBFT 了（待考证）
 
-
 ## SMR
++ https://en.wikipedia.org/wiki/State_machine_replication
++ https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf
++ http://www.di.fc.ul.pt/~bessani/publications/tutorial-smr.pdf
++ https://www.inf.usi.ch/faculty/pedone/Paper/2011/2011DSN.pdf
++ https://segmentfault.com/a/1190000004033730
+
 
 ## Raft
 
@@ -53,3 +75,6 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 
 + ZAB
 + https://draveness.me/zookeeper-chubby
+
+## Miscs
++ [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)

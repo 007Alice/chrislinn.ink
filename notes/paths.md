@@ -183,6 +183,7 @@ http://www.conferenceranks.com/ ,randA & rankB
 
 + 三大密码会Eurocrypt, CRYPTO, Asiacrypt
 + 四大安全会CCS, IEEE S&P, Usenix Security, NDSS
+    + EuroS&P 现在也是了
 + 操作系统会OSDI, SOSP
 + 计算机网络的会 NSDI, Infocom, Sigcomm
 + 分布式计算理论的几个会 PODC, DISC, OPODIS

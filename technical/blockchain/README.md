@@ -5,6 +5,7 @@
     * [theoretical-blockchain-research-papers](https://github.com/mathetake/theoretical-blockchain-research-papers)
     * [blockchain-papers](https://github.com/decrypto-org/blockchain-papers)
     * https://github.com/chaincodelabs/bitcoin-curriculum
+    * https://github.com/chaincodelabs/lightning-curriculum
     * https://github.com/oleganza/bitcoin-papers
     * [scalingbitcoin](https://scalingbitcoin.org/papers/)
         - Bitcoin: A Peer-to-Peer Electronic Cash System
