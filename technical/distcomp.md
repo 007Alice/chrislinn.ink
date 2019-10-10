@@ -75,3 +75,6 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 
 + ZAB
 + https://draveness.me/zookeeper-chubby
+
+## Miscs
++ [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
