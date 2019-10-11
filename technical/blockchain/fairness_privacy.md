@@ -49,7 +49,7 @@ is there an efficient way to do simple private information retrieval to get 1 ou
 ### Verifiable Secret Sharing
 重建 secret, VSS 允许恶意参与者(submitting fake shares).
 
-####  Shamir's Secret Sharing, SSS
+####  Shamir's Secret Sharing Scheme, SSSS
 其实就是门限 Secret Sharing
 
 May not be VSS:
@@ -57,6 +57,21 @@ May not be VSS:
 + https://crypto.stackexchange.com/questions/47230/does-shamir-secret-sharing-provide-integrity
 + https://en.wikipedia.org/wiki/Lagrange_polynomial
 + https://crypto.stackexchange.com/questions/54578/how-to-forge-a-shamir-secret-share
+
+
+#### multi-signature
+
+bitcoin 原本的 multi-signature (BIP [#11](https://github.com/bitcoin/bips/blob/master/bip-0011.mediawiki), [#16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki), [#17](https://github.com/bitcoin/bips/blob/master/bip-0017.mediawiki)) [其实和 Shamir's Secret Sharing 有点关系](https://en.bitcoin.it/wiki/Multisignature):
+> Shamir's Secret Sharing Scheme (ssss)[2] is a general software implementation of multisig.
+
+而 [MuSig](https://eprint.iacr.org/2018/068.pdf) 中说:
+
+> Multi-signature protocols, first introduced by Itakura and
+Nakamura [IN83](https://scinapse.io/papers/200023587), allow a group of signers (each possessing its own private/public key pair) to produce a single signature σ on a message m. Verification of the validity of a purported signature σ can be publicly performed given the message and the set of public keys of all signers. **A trivial way** to transform a standard signature scheme into a multi-signature scheme is to have each signer produce a stand-alone signature for m with its private key and to concatenate all individual signatures. However, the size of the multi-signature in that case **grows linearly** with the number of signers. 
+
+（所以还是找不到名字。。。。所以就叫它  standard-signature-scheme-transformed [IN83]  就好了？逃）
+
+另，MuSig 中还说, Schnorr multi-signature 应该是在 [[BN06]](https://dl.acm.org/citation.cfm?id=1180453) 提出. Schnorr 本身应该是在 [[Sch91]](https://dl.acm.org/citation.cfm?id=2725006) 提出.
 
 
 ## Threshold Signature Scheme
