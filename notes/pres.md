@@ -1268,6 +1268,7 @@
     * [wolfvan/IoT-Malware-Info](https://github.com/wolfvan/IoT-Malware-Info)
     * [anthonygtellez/BASHLITE](https://github.com/anthonygtellez/BASHLITE)
 + tut
+    + https://github.com/micro8/Gitbook
     * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
     * [secdr/sec-paper](https://github.com/secdr/sec-paper)
     * [sec-ml](https://github.com/secdr/sec-ml)
