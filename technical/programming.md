@@ -167,6 +167,7 @@
             + 尽可能让 API 是 Idempotent（幂等）的。
 + https://github.com/google/eng-practices
 + https://github.com/google/styleguide
++ https://github.com/uber-go/guide
 + https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
 + https://github.com/golang/go/wiki/CodeReviewComments
 + commit message
