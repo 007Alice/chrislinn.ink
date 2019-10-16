@@ -167,6 +167,7 @@
             + 尽可能让 API 是 Idempotent（幂等）的。
 + https://github.com/google/eng-practices
 + https://github.com/google/styleguide
++ https://github.com/uber-go/guide
 + https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
 + https://github.com/golang/go/wiki/CodeReviewComments
 + commit message
@@ -177,6 +178,8 @@
         - https://chris.beams.io/posts/git-commit/
 
 ## project lead
++ git flow
+    * https://github.com/dedis/Coding
 + https://littleblah.com/post/2019-09-01-senior-engineer-checklist/
 + 写不写代码，做不做 code review 不是关键
     * 有可信赖的资深工程师code review 的话
