@@ -190,3 +190,14 @@ http://www.conferenceranks.com/ ,randA & rankB
 + 隐私的会议 PETS
 + FC (Financial Cryptography)
 
+<!-- 
+## white-city
++ https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes
+    * tendermint
+        - how to reset....
+    - how to reset....
++ maybe draw a table
+
+
+
+ -->
