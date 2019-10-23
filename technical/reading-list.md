@@ -2,6 +2,7 @@
 
 ## Daily
 
+* https://github.com/zudochkin/awesome-newsletters
 * git
     - https://github.com
     - gitmemory
