@@ -48,7 +48,7 @@ My SNS accounts:
     + Paper __accepted__ by _The first ACM conference on Advances in Financial Technologies (AFT’19)_
         * AFT is a new conference and its [committee](https://aft.acm.org/committees) chairs includes: Ittai Abraham (_VMware research_), Ittay Eyal (_Technion_) & Emin Gün Sire (_Cornell University_).
         * [Our presentation in ETH Zürich is liked by Emin Gün Sire.](https://twitter.com/el33th4xor/status/1186211608596533248)
-        * We propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md), basing on this paper.
+        * Basing on this paper, we propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md).
 - [_go语言公链开发实战_](https://book.douban.com/subject/34659372/), _reviewer_
 - https://github.com/ChrisLinn/blockchain-cheatsheet, _author & maintainer_
 - https://github.com/rust-interview, _maintainer_
