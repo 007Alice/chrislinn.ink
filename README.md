@@ -66,7 +66,7 @@ My SNS accounts:
 | - | - |
 | ethereum/EIPs | We propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md) |
 | ethereum/go-ethereum | [PR#17571](https://github.com/ethereum/go-ethereum/pull/17571) (merged) |
-| KZen-networks/white-city | This project is under the supervision of Ittay Eyal (_Technion_, _IC3_) |
+| KZen-networks/white-city | [A **Massive MPC** project](https://github.com/KZen-networks/white-city), under the supervision of Ittay Eyal (_Technion_, _IC3_) |
 | ethereum/vyper | [PR#1046](https://github.com/ethereum/vyper/pull/1046) (merged) |
 | KZen-networks/class-groups | [PR#15](https://github.com/KZen-networks/class-groups/pull/15) (merged), [PR#16](https://github.com/KZen-networks/class-groups/pull/16) (merged) |
 | Fullstop000/wickdb | [PR#12](https://github.com/Fullstop000/wickdb/pull/12) (merged) |
