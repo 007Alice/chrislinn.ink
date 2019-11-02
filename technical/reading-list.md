@@ -2,6 +2,7 @@
 
 ## Daily
 
+* https://github.com/zudochkin/awesome-newsletters
 * git
     - https://github.com
     - gitmemory
@@ -53,9 +54,13 @@
             + 64
             + 65
             + ~~66~~
+            + 67
+            + ~~68~~
+            + ~~69~~
     - __https://www.liancai01.cn/__
     - https://zkcapital.substack.com/
     - https://blog.quarkslab.com/
+    - https://joinmarket.me/blog/
     - https://github.com/pszal/teaching
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/

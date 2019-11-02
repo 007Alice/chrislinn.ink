@@ -46,7 +46,9 @@ My SNS accounts:
 ## Publication
 + [_On the optionality and fairness of Atomic Swaps_](https://eprint.iacr.org/2019/896), _co-author_
     + Paper __accepted__ by _The first ACM conference on Advances in Financial Technologies (AFT’19)_
-        * AFT is a new conference and its [committee](https://aft.acm.org/committees) chairs includes: Ittai Abraham (_VMware research_), Ittay Eyal (_Technion_) & Emin Gun Sire (_Cornell University_)
+        * AFT is a new conference and its [committee](https://aft.acm.org/committees) chairs includes: Ittai Abraham (_VMware research_), Ittay Eyal (_Technion_) & Emin Gün Sire (_Cornell University_).
+        * [Our presentation in ETH Zürich is liked by Emin Gün Sire.](https://twitter.com/el33th4xor/status/1186211608596533248)
+        * Basing on this paper, we propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md).
 - [_go语言公链开发实战_](https://book.douban.com/subject/34659372/), _reviewer_
 - https://github.com/ChrisLinn/blockchain-cheatsheet, _author & maintainer_
 - https://github.com/rust-interview, _maintainer_
@@ -55,24 +57,22 @@ My SNS accounts:
 ## Education
 + Master of Engneering (Information Technology) @ [University of Melbourne](https://www.unimelb.edu.au/), Australia, _February 2016 - December 2017_
     * Master Project: __Bitcoin Transaction Tracing & Visualization System__
-    * Snick language compiler, __a compiler in OCaml__
+    * [Snick language compiler](https://github.com/ChrisLinn/COMP90045_2017_SM1), __a compiler in OCaml__
     * Rank __7/100__ in UC Berkeley Pacman AI campus competition
 
 ## Open-source contribution
-那些年我在开源社区水过的 PR
 
-| project | PR | status|
-| - | - | - |
-| ethereum/go-ethereum | [#17571](https://github.com/ethereum/go-ethereum/pull/17571)  | merged |
-| ethereum/EIPs | [EIP-2266](https://github.com/ethereum/EIPs/pull/2298)  | merged as draft |
-| ethereum/vyper | [#1046](https://github.com/ethereum/vyper/pull/1046)  | merged |
-| KZen-networks/class-groups | [#15](https://github.com/KZen-networks/class-groups/pull/15)  | merged |
-| KZen-networks/class-groups | [#16](https://github.com/KZen-networks/class-groups/pull/16)  | merged |
-| Fullstop000/wickdb | [#12](https://github.com/Fullstop000/wickdb/pull/12)  | merged |
-| bilibili/kratos | [#240](https://github.com/bilibili/kratos/pull/240)  | merged |
-| xuperchain/xuperunion | [#143](https://github.com/xuperchain/xuperunion/pull/143)  | merged |
-| xuperchain/xuperunion | [#132](https://github.com/xuperchain/xuperunion/pull/132)  | merged |
-| mit-dci/lit | [#464](https://github.com/mit-dci/lit/pull/464)  | open |
+| Project | Description |
+| - | - |
+| ethereum/EIPs | We propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md) |
+| ethereum/go-ethereum | [PR#17571](https://github.com/ethereum/go-ethereum/pull/17571) (merged) |
+| KZen-networks/white-city | [A **Massive MPC** project](https://github.com/KZen-networks/white-city), under the supervision of Ittay Eyal (_Technion_, _IC3_) |
+| ethereum/vyper | [PR#1046](https://github.com/ethereum/vyper/pull/1046) (merged) |
+| KZen-networks/class-groups | [PR#15](https://github.com/KZen-networks/class-groups/pull/15) (merged), [PR#16](https://github.com/KZen-networks/class-groups/pull/16) (merged) |
+| Fullstop000/wickdb | [PR#12](https://github.com/Fullstop000/wickdb/pull/12) (merged) |
+| bilibili/kratos | [PR#240](https://github.com/bilibili/kratos/pull/240) (merged) |
+| xuperchain/xuperunion | [PR#143](https://github.com/xuperchain/xuperunion/pull/143) (merged), [PR#132](https://github.com/xuperchain/xuperunion/pull/132) (merged) |
+| mit-dci/lit | [PR#464](https://github.com/mit-dci/lit/pull/464) (open) |
 
 
 ---

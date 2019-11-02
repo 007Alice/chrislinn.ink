@@ -116,6 +116,11 @@
 ## direction
 security的论文 实验和出成果都不难, 工业界比学术界领先, 论文还没出工业界就把事情搞出来了(不像密码学,没论文是几乎不可能搞出事情的), 关键在 methodology 和 motivation 要好, __角度要刁钻__(实现不难，然后统计分析一下), 解决实际问题, 
 
++ methodology
+    * [SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/scienceAndSecuritySoK.pdf)
+    * [Science of Security: Combining Theory and Measurement to Reflect the Observable](https://people.scs.carleton.ca/~paulv/papers/science-security-SPmag-jan2018.pdf)
++ directions
+    * [SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies](https://www.ieee-security.org/TC/SP2015/papers-archived/6949a104.pdf)
 + https://www.zhihu.com/question/23647187/answer/568803695
     * 模仿, 一开始的时候idea的新颖程度低一些，工作量夯实一些
     * 优先阅读该方向里最近五年的survey
@@ -190,3 +195,14 @@ http://www.conferenceranks.com/ ,randA & rankB
 + 隐私的会议 PETS
 + FC (Financial Cryptography)
 
+<!-- 
+## white-city
++ https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes
+    * tendermint
+        - how to reset....
+    - how to reset....
++ maybe draw a table
+
+
+
+ -->
