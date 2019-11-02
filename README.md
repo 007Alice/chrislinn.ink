@@ -71,6 +71,7 @@ My SNS accounts:
 | KZen-networks/class-groups | [PR#15](https://github.com/KZen-networks/class-groups/pull/15) (merged), [PR#16](https://github.com/KZen-networks/class-groups/pull/16) (merged) |
 | Fullstop000/wickdb | [PR#12](https://github.com/Fullstop000/wickdb/pull/12) (merged) |
 | bilibili/kratos | [PR#240](https://github.com/bilibili/kratos/pull/240) (merged) |
+| bitcoin/bitcoin | [PR#17350](https://github.com/bitcoin/bitcoin/pull/17350) (open) |
 | xuperchain/xuperunion | [PR#143](https://github.com/xuperchain/xuperunion/pull/143) (merged), [PR#132](https://github.com/xuperchain/xuperunion/pull/132) (merged) |
 | mit-dci/lit | [PR#464](https://github.com/mit-dci/lit/pull/464) (open) |
 
