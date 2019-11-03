@@ -193,7 +193,8 @@ http://www.conferenceranks.com/ ,randA & rankB
 + 计算机网络的会 NSDI, Infocom, Sigcomm
 + 分布式计算理论的几个会 PODC, DISC, OPODIS
 + 隐私的会议 PETS
-+ FC (Financial Cryptography)
++ VLDB
++ FC (Financial Cryptography) (A~B)
 
 <!-- 
 ## white-city
