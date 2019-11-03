@@ -110,10 +110,13 @@
     - binance
 * KMS
     - https://learn.hashicorp.com/vault
-        + https://github.com/hashicorp/vault
-    - https://github.com/bitwarden
     - [Universal Private Key Management for Cryptocurrencies](https://github.com/ChrisLinn/chrislinn.ink/tree/master/res/Universal+Private+Key+Management+for+Cryptocurrencies-draft23.pdf)
     - 互联网企业安全架构建设
+    - github
+        + https://github.com/hashicorp/vault
+        - https://github.com/bitwarden
+        - https://github.com/btcpayserver/BTCPayServer.Vault
+        - https://github.com/binance-chain/DexVault
 
 <!-- 
 
