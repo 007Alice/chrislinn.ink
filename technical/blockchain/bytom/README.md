@@ -98,96 +98,25 @@
             + Aggregated Signatures
             + Accountable-Subgroup Multisignatures
             + **Threshold**
-    * sdk
-        - Javascript threshold signatures SDK
-            - https://github.com/KZen-networks/thresh-sig-js
-        * Zilliqa Threshold Signatures JavaScript Library
-            - https://github.com/KZen-networks/Zilliqa-JavaScript-Library
-        * Wallet for Binance chain powered by two-party ECDSA
-            - https://github.com/KZen-networks/binance-thresh-wallet
-                + Javascript SDK to communicate with Binance Chain.
-                    * https://github.com/KZen-networks/javascript-sdk
-        * Tezos
-            - eztz - Javascript API library for Tezos
-                - https://github.com/KZen-networks/eztz
-                - Work in progress for two-party signing.
 * DEX
     - viabtc_exchange_server
-        + accesshttp
-            * https://github.com/viabtc/viabtc_exchange_server/blob/master/accesshttp/ah_server.c
-                - order
-                    + put_limit
-                    + put_market
-                    + cancel
-                    + book
-                    + depth
-                    + pending
-                    + pending_detail
-                    + deals
-                    + finished
-                    + finished_detail
-                - market
-                    + last
-                    * deals
-                    * kline
-                    * status
-                    * status_today
-                    * user_deals
-                    * list
-                    * summary
-        * accessws
-            - https://github.com/viabtc/viabtc_exchange_server/blob/master/accessws/aw_depth.c
-                + depth?
-                + ...
-            - https://github.com/viabtc/viabtc_exchange_server/blob/master/accessws/aw_kline.c
-        * https://github.com/viabtc/viabtc_exchange_server/tree/master/sql
-            - create_trade_history.sql
-            - create_trade_log.sql
-        - matchengine: : This is the most important part for it records user balance and executes user order. It is in memory database, saves operation log in MySQL and redoes the operation log when start. It also writes user history into MySQL, push balance, orders and deals message to kafka.
-            - https://github.com/viabtc/viabtc_exchange_server/tree/master/matchengine
-                + 1
-                    - "asset", "total", "available", "available", "freeze", "freeze"
-                    - "market", "ask count", "ask amount", "bid count", "bid amount"
-                * https://github.com/viabtc/viabtc_exchange_server/blob/master/matchengine/me_market.c
-                * https://github.com/viabtc/viabtc_exchange_server/blob/master/matchengine/me_dump.c
-                * https://github.com/viabtc/viabtc_exchange_server/blob/master/matchengine/me_load.c
-                * https://github.com/viabtc/viabtc_exchange_server/blob/master/matchengine/me_history.c
-                * https://github.com/viabtc/viabtc_exchange_server/blob/master/matchengine/me_message.c
-                * https://github.com/viabtc/viabtc_exchange_server/blob/master/matchengine/me_server.c
-                    - depth?
-                    - limit?
-                    - merge?
-                    - put?
+        - matchengine:
+            + This is the most important part for it records user balance and executes user order. It is in memory database, saves operation log in MySQL and redoes the operation log when start. It also writes user history into MySQL, push balance, orders and deals message to kafka.
         + marketprice: Reads message(s) from kafka, and generates k line data.
-            * https://github.com/viabtc/viabtc_exchange_server/blob/master/marketprice/mp_message.c
-            ```
-            struct market_info {
-                char   *name;
-                mpd_t  *last;
-                dict_t *sec;
-                dict_t *min;
-                dict_t *hour;
-                dict_t *day;
-                dict_t *update;
-                list_t *deals;
-                list_t *deals_json;
-                double update_time;
-            };
-            ```
-            + get_market_status
-                * period", json_integer(period));
-                * last
-                * open
-                * close
-                * high
-                * low
-                * volume
-                * deal
         * readhistory
             - https://github.com/viabtc/viabtc_exchange_server/tree/master/readhistory
     - https://github.com/HAOYUatHZ/awesome-dapps-source-code
     - pico
     - binance
+* KMS
+    - https://learn.hashicorp.com/vault
+    - [Universal Private Key Management for Cryptocurrencies](https://github.com/ChrisLinn/chrislinn.ink/tree/master/res/Universal+Private+Key+Management+for+Cryptocurrencies-draft23.pdf)
+    - 互联网企业安全架构建设
+    - github
+        + https://github.com/hashicorp/vault
+        - https://github.com/bitwarden
+        - https://github.com/btcpayserver/BTCPayServer.Vault
+        - https://github.com/binance-chain/DexVault
 
 <!-- 
 
