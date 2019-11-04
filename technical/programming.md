@@ -177,6 +177,9 @@
     * http://karma-runner.github.io/4.0/dev/git-commit-msg.html
     * description
         - https://chris.beams.io/posts/git-commit/
++ replies
+    * https://github.com/bitcoin/bitcoin/issues/6100
+    * https://www.freecodecamp.org/news/what-do-cryptic-github-comments-mean-9c1912bcc0a4/
 
 ## project lead
 + git flow
