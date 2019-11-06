@@ -220,8 +220,10 @@ I/O密集型: 吞吐率会和连接数相关，但不是线性，随着连接数
 + https://github.com/golang-standards/project-layout
 
 ### styleguide
++ https://github.com/uber-go/guide
 + https://github.com/golang/go/wiki/CodeReviewComments
 + https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
++ https://github.com/unknwon/go-code-convention
 
 ### goreportcard
 + https://goreportcard.com/

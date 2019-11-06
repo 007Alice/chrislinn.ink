@@ -171,6 +171,7 @@
 + https://github.com/uber-go/guide
 + https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
 + https://github.com/golang/go/wiki/CodeReviewComments
++ https://github.com/unknwon/go-code-convention
 + commit message
     * https://github.com/conventional-changelog/commitlint
     * https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53
