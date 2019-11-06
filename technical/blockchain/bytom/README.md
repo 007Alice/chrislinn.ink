@@ -121,6 +121,8 @@
         - https://www.quarkslab.com
         - https://www.kudelskisecurity.com
         - https://www.trailofbits.com
+        - consensys
+        - chainsecurity
 
 <!-- 
 
