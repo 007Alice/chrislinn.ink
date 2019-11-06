@@ -117,6 +117,10 @@
         - https://github.com/bitwarden
         - https://github.com/btcpayserver/BTCPayServer.Vault
         - https://github.com/binance-chain/DexVault
+    * audit
+        - https://www.quarkslab.com
+        - https://www.kudelskisecurity.com
+        - https://www.trailofbits.com
 
 <!-- 
 
