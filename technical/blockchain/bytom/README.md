@@ -57,6 +57,11 @@
         - server-side max exec time
         - https://dev.mysql.com/doc/refman/8.0/en/full-text-adding-collation.html
     * redis
+    * MOV DEX
+        - user_mov add utxo
+        - utxo when placing order
+        - bind them! when updater
+        - Cancal order? what about data_witness? 
 + vapor
     * 设计跨链交易
     * 设计federation模块
