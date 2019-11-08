@@ -169,6 +169,7 @@
 + https://github.com/google/eng-practices
 + https://github.com/google/styleguide
 + https://github.com/uber-go/guide
++ https://github.com/dominikh/go-tools
 + https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
 + https://github.com/golang/go/wiki/CodeReviewComments
 + https://github.com/unknwon/go-code-convention
