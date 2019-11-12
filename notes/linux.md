@@ -265,6 +265,9 @@
     ProxyCommand nc -X 5 -x 127.0.0.1:1081 %h %p # (For linux. Change to "ProxyCommand connect -S 127.0.0.1:1081 %h %p" for Windows.)
     ```
     * `git config --global --unset http.https://github.com.proxy`
+    * squash
+        - https://github.com/wprig/wprig/wiki/How-to-squash-commits
+        - https://github.com/todotxt/todo.txt-android/wiki/squash-all-commits-related-to-a-single-issue-into-a-single-commit
 + gfwlist
     * for provixy: `https://www.igfw.net/archives/1178`
 + GenPAC
