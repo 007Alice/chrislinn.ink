@@ -94,6 +94,7 @@
 * sec
     - 玄武 https://sec.today
     * https://github.com/riusksk/secbook
+    * https://github.com/david415/reading_lists
 * rust
     - https://oribenshir.github.io/afternoon_rusting/index.html
     - https://github.com/wezm/read-rust

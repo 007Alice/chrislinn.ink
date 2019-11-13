@@ -32,6 +32,7 @@
     - [(WIP) Checklist for Learning](life-hacks/checklist-for-learning.md)
 * Notes
     * [我读哈耶克](notes/hayek.md)
+    * [我读欧成效](notes/yevon_ou.md)
     - [How to Ask a Good Question](notes/how-to-ask-a-good-question.md)
     * [Westworld beautiful words](notes/westworld-subtitle.md)
     - [Linux](notes/linux.md)
