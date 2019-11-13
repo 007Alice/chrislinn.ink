@@ -138,6 +138,9 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
     * http://libgen.io/
     * https://www.semanticscholar.org/
     * https://yuanjian.cnki.net/
++ ePrint
+    * https://eprint.iacr.org/index.html
+    * https://arxiv.org
 + 是否值得一读
     * A good system (security) paper should at least have
         - performance evaluation or modelling
