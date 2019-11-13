@@ -133,6 +133,11 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
     * 逻辑第一
 + 搜索论文用 dblp.org
 + download at https://sci-hub.tw/
++ 学术搜索
+    * https://libgen.pw/
+    * http://libgen.io/
+    * https://www.semanticscholar.org/
+    * https://yuanjian.cnki.net/
 + 是否值得一读
     * A good system (security) paper should at least have
         - performance evaluation or modelling
@@ -195,6 +200,15 @@ http://www.conferenceranks.com/ ,randA & rankB
 + 隐私的会议 PETS
 + VLDB
 + FC (Financial Cryptography) (A~B)
+
+## 一些 workshop/journal/talk
++ zkp 系
++ talk
+    + bitcoin 系
+- journal
+    * mit dci
+    * stanford
+    * EuroS&P privacy
 
 <!-- 
 ## white-city
