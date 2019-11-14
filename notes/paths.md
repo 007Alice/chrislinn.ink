@@ -209,9 +209,9 @@ http://www.conferenceranks.com/ ,randA & rankB
 + talk
     + bitcoin 系
 - journal
-    * mit dci
-    * stanford
-    * EuroS&P privacy
+    * https://dci.mit.edu/cryptoeconomic-systems-journal
+    * https://cbr.stanford.edu/sbc20/
+    * https://blockchain.kcl.ac.uk/ieee-sb2019/#top
 
 <!-- 
 ## white-city
