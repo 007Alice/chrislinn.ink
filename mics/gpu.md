@@ -1,4 +1,6 @@
 # GPU Programming
 
-+ clinfo
-+ 
++ `nvidia-smi` 
++ `clinfo` 
++ `sudo lshw -C display` 
++ `glxinfo | egrep -i 'device|memory'` 
