@@ -31,6 +31,7 @@
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
+    - https://github.com/denisnazarov/awesome-crypto-trackers
     - https://github.com/jonatack/bitcoin-development
         + IRC
             * `#bitcoin-dev`
