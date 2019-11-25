@@ -14,6 +14,8 @@
     sudo apt-get update
     sudo apt-get install shadowsocks-qt5
     ```
++ https://github.com/shadowsocks/shadowsocks-libev
+    + pyss 好像坏了....所以用这个
 + pyss
     ```
     sudo apt install libsodium-dev
