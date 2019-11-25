@@ -71,7 +71,7 @@ bitcoin 原本的 multi-signature (BIP [#11](https://github.com/bitcoin/bips/blo
 > Multi-signature protocols, first introduced by Itakura and
 Nakamura [IN83](https://scinapse.io/papers/200023587), allow a group of signers (each possessing its own private/public key pair) to produce a single signature σ on a message m. Verification of the validity of a purported signature σ can be publicly performed given the message and the set of public keys of all signers. **A trivial way** to transform a standard signature scheme into a multi-signature scheme is to have each signer produce a stand-alone signature for m with its private key and to concatenate all individual signatures. However, the size of the multi-signature in that case **grows linearly** with the number of signers. 
 
-（所以还是找不到名字。。。。所以就叫它  standard-signature-scheme-transformed [IN83]  就好了？逃）
+（所以还是找不到名字。。。。所以就叫它  ~~standard-signature-scheme-transformed~~ [IN83]  就好了？逃）
 
 另，MuSig 中还说, Schnorr multi-signature 应该是在 [[BN06]](https://dl.acm.org/citation.cfm?id=1180453) 提出. Schnorr 本身应该是在 [[Sch91]](https://dl.acm.org/citation.cfm?id=2725006) 提出.
 
