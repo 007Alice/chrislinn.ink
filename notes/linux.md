@@ -679,6 +679,8 @@ function sproxy_goflyway() {
                             * 后续升级和维护会相对简单，可以直接在dockerfile中更改并增加新特性
             + mount the folder on the host
                 * `docker run -it -v <HOST_FOLDER>:<CONTAINER_FOLDER> <IMAGE>`
+            + 使用Docker部署MySQL
+                + https://juejin.im/post/5c8e25bdf265da67e43e8271
             + Docker compose
                 + 本地docker容器编排问题
                 + 批量创建和销毁容器
