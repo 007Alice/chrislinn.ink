@@ -168,6 +168,7 @@
                 * 避免对 client 是 mobile 还是 web 等的考虑client 无关的计算和处理，又应该尽可能的在 server 端统一处理。以提高性能和一致性。
             + 尽可能让 API 是 Idempotent（幂等）的。
 + https://github.com/google/eng-practices
++ https://draveness.me/golang-101
 + https://github.com/google/styleguide
 + https://github.com/uber-go/guide
 + https://github.com/dominikh/go-tools
