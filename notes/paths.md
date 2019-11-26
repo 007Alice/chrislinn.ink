@@ -104,6 +104,8 @@
 <!-- 
 + http://users.monash.edu.au/~kailiu/
 + http://www.jiangshanyu.com/
++ https://www.kotselidis.net/
++ https://www.cse.unsw.edu.au/~z9195738/
 + https://www.comp.nus.edu.sg/~abhik/
     + research
         + correctness
@@ -111,6 +113,15 @@
     + auto
     + manual
     + solidity tools
++ [Roger Wattenhofer](https://disco.ethz.ch/members/wroger)
++ [Emin Gün Sirer](http://www.cs.cornell.edu/people/egs/)
++ [Ittay](http://webee.technion.ac.il/people/ittay/)
++ Ittai
++ Lindel
++ Oded
++ Dan Boneh
++ [Ben Ficsh](https://sites.google.com/site/benafisch/)
++ [Benedikt Bünz](https://crypto.stanford.edu/~buenz/)
  -->
 
 ## direction
@@ -216,10 +227,6 @@ http://www.conferenceranks.com/ ,randA & rankB
 <!-- 
 ## white-city
 + https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes
-    * tendermint
-        - how to reset....
-    - how to reset....
-+ maybe draw a table
 
 
 
