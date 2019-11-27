@@ -80,6 +80,9 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 + https://github.com/SebastianElvis/consensus-properties
 + https://github.com/SebastianElvis/sharding-bib
 + PBFT
++ sharding-survey ref
+    * problem/solution 分类方法
+    * 2pc, atomic commit...
 + HoneyBadger BFT
 + tendermint
 + algorand
