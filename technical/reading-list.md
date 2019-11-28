@@ -41,6 +41,7 @@
                     + 17:00 UTC on Wednesdays.
                     + 01:00 UTC+8 Thursday
         - https://bitcoinops.org/en/newsletters/
+            + 48
             + 50
             + 51
             + 55
