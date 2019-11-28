@@ -66,6 +66,7 @@
     - https://zkcapital.substack.com/
     - https://blog.quarkslab.com/
     - https://joinmarket.me/blog/
+    - https://blog.patternsinthevoid.net/index.html
     - https://github.com/pszal/teaching
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
