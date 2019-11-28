@@ -100,6 +100,10 @@
             + Aggregated Signatures
             + Accountable-Subgroup Multisignatures
             + **Threshold**
+    * binance-chain/tss-lib
+        - ecdsa/keygen/GeneratePreParams
+            + preParams, _ := keygen.GeneratePreParams(1 * time.Minute)
+        - party := keygen.NewLocalParty(params, outCh, endCh, preParams)
 * DEX
     - viabtc_exchange_server
         - matchengine:
