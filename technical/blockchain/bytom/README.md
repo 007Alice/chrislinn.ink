@@ -104,6 +104,7 @@
         - ecdsa/keygen/
             + for ...
                 * thisParty := tss.NewPartyID(id, moniker, uniqueKey)
+                * The `uniqueKey` is a unique identifying key for this peer (such as its p2p public key) as a big.Int.
             + .
                 ```
                 partyIDMap := make(map[string]*PartyID)
