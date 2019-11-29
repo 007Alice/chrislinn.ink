@@ -68,6 +68,9 @@
     - https://blog.quarkslab.com/
     - https://joinmarket.me/blog/
     - https://blog.patternsinthevoid.net/index.html
+    - https://cathieyun.github.io/
+    - http://defeo.lu/
+    - https://www.michaelstraka.com/
     - https://github.com/pszal/teaching
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
