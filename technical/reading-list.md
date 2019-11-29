@@ -71,7 +71,9 @@
     - https://cathieyun.github.io/
     - http://defeo.lu/
     - https://www.michaelstraka.com/
+    - https://www.eff.org/about/staff/eva-galperin
     - https://github.com/pszal/teaching
+    - https://github.com/isislovecruft/library--
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
     - https://proto.school/#/chapters
