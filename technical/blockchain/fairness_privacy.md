@@ -127,6 +127,9 @@ Atomic Swap 的一些解释说明。论文rephrase可用。
 (Google: https://github.com/google/differential-privacy)
 (apple 也有用 差分隐私吧，但不开源？)
 
++ https://github.com/menisadi/awesome-differential-privacy
++ https://github.com/AceEviliano/Differential-Privacy-Explained
+
 
 ## Projects
 + 密钥托管

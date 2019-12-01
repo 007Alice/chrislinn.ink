@@ -4,6 +4,7 @@
 + papers
     * [theoretical-blockchain-research-papers](https://github.com/mathetake/theoretical-blockchain-research-papers)
     * [blockchain-papers](https://github.com/decrypto-org/blockchain-papers)
+    * https://github.com/jianyu-niu/blockchain_conference_paper
     * https://github.com/chaincodelabs/bitcoin-curriculum
     * https://github.com/chaincodelabs/lightning-curriculum
     * https://github.com/oleganza/bitcoin-papers
