@@ -100,6 +100,22 @@
             + Aggregated Signatures
             + Accountable-Subgroup Multisignatures
             + **Threshold**
+    * binance-chain/tss-lib
+        - ecdsa/keygen/
+            + for ...
+                * thisParty := tss.NewPartyID(id, moniker, uniqueKey)
+                * The `uniqueKey` is a unique identifying key for this peer (such as its p2p public key) as a big.Int.
+            + .
+                ```
+                partyIDMap := make(map[string]*PartyID)
+                for _, id := range parties {
+                    partyIDMap[id.Id] = id
+                }
+                ```
+            + ctx := tss.NewPeerContext(tss.SortPartyIDs(parties))
+            + params := tss.NewParameters(ctx, thisParty, len(parties), threshold)
+            + preParams, _ := keygen.GeneratePreParams(1 * time.Minute)
+            - party := keygen.NewLocalParty(params, outCh, endCh, preParams)
 * DEX
     - viabtc_exchange_server
         - matchengine:

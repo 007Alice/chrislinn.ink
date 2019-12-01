@@ -73,6 +73,7 @@ My SNS accounts:
 | bilibili/kratos | [PR#240](https://github.com/bilibili/kratos/pull/240) (merged) |
 | bitcoin/bitcoin | [PR#17350](https://github.com/bitcoin/bitcoin/pull/17350) (open) |
 | xuperchain/xuperunion | [PR#143](https://github.com/xuperchain/xuperunion/pull/143) (merged), [PR#132](https://github.com/xuperchain/xuperunion/pull/132) (merged) |
+| binance-chain/tss-lib | [PR#79](https://github.com/binance-chain/tss-lib/pull/79) (merged) |
 | mit-dci/lit | [PR#464](https://github.com/mit-dci/lit/pull/464) (open) |
 
 

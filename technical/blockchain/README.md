@@ -4,6 +4,7 @@
 + papers
     * [theoretical-blockchain-research-papers](https://github.com/mathetake/theoretical-blockchain-research-papers)
     * [blockchain-papers](https://github.com/decrypto-org/blockchain-papers)
+    * https://github.com/jianyu-niu/blockchain_conference_paper
     * https://github.com/chaincodelabs/bitcoin-curriculum
     * https://github.com/chaincodelabs/lightning-curriculum
     * https://github.com/oleganza/bitcoin-papers
@@ -93,7 +94,6 @@
     * https://github.com/fengchunjian/btcpool_code_notes
     * https://github.com/btccom/parity-ethereum
 + Master Bitcoin
-+ https://tlu.tarilabs.com/
 + https://nakamotoinstitute.org/
 - https://proto.school/#/chapters
 - https://github.com/heidi-ann/distributed-consensus-reading-list
@@ -103,13 +103,6 @@
 + framework
     * https://github.com/dedis/cothority
     * tendermint sdk
-+ 闪电网络
-    * Reject payments for expired invoices ([#1057](https://github.com/ACINQ/eclair/pull/1057))
-    * Close channel if funding tx times out ([#1016](https://github.com/ACINQ/eclair/pull/1016))
-    * Peer reconnection address from node announcements ([#1009](https://github.com/ACINQ/eclair/pull/1009))
-    * Close the channel if the funding tx never confirms ([#1034](https://github.com/ACINQ/eclair/pull/1034))
-+ time warp attack
-    * https://bitcoinops.org/en/newsletters/2019/03/05/
 + vbytes
 + 预言机
 + 致盲攻击

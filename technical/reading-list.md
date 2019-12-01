@@ -41,6 +41,7 @@
                     + 17:00 UTC on Wednesdays.
                     + 01:00 UTC+8 Thursday
         - https://bitcoinops.org/en/newsletters/
+            + 48
             + 50
             + 51
             + 55
@@ -66,7 +67,13 @@
     - https://zkcapital.substack.com/
     - https://blog.quarkslab.com/
     - https://joinmarket.me/blog/
+    - https://blog.patternsinthevoid.net/index.html
+    - https://cathieyun.github.io/
+    - http://defeo.lu/
+    - https://www.michaelstraka.com/
+    - https://www.eff.org/about/staff/eva-galperin
     - https://github.com/pszal/teaching
+    - https://github.com/isislovecruft/library--
     - https://ethresear.ch/
     - https://nakamotoinstitute.org/
     - https://proto.school/#/chapters

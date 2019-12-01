@@ -168,13 +168,28 @@
                 * 避免对 client 是 mobile 还是 web 等的考虑client 无关的计算和处理，又应该尽可能的在 server 端统一处理。以提高性能和一致性。
             + 尽可能让 API 是 Idempotent（幂等）的。
 + https://github.com/google/eng-practices
-+ https://draveness.me/golang-101
-+ https://github.com/google/styleguide
-+ https://github.com/uber-go/guide
-+ https://github.com/dominikh/go-tools
-+ https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
-+ https://github.com/golang/go/wiki/CodeReviewComments
-+ https://github.com/unknwon/go-code-convention
++ golang
+    * https://draveness.me/golang-101
+    * https://github.com/google/styleguide
+    * https://github.com/uber-go/guide
+    * https://github.com/dominikh/go-tools
+    * https://github.com/go-critic/go-critic
+    * https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
+    * https://github.com/golang/go/wiki/CodeReviewComments
+    * https://github.com/unknwon/go-code-convention
++ python
+    * https://www.tangkin.com/index.php/archives/pylint.html
+    * https://wiki.geany.org/howtos/check_python_code
+    * https://stackoverflow.com/questions/4284313/how-can-i-check-the-syntax-of-python-script-without-executing-it
+    * https://mypy.readthedocs.io/en/latest/existing_code.html
+    * https://www.bookstack.cn/read/awesome-python-cn/%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E5%92%8C%20Lint%20%E5%B7%A5%E5%85%B7
+    * https://www.jianshu.com/p/7aa056c1d57f
+    * https://www.jianshu.com/p/e485c82dcff9
+    * https://juejin.im/post/5a3f8d8d51882512d822ef10
+    * https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/index.html
+    * https://blog.csdn.net/yidangui/article/details/8544009
+    * https://zhuanlan.zhihu.com/p/40669834
+    * http://pychecker.sourceforge.net/
 + commit message
     * https://github.com/conventional-changelog/commitlint
     * https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53

@@ -80,10 +80,17 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 + https://github.com/SebastianElvis/consensus-properties
 + https://github.com/SebastianElvis/sharding-bib
 + PBFT
++ sharding-survey ref
+    * problem/solution 分类方法
+    * 2pc, atomic commit...
 + HoneyBadger BFT
 + tendermint
 + algorand
 + HotStuff
++ https://github.com/AmarRSingh/NotThatNetworking_Research
++ https://github.com/heidi-ann/distributed-consensus-reading-list
++ https://tlu.tarilabs.com/consensus-mechanisms/consensus-mechanisms.html
++ https://tlu.tarilabs.com/network-analysis/network-analysis.html
 + https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols
 + https://rink1969.github.io/Blockchain-consistency_model
 + [Cross-chain Deals and Adversarial Commerce](https://arxiv.org/abs/1905.09743)
