@@ -163,6 +163,7 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
 
 ## [How To Read a Paper](https://github.com/papers-we-love/papers-we-love#how-to-read-a-paper)
 
++ https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
 + [How to read an academic article](http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/)
 + [Advice on reading academic papers](https://www.cc.gatech.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html)
 + [How to read and understand a scientific paper](http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/)
