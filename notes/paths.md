@@ -244,7 +244,9 @@ This protocol uses premium, and sets up well-thought-out time-lock settings, to 
 
 The team members includes Dr Jiangshan Yu (Monash University), Dr Runchao Han (Monash University & Data 61) and Haoyu Lin. Their paper gets accepted by the First ACM Conference on Advances in Financial Technologies (AFT’19), and they were invited to give a talk in ETH Zürich.
 
-This research reminds people that an Atomic Swap is equivalent to an American Call Option without the premium. The team provides the quantitative analysis on the fairness of the Atomic Swap protocol, and show that such unfairness is more significant in cryptocurrency market when compared to conventional financial market (stocks and fiat currencies). They discuss how to address the issue in detail, and provide reference solutions on both Bitcoin and Ethereum, the two largest blockchain nowadays.
+This research reminds people that an Atomic Swap is equivalent to an American Call Option without the premium. The team provides the quantitative analysis on the fairness of the Atomic Swap protocol, and show that such unfairness is more significant in cryptocurrency market when compared to conventional financial market. In particular, when using Cox-Ross-Rubinstein option pricing model to estimate the premium, the estimatation is 2%~3% of the asset value for cryptocurrency, whereas it is 0.3% for stocks and fiat currencies.
+
+They discuss how to address the issue in detail, and provide reference solutions on both Bitcoin and Ethereum, the two largest blockchain nowadays.
 
 For more information and to download a copy of the research paper, please visit https://eprint.iacr.org/2019/896
 
