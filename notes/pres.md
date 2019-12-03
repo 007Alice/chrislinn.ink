@@ -1175,6 +1175,7 @@
     * [secure-ios-app-dev](https://github.com/felixgr/secure-ios-app-dev)
     * [browser-security-whitepaper-2017](https://github.com/x41sec/browser-security-whitepaper-2017)
         - X41 Browser Security White Paper - Tools and PoCs
+    * https://blog.xenoscr.net/Finding-EIP/
 
 ### Windows and Linux Privilege Escalation
 * Prerequisites:
