@@ -223,6 +223,10 @@ http://www.conferenceranks.com/ ,randA & rankB
 + zkp 系
 + talk
     + bitcoin 系
+        - http://diyhpl.us/wiki/transcripts/
+            + https://breaking-bitcoin.com/
+            + https://scalingbitcoin.org/
+            + https://www.advancingbitcoin.com/
 - journal
     * https://dci.mit.edu/cryptoeconomic-systems-journal
     * https://cbr.stanford.edu/sbc20/
