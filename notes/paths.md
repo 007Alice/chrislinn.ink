@@ -234,4 +234,21 @@ http://www.conferenceranks.com/ ,randA & rankB
 
 
 
+## news
+
+Researchers at Monash University are part of an international team that has developed a protocol aiming at address the optionality in exchange of crypto-currencies.
+
+
+
+
+The team members includes Dr Jiangshan Yu (Monash University), Dr Runchao Han (Monash University & Data 61) and Haoyu Lin. Their paper gets accepted by the First ACM Conference on Advances in Financial Technologies (AFT’19), and they were invited to give a talk in ETH Zürich.
+
+
+
+
+For more information and to download a copy of the research paper, please visit https://eprint.iacr.org/2019/896
+
+
+
+
  -->
