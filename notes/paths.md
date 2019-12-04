@@ -221,6 +221,10 @@ http://www.conferenceranks.com/ ,randA & rankB
 
 ## 一些 workshop/journal/talk
 + zkp 系
+    * https://zkproof.org/workshop3/call_papers.html
+    * https://www.zfnd.org/zcon/
+    * [ZK #lux](https://www.zklux.eu/)
+    * https://www.meetup.com/Zero-Knowledge-TLV/
 + talk
     + bitcoin 系
         - http://diyhpl.us/wiki/transcripts/
@@ -235,26 +239,6 @@ http://www.conferenceranks.com/ ,randA & rankB
 <!-- 
 ## white-city
 + https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes
-
-
-
-## news
-
-Researchers at Monash University are part of an international team that has  provided the first quantitative analysis on the fairness of the Atomic Swap protocol used in exchange of cryptocurrencies, and has developed a protocol aiming at addressing the optionality.
-
-In blockchain world, the Atomic Swap protocol enables two parties to exchange cryptocurrencies on different blockchains trustlessly and atomically. However, the usage of Hash Timelocked Contracts (HTLCs) in Atomic Swap introduces optionality: The initior can abort the deal without receiving any penalty. This problem is known as "Free Option Problem". Efforts have been put into related researches. However, existing solutions are not satisfying, because they accidently introduce the optionality on another party side.
-
-This protocol uses premium, and sets up well-thought-out time-lock settings, to acheive fairness. The premium, which is negotiated and agreed on beforehand, discourages cheating: the one who regrets on the swap will lose the premium. Thus, the abortion is no longer riskless. Moreover, time locks are carefully chosen, so that no one can steal the cryptocurrencies during the protocol.
-
-The team members includes Dr Jiangshan Yu (Monash University), Dr Runchao Han (Monash University & Data 61) and Haoyu Lin. Their paper gets accepted by the First ACM Conference on Advances in Financial Technologies (AFT’19), and they were invited to give a talk in ETH Zürich.
-
-This research reminds people that an Atomic Swap is equivalent to an American Call Option without the premium. The team provides the quantitative analysis on the fairness of the Atomic Swap protocol, and show that such unfairness is more significant in cryptocurrency market when compared to conventional financial market. In particular, when using Cox-Ross-Rubinstein option pricing model to estimate the premium, the estimatation is 2%~3% of the asset value for cryptocurrency, whereas it is 0.3% for stocks and fiat currencies.
-
-They discuss how to address the issue in detail, and provide reference solutions on both Bitcoin and Ethereum, the two largest blockchain nowadays.
-
-For more information and to download a copy of the research paper, please visit https://eprint.iacr.org/2019/896
-
-
 
 
  -->
