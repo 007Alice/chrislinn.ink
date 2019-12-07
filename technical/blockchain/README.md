@@ -121,13 +121,16 @@
 * https://github.com/wupeaking/tendermint_code_analysis
 + mimblewimble
 + bullet proof
-+ rsa accumulators
-    * https://bitcoinops.org/en/newsletters/2019/02/05/
-    * 节省存储在磁盘上的 UTXO commitment 的大小
-    * UTXO 累加器相关
-        - UTXO Hash Set（UHO）理念结合起来，以便整个节点存储UTXO的哈希值，而不是完整的UTXO，以便显着减少整个节点使用的存储量，而不需要任何改变共识规则。
-        - a scalable drop-in replacement for merkle trees
-+ FlyClient
++ accumulators
+    * http://www.qukuaiwang.com.cn/news/14761.html
+    * utxo accumulator
+        - utreexo
+            + https://bitcoinops.org/en/newsletters/2019/02/05/
+            + 节省存储在磁盘上的 UTXO commitment 的大小
+            + UTXO Hash Set（UHO）理念结合起来，以便整个节点存储UTXO的哈希值，而不是完整的UTXO，以便显着减少整个节点使用的存储量，而不需要任何改变共识规则。
+            + a scalable drop-in replacement for merkle trees
+    + rsa accumulator
+        * FlyClient
 + A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels
 + Bolt: Anonymous Payment Channels for Decentralized Currencies
 + eltoo: A Simple Layer2 Protocol for Bitcoin
