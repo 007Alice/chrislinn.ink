@@ -219,8 +219,9 @@ http://www.conferenceranks.com/ ,randA & rankB
 + VLDB
 + FC (Financial Cryptography) (A~B)
 + 软工
-    * EASE
-    * TACAS
+    * xl: 区块链软工一般和安全挂钩,所以最好的应该就是安全顶会, 发在软工顶会反而还比较难, 但是现在有一种怪现象就是 不是漏洞，明明是软工问题，但却因为是智能合约的，就硬说成是漏洞
+        - EASE
+        - TACAS
 
 ## 一些 workshop/journal/talk
 + zkp 系
