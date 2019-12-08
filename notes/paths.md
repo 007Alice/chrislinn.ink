@@ -210,6 +210,7 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
 http://www.conferenceranks.com/ ,randA & rankB
 
 + 三大密码会Eurocrypt, CRYPTO, Asiacrypt
+    * Real World Crypto Symposium?
 + 四大安全会CCS, IEEE S&P, Usenix Security, NDSS
     + EuroS&P 现在也是了
 + 操作系统会OSDI, SOSP
