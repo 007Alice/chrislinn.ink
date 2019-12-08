@@ -8,7 +8,8 @@ Some nice books&papers:
 + [Timed-Release Secret Sharing Scheme with Information Theoretic Security](https://arxiv.org/pdf/1401.5895.pdf)
     + [How to build time-lock encryption](https://eprint.iacr.org/2015/482.pdf)
 + [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
-+ [Homomorphic Time-Lock](https://eprint.iacr.org/2019/635)
++ [Homomorphic Time-Lock Puzzles and Applications](https://eprint.iacr.org/2019/635)
+    * [TEX – A Securely Scalable Trustless Exchange](https://eprint.iacr.org/2019/265.pdf)
 + [Anonymous Multi-Hop Locks for Blockchain Scalability and Interoperability](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_09-4_Malavolta_paper.pdf)
 + [Concurrency and Privacy with Payment-Channel Networks](https://eprint.iacr.org/2017/820)
     * using Multihop HTLC
