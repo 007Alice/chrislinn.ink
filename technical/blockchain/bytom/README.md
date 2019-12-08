@@ -116,6 +116,12 @@
             + params := tss.NewParameters(ctx, thisParty, len(parties), threshold)
             + preParams, _ := keygen.GeneratePreParams(1 * time.Minute)
             - party := keygen.NewLocalParty(params, outCh, endCh, preParams)
+    + p2p key
+        * p2p/key/LoadOrGenNodeKey
+        * p2p/peer
+        * p2p/node
+        * upgradeSecretConn
+        * edd25519 compatible
 * DEX
     - viabtc_exchange_server
         - matchengine:
