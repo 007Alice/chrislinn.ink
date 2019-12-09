@@ -177,6 +177,7 @@
     * https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_name_your_variables_for_their_types
     * https://github.com/golang/go/wiki/CodeReviewComments
     * https://github.com/unknwon/go-code-convention
+    * https://github.com/cristaloleg/go-advices
 + python
     * https://www.tangkin.com/index.php/archives/pylint.html
     * https://wiki.geany.org/howtos/check_python_code

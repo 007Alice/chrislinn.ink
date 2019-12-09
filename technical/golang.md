@@ -26,6 +26,7 @@
 + https://github.com/qcrao/Go-Questions
 + https://github.com/gopherdata/gophernotes
 + [Effective Go](https://golang.org/doc/effective_go.html)
+    * https://github.com/bingohuang/effective-go-zh-en
 + https://github.com/tmrts/go-patterns
 + https://github.com/bvwells/go-patterns
 + https://github.com/senghoo/golang-design-pattern
@@ -77,6 +78,7 @@
 + gRPC 的四种数据交互模式
     * https://github.com/wuYin/grpc-modes
 + https://draveness.me/golang-101
++ https://github.com/cristaloleg/go-advices
 
 
 
