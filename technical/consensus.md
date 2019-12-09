@@ -1,12 +1,16 @@
 # Dist Comp
 
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 ## Consensus
 * https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf
-> There are $n$ nodes, of which at most $f$ might be faulty (or Byzantine). Each node $P_i$ starts with an input value (say $u_i$). The nodes must decide one of those values (say $v_i$), satisfying three properties: Agreement, Validity and Termination.
+> There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
     + Classic
         * Agreement
             - All correct processes must agree on the same value.
-            - For any two honest players $P_i$ and $P_j$, $v_i = v_j$
+            - For any two honest players \\(P_i\\) and \\(P_j\\), \\(v_i = v_j\\).
         * Validity
             - The decision value must be the input value of a node.
             - $\forall i: u_i \in \langle v_i \rangle$.
@@ -26,7 +30,7 @@
             - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual $\delta$ (message delays), not on the loose upper bound $\Delta$ (known upper bound on message delays).
 
 ## SMR
-- State machine replication is a general paradigm for implementing fault-tolerant services by replicating servers and coordinating client interactions with server replicas~\cite{schneider1990implementing}.
+- [State machine replication](https://dl.acm.org/citation.cfm?id=98167) is a general paradigm for implementing fault-tolerant services by replicating servers and coordinating client interactions with server replicas.
     + Place copies of the State Machine on multiple, independent servers.
     + Receive client requests, interpreted as Inputs to the State Machine.
     + Choose an ordering for the Inputs.

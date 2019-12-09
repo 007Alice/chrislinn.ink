@@ -21,6 +21,7 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
     - MarkdownPreview
         - `"parser": "github",`
         - `"enable_mathjax": true,`
+            + https://magicly.me/markdown-math/
         - `"enable_uml": true,`
         - ~~`"enable_highlight": false,`?~~
     * ClickableURLs
