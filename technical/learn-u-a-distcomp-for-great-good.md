@@ -97,7 +97,9 @@ Byzantine Fault Torelance
     + Paxos
         + Google
             * Bigtable: Chubby lock service
+            * [Chubby vs Zookeeper](https://draveness.me/zookeeper-chubby)
         + Stanford--> Raft
+            * k8s
 
 __Paxos/Raft__
 
@@ -137,7 +139,7 @@ Network Assumption:
                     * bracha 的通信复杂度是 \\(O(n^2*B)\\)
                     * HoneyBadgerBFT 的是 \\(O(n*B)\\)
                     * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 \\(O(B)\\)
-                        - CCS'18
+                        - CCS'18 (Computer and Communications Security 安全顶会)
 
 __TODO:__
 
