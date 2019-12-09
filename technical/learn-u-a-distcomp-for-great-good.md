@@ -194,3 +194,53 @@ __TODO: PKQ__
 - Chain quality (Fairness)
     + \\((\mu, k)\\)-Chain quality (Fairness)
         * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
+
+## Propogation
+
+优化 孤快率, 一些优化网络传播值得一看的论文/文章:
+
++ [Secure High-Rate Transaction Processing in Bitcoin](https://eprint.iacr.org/2013/881.pdf) (GHOST)
++ [Prism: Deconstructing the Blockchain to Approach Physical Limits](https://arxiv.org/pdf/1810.08092.pdf)
++ [Bandwidth-Efficient Transaction Relay for Bitcoin](https://arxiv.org/abs/1905.10518) (Erlay)
++ [On scailing decentralized blockchains](https://link.springer.com/chapter/10.1007/978-3-662-53357-4_8)
++ [Information propagation in the Bitcoin network](https://www.gsd.inesc-id.pt/~ler/docencia/rcs1314/papers/P2P2013_041.pdf)
++ [BIP 152](https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki)
++ [BloXroute](https://bloxroute.com/wp-content/uploads/2019/11/bloXrouteWhitepaper.pdf)
++ [FIBRE](https://bitcoinfibre.org/)
+
+
+## 一些攻击
+
++ 51% 攻击
+    * 需要激励矿工维持全网算力
+        - p2pool
+        - incentivization compatible
+            + 
++ selfish mining
+    * 25%
+    * 33%
++ Sybil Attack 女巫攻击
++ Eclipse Attack 日蚀攻击
+    * []()
++ PoS 中的 long range attack 长程攻击
+    * 解决办法
++ sharding 中的 1% 攻击
+    * PoW
+        - 比如分 100 片，那么分片上的算力只占 全网 1%，也就是说只需要 1% 的算力，就能完全控制该分片(1% 攻击) 
+    * PoS
+        * 解决办法: 随机数
+            + 将节点随机分配到分片，防止作恶者将算力汇集到某一分片
+                * 无法选择被分配到哪个分片
+                * 无法提前知道会被分配到哪一个分片
+            + TODO: VDF
+                * Proof of Space and Time
+
+## sharding 中要考虑的一些问题
+
++ 节点分配的 randomness
++ Sharding 中的 原子性
++ Sharding 中的 网络假设
+    * 同步还是异步，同步的话可能被 卡停 或 反复重来
+
+
+
