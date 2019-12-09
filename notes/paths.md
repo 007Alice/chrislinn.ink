@@ -115,11 +115,12 @@
     + solidity tools
 + [Roger Wattenhofer](https://disco.ethz.ch/members/wroger)
 + [Emin Gün Sirer](http://www.cs.cornell.edu/people/egs/)
-+ [Ittay](http://webee.technion.ac.il/people/ittay/)
-+ Ittai
++ [Ittay Eyal](http://webee.technion.ac.il/people/ittay/)
++ Ittai Abraham
 + Lindel
 + Oded
 + Dan Boneh
++ Rachid Guerraoui
 + [Ben Ficsh](https://sites.google.com/site/benafisch/)
 + [Benedikt Bünz](https://crypto.stanford.edu/~buenz/)
 + heming cui
