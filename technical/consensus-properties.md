@@ -25,7 +25,7 @@
             - The value of \\(T\\) depends on the research problems and protocols.
         * 一笔合法交易在合理时间长度内会被确认
     + total ordering
-        * (Taken from \cite{duan2018beat}) If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'_1, m'_2, \dots , m'\_{s'}\\), then \\(m_i = m'_i\\) for \\(1 \leq i \leq min(s, s')\\).
+        * (Taken from \cite{duan2018beat}) If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'\_1, m'\_2, \dots , m'\_{s'}\\), then \\(m_i = m'\_i\\) for \\(1 \leq i \leq min(s, s')\\).
 
 ## CFT
 
