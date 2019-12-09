@@ -1,9 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-Autors:
-
-+ [Runchao HAN](https://github.com/SebastianElvis/)
-+ [Haoyu LIN](https://chrislinn.ink/)
+Autors: [Runchao HAN](https://github.com/SebastianElvis/), [Haoyu LIN](https://chrislinn.ink/).
 
 This work is ditributed under [WTFPL](http://www.wtfpl.net/).
 
@@ -46,7 +43,12 @@ __TODO: Atomic Comit__
 
 ## BASE
 
-对CAP中一致性和可用性权衡的结果
+传统的SQL数据库的事务通常都是支持ACID的强事务机制(强一致性的体现). NoSQL 通常注重性能和扩展性.
+
++ NoSQL 仅提供对行级别的原子性保证
+    * 同时对同一个Key下的数据进行的两个操作，在实际执行的时候是会串行的执行，保证了每一个Key-Value对不会被破坏
+
+BASE: 对CAP中一致性和可用性权衡的结果
 
 + Basically Availability 基本可用
     * 响应时间稍微增加
@@ -54,6 +56,7 @@ __TODO: Atomic Comit__
 + Soft state 软状态
     * 弱状态：也称为软状态，和硬状态相对，是指允许系统中的数据存在中间状态，并认为该中间状态的存在不会影响系统的整体可用性，即允许系统在不同节点的数据副本之间进行数据同步的过程存在延时。
 + Eventually consistency 最终一致性
+    * 经过一段时间的同步后，最终能够达到一个一致的状态
     * 放弃 Strong consistency 强一致性
 
 ## SMR
