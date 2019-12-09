@@ -76,13 +76,46 @@ __TODO:__
 
 ## BFT
 
-__TODO: pBFT__
+Byzantine Fault Torelance, Lamport (图灵奖)
 
-Byzantine Fault Torelance
+
+拜占庭协议所使用的通讯网络是一个同步网络
+
+Network Assumption:
+
++ Synchrony
++ Semi Synchrony
++ Weak Synchrony
++ Asynchrony
+    + pBFT
+        * Barbara Liskov, 图灵奖
+    + Tendermint BFT
+    + 广播
+        * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
+            - 存在的问题是 scalability
+                + 对于 transactions of size B
+                    * bracha 的通信复杂度是 \\(O(n^2*B)\\)
+                    * HoneyBadgerBFT 的是 \\(O(n*B)\\)
+                    * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 \\(O(B)\\)
+                        - CCS'18
+
+__TODO:__
+
++ https://mp.weixin.qq.com/s/87ZAz_jVL0ja7OCMIEd4Uw
+
+## Permissioned vs Permissionless
+
++ Consortium Blockchain
+    * Permissioned
+    + 半信任的威胁模型
++ Public Blockchain
+    * Permissionless
+    + 拜占庭威胁模型
+
+
 
 ## Consensus
 
-__TODO: Brocha__
 
 * https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf
 > There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
@@ -109,6 +142,8 @@ __TODO: Brocha__
             - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual \\(\delta\\) (message delays), not on the loose upper bound \\(\Delta\\) (known upper bound on message delays).
 
 ## Blockchain
+
+__TODO: Sybil__
 
 __TODO: PKQ__
 
