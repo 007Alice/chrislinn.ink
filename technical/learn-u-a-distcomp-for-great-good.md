@@ -1,8 +1,17 @@
 # Learn You a Distributed Computing for Great Good!
 
+Autors:
+
++ [Runchao HAN](https://github.com/SebastianElvis/)
++ [Haoyu LIN](https://chrislinn.ink/)
+
+This work is ditributed under [WTFPL](http://www.wtfpl.net/).
+
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
+---
 
 ## ACID
 
