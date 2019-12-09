@@ -68,27 +68,45 @@ __TODO: Atomic Comit__
         * taken from [BEAT: Asynchronous BFT made practical (DRZ18)](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
         > If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'\_1, m'\_2, \dots , m'\_{s'}\\), then \\(m_i = m'\_i\\) for \\(1 \leq i \leq min(s, s')\\).
 
-## CFT
-
-Crash Fault Torelance
-
-__TODO:__
-
 ## BFT
 
-Byzantine Fault Torelance, Lamport (图灵奖)
+Byzantine Fault Torelance
+
++ Lamport (图灵奖)
+    + Paxos
+        + Google
+            * Bigtable: Chubby lock service
+        + Stanford--> Raft
+
+__Paxos/Raft__
+
++ 在比较温和的威胁模型里工作的 (__Crash Fault Torelance__, CFT, fail-stop)
++ 只对异步网络里的非拜占庭错误具有鲁棒性
++ 在非拜占庭威胁模型里，出错的节点只能犯被动性的错误（比如停止工作）而不能展开具有主动进攻性的攻击
++ 具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是（n-1）/2
+
+__TODO: 1/3__
 
 
 拜占庭协议所使用的通讯网络是一个同步网络
 
+因为 Paxos/Raft 协议对拜占庭错误不具有鲁棒性，他们是无法在开放的网络系统（比如区块链系统）里使用的。拜占庭错误是具有主动攻击性的错误，比如：说谎，伪造消息，合谋攻击，或者展开具有选择性的 DoS 攻击。我们在之前的文章中已经提到，去中心化的区块链系统是基于开放的网络系统的，所以我们必须使用拜占庭威胁模型。
+
+
+
+
 Network Assumption:
 
 + Synchrony
-+ Semi Synchrony
+    * Algorand 怼了 Ouroboros (ADA, IOHK)
++ Partial Synchrony
 + Weak Synchrony
 + Asynchrony
     + pBFT
         * Barbara Liskov, 图灵奖
+        * Paxos 协议的拜占庭版本
+            - 在 Paxos 协议中加入了一个验证步骤来防止拜占庭错误
+        * 预准备、准备、确认
     + Tendermint BFT
     + 广播
         * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
