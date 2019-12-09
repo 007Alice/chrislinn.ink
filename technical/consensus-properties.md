@@ -58,11 +58,14 @@
 
 ## Blockchain
 - Common prefix (Consistency)
-    + First proposed in~\cite{garay2015bitcoin}.
-        * For any pair of honest players $P_1$, $P_2$ adopting the chains $C_1$, $C_2$ at rounds $r_1 \leq r_2$, it holds that $\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2$.
+    + \\(k\\)-common-preifx
+        * First proposed in [The bitcoin backbone protocol: Analysis and applications(GKL15)](https://eprint.iacr.org/2014/765.pdf).
+            - For any pair of honest players \\(P_1\\), \\(P_2\\) adopting the chains \\(C_1\\), \\(C_2\\) at rounds \\(r_1 \leq r_2\\), it holds that \\(\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2\\).
     + \\(T\\)-consistency
         * \cite{pass2017analysis} refines Common Prefix to $T$-Consistency in order to provide a black-box reduction.
-- \\((\tau, s)\\)-Chain growth
-    + For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
-- \\((\mu, k)\\)-Chain quality (Fairness)
-    + The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
+* Chain growth
+    + \\((\tau, s)\\)-Chain growth
+        * For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
+- Chain quality (Fairness)
+    + \\((\mu, k)\\)-Chain quality (Fairness)
+        * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
