@@ -8,6 +8,25 @@
 
 ## CAP
 
+## SMR
+- [State machine replication](https://dl.acm.org/citation.cfm?id=98167) is a general paradigm for implementing fault-tolerant services by replicating servers and coordinating client interactions with server replicas.
+    + Place copies of the State Machine on multiple, independent servers.
+    + Receive client requests, interpreted as Inputs to the State Machine.
+    + Choose an ordering for the Inputs.
+    + Execute Inputs in the chosen order on each server.
+    + Respond to clients with the Output from the State Machine.
+    + Monitor replicas for differences in State or Output.
+- Properties
+    + safety
+        * (Informal) When decisions are made by any two correct nodes, they decide on non-conflicting transactions.
+        * 诚实的节点对合法交易将达成统一的 (consistent) 意见
+    + liveness
+        * (Informal) \\(T\\)-Liveness: each honest node terminates and outputs a value at the end of \\(T\\).
+            - The value of \\(T\\) depends on the research problems and protocols.
+        * 一笔合法交易在合理时间长度内会被确认
+    + total ordering
+        * (Taken from \cite{duan2018beat}) If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'_1, m'_2, \dots , m'\_{s'}\\), then \\(m_i = m'_i\\) for \\(1 \leq i \leq min(s, s')\\).
+
 ## CFT
 
 ## BFT
@@ -35,26 +54,7 @@
             - First defined in [Hybrid Consensus](https://eprint.iacr.org/2016/917.pdf).
                 - DISC'17 分布式计算理论顶会
             - (Informal) The transaction confirmation time depends only on the network’s actual delay, but not on any a-prior known upper-bound.
-            - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual $\delta$ (message delays), not on the loose upper bound $\Delta$ (known upper bound on message delays).
-
-## SMR
-- [State machine replication](https://dl.acm.org/citation.cfm?id=98167) is a general paradigm for implementing fault-tolerant services by replicating servers and coordinating client interactions with server replicas.
-    + Place copies of the State Machine on multiple, independent servers.
-    + Receive client requests, interpreted as Inputs to the State Machine.
-    + Choose an ordering for the Inputs.
-    + Execute Inputs in the chosen order on each server.
-    + Respond to clients with the Output from the State Machine.
-    + Monitor replicas for differences in State or Output.
-- Properties
-    + safety
-        * (Informal) When decisions are made by any two correct nodes, they decide on non-conflicting transactions.
-        * 诚实的节点对合法交易将达成统一的 (consistent) 意见
-    + liveness
-        * (Informal) \\(T\\)-Liveness: each honest node terminates and outputs a value at the end of \\(T\\).
-            - The value of \\(T\\) depends on the research problems and protocols.
-        * 一笔合法交易在合理时间长度内会被确认
-    + total ordering
-        * (Taken from \cite{duan2018beat}) If a correct replica has delivered $m_1, m_2, \dots ,m_s$ and another correct replica has delivered $m'_1,m'_2, \dots,m'_{s'}$, then $m_i = m'_i$ for $1 \leq i \leq min(s, s')$.
+            - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual \\(\delta\\) (message delays), not on the loose upper bound \\(\Delta\\) (known upper bound on message delays).
 
 ## Blockchain
 - Common prefix (Consistency)
