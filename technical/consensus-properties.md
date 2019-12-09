@@ -59,10 +59,10 @@
 ## Blockchain
 - Common prefix (Consistency)
     + \\(k\\)-common-preifx
-        * First proposed in [The bitcoin backbone protocol: Analysis and applications(GKL15)](https://eprint.iacr.org/2014/765.pdf).
+        * First proposed in [The bitcoin backbone protocol: Analysis and applications (GKL15)](https://eprint.iacr.org/2014/765.pdf).
             - For any pair of honest players \\(P_1\\), \\(P_2\\) adopting the chains \\(C_1\\), \\(C_2\\) at rounds \\(r_1 \leq r_2\\), it holds that \\(\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2\\).
     + \\(T\\)-consistency
-        * \cite{pass2017analysis} refines Common Prefix to $T$-Consistency in order to provide a black-box reduction.
+        * [Analysis of the blockchain protocol in asynchronous networks (PSS17)](https://eprint.iacr.org/2016/454.pdf) refines Common Prefix to \\(T\\)-Consistency in order to provide a black-box reduction.
 * Chain growth
     + \\((\tau, s)\\)-Chain growth
         * For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
