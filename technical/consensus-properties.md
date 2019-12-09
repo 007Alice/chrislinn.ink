@@ -6,9 +6,49 @@
 
 ## ACID
 
+数据库管理系统（DBMS）在写入或更新资料的过程中，为保证事务（transaction）是正确可靠的
+
++ atomicity 原子性
++ consistency 一致性
+    * 数据库的完整性没有被破坏
+    * from one valid state to another
+    * 写入的资料必须完全符合所有的预设约束、触发器、级联回滚等
+    * 防止数据库被污染
++ isolation 隔离性, 独立性
+    * 允许多个并发事务同时对其数据进行读写和修改的能力
+    * 事务隔离分为不同级别
+        - 未提交读（Read uncommitted）
+        - 提交读（read committed）
+        - 可重复读（repeatable read）
+        - 串行化（Serializable）
++ durability 持久性
+    * 事务处理结束后，数据的修改是永久的，系统故障也不会丢失
+
+
+__TODO: 2PC__
+
+__TODO: Atomic Comit__
+
 ## CAP
 
++ Consistency 一致性
++ Availability 可用性
++ Partition tolerance 分区容错性
+
+## BASE
+
+对CAP中一致性和可用性权衡的结果
+
++ Basically Availability 基本可用
+    * 响应时间稍微增加
+    * 电商功能降级
++ Soft state 软状态
+    * 弱状态：也称为软状态，和硬状态相对，是指允许系统中的数据存在中间状态，并认为该中间状态的存在不会影响系统的整体可用性，即允许系统在不同节点的数据副本之间进行数据同步的过程存在延时。
++ Eventually consistency 最终一致性
+    * 放弃 Strong consistency 强一致性
+
 ## SMR
+
 - [State machine replication](https://dl.acm.org/citation.cfm?id=98167) is a general paradigm for implementing fault-tolerant services by replicating servers and coordinating client interactions with server replicas.
     + Place copies of the State Machine on multiple, independent servers.
     + Receive client requests, interpreted as Inputs to the State Machine.
@@ -30,7 +70,15 @@
 
 ## CFT
 
+Crash Fault Torelance
+
+__TODO:__
+
 ## BFT
+
+__TODO:__
+
+Byzantine Fault Torelance
 
 ## Consensus
 * https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf
