@@ -4,6 +4,14 @@
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
+## ACID
+
+## CAP
+
+## CFT
+
+## BFT
+
 ## Consensus
 * https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf
 > There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
@@ -52,9 +60,9 @@
 - Common prefix (Consistency)
     + First proposed in~\cite{garay2015bitcoin}.
         * For any pair of honest players $P_1$, $P_2$ adopting the chains $C_1$, $C_2$ at rounds $r_1 \leq r_2$, it holds that $\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2$.
-    + $T$-consistency
+    + \\(T\\)-consistency
         * \cite{pass2017analysis} refines Common Prefix to $T$-Consistency in order to provide a black-box reduction.
-- Chain growth
-    + For any honest party $P$ with chain $C$, it holds that for any $s$ rounds there are at least $\tau \cdot s$ blocks added to the chain of $P$.
-- Chain quality (Fairness)
-    + The proportion of blocks in any $k$-long subsequence produced by the adversary is less than $\mu \cdot k$, where $\mu$ is the portion of mining power controlled by the adversary.
+- \\((\tau, s)\\)-Chain growth
+    + For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
+- \\((\mu, k)\\)-Chain quality (Fairness)
+    + The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
