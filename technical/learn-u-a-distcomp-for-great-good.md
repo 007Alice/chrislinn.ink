@@ -1,7 +1,7 @@
 # Learn You a Distributed Computing for Great Good!
 
-> By [Haoyu LIN](https://chrislinn.ink/). 
-> 
+<p style="font-size:100%" align="right";>－－ <a href="https://github.com/SebastianElvis/">Runchao Han</a> & <a href="https://chrislinn.ink/">Haoyu Lin</a></p>
+
 > This work is ditributed under [WTFPL](http://www.wtfpl.net/).
 
 <script type="text/javascript"
