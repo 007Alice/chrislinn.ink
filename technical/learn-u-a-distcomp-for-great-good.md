@@ -152,7 +152,7 @@ __TODO:__
 ## Consensus
 
 
-* https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf
+* [苏黎世理工 课程讲义](https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf)
 > There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
     + Classic
         * Agreement
@@ -195,9 +195,9 @@ __TODO: PKQ__
     + \\((\mu, k)\\)-Chain quality (Fairness)
         * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
 
-## Propogation
+## Propogation 优化网络传播, 优化 孤快率
 
-优化 孤快率, 一些优化网络传播值得一看的论文/文章:
+一些优化网络传播值得一看的论文/文章:
 
 + [Secure High-Rate Transaction Processing in Bitcoin](https://eprint.iacr.org/2013/881.pdf) (GHOST)
 + [Prism: Deconstructing the Blockchain to Approach Physical Limits](https://arxiv.org/pdf/1810.08092.pdf)
