@@ -96,7 +96,6 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 + [Cross-chain Deals and Adversarial Commerce](https://arxiv.org/abs/1905.09743)
 + [Divide and Scale: Formalization of Distributed Ledger Sharding Protocols](https://arxiv.org/abs/1910.10434)
 + [SoK: Communication Across Distributed Ledgers](https://eprint.iacr.org/2019/1128)
-+ [拜占庭共识已经无法满足今天公链和联盟链的安全需求](https://mp.weixin.qq.com/s/87ZAz_jVL0ja7OCMIEd4Uw)
 + https://github.com/Mechanism-Labs/Blockchain-Research-Papers-Notes/blob/master/Analysis_of_Acceptance_Policies_Blockchain_Transactions.md
 + [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
 + ABC: Asysnchronous Blockchain without Consensus

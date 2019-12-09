@@ -1,4 +1,4 @@
-# Dist Comp
+# Consensus Properties
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -13,7 +13,7 @@
             - For any two honest players \\(P_i\\) and \\(P_j\\), \\(v_i = v_j\\).
         * Validity
             - The decision value must be the input value of a node.
-            - $\forall i: u_i \in \langle v_i \rangle$.
+            - \\(\forall i: u_i \in \langle v_i \rangle\\).
         * Termination
             - (Informal) All correct nodes terminate in finite time.
             - All the honest players terminate with probability 1.
@@ -22,7 +22,7 @@
             - First proposed in [HotStuff](https://arxiv.org/abs/1803.05069).
                 - PODC'19  分布式计算理论顶会
                 - Facebook's LibraBFT
-            - Any correct leader sends only $O(n)$ messages to drive a protocol to consensus.
+            - Any correct leader sends only \\(O(n)\\) messages to drive a protocol to consensus.
         * Responsiveness
             - First defined in [Hybrid Consensus](https://eprint.iacr.org/2016/917.pdf).
                 - DISC'17 分布式计算理论顶会
@@ -40,9 +40,11 @@
 - Properties
     + safety
         * (Informal) When decisions are made by any two correct nodes, they decide on non-conflicting transactions.
+        * 诚实的节点对合法交易将达成统一的 (consistent) 意见
     + liveness
-        * (Informal) $T$-Liveness: each honest node terminates and outputs a value at the end of $T$.
-            - The value of $T$ depends on the research problems and protocols.
+        * (Informal) \\(T\\)-Liveness: each honest node terminates and outputs a value at the end of \\(T\\).
+            - The value of \\(T\\) depends on the research problems and protocols.
+        * 一笔合法交易在合理时间长度内会被确认
     + total ordering
         * (Taken from \cite{duan2018beat}) If a correct replica has delivered $m_1, m_2, \dots ,m_s$ and another correct replica has delivered $m'_1,m'_2, \dots,m'_{s'}$, then $m_i = m'_i$ for $1 \leq i \leq min(s, s')$.
 
