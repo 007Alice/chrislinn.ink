@@ -1,4 +1,4 @@
-# Consensus Properties
+# Learn You a Distributed Computing for Great Good!
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
