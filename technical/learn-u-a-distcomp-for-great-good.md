@@ -141,7 +141,7 @@ Network Assumption:
                     * bracha 的通信复杂度是 \\(O(n^2*B)\\)
                     * HoneyBadgerBFT 的是 \\(O(n*B)\\)
                     * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 \\(O(B)\\)
-                        - CCS'18 (Computer and Communications Security 安全顶会)
+                        - CCS'18 (ACM Conference on Computer and Communications Security 安全顶会)
 
 __TODO:__
 
@@ -167,12 +167,12 @@ __TODO:__
     + Emerging
         * Linearity
             - First proposed in [HotStuff](https://arxiv.org/abs/1803.05069).
-                - PODC'19  分布式计算理论顶会
+                - PODC'19  (ACM Symposium on Principles of Distributed Computing 分布式计算理论顶会)
                 - Facebook's LibraBFT
             - Any correct leader sends only \\(O(n)\\) messages to drive a protocol to consensus.
         * Responsiveness
             - First defined in [Hybrid Consensus](https://eprint.iacr.org/2016/917.pdf).
-                - DISC'17 分布式计算理论顶会
+                - DISC'17 (International Symposium on Distributed Computing 分布式计算理论顶会)
             - (Informal) The transaction confirmation time depends only on the network’s actual delay, but not on any a-prior known upper-bound.
             - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual \\(\delta\\) (message delays), not on the loose upper bound \\(\Delta\\) (known upper bound on message delays).
 
