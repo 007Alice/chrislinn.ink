@@ -76,11 +76,14 @@ __TODO:__
 
 ## BFT
 
-__TODO:__
+__TODO: pBFT__
 
 Byzantine Fault Torelance
 
 ## Consensus
+
+__TODO: Brocha__
+
 * https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf
 > There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
     + Classic
@@ -106,6 +109,9 @@ Byzantine Fault Torelance
             - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual \\(\delta\\) (message delays), not on the loose upper bound \\(\Delta\\) (known upper bound on message delays).
 
 ## Blockchain
+
+__TODO: PKQ__
+
 - Common prefix (Consistency)
     + \\(k\\)-common-preifx
         * First proposed in [The bitcoin backbone protocol: Analysis and applications (GKL15)](https://eprint.iacr.org/2014/765.pdf).
