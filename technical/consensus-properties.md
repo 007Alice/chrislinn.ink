@@ -68,6 +68,18 @@ __TODO: Atomic Comit__
         * taken from [BEAT: Asynchronous BFT made practical (DRZ18)](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
         > If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'\_1, m'\_2, \dots , m'\_{s'}\\), then \\(m_i = m'\_i\\) for \\(1 \leq i \leq min(s, s')\\).
 
+## Permissioned vs Permissionless
+
++ Consortium Blockchain
+    * Permissioned
+    + 半信任的威胁模型
+        * 被动性的错误（比如停止工作）
++ Public Blockchain
+    * Permissionless
+    + 拜占庭威胁模型
+        * 主动攻击性的错误
+        * 说谎，伪造消息，合谋攻击，或者展开具有选择性的 DoS 攻击
+
 ## BFT
 
 Byzantine Fault Torelance
@@ -88,12 +100,10 @@ __Paxos/Raft__
 __TODO: 1/3__
 
 
-拜占庭协议所使用的通讯网络是一个同步网络
-
-因为 Paxos/Raft 协议对拜占庭错误不具有鲁棒性，他们是无法在开放的网络系统（比如区块链系统）里使用的。拜占庭错误是具有主动攻击性的错误，比如：说谎，伪造消息，合谋攻击，或者展开具有选择性的 DoS 攻击。我们在之前的文章中已经提到，去中心化的区块链系统是基于开放的网络系统的，所以我们必须使用拜占庭威胁模型。
+拜占庭协议所使用的通讯网络是一个同步网络????
 
 
-
+https://www.theblockbeats.com/news/6208
 
 Network Assumption:
 
@@ -106,7 +116,10 @@ Network Assumption:
         * Barbara Liskov, 图灵奖
         * Paxos 协议的拜占庭版本
             - 在 Paxos 协议中加入了一个验证步骤来防止拜占庭错误
-        * 预准备、准备、确认
+        * Steps
+            - pre-prepare 序号分配
+            - prepare 相互交互
+            - commit 序号确认
     + Tendermint BFT
     + 广播
         * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
@@ -120,15 +133,6 @@ Network Assumption:
 __TODO:__
 
 + https://mp.weixin.qq.com/s/87ZAz_jVL0ja7OCMIEd4Uw
-
-## Permissioned vs Permissionless
-
-+ Consortium Blockchain
-    * Permissioned
-    + 半信任的威胁模型
-+ Public Blockchain
-    * Permissionless
-    + 拜占庭威胁模型
 
 
 
