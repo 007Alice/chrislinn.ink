@@ -8,7 +8,6 @@
     - [爬虫抓代理](technical/proxy-crawler.md)
     - [Interpreter in Python](technical/py-interpreter.md)
     - [(WIP) Distributed System](technical/distcomp.md)
-    - [(WIP) Consensus Properties](technical/consensus-properties.md)
     - blockchain
         + [Erlay](technical/blockchain/erlay.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
