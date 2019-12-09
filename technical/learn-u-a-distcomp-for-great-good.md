@@ -1,14 +1,12 @@
 # Learn You a Distributed Computing for Great Good!
 
-Autors: [Runchao HAN](https://github.com/SebastianElvis/), [Haoyu LIN](https://chrislinn.ink/).
-
-This work is ditributed under [WTFPL](http://www.wtfpl.net/).
+> By [Haoyu LIN](https://chrislinn.ink/). 
+> 
+> This work is ditributed under [WTFPL](http://www.wtfpl.net/).
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-
----
 
 ## ACID
 
@@ -17,7 +15,7 @@ This work is ditributed under [WTFPL](http://www.wtfpl.net/).
 + atomicity 原子性
 + consistency 一致性
     * 数据库的完整性没有被破坏
-    * from one valid state to another
+    * from one valid state to another 从一个有效状态到另一个有效状态
     * 写入的资料必须完全符合所有的预设约束、触发器、级联回滚等
     * 防止数据库被污染
 + isolation 隔离性, 独立性
@@ -101,8 +99,9 @@ Byzantine Fault Torelance
         + Google
             * Bigtable: Chubby lock service
             * [Chubby vs Zookeeper](https://draveness.me/zookeeper-chubby)
-        + Stanford--> Raft
-            * k8s
+        * [Tencent/phxpaxos](https://github.com/Tencent/phxpaxos)
+        + 经 Stanford 简化 --> Raft
+            * k8s 中 etcd 状态同步有使用
 
 __Paxos/Raft__
 
