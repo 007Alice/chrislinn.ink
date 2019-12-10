@@ -150,8 +150,6 @@ BASE: 对CAP中一致性和可用性权衡的结果
 
 Byzantine Fault Torelance
 
-Nakamoto consensus protocols are also BFT but it is not a BFT consensus.
-
 ## Network Assumption
 
 + Synchrony
