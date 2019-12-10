@@ -155,7 +155,7 @@ Byzantine Fault Torelance
 
 + Synchrony
     * a known finite time bound
-    * Algorand 怼了 Ouroboros (ADA, IOHK)
+    * Algorand 怼了 Ouroboros (ADA, IOHK) 说它是 sync
 + Partial Synchrony
     * an unknown finite time bound, or a known finite time bound plus a known clock drift (Global Stabilisation Time, GST)
         + [HotStuff](https://arxiv.org/abs/1803.05069).
