@@ -45,11 +45,11 @@ __TODO: Atomic Commit__
             + [Serialisability](https://en.wikipedia.org/wiki/Serializability)
                 * multi-operation, multi-object, arbitrary total order
                 * a guarantee about transactions, or groups of one or more operations over one or more objects.
-                * ACID 中的 I 
+                * __ACID 中的 I__
             + Linearisability
                 * single-operation, single-object, real-time order
                 * a guarantee about single operations on single objects
-                * Linearizability for read and write 是 “atomic consistency”, 是 CAP 中的 C 
+                * Linearizability for read and write 是 “atomic consistency”, 是 __CAP 中的 C__
 + Availability 可用性
 + Partition tolerance 分区容错性
 
