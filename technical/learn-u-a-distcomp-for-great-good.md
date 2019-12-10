@@ -326,5 +326,6 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
     * 同步还是异步，同步的话可能被 卡停 或 反复重来
         * 比如收集区块 CoSi 多重签名时
 
-
-
+## Acknowledgement
++ https://github.com/SebastianElvis
++ https://priewienv.me/
