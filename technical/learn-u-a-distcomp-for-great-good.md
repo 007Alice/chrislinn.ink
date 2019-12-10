@@ -18,6 +18,8 @@
     * from one valid state to another 从一个有效状态到另一个有效状态
     * 写入的资料必须完全符合所有的预设约束、触发器、级联回滚等
     * 防止数据库被污染
+    * 一致性从强到弱分别为
+        - linearizability > sequential consistency > causal consistency > FIFO consistency
 + isolation 隔离性, 独立性
     * 允许多个并发事务同时对其数据进行读写和修改的能力
     * 事务隔离分为不同级别
@@ -77,6 +79,10 @@ BASE: 对CAP中一致性和可用性权衡的结果
     + total ordering
         * taken from [BEAT: Asynchronous BFT made practical (DRZ18)](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
         > If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'\_1, m'\_2, \dots , m'\_{s'}\\), then \\(m_i = m'\_i\\) for \\(1 \leq i \leq min(s, s')\\).
++ [区块链提供什么类型的一致性？](https://rink1969.github.io/Blockchain-consistency_model)
+    * 什么replicated data structure一致性这么弱，是因为众所周知的CAP定义，replicated data structure选择了高可靠性，一致性自然要弱一些。
+    * 区块链跟一般意义上的replicated data structure还不太一样，他们会有各种各样的同步策略。但是区块链是通过atomic broadcast来同步(写操作)，其一致性在整个大类里面是最强的。
+    * 什么分布式数据库能达到线性一致性？因为分布式数据库的读写操作都是由主节点排序的，而区块链的写操作是无序的，并且读操作跟写操作是完全分离的。从CAP的角度来说就是分布式数据库舍弃了部分可用性。分布式数据库主节点不可用的时候，整个系统是不可用的。但是区块链在切换出块节点的过程中是一直保持可用性的。这主要是靠节点间会相互转发交易，当然这也就造成结论的第三点中的情况，上链的顺序跟用户最初发出交易的顺序就不一致了。
 
 ## Permissioned vs Permissionless
 
