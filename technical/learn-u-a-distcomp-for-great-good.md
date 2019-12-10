@@ -270,6 +270,12 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
     * 解决办法
         - PoW
         - VDF
+            + 增强随机数的安全性
+                * 太坊 2.0 信标链中使用 RANDAO + VDF 随机选取出块人
+            + 还可以解决 Nothing-at-stake Attack
+            + Proof of Space and Time
+                * [Simple Proofs of Space-Time and Rational Proofs of Storage](https://eprint.iacr.org/2016/035.pdf)
+                    - CRYPTO'19 密码学顶会
 + sharding 中的 1% 攻击
     * PoW
         - 比如分 100 片，那么分片上的算力只占 全网 1%，也就是说只需要 1% 的算力，就能完全控制该分片(1% 攻击) 
@@ -280,10 +286,13 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
             + 将节点随机分配到分片，防止作恶者将算力汇集到某一分片
                 * 无法选择被分配到哪个分片
                 * 无法提前知道会被分配到哪一个分片
-            + TODO: VRF
-                * Proof of Space and Time
-                    - [Simple Proofs of Space-Time and Rational Proofs of Storage](https://eprint.iacr.org/2016/035.pdf)
-                        + 
+            + 使用 blockhash 可能被操纵
+            + VRF, 可被验证但不可被预测
+                + Zilliqa 中选取节点
+                + Algorand 中抽签
+                    * 生成种子
+                    * 选择有效的提案
+                + Avalanche 也用了 VRF，但是其 committee  更加去中心化
 
 ## sharding 中要考虑的一些问题
 
