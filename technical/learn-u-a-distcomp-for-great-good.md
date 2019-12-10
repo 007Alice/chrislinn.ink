@@ -127,53 +127,53 @@ BASE: 对CAP中一致性和可用性权衡的结果
         * 被动性的错误（比如 fail-stop 停止工作）
 + Public Blockchain
     * Permissionless
-    + 拜占庭威胁模型
+    + [拜占庭威胁模型](#BFT)
         * 主动攻击性的错误
         * 说谎，伪造消息，合谋攻击，或者展开具有选择性的 DoS 攻击
+
+
+## Paxos/Raft
++ Paxos
+    + Lamport (图灵奖)
+    - Google
+        + Bigtable: Chubby lock service
+        + [Chubby vs Zookeeper](https://draveness.me/zookeeper-chubby)
+    + 腾讯的 [phxpaxos](https://github.com/Tencent/phxpaxos)
+    - 经 Stanford 简化 --> Raft
+        + k8s 中 etcd 状态同步有使用
++ 在比较温和的威胁模型里工作的 (__Crash Fault Torelance__, CFT, fail-stop)
+    + 只对非拜占庭错误具有鲁棒性
++ 异步网络中具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是 33%
++ 同步网络中具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是 50%
 
 ## BFT
 
 Byzantine Fault Torelance
 
-+ Lamport (图灵奖)
-    + Paxos
-        + Google
-            * Bigtable: Chubby lock service
-            * [Chubby vs Zookeeper](https://draveness.me/zookeeper-chubby)
-        * 腾讯的 [phxpaxos](https://github.com/Tencent/phxpaxos)
-        + 经 Stanford 简化 --> Raft
-            * k8s 中 etcd 状态同步有使用
+Nakamoto consensus protocols are also BFT but it is not a BFT consensus.
 
-__Paxos/Raft__
-
-+ 在比较温和的威胁模型里工作的 (__Crash Fault Torelance__, CFT, fail-stop)
-+ 只对异步网络里的非拜占庭错误具有鲁棒性
-+ 在非拜占庭威胁模型里，出错的节点只能犯被动性的错误（比如停止工作）而不能展开具有主动进攻性的攻击
-+ 具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是（n-1）/2
-
-__TODO: 1/3__
-
-
-拜占庭协议所使用的通讯网络是一个同步网络????
-
-
-https://www.theblockbeats.com/news/6208
-
-https://medium.com/thundercore/consensus-series-preliminaries-a3bab33ae09
-
-
-Network Assumption:
+## Network Assumption
 
 + Synchrony
     * a known finite time bound
     * Algorand 怼了 Ouroboros (ADA, IOHK)
 + Partial Synchrony
     * an unknown finite time bound, or a known finite time bound plus a known clock drift (Global Stabilisation Time, GST)
+        + [HotStuff](https://arxiv.org/abs/1803.05069).
+            * PODC'19  (ACM Symposium on Principles of Distributed Computing 分布式计算理论顶会)
+            * Facebook's LibraBFT
 + Weak Synchrony
+    * 长时间但是有上限的 async 之后 strongly sync 一段足够的时间 (to ensure safety)
+    * 也就是 每段 有界时间段里面有一部分 strong sync
+        + Algorand
 + Asynchrony
     * delivered eventually but without a finite time bound
-    + pBFT
-        * Barbara Liskov, 图灵奖
+    + PBFT
+        * async
+            - 在这之前的之前的 BFT 协议中拜占庭协议所使用的通讯网络是一个同步网络
+        * OSDI'99 (Symposium on Operating Systems Design and Implementation 操作系统顶会)
+        * Barbara Liskov
+            - 图灵奖
         * Paxos 协议的拜占庭版本
             - 在 Paxos 协议中加入了一个验证步骤来防止拜占庭错误
         * Steps
@@ -185,6 +185,11 @@ Network Assumption:
         * 怀疑primary节点出错时, 进行 View change
             - 防止backup节点无限地等待请求的执行。
             - 确保即使当前的primary节点出错，整个系统也能继续运行。
+        * [PBFT 中 assume 了 weak synchrony](https://www.usenix.org/legacy/events/osdi99/full_papers/castro/castro_html/node3.html#SECTION00030000000000000000):
+        > it must rely on synchrony to provide liveness
+        + HoneyBadgerBFT 提出了改进，说 PBFT 的 liveness assumption 不 practical
+        > guarantees liveness without making any timing assumptions
+            + HoneyBadgerBFT 还是太慢
     + Tendermint BFT
     + 广播
         * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
@@ -192,15 +197,10 @@ Network Assumption:
                 + 对于 transactions of size B
                     * bracha 的通信复杂度是 \\(O(n^2*B)\\)
                     * HoneyBadgerBFT 的是 \\(O(n*B)\\)
-                        - HoneyBadgerBFT 太慢了, 网络???
-                        - HotStuff 快一些, 网络???
+                        + HoneyBadgerBFT 用的是 erasure-coded broadcast
+                            * small client-load 时可以考虑使用 bracha broadcast 来代替，throughput 更大，lantency 更低
                     * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 \\(O(B)\\)
                         - CCS'18 (ACM Conference on Computer and Communications Security 安全顶会)
-
-__TODO:__
-
-+ https://mp.weixin.qq.com/s/87ZAz_jVL0ja7OCMIEd4Uw
-
 
 ### Sybil Attack 女巫攻击
 
@@ -226,8 +226,6 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
     + 这几年新提出的
         * Linearity
             - First proposed in [HotStuff](https://arxiv.org/abs/1803.05069).
-                - PODC'19  (ACM Symposium on Principles of Distributed Computing 分布式计算理论顶会)
-                - Facebook's LibraBFT
             - Any correct leader sends only \\(O(n)\\) messages to drive a protocol to consensus.
         * Responsiveness
             - First defined in [Hybrid Consensus](https://eprint.iacr.org/2016/917.pdf).
