@@ -211,29 +211,37 @@ __TODO: PKQ__
 
 ## 一些攻击
 
+此处只列出一些比较重要的攻击，更多攻击 见 https://chrislinn.gitbooks.io/blockchain-cheatsheet/content/blockchain/attack.html
+
 + 51% 攻击
     * 需要激励矿工维持全网算力
         - p2pool
         - incentivization compatible
             + 
 + selfish mining
-    * 25%
-    * 33%
+    * 获得超出与算力相匹配的收益
 + Sybil Attack 女巫攻击
 + Eclipse Attack 日蚀攻击
-    * []()
+    * 可以将整个网络划分为两个部分，降低 51%所需要的算力。
+    * [Eclipse attack vs. Sybil attack](https://bitcoin.stackexchange.com/questions/61151/eclipse-attack-vs-sybil-attack)
 + PoS 中的 long range attack 长程攻击
     * 解决办法
+        - PoW
+        - VDF
 + sharding 中的 1% 攻击
     * PoW
         - 比如分 100 片，那么分片上的算力只占 全网 1%，也就是说只需要 1% 的算力，就能完全控制该分片(1% 攻击) 
+        * 解决办法: 参考 [Monoxide: Scale out Blockchains with Asynchronous Consensus Zones](https://www.usenix.org/conference/nsdi19/presentation/wang-jiaping)
+            - NSDI '19 (USENIX Symposium on Networked Systems Design and Implementation 计算机网络顶会)
     * PoS
         * 解决办法: 随机数
             + 将节点随机分配到分片，防止作恶者将算力汇集到某一分片
                 * 无法选择被分配到哪个分片
                 * 无法提前知道会被分配到哪一个分片
-            + TODO: VDF
+            + TODO: VRF
                 * Proof of Space and Time
+                    - [Simple Proofs of Space-Time and Rational Proofs of Storage](https://eprint.iacr.org/2016/035.pdf)
+                        + 
 
 ## sharding 中要考虑的一些问题
 
