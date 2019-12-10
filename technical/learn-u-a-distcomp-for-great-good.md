@@ -1,8 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-<p style="font-size:100%" align="right";>－－ <a href="https://github.com/SebastianElvis/">Runchao Han</a> & <a href="https://chrislinn.ink/">Haoyu Lin</a></p>
-
-_This work is ditributed under [WTFPL](http://www.wtfpl.net/)._
+_This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), and is ditributed under [WTFPL](http://www.wtfpl.net/)._
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
