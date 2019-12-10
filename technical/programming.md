@@ -73,6 +73,7 @@
 甚至可以在前面提到的 Twitch 上直播自己编程的过程，参见 [我在 Twitch 平台直播编程的经验](https://mp.weixin.qq.com/s/ZrVHgAxgKJaP4IwDG2gZ9A)，这样的输出方式，促使自己认真准备，回答别人的问题也是一个查漏补缺自我交流提升的过程。
 
 ## Code review checklist
++ https://github.com/joho/awesome-code-review
 + [代码的注释适量，不多不少](https://zhuanlan.zhihu.com/p/20789488)
     * 要为函数名或者变量名额外注释说明?
         - 名字起得不好
