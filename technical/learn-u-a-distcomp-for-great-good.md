@@ -181,8 +181,8 @@ Byzantine Fault Torelance
             - pre-prepare 序号分配
             - prepare 相互交互
             - commit 序号确认
-            - 保证同一个view中的请求有序
-            - Prepare和Committed保证不同view中的请求被有序地执行
+        * pre-prepare & prepare 保证同一个 view 中的请求有序
+        * Prepare & Commit 保证不同 view 中的请求被有序地执行
         * 怀疑primary节点出错时, 进行 View change
             - 防止backup节点无限地等待请求的执行。
             - 确保即使当前的primary节点出错，整个系统也能继续运行。
@@ -243,7 +243,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
     + \\(T\\)-consistency
         * [Analysis of the blockchain protocol in asynchronous networks (PSS17)](https://eprint.iacr.org/2016/454.pdf) refines Common Prefix to \\(T\\)-Consistency in order to provide a black-box reduction.
             - Eurocrypt'17 密码学顶会
-            - Ouroboros 和 DFINITY 等项目的论文均以此模型和部分结论为基础进行安全性证明
+            - Ouroboros 和 DFINITY 等项目的论文 __均以此模型和部分结论为基础进行安全性证明__
                 + 适合区块链的一致性应该是要求诚实的参与者在不考虑潜在的一小部分的，\\(T\\) 个在链末端的“未确认的”块的情况下，对当前的链达成一致
                     * 只需证明 \\(T\\)-consistency 不能保持的概率相对于 \\(T\\) 可以 __被忽略__
 * Chain growth
