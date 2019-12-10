@@ -253,7 +253,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
 - Chain quality (Fairness)
     + \\((\mu, k)\\)-Chain quality (Fairness)
         * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
-        * 以相对于 \\(T\\) 压倒性的概率，任意诚实参与者的链中的连续  \\(T\\) 个消息中，诚实参与者提供的消息所占比例至少为 \\(mu\\)，称 \\(mu\\) 为该协议的 chain quality 。
+        * 以相对于 \\(T\\) 压倒性的概率，任意诚实参与者的链中的连续  \\(T\\) 个消息中，诚实参与者提供的消息所占比例至少为 \\(\mu\\)，称 \\(\mu\\) 为该协议的 chain quality 。
 
 ## Propogation
 
