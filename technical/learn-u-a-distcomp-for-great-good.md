@@ -321,7 +321,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
                     * 选择有效的提案
                 + Avalanche 也用了 VRF，但是其 committee  更加去中心化
 
-## sharding 中要考虑的一些问题
+## Sharding 中要考虑的一些问题
 
 + 节点分配的 randomness
 + cross-shard 的 conflict
