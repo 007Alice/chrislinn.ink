@@ -171,6 +171,12 @@ __TODO:__
 + https://mp.weixin.qq.com/s/87ZAz_jVL0ja7OCMIEd4Uw
 
 
+### Sybil Attack 女巫攻击
+
+BFT 要求一大部分(通常是 2/3 以上)的参与者都不是恶意的, 在非许可环境下，一个攻击者可以使用被称作女巫攻击 (Sybil Attack) 的手段模拟出大量的参与者，从而轻易地控制住参与者中的绝大多数。
+
+PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block producer 身份伪造有成本，PoW 可以抗 Sybil Attack.
+
 
 ## Consensus
 
@@ -201,27 +207,31 @@ __TODO:__
 
 ## Blockchain
 
-__TODO: Sybil__
-
-__TODO: PKQ__
-
-https://blog.priewienv.me/post/analysis-blockchain-async-1/
-
-
 - Common prefix (Consistency)
     + \\(k\\)-common-preifx
         * First proposed in [The bitcoin backbone protocol: Analysis and applications (GKL15)](https://eprint.iacr.org/2014/765.pdf).
             - For any pair of honest players \\(P_1\\), \\(P_2\\) adopting the chains \\(C_1\\), \\(C_2\\) at rounds \\(r_1 \leq r_2\\), it holds that \\(\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2\\).
     + \\(T\\)-consistency
         * [Analysis of the blockchain protocol in asynchronous networks (PSS17)](https://eprint.iacr.org/2016/454.pdf) refines Common Prefix to \\(T\\)-Consistency in order to provide a black-box reduction.
+            - Eurocrypt'17 密码学顶会
+            - Ouroboros 和 DFINITY 等项目的论文均以此模型和部分结论为基础进行安全性证明
+                + 适合区块链的一致性应该是要求诚实的参与者在不考虑潜在的一小部分的，\\(T\\) 个在链末端的“未确认的”块的情况下，对当前的链达成一致
+                    * 只需证明 \\(T\\)-consistency 不能保持的概率相对于 \\(T\\) 可以 __被忽略__
 * Chain growth
     + \\((\tau, s)\\)-Chain growth
         * For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
+        * 以相对于 \\(T\\) __压倒性__ (overwhelming) 的概率，在任意时刻，诚实参与者的链在过去的 \\(T/g\\) 轮中，至少增长了 \\(T\\) 个消息。称 \\(g\\) 为该协议的 chain growth.
 - Chain quality (Fairness)
     + \\((\mu, k)\\)-Chain quality (Fairness)
         * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
+        * 以相对于 \\(T\\) 压倒性的概率，任意诚实参与者的链中的连续  \\(T\\) 个消息中，诚实参与者提供的消息所占比例至少为 \\(mu\\)，称 \\(mu\\) 为该协议的 chain quality 。
 
-## Propogation 优化网络传播, 优化 孤快率
+## Propogation
+
+优化网络传播: 网络传播影响孤快率/分叉, 影响一致性 (reference: [[PSS17]](https://eprint.iacr.org/2016/454.pdf), [[DW13]](https://www.gsd.inesc-id.pt/~ler/docencia/rcs1314/papers/P2P2013_041.pdf))
+
+> 在一个完全异步的环境中，对抗方可以随意延迟消息。对抗方只需控制一小部分算力就可以很容易地使来自诚实方的消息延迟足够长的时间，长到对抗方确保能够拿出比所有诚实方更长的链（这条链可以包含任何对抗方想要的记录），从而随时可以使得 __诚实方切换到对抗方的链__。
+
 
 一些优化网络传播值得一看的论文/文章:
 
