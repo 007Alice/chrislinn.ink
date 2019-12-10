@@ -1,6 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-Revision v0.1
+Revision v0.02
 
 _This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), and is ditributed under [WTFPL](http://www.wtfpl.net/)._
 
