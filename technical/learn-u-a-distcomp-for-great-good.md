@@ -2,7 +2,7 @@
 
 <p style="font-size:100%" align="right";>－－ <a href="https://github.com/SebastianElvis/">Runchao Han</a> & <a href="https://chrislinn.ink/">Haoyu Lin</a></p>
 
-> This work is ditributed under [WTFPL](http://www.wtfpl.net/).
+_This work is ditributed under [WTFPL](http://www.wtfpl.net/)._
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -18,8 +18,6 @@
     * from one valid state to another 从一个有效状态到另一个有效状态
     * 写入的资料必须完全符合所有的预设约束、触发器、级联回滚等
     * 防止数据库被污染
-    * 一致性从强到弱分别为
-        - linearizability > sequential consistency > causal consistency > FIFO consistency
 + isolation 隔离性, 独立性
     * 允许多个并发事务同时对其数据进行读写和修改的能力
     * 事务隔离分为不同级别
@@ -30,14 +28,28 @@
 + durability 持久性
     * 事务处理结束后，数据的修改是永久的，系统故障也不会丢失
 
+## CAP
 
 __TODO: 2PC__
 
-__TODO: Atomic Comit__
-
-## CAP
+__TODO: Atomic Commit__
 
 + Consistency 一致性
+    * 一致性分类
+        * https://en.wikipedia.org/wiki/Consistency_model
+            - Strict consistency
+            - Sequential consistency
+            - Causal consistency
+            - ...
+        - [Serialisability v.s. Linearisability](http://www.bailis.org/blog/linearizability-versus-serializability/)
+            + [Serialisability](https://en.wikipedia.org/wiki/Serializability)
+                * multi-operation, multi-object, arbitrary total order
+                * a guarantee about transactions, or groups of one or more operations over one or more objects.
+                * ACID 中的 I 
+            + Linearisability
+                * single-operation, single-object, real-time order
+                * a guarantee about single operations on single objects
+                * Linearizability for read and write 是 “atomic consistency”, 是 CAP 中的 C 
 + Availability 可用性
 + Partition tolerance 分区容错性
 
@@ -79,10 +91,10 @@ BASE: 对CAP中一致性和可用性权衡的结果
     + total ordering
         * taken from [BEAT: Asynchronous BFT made practical (DRZ18)](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
         > If a correct replica has delivered \\(m_1, m_2, \dots ,m_s\\) and another correct replica has delivered \\(m'\_1, m'\_2, \dots , m'\_{s'}\\), then \\(m_i = m'\_i\\) for \\(1 \leq i \leq min(s, s')\\).
-+ [区块链提供什么类型的一致性？](https://rink1969.github.io/Blockchain-consistency_model)
-    * 什么replicated data structure一致性这么弱，是因为众所周知的CAP定义，replicated data structure选择了高可靠性，一致性自然要弱一些。
-    * 区块链跟一般意义上的replicated data structure还不太一样，他们会有各种各样的同步策略。但是区块链是通过atomic broadcast来同步(写操作)，其一致性在整个大类里面是最强的。
-    * 什么分布式数据库能达到线性一致性？因为分布式数据库的读写操作都是由主节点排序的，而区块链的写操作是无序的，并且读操作跟写操作是完全分离的。从CAP的角度来说就是分布式数据库舍弃了部分可用性。分布式数据库主节点不可用的时候，整个系统是不可用的。但是区块链在切换出块节点的过程中是一直保持可用性的。这主要是靠节点间会相互转发交易，当然这也就造成结论的第三点中的情况，上链的顺序跟用户最初发出交易的顺序就不一致了。
++ [SMR vs NoSQL vs Blockchain](https://rink1969.github.io/Blockchain-consistency_model)
+    * replicated data structure一致性这么弱，是因为 replicated data structure选择了高可靠性，一致性自然要弱一些。
+    * 区块链跟一般意义上的replicated data structure还不太一样，区块链是通过atomic broadcast来同步(写操作)，其一致性在整个大类里面是最强的。
+    * 分布式数据库能达到线性一致性，是因为分布式数据库的读写操作都是由主节点排序的，而区块链的写操作是无序的，并且读操作跟写操作是完全分离的。从CAP的角度来说就是分布式数据库舍弃了部分可用性。分布式数据库主节点不可用的时候，整个系统是不可用的。但是区块链在切换出块节点的过程中是一直保持可用性的。这主要是靠节点间会相互转发交易，当然这也就造成结论的第三点中的情况，上链的顺序跟用户最初发出交易的顺序就不一致了。
 
 ## Permissioned vs Permissionless
 
@@ -105,7 +117,7 @@ Byzantine Fault Torelance
         + Google
             * Bigtable: Chubby lock service
             * [Chubby vs Zookeeper](https://draveness.me/zookeeper-chubby)
-        * [Tencent/phxpaxos](https://github.com/Tencent/phxpaxos)
+        * 腾讯的 [phxpaxos](https://github.com/Tencent/phxpaxos)
         + 经 Stanford 简化 --> Raft
             * k8s 中 etcd 状态同步有使用
 
@@ -139,6 +151,11 @@ Network Assumption:
             - pre-prepare 序号分配
             - prepare 相互交互
             - commit 序号确认
+            - 保证同一个view中的请求有序
+            - Prepare和Committed保证不同view中的请求被有序地执行
+        * 怀疑primary节点出错时, 进行 View change
+            - 防止backup节点无限地等待请求的执行。
+            - 确保即使当前的primary节点出错，整个系统也能继续运行。
     + Tendermint BFT
     + 广播
         * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
