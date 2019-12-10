@@ -100,3 +100,4 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 + [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
 + ABC: Asysnchronous Blockchain without Consensus
 + [Crisis: Probabilistically Self Organizing Total Order in Unstructured P2P Networks](https://arxiv.org/abs/1907.07248)
++ https://github.com/alephium/research/raw/master/polw.pdf

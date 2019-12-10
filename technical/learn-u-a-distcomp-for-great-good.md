@@ -136,6 +136,9 @@ __TODO: 1/3__
 
 https://www.theblockbeats.com/news/6208
 
+https://medium.com/thundercore/consensus-series-preliminaries-a3bab33ae09
+
+
 Network Assumption:
 
 + Synchrony
