@@ -241,9 +241,12 @@ https://blog.priewienv.me/post/analysis-blockchain-async-1/
 
 + 51% 攻击
     * 需要激励矿工维持全网算力
-        - p2pool
-        - incentivization compatible
-            + 
+        - p2pool 和 一些山寨币 就是因为没有算力维护所以容易被 51%
+        - incentive compatible, game theory
+            + SoK: Tools for Game Theoretic Models of Security for Cryptocurrencies
+            + Incentive Compatibility of Bitcoin Mining Pool Reward Functions
+            + sucker punch makes you richer
+            + Lay Down the Common Metrics: Evaluating Proof-of-Work Consensus Protocols' Security
 + selfish mining
     * 获得超出与算力相匹配的收益
 + Sybil Attack 女巫攻击
