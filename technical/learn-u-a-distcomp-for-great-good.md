@@ -181,7 +181,6 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
 
 ## Consensus
 
-
 * [苏黎世理工 课程讲义](https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf)
 > There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
     + 教科书上的
