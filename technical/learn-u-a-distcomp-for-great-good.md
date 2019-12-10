@@ -1,6 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-Revision v0.02
+Revision v0.03
 
 _This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), and is ditributed under [WTFPL](http://www.wtfpl.net/)._
 
@@ -234,7 +234,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
             - (Informal) The transaction confirmation time depends only on the network’s actual delay, but not on any a-prior known upper-bound.
             - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual \\(\delta\\) (message delays), not on the loose upper bound \\(\Delta\\) (known upper bound on message delays).
 
-## Blockchain
+## Blockchain Properties
 
 - Common prefix (Consistency)
     + \\(k\\)-common-preifx
