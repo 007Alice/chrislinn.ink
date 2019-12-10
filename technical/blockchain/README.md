@@ -83,6 +83,23 @@
     * https://github.com/fengchunjian/btcpool_code_notes
     * https://github.com/btccom/parity-ethereum
 - https://proto.school/#/chapters
+- layer2
+    * MicroCash: Practical Concurrent Processing of Micropayments?
+        - https://arxiv.org/pdf/1911.08520.pdf
+    * Boomerang: Redundancy Improves Latency and Throughput in Payment Networks
+        - https://arxiv.org/abs/1910.01834
+    * PISA: Arbitration Outsourcing for State Channels
+    * A2L: Anonymous Atomic Locks for Scalability and Interoperability in Payment Channel Hubs
+        - https://eprint.iacr.org/2019/589
+    * A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels
+    * Bolt: Anonymous Payment Channels for Decentralized Currencies
+    * eltoo: A Simple Layer2 Protocol for Bitcoin
+    * SoK: Off The Chain Transactions
+    * lightning & lapp
+        - The bitcoin lightning network: Scalable off-chain instant payments
+        - loop
+        - https://bitcoin.stackexchange.com/a/85259
+        - https://bitcoin.stackexchange.com/a/84953
 
 
 ## TODOS
@@ -94,7 +111,6 @@
 + 致盲攻击
 + 盲签名
 + https://en.wikipedia.org/wiki/Authenticated_encryption
-* https://learnblockchain.cn/2019/04/18/learn-zkSNARK/
 * http://stevenbai.top
 * [IPFS/filecoin 技术架构分析](https://www.jianshu.com/c/06ddad58490f)
 * https://github.com/ipfs/ipfs
@@ -104,6 +120,7 @@
 * https://github.com/wupeaking/tendermint_code_analysis
 + mimblewimble
 + bullet proof
+* https://learnblockchain.cn/2019/04/18/learn-zkSNARK/
 + accumulators
     * http://www.qukuaiwang.com.cn/news/14761.html
     * utxo accumulator
@@ -114,7 +131,6 @@
             + a scalable drop-in replacement for merkle trees
     + rsa accumulator
         * FlyClient
-- [state-channel](https://chrislinn.gitbooks.io/blockchain-cheatsheet/content/layer2/state-channel.html)
 + ninji
 + GHOST
 + Bitcoin-NG
