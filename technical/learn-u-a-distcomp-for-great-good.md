@@ -26,11 +26,8 @@ _This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), a
 + durability 持久性
     * 事务处理结束后，数据的修改是永久的，系统故障也不会丢失
 
+
 ## CAP
-
-__TODO: 2PC__
-
-__TODO: Atomic Commit__
 
 + Consistency 一致性
     * 一致性分类
@@ -50,6 +47,34 @@ __TODO: Atomic Commit__
                 * Linearizability for read and write 是 “atomic consistency”, 是 __CAP 中的 C__
 + Availability 可用性
 + Partition tolerance 分区容错性
+
+## Protocols
+
++ Concurrency Control
+    * Optimistic Concurrency Control (OCC)
+        - the database writes (but doesn't commits) the transaction when receiving it
+        - check validity/conflict --> commit/roll-back
+    * Pessimistic Concurrency Control (PCC)
+        - lock the resource before being written to the log
+        - if locking successfully --> commit & unlock
+    * Timestamp Ordering (T/O)
+    * Coordinator-based Concurrency Control
++ Atomic Commit
+    * Two Phase Commit (2PC)
+        - Steps
+            + Propose
+            + Commit
+        + 不能处理fail-stop形式的节点failure 
+        + 同步阻塞
+    * 3PC
+        - Steps
+            + Propose
+            - PreCommit
+            - Commit
+        * 加入超时
+        * 可以有效的处理fail-stop的模式, 但不能处理  一致性问题 (比如 fail-recover)
+    * ...
+
 
 ## BASE
 
@@ -167,6 +192,8 @@ Network Assumption:
                 + 对于 transactions of size B
                     * bracha 的通信复杂度是 \\(O(n^2*B)\\)
                     * HoneyBadgerBFT 的是 \\(O(n*B)\\)
+                        - HoneyBadgerBFT 太慢了, 网络???
+                        - HotStuff 快一些, 网络???
                     * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 \\(O(B)\\)
                         - CCS'18 (ACM Conference on Computer and Communications Security 安全顶会)
 
@@ -297,7 +324,8 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
 ## sharding 中要考虑的一些问题
 
 + 节点分配的 randomness
-+ Sharding 中的 原子性
++ cross-shard 的 conflict
++ cross-shard 的 atomicity
 + Sharding 中的 网络假设
     * 同步还是异步，同步的话可能被 卡停 或 反复重来
         * 比如收集区块 CoSi 多重签名时
