@@ -1,5 +1,7 @@
 # Learn You a Distributed Computing for Great Good!
 
+Revision v0.1
+
 _This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), and is ditributed under [WTFPL](http://www.wtfpl.net/)._
 
 <script type="text/javascript"
