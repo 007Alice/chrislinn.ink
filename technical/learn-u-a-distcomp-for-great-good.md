@@ -186,7 +186,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
 
 * [苏黎世理工 课程讲义](https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf)
 > There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
-    + Classic
+    + 教科书上的
         * Agreement
             - All correct processes must agree on the same value.
             - For any two honest players \\(P_i\\) and \\(P_j\\), \\(v_i = v_j\\).
@@ -196,7 +196,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
         * Termination
             - (Informal) All correct nodes terminate in finite time.
             - All the honest players terminate with probability 1.
-    + Emerging
+    + 这几年新提出的
         * Linearity
             - First proposed in [HotStuff](https://arxiv.org/abs/1803.05069).
                 - PODC'19  (ACM Symposium on Principles of Distributed Computing 分布式计算理论顶会)
