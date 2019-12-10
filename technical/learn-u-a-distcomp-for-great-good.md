@@ -205,6 +205,9 @@ __TODO: Sybil__
 
 __TODO: PKQ__
 
+https://blog.priewienv.me/post/analysis-blockchain-async-1/
+
+
 - Common prefix (Consistency)
     + \\(k\\)-common-preifx
         * First proposed in [The bitcoin backbone protocol: Analysis and applications (GKL15)](https://eprint.iacr.org/2014/765.pdf).
