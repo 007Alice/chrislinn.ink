@@ -101,7 +101,7 @@ BASE: 对CAP中一致性和可用性权衡的结果
 + Consortium Blockchain
     * Permissioned
     + 半信任的威胁模型
-        * 被动性的错误（比如停止工作）
+        * 被动性的错误（比如 fail-stop 停止工作）
 + Public Blockchain
     * Permissionless
     + 拜占庭威胁模型
