@@ -9,38 +9,38 @@
     * https://github.com/chaincodelabs/lightning-curriculum
     * https://github.com/oleganza/bitcoin-papers
     * [scalingbitcoin](https://scalingbitcoin.org/papers/)
-        - Bitcoin: A Peer-to-Peer Electronic Cash System
-        - Information propagation in the Bitcoin network
     * https://github.com/bitcoinops/scaling-book
     * https://github.com/bellaj/Blockchain
     * https://github.com/UCL-InfoSec/blockchain-reading
+    + https://github.com/heidi-ann/distributed-consensus-reading-list
+    * https://github.com/AmarRSingh/NotThatNetworking_Research
+    * https://github.com/heidi-ann/distributed-consensus-reading-list
+    * https://tlu.tarilabs.com/consensus-mechanisms/consensus-mechanisms.html
+    * https://tlu.tarilabs.com/network-analysis/network-analysis.html
+    * https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols
+    * https://github.com/Mechanism-Labs/Blockchain-Research-Papers-Notes/blob/master/Analysis_of_Acceptance_Policies_Blockchain_Transactions.md
     * other
-        - Boost Blockchain Broadcast Propagation with Tree Routing
-        - Han Runchao list
         - https://github.com/tyrchen/unchained
         - why it takes 20 min to mine this block
+        - [Cross-chain Deals and Adversarial Commerce](https://arxiv.org/abs/1905.09743)
+        - [Divide and Scale: Formalization of Distributed Ledger Sharding Protocols](https://arxiv.org/abs/1910.10434)
+        - [SoK: Communication Across Distributed Ledgers](https://eprint.iacr.org/2019/1128)
+        - [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
+        - ABC: Asysnchronous Blockchain without Consensus
+        - [Crisis: Probabilistically Self Organizing Total Order in Unstructured P2P Networks](https://arxiv.org/abs/1907.07248)
+        - https://github.com/alephium/research/raw/master/polw.pdf
     * https://github.com/UCL-InfoSec/blockchain-reading/wiki
-    * https://bitcoinbook.cs.princeton.edu/
-        - https://www.lopp.net/pdf/princeton_bitcoin_book.pdf
-        - https://www.coursera.org/learn/cryptocurrency
     * https://github.com/trailofbits/publications
-+ https://github.com/satoshilabs/slips
-+ https://bitcointechtalk.com/
-+ http://readingbitcoin.org
-+ http://diyhpl.us/wiki/transcripts/
-    * https://breaking-bitcoin.com/
-    * https://scalingbitcoin.org/
-    * https://www.advancingbitcoin.com/
-+ [Ethereum Research](https://ethresear.ch/)
 + https://github.com/ScottWorks/ConsenSys-Academy-Notes
 + [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
-+ 《精通比特币》第二版
-    * https://legacy.gitbook.com/book/wizardforcel/masterbitcoin2cn/details
-    * http://book.8btc.com/books/6/masterbitcoin2cn/_book/
-+ [ethereumbook](https://github.com/ethereumbook/ethereumbook)
-+ [以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
-+ [以太坊爱好者知识库](https://ethfans.org/wikis/Home)
 + btc
+    * https://github.com/satoshilabs/slips
+    * https://bitcointechtalk.com/
+    * http://readingbitcoin.org
+    * http://diyhpl.us/wiki/transcripts/
+        - https://breaking-bitcoin.com/
+        - https://scalingbitcoin.org/
+        - https://www.advancingbitcoin.com/
     * bitcoin-core
         - https://github.com/bitcoin/bitcoin
         - https://github.com/bitcoin/bips
@@ -49,41 +49,27 @@
             + https://github.com/btcsuite/btcchain
             + https://github.com/btcsuite/btcwire
         - https://github.com/btcsuite/btcwallet
+    * 《精通比特币》第二版
+        - https://legacy.gitbook.com/book/wizardforcel/masterbitcoin2cn/details
+        - http://book.8btc.com/books/6/masterbitcoin2cn/_book/
+    * https://bitcoinbook.cs.princeton.edu/
+        - https://www.lopp.net/pdf/princeton_bitcoin_book.pdf
+        - https://www.coursera.org/learn/cryptocurrency
+    * https://nakamotoinstitute.org/
 + eth
-    * https://github.com/ethereum/go-ethereum
-    * https://github.com/ethereum/pyethereum
+    + [Ethereum Research](https://ethresear.ch/)
+    * [ethereumbook](https://github.com/ethereumbook/ethereumbook)
+    * [以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
+    * [以太坊爱好者知识库](https://ethfans.org/wikis/Home)
     * docs
-        - https://github.com/ethereum/EIPs
         - https://github.com/ethereum/research
-        - https://github.com/ethereum/homestead-guide
         - https://github.com/ethereum/whisper
         - https://github.com/ethereum/devp2p
             + https://github.com/ethereum/pydevp2p
-        - Ethereum 2.0 Specifications
-            + https://github.com/ethereum/eth2.0-specs
-    * evm
-        - https://github.com/ethereum/py-evm
-    * https://github.com/ethereum/serpent
-        - Serpent is an assembly language that compiles to EVM code that is extended with various high-level features. 
-    * solidity
-        - https://github.com/ethereum/solidity
-        - https://github.com/ethereum/py-solc
-        - https://github.com/ethereum/solc-bin
-    * https://github.com/ethereum/vyper
-        - Pythonic Smart Contract Language for the EVM
     * test
         - https://github.com/ethereum/tests
         - https://github.com/ethereum/eth-tester
         - https://github.com/ethereum/pytest-ethereum
-    * https://github.com/ethereum/web3.py
-    * https://github.com/ethereum/mist
-        - Mist. Browse and use Ðapps on the Ethereum network. 
-    * https://github.com/ethereum/remix
-        - Ethereum IDE and tools for the web
-        - https://github.com/ethereum/remixd
-            + Remixd is a tool that intend to be used with Remix IDE (aka. Browser-Solidity). It allows a websocket connection between Remix IDE (web application) and the local computer.
-    * https://github.com/ethereum/twig
-        - A tool for Ethereum smart contract development.
     * https://github.com/ethereum/btcrelay
         - Ethereum contract for Bitcoin SPV
     * https://github.com/ethereum/py-trie
@@ -96,10 +82,7 @@
     * https://github.com/btccom/btcpool
     * https://github.com/fengchunjian/btcpool_code_notes
     * https://github.com/btccom/parity-ethereum
-+ Master Bitcoin
-+ https://nakamotoinstitute.org/
 - https://proto.school/#/chapters
-- https://github.com/heidi-ann/distributed-consensus-reading-list
 
 
 ## TODOS
@@ -131,15 +114,7 @@
             + a scalable drop-in replacement for merkle trees
     + rsa accumulator
         * FlyClient
-+ A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels
-+ Bolt: Anonymous Payment Channels for Decentralized Currencies
-+ eltoo: A Simple Layer2 Protocol for Bitcoin
-+ SoK: Off The Chain Transactions
-+ lightning & lapp
-    * The bitcoin lightning network: Scalable off-chain instant payments
-    * loop
-    * https://bitcoin.stackexchange.com/a/85259
-    * https://bitcoin.stackexchange.com/a/84953
+- [state-channel](https://chrislinn.gitbooks.io/blockchain-cheatsheet/content/layer2/state-channel.html)
 + ninji
 + GHOST
 + Bitcoin-NG
@@ -189,7 +164,7 @@
         - c
         - rust
         - ml/func
-+ stl
++ STL
 
 ## Books
 

@@ -69,35 +69,3 @@ bracha 存在的问题是 scalability: 对于 transactions of size B
 + https://www.jianshu.com/p/ae462a2d49a8
 + https://studygolang.com/articles/14731
 + http://blog.betacat.io/post/raft-implementation-in-etcd/
-
-
-### Zookeeper vs Chubby
-
-+ ZAB
-+ https://draveness.me/zookeeper-chubby
-
-## Miscs
-+ https://github.com/SebastianElvis/consensus-properties
-+ https://github.com/SebastianElvis/sharding-bib
-+ PBFT
-+ sharding-survey ref
-    * problem/solution 分类方法
-    * 2pc, atomic commit...
-+ HoneyBadger BFT
-+ tendermint
-+ algorand
-+ HotStuff
-+ https://github.com/AmarRSingh/NotThatNetworking_Research
-+ https://github.com/heidi-ann/distributed-consensus-reading-list
-+ https://tlu.tarilabs.com/consensus-mechanisms/consensus-mechanisms.html
-+ https://tlu.tarilabs.com/network-analysis/network-analysis.html
-+ https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols
-+ https://rink1969.github.io/Blockchain-consistency_model
-+ [Cross-chain Deals and Adversarial Commerce](https://arxiv.org/abs/1905.09743)
-+ [Divide and Scale: Formalization of Distributed Ledger Sharding Protocols](https://arxiv.org/abs/1910.10434)
-+ [SoK: Communication Across Distributed Ledgers](https://eprint.iacr.org/2019/1128)
-+ https://github.com/Mechanism-Labs/Blockchain-Research-Papers-Notes/blob/master/Analysis_of_Acceptance_Policies_Blockchain_Transactions.md
-+ [Threshold Logical Clocks for Asynchronous Distributed Coordination and Consensus](https://arxiv.org/abs/1907.07010)
-+ ABC: Asysnchronous Blockchain without Consensus
-+ [Crisis: Probabilistically Self Organizing Total Order in Unstructured P2P Networks](https://arxiv.org/abs/1907.07248)
-+ https://github.com/alephium/research/raw/master/polw.pdf
