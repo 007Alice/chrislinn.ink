@@ -140,10 +140,13 @@ https://medium.com/thundercore/consensus-series-preliminaries-a3bab33ae09
 Network Assumption:
 
 + Synchrony
+    * a known finite time bound
     * Algorand 怼了 Ouroboros (ADA, IOHK)
 + Partial Synchrony
+    * an unknown finite time bound, or a known finite time bound plus a known clock drift (Global Stabilisation Time, GST)
 + Weak Synchrony
 + Asynchrony
+    * delivered eventually but without a finite time bound
     + pBFT
         * Barbara Liskov, 图灵奖
         * Paxos 协议的拜占庭版本
