@@ -41,6 +41,8 @@
         - https://breaking-bitcoin.com/
         - https://scalingbitcoin.org/
         - https://www.advancingbitcoin.com/
+        - https://bitcoinedge.org/
+        - https://www.sfbitcoindevs.org/
     * bitcoin-core
         - https://github.com/bitcoin/bitcoin
         - https://github.com/bitcoin/bips
