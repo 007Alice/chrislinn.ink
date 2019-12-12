@@ -120,6 +120,8 @@
 + Lindel
 + Oded
 + Dan Boneh
++ [Jonathan Katz](https://www.cs.umd.edu/~jkatz)
++ [Foteini Baldimtsi](http://www.baldimtsi.com/)
 + Rachid Guerraoui
 + [Ben Ficsh](https://sites.google.com/site/benafisch/)
 + [Benedikt Bünz](https://crypto.stanford.edu/~buenz/)
