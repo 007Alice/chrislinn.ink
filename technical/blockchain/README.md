@@ -19,6 +19,7 @@
     * https://tlu.tarilabs.com/network-analysis/network-analysis.html
     * https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols
     * https://github.com/Mechanism-Labs/Blockchain-Research-Papers-Notes/blob/master/Analysis_of_Acceptance_Policies_Blockchain_Transactions.md
+    * https://decentralizedthoughts.github.io/
     * other
         - https://github.com/tyrchen/unchained
         - why it takes 20 min to mine this block
