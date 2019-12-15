@@ -1,6 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-Revision v0.03
+Revision v0.04
 
 _This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), and is ditributed under [WTFPL](http://www.wtfpl.net/)._
 
@@ -255,7 +255,7 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
         * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
         * 以相对于 \\(T\\) 压倒性的概率，任意诚实参与者的链中的连续  \\(T\\) 个消息中，诚实参与者提供的消息所占比例至少为 \\(\mu\\)，称 \\(\mu\\) 为该协议的 chain quality 。
 
-## Propogation
+## Propagation
 
 优化网络传播: 网络传播影响孤快率/分叉, 影响一致性 (reference: [[PSS17]](https://eprint.iacr.org/2016/454.pdf), [[DW13]](https://www.gsd.inesc-id.pt/~ler/docencia/rcs1314/papers/P2P2013_041.pdf))
 
