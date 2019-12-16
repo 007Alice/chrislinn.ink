@@ -82,8 +82,8 @@ My SNS accounts:
 
 My friends:
 
-+ [Runchao Han](https://github.com/SebastianElvis)
-+ [Jyuwan Wong](https://www.douban.com/people/10566855/)
++ [Runchao HAN](https://github.com/SebastianElvis)
++ [Jyuwan WONG](https://www.douban.com/people/10566855/)
 + [Xiaoliang YU](https://github.com/yxliang01)
-+ [Feiyang Qiu](https://priewienv.me/)
++ [Feiyang QIU](https://priewienv.me/)
 
