@@ -1,6 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-Revision v0.04
+Revision v0.05
 
 这份笔记大部分是 [我]((https://chrislinn.ink/)) 从 [韩神](https://github.com/SebastianElvis) 和 [邱巨](https://priewienv.me/) 处抄袭、总结或与他们请教而来；如果有任何错误，那肯定是我搞错了，与大腿们无关。
 
@@ -149,15 +149,8 @@ BASE: 对CAP中一致性和可用性权衡的结果
 ## BFT
 
 Byzantine Fault Torelance
-<!-- 
-+ 异步网络中具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是 33%
-+ 同步网络中具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是 50%
- -->
 
-Partial synchronous BFT requires >= 2f+1 honest nodes (<= f Byzantine nodes) in order to achieve safety and liveness, where there are totally n = 3f + 1 nodes
-
-Asynchronous BFT cannot achieve safety and liveness when there is only one Byzantine node
-
+Requires >= 2f+1 honest nodes (<= f Byzantine nodes) in order to achieve safety ~~and liveness~~, where there are totally n = 3f + 1 nodes
 
 
 ## Network Assumption
