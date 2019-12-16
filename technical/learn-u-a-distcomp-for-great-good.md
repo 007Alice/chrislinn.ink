@@ -2,7 +2,7 @@
 
 Revision v0.04
 
-_This work is collected and summarised by [Haoyu Lin](https://chrislinn.ink/), and is ditributed under [WTFPL](http://www.wtfpl.net/)._
+这份笔记大部分是 [我]((https://chrislinn.ink/)) 从 [韩神](https://github.com/SebastianElvis) 和 [邱巨](https://priewienv.me/) 处抄袭、总结或与他们请教而来；如果有任何错误，那肯定是我搞错了，与大腿们无关。
 
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -149,9 +149,16 @@ BASE: 对CAP中一致性和可用性权衡的结果
 ## BFT
 
 Byzantine Fault Torelance
-
+<!-- 
 + 异步网络中具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是 33%
 + 同步网络中具有 n 个节点的系统最多能容忍的非拜占庭错误节点数是 50%
+ -->
+
+Partial synchronous BFT requires >= 2f+1 honest nodes (<= f Byzantine nodes) in order to achieve safety and liveness, where there are totally n = 3f + 1 nodes
+
+Asynchronous BFT cannot achieve safety and liveness when there is only one Byzantine node
+
+
 
 ## Network Assumption
 
@@ -172,6 +179,8 @@ Byzantine Fault Torelance
     + PBFT
         * async
             - 在这之前的之前的 BFT 协议中拜占庭协议所使用的通讯网络是一个同步网络
+            - can achieve safety in asynchronous networks, but not liveness
+            - PBFT requires synchrony to achieve liveness
         * OSDI'99 (Symposium on Operating Systems Design and Implementation 操作系统顶会)
         * Barbara Liskov
             - 图灵奖
@@ -328,7 +337,3 @@ PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block prod
 + Sharding 中的 网络假设
     * 同步还是异步，同步的话可能被 卡停 或 反复重来
         * 比如收集区块 CoSi 多重签名时
-
-## Acknowledgement
-+ https://github.com/SebastianElvis
-+ https://priewienv.me/
