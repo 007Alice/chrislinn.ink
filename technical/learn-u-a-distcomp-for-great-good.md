@@ -152,6 +152,12 @@ Byzantine Fault Torelance
 
 Requires >= 2f+1 honest nodes (<= f Byzantine nodes) in order to achieve safety ~~and liveness~~, where there are totally n = 3f + 1 nodes
 
+__TODO:__
+
+https://medium.com/thundercore/consensus-series-preliminaries-a3bab33ae09
+
+1/2 in sync, 1/3 in async?
+
 
 ## Network Assumption
 
