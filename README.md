@@ -64,9 +64,9 @@ My SNS accounts:
 
 | Project | Description |
 | - | - |
-| ethereum/EIPs | We propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md) |
-| ethereum/go-ethereum | [PR#17571](https://github.com/ethereum/go-ethereum/pull/17571) ![](/img/PR/merged.png) |
 | KZen-networks/white-city | [A **Massive MPC** project](https://github.com/KZen-networks/white-city), under the supervision of Ittay Eyal (_Technion_, _IC3_) |
+| ethereum/go-ethereum | [PR#17571](https://github.com/ethereum/go-ethereum/pull/17571) ![](/img/PR/merged.png) |
+| ethereum/EIPs | We propose [EIP-2266](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2266.md) |
 | KZen-networks/multi-party-ecdsa | [PR#87](https://github.com/KZen-networks/multi-party-ecdsa/pull/87) ![](/img/PR/open.png) [PR#88](https://github.com/KZen-networks/multi-party-ecdsa/pull/88) ![](/img/PR/open.png) |
 | ethereum/vyper | [PR#1046](https://github.com/ethereum/vyper/pull/1046) ![](/img/PR/merged.png) |
 | KZen-networks/class-groups | [PR#15](https://github.com/KZen-networks/class-groups/pull/15) ![](/img/PR/merged.png) [PR#16](https://github.com/KZen-networks/class-groups/pull/16) ![](/img/PR/merged.png) |
