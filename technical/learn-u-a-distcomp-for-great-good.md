@@ -154,10 +154,9 @@ Requires >= 2f+1 honest nodes (<= f Byzantine nodes) in order to achieve safety 
 
 __TODO:__
 
-https://medium.com/thundercore/consensus-series-preliminaries-a3bab33ae09
-
-1/2 in sync, 1/3 in async?
-
++ https://medium.com/thundercore/consensus-series-preliminaries-a3bab33ae09
+    * 1/2 in sync, 1/3 in async?
++ PBFT paper section 3
 
 ## Network Assumption
 
