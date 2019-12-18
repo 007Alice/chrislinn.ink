@@ -80,6 +80,7 @@
 + https://draveness.me/golang-101
 + https://github.com/cristaloleg/go-advices
 + https://github.com/a8m/golang-cheat-sheet
++ https://github.com/teh-cmc/go-internals
 
 
 
