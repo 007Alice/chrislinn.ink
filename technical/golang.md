@@ -81,6 +81,7 @@
 + https://github.com/cristaloleg/go-advices
 + https://github.com/a8m/golang-cheat-sheet
 + https://github.com/xmge/gonote
++ https://github.com/teh-cmc/go-internals
 
 
 
