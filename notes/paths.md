@@ -6,11 +6,17 @@
 + kzen & runchao & **tendermint.rs**
     * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
     * https://github.com/KZen-networks/white-city
++ ~~Conflux~~
++ AVA
++ lightning
++ ETH
++ Feiyang Qiu
 + 先试试 深圳吧，不行留在 bytom 也可以
     * bytom?
         - can lead a team, but the bosses suck
             + 小公司的 lead，其实没什么用
         - and I don't trust James, I don't know what he is thinking
+        - 巴比特这个媒体不错
     * 深圳金融研究院
         - 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
         - 开发还是可以一试吧，讨生活而已
