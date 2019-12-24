@@ -8,6 +8,7 @@
     * https://github.com/KZen-networks/white-city
 + ~~Conflux~~
 + AVA
++ Chia
 + lightning
 + ETH
 + Feiyang Qiu
