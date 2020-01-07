@@ -169,6 +169,7 @@
     - https://github.com/PrincetonUniversity/COS461-Public
     - https://github.com/pszal/teaching
     - https://github.com/heidi-ann/distributed-consensus-reading-list
+    - https://github.com/lorin/systems-reading
 - crypto
     - https://intensecrypto.org/public/index.html
         + https://www.boazbarak.org/cs127spring16/
