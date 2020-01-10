@@ -3,5 +3,6 @@
 + taxonomy
 + novel
 + trivial
-+ simlpe yet elusive until now
++ simple yet elusive until now
 + trivial?
++ without loss of generality
