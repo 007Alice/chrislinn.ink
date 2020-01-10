@@ -6,66 +6,49 @@
 + kzen & runchao & **tendermint.rs**
     * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
     * https://github.com/KZen-networks/white-city
++ Feiyang Qiu
 + ~~Conflux~~
++ bytom?
 + AVA
 + Chia
-+ lightning
-+ ETH
-+ Feiyang Qiu
-+ 先试试 深圳吧，不行留在 bytom 也可以
-    * bytom?
-        - can lead a team, but the bosses suck
-            + 小公司的 lead，其实没什么用
-        - and I don't trust James, I don't know what he is thinking
-        - 巴比特这个媒体不错
-    * 深圳金融研究院
-        - 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
-        - 开发还是可以一试吧，讨生活而已
-    * matrixport
-        - 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
-        - 而且要加班吧
-    * 无交际 X
-        - btcd
-            + code is better than core
-            + 开发进展缓慢，没人带，remote效率也低
-        - lnd
-            + 开发进展缓慢，没人带，remote效率也低
-        - ProtocolLab
-            + ipfs doesn't scale up
-            + libp2p is good
-                * 看懂、会用就行
-        - polkadot?
-        - cosmos?
-        - ~~NEAR~~
-            + 不缺core 且协议有问题，干脆算了
-        - dfinity
-            + dunno
-    * PingCAP
-        - 薪资不会满意
-    * AntFin?
-        - 开会
-    * nervos?
-        - boss 可能坑
-        - 只是一个优秀开发，而不是一个默契开发
-    * eth book
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/05wallets.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/08smart-contracts-vyper.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/10tokens.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/11oracles.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/12dapps.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-dev-tools.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-web3js-tutorial.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/tree/develop/code
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/
-            + https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/upgradability-patterns.asciidoc
-            + https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/privacy-enhancing-patterns.asciidoc
-            + https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/google-cloud-testnet.asciidoc
++ btcd
+    * code is better than core
+    * 开发进展缓慢，没人带，remote效率也低
++ lnd
+    * 开发进展缓慢，没人带，remote效率也低
++ ProtocolLab
+    * ipfs doesn't scale up
+    * libp2p is good
+        - 看懂、会用就行
++ polkadot?
++ cosmos?
++ algorand
++ dfinity
+    * dunno
++ PingCAP
+    * 薪资不会满意
++ nervos?
+    * boss 可能坑
+    * 只是一个优秀开发，而不是一个默契开发
++ eth book
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/05wallets.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/08smart-contracts-vyper.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/10tokens.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/11oracles.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/12dapps.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-dev-tools.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-web3js-tutorial.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/tree/develop/code
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/upgradability-patterns.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/privacy-enhancing-patterns.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/google-cloud-testnet.asciidoc
 
 ## Slides
 + https://github.com/gnab/remark
