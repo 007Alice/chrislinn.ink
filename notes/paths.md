@@ -34,12 +34,10 @@
             + ipfs doesn't scale up
             + libp2p is good
                 * 看懂、会用就行
-        - NEAR
+        - polkadot?
+        - cosmos?
+        - ~~NEAR~~
             + 不缺core 且协议有问题，干脆算了
-        - polkadot
-            + 无关 sharding ，不如 btcd
-        - cosmos
-            + 无关 sharding ，不如 btcd
         - dfinity
             + dunno
     * PingCAP
