@@ -14,7 +14,7 @@
     * https://github.com/UCL-InfoSec/blockchain-reading
     + https://github.com/heidi-ann/distributed-consensus-reading-list
     * https://github.com/AmarRSingh/NotThatNetworking_Research
-    * https://github.com/heidi-ann/distributed-consensus-reading-list
+    * https://github.com/lorin/systems-reading
     * https://tlu.tarilabs.com/consensus-mechanisms/consensus-mechanisms.html
     * https://tlu.tarilabs.com/network-analysis/network-analysis.html
     * https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols

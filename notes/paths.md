@@ -6,49 +6,49 @@
 + kzen & runchao & **tendermint.rs**
     * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
     * https://github.com/KZen-networks/white-city
++ Feiyang Qiu
 + ~~Conflux~~
++ bytom?
 + AVA
 + Chia
-+ lightning
-+ ETH
-+ Feiyang Qiu
-+ 先试试 深圳吧，不行留在 bytom 也可以
-    * bytom?
-        - can lead a team, but the bosses suck
-            + 小公司的 lead，其实没什么用
-        - and I don't trust James, I don't know what he is thinking
-        - 巴比特这个媒体不错
-    * 深圳金融研究院
-        - 高级专家可以一试，否则只是一个优秀开发，而不是一个默契开发
-        - 开发还是可以一试吧，讨生活而已
-    * matrixport
-        - 作罢，并非大佬，去了也没有什么资源，做的东西不一定是自己想要的，boss 可能坑
-        - 而且要加班吧
-    * 无交际 X
-        - btcd
-            + code is better than core
-            + 开发进展缓慢，没人带，remote效率也低
-        - lnd
-            + 开发进展缓慢，没人带，remote效率也低
-        - ProtocolLab
-            + ipfs doesn't scale up
-            + libp2p is good
-                * 看懂、会用就行
-        - NEAR
-            + 不缺core 且协议有问题，干脆算了
-        - polkadot
-            + 无关 sharding ，不如 btcd
-        - cosmos
-            + 无关 sharding ，不如 btcd
-        - dfinity
-            + dunno
-    * PingCAP
-        - 薪资不会满意
-    * AntFin?
-        - 开会
-    * nervos?
-        - boss 可能坑
-        - 只是一个优秀开发，而不是一个默契开发
++ btcd
+    * code is better than core
+    * 开发进展缓慢，没人带，remote效率也低
++ lnd
+    * 开发进展缓慢，没人带，remote效率也低
++ ProtocolLab
+    * ipfs doesn't scale up
+    * libp2p is good
+        - 看懂、会用就行
++ polkadot?
++ cosmos?
++ algorand
++ dfinity
+    * dunno
++ PingCAP
+    * 薪资不会满意
++ nervos?
+    * boss 可能坑
+    * 只是一个优秀开发，而不是一个默契开发
++ eth book
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/05wallets.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/08smart-contracts-vyper.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/10tokens.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/11oracles.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/12dapps.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-dev-tools.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-web3js-tutorial.asciidoc
+    * https://github.com/ethereumbook/ethereumbook/tree/develop/code
+    * https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/upgradability-patterns.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/privacy-enhancing-patterns.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/google-cloud-testnet.asciidoc
 
 ## Slides
 + https://github.com/gnab/remark
@@ -154,6 +154,11 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
     * 阅读论文，最好能细致一点，把论文之间的引用关系理清楚，把近几年的发展脉络理清楚
     * 如果你不会设计实验/写论文，请模仿和你的工作最相关的论文
     * 逻辑第一
+* 文献调研(综述)怎么做
+    - 学术搜索引擎（如谷歌学术），找出3-5篇相关领域近期最高引用的论文
+        + 了解这些论文的工作原理，阅读其中related work的部分
+    - 在这些论文的参考文献中找出其共同引用的论文，或重复出现的作者姓名。访问这些关键人物的网站，查看他们近期发表的论文，也可以看看他们都参加了哪些顶级会议。
+    - 访问顶级会议的网站，浏览它们最近的会议记录。
 + 搜索论文用 dblp.org
 + download at https://sci-hub.tw/
 + 学术搜索
@@ -170,6 +175,34 @@ security的论文 实验和出成果都不难, 工业界比学术界领先, 论�
         * reference and comparison to state-of-the-art
         * clear description on the protocol, including figures and pseudocodes
         * security proof or justification
+- 高效读论文“三遍论”
+    + 快速预览，把握概要
+        * 5-10分钟
+        * 先打个印象分，再决定是否继续 (!)
+        * steps
+            - 标题、摘要和简介
+            - 小标题
+            - 如果有数学内容，先大致浏览，确定其理论基础
+            - 结论
+            - 参考文献，如果有你已经读过的，把它们勾选出来
+        * goal
+            - 分类：这是什么类型的论文？
+            - 背景：与哪些其他论文相关？基于何种理论基础来分析问题？
+            - 正确性：论文的假设看起来正确吗？
+            - 贡献：论文的主要贡献是什么？
+            - 清晰度：这篇论文写得好吗？
+    + 抓住重点，暂略细节 (不求甚解)
+        * 1个小时
+        * 不要纠结于没见过的术语，也不要沉迷于证明推导的细节：把它们记下来，先略过。
+        * tips
+            - 仔细查看论文中的图表。关注一下细节：坐标轴是否正确标记？结论是否具有统计意义？往往细节之中，就能窥见真正出色的工作和水文之间的区别。
+            - 标记论文中涉及的、你并未读过的参考文献，之后进一步阅读。
+    + 重构论文，注重细节
+        * 跟随作者的思路，在脑海中重现论文内容
+            - 论文的创新点
+            - 论文中隐含的假设
+            - 隐藏在实验和技术分析中的潜在问题和引文缺失
+                + 找出作者陈述中的每一个假设，亲自挑战它，提出自己的思考
 
 ## [How To Read a Paper](https://github.com/papers-we-love/papers-we-love#how-to-read-a-paper)
 
