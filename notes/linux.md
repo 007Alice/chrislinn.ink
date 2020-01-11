@@ -480,6 +480,15 @@ function sproxy_goflyway() {
 ## Git
 + https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
     * fork 同步原仓库，merge 原仓库到 fork 仓库
+    ```
+    git remote add upstream https://github.com/whoever/whatever.git
+
+    git fetch upstream
+
+    # master to master
+    git checkout master
+    git rebase upstream/master
+    ```
 + [Commit Msg](https://github.com/conventional-changelog-archived-repos/validate-commit-msg)
     *  Node 插件 validate-commit-msg
     ```
