@@ -1,50 +1,46 @@
 # Paths
 
 > There are paths for everyone
-> 
+
 ## Jobs Opportunities
-+ kzen & runchao & **tendermint.rs**
-    * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
-    * https://github.com/KZen-networks/white-city
++ kzen
 + https://github.com/scipr-lab/zexe/issues/50
++ runchao
 + Feiyang Qiu
-+ ~~Conflux~~
-+ bytom?
-+ AVA
-+ Chia
-+ btcd
-    * code is better than core
-    * 开发进展缓慢，没人带，remote效率也低
-+ lnd
-    * 开发进展缓慢，没人带，remote效率也低
-+ ProtocolLab
-    * ipfs doesn't scale up
-    * libp2p is good
-        - 看懂、会用就行
-+ polkadot?
-+ cosmos?
-+ algorand
-+ dfinity
-    * dunno
-+ PingCAP
-    * 薪资不会满意
-+ nervos?
-    * boss 可能坑
-    * 只是一个优秀开发，而不是一个默契开发
++ 浪潮一过就凉了（想想 IPFS）
+    * ipfs
+    * zcash
+    * barryWhiteHat
+    * mikerah
+    + AVA
+    + Chia
+    + algorand
+    + dfinity
+    + Conflux
+    + cosmos
+    + polkadot
+    + tendermint.rs
++ 被抛弃的，文档真的差
+    + lnd
+    + btcd
+* 薪资不会满意，不是 rust 默契开发
+    * PingCAP
+    * nervos
 + eth book
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/05wallets.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/08smart-contracts-vyper.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/10tokens.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/11oracles.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/12dapps.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-dev-tools.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-web3js-tutorial.asciidoc
+    * chapters
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/05wallets.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/08smart-contracts-vyper.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/10tokens.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/11oracles.asciidoc
+        - https://github.com/ethereumbook/ethereumbook/blob/develop/12dapps.asciidoc
+        * https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc
+        * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-dev-tools.asciidoc
+        * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-web3js-tutorial.asciidoc
     * https://github.com/ethereumbook/ethereumbook/tree/develop/code
     * https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/
         - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/upgradability-patterns.asciidoc
