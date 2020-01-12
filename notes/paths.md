@@ -1,7 +1,7 @@
 # Paths
 
 > There are paths for everyone
-> 
+
 ## Jobs Opportunities
 + kzen
 + runchao
