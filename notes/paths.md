@@ -6,6 +6,7 @@
 + kzen & runchao & **tendermint.rs**
     * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
     * https://github.com/KZen-networks/white-city
++ https://github.com/scipr-lab/zexe/issues/50
 + Feiyang Qiu
 + ~~Conflux~~
 + bytom?
