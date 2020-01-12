@@ -3,37 +3,28 @@
 > There are paths for everyone
 > 
 ## Jobs Opportunities
-+ kzen & runchao & **tendermint.rs**
-    * https://github.com/cryptobiu/MATRIX?fbclid=IwAR22s3HEATL5i5XdzIDUbDcTXbnvRvRGGY6mw6_42owougoK__olK2sOo34
-    * https://github.com/KZen-networks/class/issues/7
-    * https://github.com/KZen-networks/kms-secp256k1/issues
-    * https://github.com/KZen-networks/white-city
-    * https://github.com/KZen-networks/multi-party-ecdsa/issues/73
-    * https://github.com/KZen-networks/curv/issues/67
++ kzen
++ runchao
 + Feiyang Qiu
-+ ~~Conflux~~
-+ bytom?
-+ AVA
-+ Chia
-+ btcd
-    * code is better than core
-    * 开发进展缓慢，没人带，remote效率也低
-+ lnd
-    * 开发进展缓慢，没人带，remote效率也低
-+ ProtocolLab
-    * ipfs doesn't scale up
-    * libp2p is good
-        - 看懂、会用就行
-+ polkadot?
-+ cosmos?
-+ algorand
-+ dfinity
-    * dunno
-+ PingCAP
-    * 薪资不会满意
-+ nervos?
-    * boss 可能坑
-    * 只是一个优秀开发，而不是一个默契开发
++ IPFS kind
+    * ipfs
+    * zcash
+    * barryWhiteHat
+    * mikerah
+    + AVA
+    + Chia
+    + algorand
+    + dfinity
+    + Conflux
+    + cosmos
+    + polkadot
+    + tendermint.rs
++ 被抛弃的
+    + lnd
+    + btcd
+* 薪资不会满意
+    * PingCAP
+    * nervos?
 + eth book
     * chapters
         - https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
