@@ -5,7 +5,10 @@
 ## Leetcode
 + https://zhuanlan.zhihu.com/p/89392459
     * Sliding window，滑动窗口类型
-        - Maximum Sum Subarray of Size K (easy)
+        - [X] Maximum Sum Subarray of Size K (easy)
+        - [X] Smallest Subarray with a given sum (easy)
+        - [ ] Longest Substring with K Distinct Characters (medium)
+        - [ ] Fruits into Baskets (medium)
 
 ## Jobs Opportunities
 + kzen
