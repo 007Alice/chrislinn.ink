@@ -2,6 +2,11 @@
 
 > There are paths for everyone
 
+## Leetcode
++ https://zhuanlan.zhihu.com/p/89392459
+    * Sliding window，滑动窗口类型
+        - Maximum Sum Subarray of Size K (easy)
+
 ## Jobs Opportunities
 + kzen
 + runchao
@@ -53,9 +58,6 @@
 + https://github.com/jacksingleton/hacker-slides
 
 <!-- 
-## Blockchain json statetest
-### Modify parity_listStorageKeys
-+ Make argument _Quantity_ oponal. When `Quantity == null` , return all storage keys.
 
 
 ## join
