@@ -9,9 +9,10 @@
 
 ## Jobs Opportunities
 + kzen
++ https://github.com/scipr-lab/zexe/issues/50
 + runchao
 + Feiyang Qiu
-+ IPFS kind
++ 浪潮一过就凉了（想想 IPFS）
     * ipfs
     * zcash
     * barryWhiteHat
@@ -24,12 +25,12 @@
     + cosmos
     + polkadot
     + tendermint.rs
-+ 被抛弃的
++ 被抛弃的，文档真的差
     + lnd
     + btcd
-* 薪资不会满意
+* 薪资不会满意，不是 rust 默契开发
     * PingCAP
-    * nervos?
+    * nervos
 + eth book
     * chapters
         - https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
