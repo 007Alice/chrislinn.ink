@@ -18,7 +18,16 @@
         - [ ] Triplets with Smaller Sum (medium)
         - [ ] Subarrays with Product Less than a Target (medium)
         - [ ] Dutch National Flag Problem (medium)
-
+    * Fast & Slow pointers, 快慢指针类型
+        - [ ] LinkedList Cycle (easy)
+        - [ ] Start of LinkedList Cycle (medium)
+        - [ ] Happy Number (medium)
+        - [X] Middle of the LinkedList (easy)
+    * Merge Intervals，区间合并类型
+        - [ ] Merge Intervals (medium)
+        - [ ] Insert Interval (medium)
+        - [ ] Intervals Intersection (medium)
+        - [ ] Conflicting Appointments (medium)
 
 ## Jobs Opportunities
 + kzen
