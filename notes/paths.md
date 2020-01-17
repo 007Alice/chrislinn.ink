@@ -166,6 +166,21 @@
 + https://github.com/stonecoldpat/anonymousvoting 
 
 
+## SoK sharding
++ membership -> consensus -> PoW sybil
+    + jiangshan, selection type 
+    + SoK sharding randomness
++ all strongest
++ tradeoff operability
+pic
+    operability vs chunk
+    layers
+    add Fig1
+
+
+
+
+
 <!-- 
 利益才是前进的动力，金钱、成就感。名誉当然也是有助于利益的，对于人脉而言。（所以在甲方做安全还是有点亏的，因为难以直接看到收益。虽然企业多么希望招到牛逼的安全开发、运维、架构，高薪一口气解决问题。）
 
