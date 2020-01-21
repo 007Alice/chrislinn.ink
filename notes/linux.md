@@ -47,7 +47,7 @@
         [X] sudo systemctl start privoxy
         [X] sudo systemctl restart privoxy
         ```
-    + export (`~/.bashrc`? `~/.profile`? `~/.bash_profile`? `/etc/profile`?)
+    + export (`~/.bashrc`)
         ```
         function proxy_off(){
             unset http_proxy
@@ -57,13 +57,14 @@
         }
 
         function proxy_on() {
-            sudo service privoxy restart
-            sudo service sslocal restart
-            export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
-            export http_proxy="http://127.0.0.1:8118"
-            export https_proxy=$http_proxy
-            export APT_CONFIG=~/.apt_proxy.conf
-            echo -e "proxy on!"
+                sudo service privoxy restart
+                pkill ss-local
+                nohup ss-local -c ~/.shadowsocks/config.json >> ~/.shadowsocks/log.txt 2>&1 &
+                export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
+                export http_proxy="http://127.0.0.1:8118"
+                export https_proxy=$http_proxy
+                # export APT_CONFIG=~/.apt_proxy.conf
+                echo -e "proxy on!"
         }
         ```
     + `/etc/apt/apt.conf`
@@ -73,7 +74,7 @@
         ```
         in case apt doesn't use conf
         ```
-        sudo apt-get -c /etc/apt/apt.conf update
+        sudo apt-get -c ~/.apt_proxy.conf update
         ```
 + git, https://gist.github.com/laispace/666dd7b27e9116faece6 
     * HTTP
