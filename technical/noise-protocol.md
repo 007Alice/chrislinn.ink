@@ -31,3 +31,17 @@
     + into_transport_mode
         * 将 HandshakeState 转为 CipherState
     + rekey
+- 应用
+    + WireGuard
+    + 闪电网络
+    + rust-libp2p
+        * polkadot
+        * substrate
+        * libra
+    + 加密文件
+        * 只要我有你的公钥，我可以使用单向握手（Noise Spec 7.4）加密某个文件（附带握手时发送的消息），然后传输到某个不安全的位置（比如网盘，FTP，IPFS，甚至区块链中）
+        * 该文件只有拥有私钥的人才能解密
+        * 具备非对称加密的安全性，同时又具备对称加密的加解密速度
+- lib
+    + rust 下的 snow crate
+        * 很容易和其它模块如底层的 tokio/async-std，以及上层的 yamux 结合使用
