@@ -1,6 +1,7 @@
 # Noise Protocol
 
-## [Noise Protocol Framework](https://zhuanlan.zhihu.com/p/96944134)
+## Noise Protocol Framework
++ https://github.com/tyrchen/book_next/blob/master/src/2019/w46/1-noise-protocol-pub.md
 + 是一个框架
     * 想开发一些直接基于 TCP 或者 UDP 的私有协议时
     * TLS 颇为笨重
@@ -23,7 +24,7 @@
     - chaining key
     - HandshakeState
     - CipherState
-- 用户接口
+- 用户接口 (简洁、易用、不易出错)
     + build
         * 根据协议变量和固定私钥，初始化 HandshakeState
     + write(msg, buf)
@@ -38,10 +39,9 @@
         * polkadot
         * substrate
         * libra
-    + 加密文件
-        * 只要我有你的公钥，我可以使用单向握手（Noise Spec 7.4）加密某个文件（附带握手时发送的消息），然后传输到某个不安全的位置（比如网盘，FTP，IPFS，甚至区块链中）
-        * 该文件只有拥有私钥的人才能解密
-        * 具备非对称加密的安全性，同时又具备对称加密的加解密速度
 - lib
     + rust 下的 snow crate
         * 很容易和其它模块如底层的 tokio/async-std，以及上层的 yamux 结合使用
+
+## Wireguard
++ https://github.com/tyrchen/book_next/blob/master/src/2019/w45/1-wireguard-pub.md
