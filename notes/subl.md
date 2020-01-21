@@ -53,6 +53,8 @@ You can also take a look at [my __Sublime Text 3__ config](https://bitbucket.org
         + "viewer": "okular",
         + "sync_wait": 0,
         + "keep_focus_delay": 0,
+        + chinese support
+            * https://tex.stackexchange.com/questions/41737/getting-xecjk-package-to-work-with-miktex
     - ~~refactor~~
     - ~~haskell~~
         + ~~cabal~~
