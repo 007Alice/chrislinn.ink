@@ -25,7 +25,6 @@
     - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
     - [(WIP) compiler](technical/compiler.md)
     - [(WIP) Programming Language Picked](technical/prog-lang.md)
-    - [(WIP) 杭州链家二手房爬虫](technical/second-hand-house.md)
     - [(WIP) 阅读列表](technical/reading-list.md)
 * 自我提升
     - [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
