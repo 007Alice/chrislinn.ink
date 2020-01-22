@@ -1,5 +1,8 @@
 # Distributed Computing
 
+Download a cheatsheet here: https://github.com/ChrisLinn/chrislinn.ink/blob/master/technical/learn-u-a-distcomp-for-great-good.html
+
+
 ## Curriculum
 
 + https://github.com/SebastianElvis/sharding-bib
