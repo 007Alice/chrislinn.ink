@@ -2,6 +2,9 @@
 
 <!-- ex_nolevel -->
 
+这篇文章讲的是 我 和 [润超](https://github.com/SebastianElvis)  如何通过 VRF 来达到消灭矿池的效果， 回归中本聪去中心化的初衷
+
+
 ## 致谢
 
 感谢以下大神们的 review 和反馈:
