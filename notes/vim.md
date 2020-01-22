@@ -24,6 +24,8 @@
     ```
     * Ubuntu Mono derivative Powerline
     * [Nerd-fonts?](https://github.com/ryanoasis/nerd-fonts)
+    * Hack (nerd) font?
+        - kubuntu's default font
 
 ## Shortcuts
 
