@@ -10,6 +10,7 @@
     - [Interpreter in Python](technical/py-interpreter.md)
     - [(WIP) Distributed System](technical/distcomp.md)
     - blockchain
+        + [通过 VRF 来消灭矿池](technical/blockchain/vrf-mining.md)
         + [Erlay](technical/blockchain/erlay.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
         - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
