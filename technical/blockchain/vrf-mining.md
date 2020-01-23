@@ -37,9 +37,9 @@ VRF 可以用来作为一种哈希的方法，就像它名字中表明的一样�
 
 共识验证的时候，因为 `PK` `α` `π` 都可以拿到，只需要验证 `VRF_verify(PK, α, π)` 结果是否通过即可。
 
-具体的哈希函数的设计选取看这里: 1) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Appendix 2) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Instantiating-VRF
-
 也就说如果开矿池，矿池就 **必须要把自己的私钥告诉矿工** (因为计算 VRF_hash 需要私钥) ，但是矿池又不可能把私钥告诉矿工，否则就会导致自己的钱全被矿工偷走。而且矿池和矿工双方都没法证明自己有没有偷钱。
+
+具体的哈希函数的设计选取看这里: 1) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Appendix 2) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Instantiating-VRF
 
 
 ## 你可能想问
