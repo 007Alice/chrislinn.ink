@@ -37,7 +37,7 @@ VRF 可以用来作为一种哈希的方法，就像它名字中表明的一样�
 
 共识验证的时候，因为 `PK` `α` `π` 都可以拿到，只需要验证 `VRF_verify(PK, α, π)` 结果是否通过即可。
 
-具体的哈希函数的设计选取看这里: https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Instantiating-VRF
+具体的哈希函数的设计选取看这里: 1) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Appendix 2) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Instantiating-VRF
 
 也就说如果开矿池，矿池就 **必须要把自己的私钥告诉矿工** (因为计算 VRF_hash 需要私钥) ，但是矿池又不可能把私钥告诉矿工，否则就会导致自己的钱全被矿工偷走。而且矿池和矿工双方都没法证明自己有没有偷钱。
 
@@ -46,7 +46,7 @@ VRF 可以用来作为一种哈希的方法，就像它名字中表明的一样�
 
 __Q:__ 去中心化 挖矿我以前有听说过，比如 P2Pool 什么的。这个相比起来有什么好处呢？
 
-__A:__ P2Pool 容易被引入算力攻击， 并且网络延迟严重，出块效率很差。事实上 P2Pool 已经好几年没出块了。我们也和现有的其他协议进行了对比，包括 SmartPool，2P-PoW，stratumV2 用的 BetterHash，还有 Andrew Miller 的 non-outsourceable scratch-off puzzle，得出的结论是我们比他们的更好。详见 1) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Appendix 2) https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Related-work
+__A:__ P2Pool 容易被引入算力攻击， 并且网络延迟严重，出块效率很差。事实上 P2Pool 已经好几年没出块了。我们也和现有的其他协议进行了对比，包括 SmartPool，2P-PoW，stratumV2 用的 BetterHash，还有 Andrew Miller 的 non-outsourceable scratch-off puzzle，得出的结论是我们比他们的更好。详见 https://hackmd.io/@ZcwjuAe3RUCFVPrXtvriPQ/S1YM1KZWI#Related-work
 
 简单来说:
 
