@@ -129,6 +129,8 @@
     * https://wasmweekly.news/
     * https://github.com/webassembly
 * cpp
+    - https://isocpp.github.io/CppCoreGuidelines/
+    - https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
     - https://changkun.de/modern-cpp/
 + https://github.com/developer-learning/learning-linux/
 * DailyCodingInterview
