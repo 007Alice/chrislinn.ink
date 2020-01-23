@@ -17,6 +17,7 @@ https://github.com/tyrchen/book_next/blob/master/src/2019/w48/2-git-stash-pub.md
             + 新树和老树共享相同的子树，只有变化的部分才会分叉
             + 长此以往，对象数据库中有无数棵树，一起构成了一个 merkle DAG。
             + 通过使用引用（ref），比如 HEAD, heads/master，tags/v0.1， 可以很方便地追踪每一棵树的确切状态
+                * ![git_revision](https://github.com/tyrchen/book_next/raw/master/src/2019/w48/assets/git_revision.png)
     * 对比 cvs/svn
         - 去中心化
         - cvs/svn 以 diff 为基础，git 认为每个对象 immutable 每次都会生成新对象 （id 为其 sha1 hash）
