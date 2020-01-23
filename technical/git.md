@@ -28,4 +28,10 @@ https://github.com/tyrchen/book_next/blob/master/src/2019/w48/2-git-stash-pub.md
             + 通过使用引用（ref），比如 HEAD, heads/master，tags/v0.1， 可以很方便地追踪每一棵树的确切状态
                 * ![git_revision](https://github.com/tyrchen/book_next/raw/master/src/2019/w48/assets/git_revision.png)
         - ...
++ git stash
+    * 未完成的工作也会塞到不可修改的对象数据库中，新增 commit
+        - 如果经常到处 git stash，势必要记录 parent commit，要为 stash 生成一颗树来保存目录结构，要把修改的文件存入某处
+            + 而所有这一切，其实 commit 的代码已经很好地实现了，用一套代码解决两个问题，简单中透着美
+        - 生成的 commit 虽然最后没有用，但中间的树和子树很大机会可以被复用
+        - git stash pop 时会 GC 把孤儿子树回收
 
