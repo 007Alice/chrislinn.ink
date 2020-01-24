@@ -31,25 +31,13 @@
     * PingCAP
     * nervos
 + eth book
-    * chapters
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/04keys-addresses.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/05wallets.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/08smart-contracts-vyper.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/10tokens.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/11oracles.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/12dapps.asciidoc
-        * https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc
-        * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-dev-tools.asciidoc
-        * https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-web3js-tutorial.asciidoc
-    * https://github.com/ethereumbook/ethereumbook/tree/develop/code
-    * https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/upgradability-patterns.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/privacy-enhancing-patterns.asciidoc
-        - https://github.com/ethereumbook/ethereumbook/blob/develop/contrib/google-cloud-testnet.asciidoc
+    * codes/
+        - auction_dapp
+            + backend
+                * contract
+        - OpenZeppelin
+        - Solidity
+        - truffle
 
 ## Slides
 + https://github.com/gnab/remark
