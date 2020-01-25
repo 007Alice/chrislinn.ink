@@ -31,10 +31,16 @@
     * PingCAP
     * nervos
 + eth book
+    * 这些 缩进都不对
+    * 检查一下  naming convention
     * codes/
-        - auction_dapp
-            + backend
-                * contract
+        - auction_dapp/
+            + backend/
+                * contract/
+                    - ERC721/
+                        + DeprecatedERC721.sol
+                        + ERC721.sol
+                        + ERC721Basic.sol???
         - OpenZeppelin
         - Solidity
         - truffle
