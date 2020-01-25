@@ -41,6 +41,11 @@
                         + DeprecatedERC721.sol
                         + ERC721.sol
                         + ERC721Basic.sol???
+                            * 2 lines?
+                        + ERC721BasicToken.sol???
+                        + ERC721Holder.sol???
+                        + ERC721Receiver.sol???
+                        + ERC721Token.sol???
         - OpenZeppelin
         - Solidity
         - truffle
