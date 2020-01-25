@@ -46,6 +46,10 @@
                         + ERC721Holder.sol???
                         + ERC721Receiver.sol???
                         + ERC721Token.sol???
+                * utils/
+                * AuctionRepository.sol
+                * DeedRepository.sol
+                * Migrations.sol
         - OpenZeppelin
         - Solidity
         - truffle
