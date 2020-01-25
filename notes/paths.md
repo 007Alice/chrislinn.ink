@@ -32,6 +32,8 @@
     * nervos
 + eth book
     * 这些 缩进都不对
+    * event 应该放在 function 前面吧
+        - 尤其是 auction_dapp 里面的
     * 检查一下  naming convention
     * codes/
         - auction_dapp/
