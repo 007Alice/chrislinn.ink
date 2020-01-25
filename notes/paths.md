@@ -36,21 +36,7 @@
         - 尤其是 auction_dapp 里面的
     * 检查一下  naming convention
     * codes/
-        - auction_dapp/
-            + backend/
-                * contract/
-                    - ERC721/
-                        + DeprecatedERC721.sol
-                        + ERC721.sol
-                        + ERC721Basic.sol
-                        + ERC721BasicToken.sol???
-                        + ERC721Holder.sol???
-                        + ERC721Receiver.sol???
-                        + ERC721Token.sol???
-                * utils/???
-                * AuctionRepository.sol
-                * DeedRepository.sol
-                * Migrations.sol
+        - [X] auction_dapp
         - OpenZeppelin
         - Solidity
         - truffle
