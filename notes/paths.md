@@ -42,13 +42,12 @@
                     - ERC721/
                         + DeprecatedERC721.sol
                         + ERC721.sol
-                        + ERC721Basic.sol???
-                            * 2 lines?
+                        + ERC721Basic.sol
                         + ERC721BasicToken.sol???
                         + ERC721Holder.sol???
                         + ERC721Receiver.sol???
                         + ERC721Token.sol???
-                * utils/
+                * utils/???
                 * AuctionRepository.sol
                 * DeedRepository.sol
                 * Migrations.sol
