@@ -37,8 +37,8 @@
     * 检查一下  naming convention
     * codes/
         - [X] auction_dapp
-        - OpenZeppelin
-        - Solidity
+        - [X] OpenZeppelin
+        - [X] Solidity
         - truffle
 
 ## Slides
