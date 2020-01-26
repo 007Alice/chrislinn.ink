@@ -39,7 +39,8 @@
         - [X] auction_dapp
         - [X] OpenZeppelin
         - [X] Solidity
-        - truffle
+        - truffle/
+            + CallExamples
 
 ## Slides
 + https://github.com/gnab/remark
