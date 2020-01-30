@@ -10,6 +10,8 @@ https://github.com/tyrchen/book_next/blob/master/src/2019/w48/2-git-stash-pub.md
 + 对比 cvs/svn
     * 去中心化
     * cvs/svn 以 diff 为基础，git 认为每个对象 immutable 每次都会生成新对象 （id 为其 sha1 hash）
+        - 这样的好处是，回滚和切分支 很方便
+        - 有点像在 状态管理中使用 immutable 的思想，每次修改都会形成一个新的文件
 + 对象
     * 分类
         - blob （文件对象）
