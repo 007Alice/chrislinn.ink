@@ -216,6 +216,9 @@ BFT 要求一大部分(通常是 2/3 以上)的参与者都不是恶意的, 在�
 
 PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block producer 身份伪造有成本，PoW 可以抗 Sybil Attack.
 
+PoW 其实只是 membership 的门槛，  nakamoto consensus 除了 PoW 其实还和 longest chain 紧密相关。（Assume honest 节点占大多数，于是他们出块更快，更容易占据更长链。）
+
+
 
 ## Consensus
 
