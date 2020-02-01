@@ -1,6 +1,6 @@
 # Learn You a Distributed Computing for Great Good!
 
-Revision v0.05
+Revision v0.06
 
 这份笔记大部分是 [我]((https://chrislinn.ink/)) 从 [韩神](https://github.com/SebastianElvis) 和 [邱巨](https://priewienv.me/) 处抄袭、总结或与他们请教而来；如果有任何错误，那肯定是我搞错了，与大腿们无关。
 
@@ -215,6 +215,9 @@ __TODO:__
 BFT 要求一大部分(通常是 2/3 以上)的参与者都不是恶意的, 在非许可环境下，一个攻击者可以使用被称作女巫攻击 (Sybil Attack) 的手段模拟出大量的参与者，从而轻易地控制住参与者中的绝大多数。
 
 PoW 中出块其实就是 block producer 的 election, 通过 PoW 使 block producer 身份伪造有成本，PoW 可以抗 Sybil Attack.
+
+PoW 其实只是 membership 的门槛，  nakamoto consensus 除了 PoW 其实还和 longest chain 紧密相关。（Assume honest 节点占大多数，于是他们出块更快，更容易占据更长链。）
+
 
 
 ## Consensus
