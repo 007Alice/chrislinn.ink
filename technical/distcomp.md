@@ -19,6 +19,7 @@ Download a cheatsheet here: https://github.com/ChrisLinn/chrislinn.ink/blob/mast
 + MIT 6.824
     * distributed system
 + talent-plan
++ https://github.com/aphyr/distsys-class
 
 ## PBFT
 
