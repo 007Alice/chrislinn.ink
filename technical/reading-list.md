@@ -6,6 +6,7 @@
 * git
     - https://github.com
     - gitmemory
+        + https://gitmemory.com/zonyitoo
         + https://gitmemory.com/Himself65
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
