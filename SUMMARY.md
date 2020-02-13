@@ -9,6 +9,7 @@
     - [爬虫抓代理](technical/proxy-crawler.md)
     - [Interpreter in Python](technical/py-interpreter.md)
     - [(WIP) Distributed System](technical/distcomp.md)
+    - [Learn You a Distributed Computing for Great Good!](technical/learn-u-a-distcomp-for-great-good.md)
     - [Git 阅读](technical/git.md)
     - blockchain
         + [通过 VRF 来消灭矿池](technical/blockchain/vrf-mining.md)
