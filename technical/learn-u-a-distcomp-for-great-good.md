@@ -203,11 +203,11 @@ __TODO:__
         * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
             - 存在的问题是 scalability
                 + 对于 transactions of size B
-                    * bracha 的通信复杂度是 \\(O(n^2*B)\\)
-                    * HoneyBadgerBFT 的是 \\(O(n*B)\\)
+                    * bracha 的通信复杂度是 ![](http://latex.codecogs.com/gif.latex?O(n^2*B))
+                    * HoneyBadgerBFT 的是 ![](http://latex.codecogs.com/gif.latex?O(n*B))
                         + HoneyBadgerBFT 用的是 erasure-coded broadcast
                             * small client-load 时可以考虑使用 bracha broadcast 来代替，throughput 更大，lantency 更低
-                    * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 \\(O(B)\\)
+                    * [BEAT](https://dl.acm.org/citation.cfm?id=3243812) 的是 ![](http://latex.codecogs.com/gif.latex?O(B))
                         - CCS'18 (ACM Conference on Computer and Communications Security 安全顶会)
 
 ### Sybil Attack 女巫攻击
