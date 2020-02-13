@@ -110,8 +110,8 @@ BASE: 对CAP中一致性和可用性权衡的结果
         * (Informal) When decisions are made by any two correct nodes, they decide on non-conflicting transactions.
         * 诚实的节点对合法交易将达成统一的 (consistent) 意见
     + liveness
-        * (Informal) \\(T\\)-Liveness: each honest node terminates and outputs a value at the end of \\(T\\).
-            - The value of \\(T\\) depends on the research problems and protocols.
+        * (Informal) ![](http://latex.codecogs.com/gif.latex?T)-Liveness: each honest node terminates and outputs a value at the end of ![](http://latex.codecogs.com/gif.latex?T).
+            - The value of ![](http://latex.codecogs.com/gif.latex?T) depends on the research problems and protocols.
         * 一笔合法交易在合理时间长度内会被确认
     + total ordering
         * taken from [BEAT: Asynchronous BFT made practical (DRZ18)](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
@@ -250,20 +250,20 @@ PoW 其实只是 membership 的门槛，  nakamoto consensus 除了 PoW 其实�
     + \\(k\\)-common-preifx
         * First proposed in [The bitcoin backbone protocol: Analysis and applications (GKL15)](https://eprint.iacr.org/2014/765.pdf).
             - For any pair of honest players \\(P_1\\), \\(P_2\\) adopting the chains \\(C_1\\), \\(C_2\\) at rounds \\(r_1 \leq r_2\\), it holds that \\(\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2\\).
-    + \\(T\\)-consistency
-        * [Analysis of the blockchain protocol in asynchronous networks (PSS17)](https://eprint.iacr.org/2016/454.pdf) refines Common Prefix to \\(T\\)-Consistency in order to provide a black-box reduction.
+    + ![](http://latex.codecogs.com/gif.latex?T)-consistency
+        * [Analysis of the blockchain protocol in asynchronous networks (PSS17)](https://eprint.iacr.org/2016/454.pdf) refines Common Prefix to ![](http://latex.codecogs.com/gif.latex?T)-Consistency in order to provide a black-box reduction.
             - Eurocrypt'17 密码学顶会
             - Ouroboros 和 DFINITY 等项目的论文 __均以此模型和部分结论为基础进行安全性证明__
-                + 适合区块链的一致性应该是要求诚实的参与者在不考虑潜在的一小部分的，\\(T\\) 个在链末端的“未确认的”块的情况下，对当前的链达成一致
-                    * 只需证明 \\(T\\)-consistency 不能保持的概率相对于 \\(T\\) 可以 __被忽略__
+                + 适合区块链的一致性应该是要求诚实的参与者在不考虑潜在的一小部分的，![](http://latex.codecogs.com/gif.latex?T) 个在链末端的“未确认的”块的情况下，对当前的链达成一致
+                    * 只需证明 ![](http://latex.codecogs.com/gif.latex?T)-consistency 不能保持的概率相对于 ![](http://latex.codecogs.com/gif.latex?T) 可以 __被忽略__
 * Chain growth
     + \\((\tau, s)\\)-Chain growth
         * For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
-        * 以相对于 \\(T\\) __压倒性__ (overwhelming) 的概率，在任意时刻，诚实参与者的链在过去的 \\(T/g\\) 轮中，至少增长了 \\(T\\) 个消息。称 \\(g\\) 为该协议的 chain growth.
+        * 以相对于 ![](http://latex.codecogs.com/gif.latex?T) __压倒性__ (overwhelming) 的概率，在任意时刻，诚实参与者的链在过去的 \\(T/g\\) 轮中，至少增长了 ![](http://latex.codecogs.com/gif.latex?T) 个消息。称 \\(g\\) 为该协议的 chain growth.
 - Chain quality (Fairness)
     + \\((\mu, k)\\)-Chain quality (Fairness)
         * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
-        * 以相对于 \\(T\\) 压倒性的概率，任意诚实参与者的链中的连续  \\(T\\) 个消息中，诚实参与者提供的消息所占比例至少为 \\(\mu\\)，称 \\(\mu\\) 为该协议的 chain quality 。
+        * 以相对于 ![](http://latex.codecogs.com/gif.latex?T) 压倒性的概率，任意诚实参与者的链中的连续  ![](http://latex.codecogs.com/gif.latex?T) 个消息中，诚实参与者提供的消息所占比例至少为 \\(\mu\\)，称 \\(\mu\\) 为该协议的 chain quality 。
 
 ## Propagation
 
