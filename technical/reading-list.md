@@ -90,6 +90,7 @@
         - https://github.com/nkbai
     - http://sebastianelvis.github.io
     - https://xieyuheng.github.io
+    - http://wayslog.com/
     - https://blog.iany.me/
         + zhangyaning
     - https://xxuejie.github.io
