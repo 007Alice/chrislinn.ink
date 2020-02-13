@@ -223,33 +223,33 @@ PoW 其实只是 membership 的门槛，  nakamoto consensus 除了 PoW 其实�
 ## Consensus
 
 * [苏黎世理工 课程讲义](https://disco.ethz.ch/courses/podc_allstars/lecture/chapter16.pdf)
-> There are \\(n\\) nodes, of which at most \\(f\\) might be faulty (or Byzantine). Each node \\(P_i\\) starts with an input value (say \\(u_i\\)). The nodes must decide one of those values (say \\(v_i\\)), satisfying three properties: Agreement, Validity and Termination.
+> There are ![](http://latex.codecogs.com/gif.latex?n) nodes, of which at most ![](http://latex.codecogs.com/gif.latex?f) might be faulty (or Byzantine). Each node ![](http://latex.codecogs.com/gif.latex?P_i) starts with an input value (say ![](http://latex.codecogs.com/gif.latex?u_i)). The nodes must decide one of those values (say ![](http://latex.codecogs.com/gif.latex?v_i)), satisfying three properties: Agreement, Validity and Termination.
     + 教科书上的
         * Agreement
             - All correct processes must agree on the same value.
-            - For any two honest players \\(P_i\\) and \\(P_j\\), \\(v_i = v_j\\).
+            - For any two honest players ![](http://latex.codecogs.com/gif.latex?P_i) and ![](http://latex.codecogs.com/gif.latex?P_j), ![](http://latex.codecogs.com/gif.latex?v_i = v_j).
         * Validity
             - The decision value must be the input value of a node.
-            - \\(\forall i: u_i \in \langle v_i \rangle\\).
+            - ![](http://latex.codecogs.com/gif.latex?\forall i: u_i \in \langle v_i \rangle).
         * Termination
             - (Informal) All correct nodes terminate in finite time.
             - All the honest players terminate with probability 1.
     + 这几年新提出的
         * Linearity
             - First proposed in [HotStuff](https://arxiv.org/abs/1803.05069).
-            - Any correct leader sends only \\(O(n)\\) messages to drive a protocol to consensus.
+            - Any correct leader sends only ![](http://latex.codecogs.com/gif.latex?O(n)) messages to drive a protocol to consensus.
         * Responsiveness
             - First defined in [Hybrid Consensus](https://eprint.iacr.org/2016/917.pdf).
                 - DISC'17 (International Symposium on Distributed Computing 分布式计算理论顶会)
             - (Informal) The transaction confirmation time depends only on the network’s actual delay, but not on any a-prior known upper-bound.
-            - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual \\(\delta\\) (message delays), not on the loose upper bound \\(\Delta\\) (known upper bound on message delays).
+            - A consensus protocol is responsive if nodes can reach the consensus in time depending only on the network’s actual ![](http://latex.codecogs.com/gif.latex?\delta) (message delays), not on the loose upper bound ![](http://latex.codecogs.com/gif.latex?\Delta) (known upper bound on message delays).
 
 ## Blockchain Properties
 
 - Common prefix (Consistency)
-    + \\(k\\)-common-preifx
+    + ![](http://latex.codecogs.com/gif.latex?k)-common-preifx
         * First proposed in [The bitcoin backbone protocol: Analysis and applications (GKL15)](https://eprint.iacr.org/2014/765.pdf).
-            - For any pair of honest players \\(P_1\\), \\(P_2\\) adopting the chains \\(C_1\\), \\(C_2\\) at rounds \\(r_1 \leq r_2\\), it holds that \\(\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2\\).
+            - For any pair of honest players ![](http://latex.codecogs.com/gif.latex?P_1), ![](http://latex.codecogs.com/gif.latex?P_2) adopting the chains ![](http://latex.codecogs.com/gif.latex?C_1), ![](http://latex.codecogs.com/gif.latex?C_2) at rounds ![](http://latex.codecogs.com/gif.latex?r_1 \leq r_2), it holds that ![](http://latex.codecogs.com/gif.latex?\mathcal{C}_{1}^{\lceil k} \preceq \mathcal{C}_2).
     + ![](http://latex.codecogs.com/gif.latex?T)-consistency
         * [Analysis of the blockchain protocol in asynchronous networks (PSS17)](https://eprint.iacr.org/2016/454.pdf) refines Common Prefix to ![](http://latex.codecogs.com/gif.latex?T)-Consistency in order to provide a black-box reduction.
             - Eurocrypt'17 密码学顶会
@@ -257,13 +257,13 @@ PoW 其实只是 membership 的门槛，  nakamoto consensus 除了 PoW 其实�
                 + 适合区块链的一致性应该是要求诚实的参与者在不考虑潜在的一小部分的，![](http://latex.codecogs.com/gif.latex?T) 个在链末端的“未确认的”块的情况下，对当前的链达成一致
                     * 只需证明 ![](http://latex.codecogs.com/gif.latex?T)-consistency 不能保持的概率相对于 ![](http://latex.codecogs.com/gif.latex?T) 可以 __被忽略__
 * Chain growth
-    + \\((\tau, s)\\)-Chain growth
-        * For any honest party \\(P\\) with chain \\(C\\), it holds that for any  \\(s\\) rounds there are at least \\(\tau \cdot s\\) blocks added to the chain of \\(P\\).
-        * 以相对于 ![](http://latex.codecogs.com/gif.latex?T) __压倒性__ (overwhelming) 的概率，在任意时刻，诚实参与者的链在过去的 \\(T/g\\) 轮中，至少增长了 ![](http://latex.codecogs.com/gif.latex?T) 个消息。称 \\(g\\) 为该协议的 chain growth.
+    + ![](http://latex.codecogs.com/gif.latex?(\tau, s))-Chain growth
+        * For any honest party ![](http://latex.codecogs.com/gif.latex?P) with chain ![](http://latex.codecogs.com/gif.latex?C), it holds that for any  ![](http://latex.codecogs.com/gif.latex?s) rounds there are at least ![](http://latex.codecogs.com/gif.latex?\tau \cdot s) blocks added to the chain of ![](http://latex.codecogs.com/gif.latex?P).
+        * 以相对于 ![](http://latex.codecogs.com/gif.latex?T) __压倒性__ (overwhelming) 的概率，在任意时刻，诚实参与者的链在过去的 ![](http://latex.codecogs.com/gif.latex?T/g) 轮中，至少增长了 ![](http://latex.codecogs.com/gif.latex?T) 个消息。称 ![](http://latex.codecogs.com/gif.latex?g) 为该协议的 chain growth.
 - Chain quality (Fairness)
-    + \\((\mu, k)\\)-Chain quality (Fairness)
-        * The proportion of blocks in any \\(k\\)-long subsequence produced by the adversary is less than \\(\mu \cdot k\\), where \\(\mu\\) is the portion of mining power controlled by the adversary.
-        * 以相对于 ![](http://latex.codecogs.com/gif.latex?T) 压倒性的概率，任意诚实参与者的链中的连续  ![](http://latex.codecogs.com/gif.latex?T) 个消息中，诚实参与者提供的消息所占比例至少为 \\(\mu\\)，称 \\(\mu\\) 为该协议的 chain quality 。
+    + ![](http://latex.codecogs.com/gif.latex?(\mu, k))-Chain quality (Fairness)
+        * The proportion of blocks in any ![](http://latex.codecogs.com/gif.latex?k)-long subsequence produced by the adversary is less than ![](http://latex.codecogs.com/gif.latex?\mu \cdot k), where ![](http://latex.codecogs.com/gif.latex?\mu) is the portion of mining power controlled by the adversary.
+        * 以相对于 ![](http://latex.codecogs.com/gif.latex?T) 压倒性的概率，任意诚实参与者的链中的连续  ![](http://latex.codecogs.com/gif.latex?T) 个消息中，诚实参与者提供的消息所占比例至少为 ![](http://latex.codecogs.com/gif.latex?\mu)，称 ![](http://latex.codecogs.com/gif.latex?\mu) 为该协议的 chain quality 。
 
 ## Propagation
 
