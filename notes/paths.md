@@ -35,12 +35,7 @@
     * event 应该放在 function 前面吧
         - 尤其是 auction_dapp 里面的
     * 检查一下  naming convention
-    * codes/
-        - [X] auction_dapp
-        - [X] OpenZeppelin
-        - [X] Solidity
-        - truffle/
-            + CallExamples
+    * [X] codes/
 
 ## Slides
 + https://github.com/gnab/remark
@@ -51,7 +46,7 @@
 <!-- 
 
 
-## join
+## coinjoin
 + https://github.com/6102bitcoin/CoinJoin-Research 
 + https://github.com/cryptorfoundation/Overview-Coin-Mixers-Blenders
 + https://github.com/maidsafe 
