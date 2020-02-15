@@ -8,7 +8,6 @@
 
 ## Jobs Opportunities
 + kzen
-    * https://github.com/KZen-networks/kms-secp256k1/issues/15
 + https://github.com/scipr-lab/zexe/issues/50
 + runchao
 + Feiyang Qiu
