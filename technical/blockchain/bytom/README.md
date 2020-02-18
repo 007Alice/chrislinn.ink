@@ -70,16 +70,6 @@
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
 + TSS
-* DEX
-    - viabtc_exchange_server
-        - matchengine:
-            + This is the most important part for it records user balance and executes user order. It is in memory database, saves operation log in MySQL and redoes the operation log when start. It also writes user history into MySQL, push balance, orders and deals message to kafka.
-        + marketprice: Reads message(s) from kafka, and generates k line data.
-        * readhistory
-            - https://github.com/viabtc/viabtc_exchange_server/tree/master/readhistory
-    - https://github.com/HAOYUatHZ/awesome-dapps-source-code
-    - pico
-    - binance
 * KMS
     - https://learn.hashicorp.com/vault
     - [Universal Private Key Management for Cryptocurrencies](https://github.com/ChrisLinn/chrislinn.ink/tree/master/res/Universal+Private+Key+Management+for+Cryptocurrencies-draft23.pdf)
