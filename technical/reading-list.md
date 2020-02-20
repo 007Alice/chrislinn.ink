@@ -99,6 +99,7 @@
     - [blockchain](/technical/blockchain/README.md)
     - https://www.jianshu.com/c/06ddad58490f
     - https://concourseopen.com/
+    * https://decentralizedthoughts.github.io/
 * sec
     - 玄武 https://sec.today
     * https://github.com/riusksk/secbook
@@ -141,10 +142,10 @@
 * __https://himself65.com/__
 * https://zhehao.top/
 * http://wjp2013.github.io/
+* https://www.cryptologie.net/
 * papers
     + https://github.com/papers-we-love/papers-we-love
     + http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html
-    + https://decentralizedthoughts.github.io/
     - [the morning paper](https://blog.acolyer.org/)
         + a random walk through Computer Science research, by Adrian Colyer
     - https://github.com/devinmcgloin/theory
