@@ -22,14 +22,6 @@
     * 负责先知节点计划，进行比原网络中的节点发现和状态统计
     * 涉及 P2P
     * vapor Precogs
-        - .
-        ```
-        // TODO:
-        // msg := struct{ msgs.BlockchainMessage }{&msgs.GetBlockMessage{Height: bestHeight + 1}}
-        // for _, peer := range m.sw.GetPeers().List() {
-        //  peers.SendMsg(peer.ID(), msgs.BlockchainChannel, msg)
-        // }
-        ```
         + TODO
             * decide check_height("best best_height" - "confirmations")
             * get blockhash by check_height
@@ -58,7 +50,7 @@
         - https://dev.mysql.com/doc/refman/8.0/en/full-text-adding-collation.html
     * redis
     * MOV DEX
-        - Cancel order? what about data_witness? 
+        - Cancel order? what about data_witness?
 + vapor
     * 设计跨链交易
     * 设计federation模块
@@ -77,61 +69,7 @@
         * 充值收取一定 btm，提现时可以用
     * https://btcpayserver.org/
         - https://github.com/btcpayserver
-    * test
-        - [x] database/store_test.go
-        - [ ] database/utxo_view_test.go
-            + TestGetTransactionsUtxo
-        - [ ] protocol/state/utxo_view_test.go
-        - [ ] protocol/txpool_test.go
-        - [ ] test/bench_blockchain_test.go
-        - [ ] test/chain_test_util.go
-        - [ ] test/utxo_view/utxo_view_test.go
-        - add more test?
 + TSS
-    * Rust language general purpose elliptic curve cryptography.
-        - https://github.com/KZen-networks/curv
-    * Mixing for Cryptocurrencies from Multiparty ECDSA
-        * https://github.com/KZen-networks/ShareLock
-    * two-party-eddsa
-        - https://github.com/KZen-networks/two-party-eddsa-wrapper
-        - Aggregated Signatures
-    * multi-party-eddsa
-        - https://github.com/KZen-networks/multi-party-eddsa
-            + Aggregated Signatures
-            + Accountable-Subgroup Multisignatures
-            + **Threshold**
-    * binance-chain/tss-lib
-        - ecdsa/keygen/
-            + for ...
-                * thisParty := tss.NewPartyID(id, moniker, uniqueKey)
-                * The `uniqueKey` is a unique identifying key for this peer (such as its p2p public key) as a big.Int.
-            + .
-                ```
-                partyIDMap := make(map[string]*PartyID)
-                for _, id := range parties {
-                    partyIDMap[id.Id] = id
-                }
-                ```
-            + ctx := tss.NewPeerContext(tss.SortPartyIDs(parties))
-            + params := tss.NewParameters(ctx, thisParty, len(parties), threshold)
-            + preParams, _ := keygen.GeneratePreParams(1 * time.Minute)
-            - party := keygen.NewLocalParty(params, outCh, endCh, preParams)
-    + p2p key
-        * p2p/key/LoadOrGenNodeKey
-        * p2p/peer
-        * p2p/node
-        * upgradeSecretConn
-        * edd25519 compatible
-* DEX
-    - viabtc_exchange_server
-        - matchengine:
-            + This is the most important part for it records user balance and executes user order. It is in memory database, saves operation log in MySQL and redoes the operation log when start. It also writes user history into MySQL, push balance, orders and deals message to kafka.
-        + marketprice: Reads message(s) from kafka, and generates k line data.
-        * readhistory
-            - https://github.com/viabtc/viabtc_exchange_server/tree/master/readhistory
-    - https://github.com/HAOYUatHZ/awesome-dapps-source-code
-    - pico
-    - binance
 * KMS
     - https://learn.hashicorp.com/vault
     - [Universal Private Key Management for Cryptocurrencies](https://github.com/ChrisLinn/chrislinn.ink/tree/master/res/Universal+Private+Key+Management+for+Cryptocurrencies-draft23.pdf)

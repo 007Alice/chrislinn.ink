@@ -6,6 +6,7 @@
 * git
     - https://github.com
     - gitmemory
+        + https://gitmemory.com/zonyitoo
         + https://gitmemory.com/Himself65
         + https://gitmemory.com/yxliang01
         + https://gitmemory.com/SebastianElvis
@@ -89,6 +90,7 @@
         - https://github.com/nkbai
     - http://sebastianelvis.github.io
     - https://xieyuheng.github.io
+    - http://wayslog.com/
     - https://blog.iany.me/
         + zhangyaning
     - https://xxuejie.github.io
