@@ -28,6 +28,7 @@
     - [(WIP) compiler](technical/compiler.md)
     - [(WIP) Programming Language Picked](technical/prog-lang.md)
     - [(WIP) 阅读列表](technical/reading-list.md)
+    - [Cryptography Interview](technical/crypto-interview.md)
 * 自我提升
     - [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
     - [Life Hacks](life-hacks/life-hacks.md)
