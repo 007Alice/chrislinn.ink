@@ -49,7 +49,7 @@
 #### 理想
 理想 (ideal) 是一种特殊的子环。在子环的基础上满足：
 
-+ 如果 B 是 A 的一个理想，那么对于任何 ![](http://latex.codecogs.com/gif.latex?a \in A)，![](http://latex.codecogs.com/gif.latex?b \in B)，存在 ![](http://latex.codecogs.com/gif.latex?ab \in B)（左理想），并且 ![](http://latex.codecogs.com/gif.latex?ba \in B)（右理想）。
++ 如果 ![](http://latex.codecogs.com/gif.latex?B) 是 ![](http://latex.codecogs.com/gif.latex?A) 的一个理想，那么对于任何 ![](http://latex.codecogs.com/gif.latex?a \in A)，![](http://latex.codecogs.com/gif.latex?b \in B)，存在 ![](http://latex.codecogs.com/gif.latex?ab \in B)（左理想），并且 ![](http://latex.codecogs.com/gif.latex?ba \in B)（右理想）。
     * 注意环中乘法不一定可交换，所以 ![](http://latex.codecogs.com/gif.latex?ab) 和 ![](http://latex.codecogs.com/gif.latex?ba) 不同。
 
 每个环至少有两个理想，这两个理想也被称为平凡理想:
