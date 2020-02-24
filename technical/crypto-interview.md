@@ -127,10 +127,15 @@
 
 #### 离散对数问题
 
-### ECDSA vs EdDSA
 
-### Secp256k1 vs Ed25519
+### 为什么说 ECDSA 签名 不是 deterministics 的?
+签名算法里面有个 随机数k，每次签出来的名可能不一样
 
+### ECDSA 与 Ed25519 有什么区别与联系?
+没有联系，虽然都是椭圆曲线上的。Ed25519 属于 EdDSA，但是 ECDSA 与 EdDSA 也没有关系。ECDSA 是一个又慢又不够安全的过时设计，EdDSA 是一个 更快更安全的现代设计。
+
+### secp256k1 不如 Curve25519 安全，那为什么比特币还用 secp256k1?
+因为那时候 Curve25519 还没出世。
 
 ## Simulation
 
@@ -138,9 +143,20 @@
 ## Paillier
 Paillier 是一种原生支持加法同态的非对称加密体系。能同时支持 语义安全 (semantically secure) 和 加法同态 (additively homomorphic)；RSA 只能取其一。
 
-## Sharding & DRG
+## 应用题
+
+### Sharding & Randomness Beacon
+Sharding 协议中决定将节点分配至哪个 shard 时可能使用 Randomness Beacon，为什么 Randomness Beacon 需要满足:
+
++ unbias
+    * 无法操纵自己加入哪个shard，否则就可以运行多个节点加入同一个shard，然后51。
++ unpredictable
+    * 无法预测分配至哪个shard，否则就可以等到轮到那个shard时再加入，并提前和也加入那个shard的人串谋。
+
+### ETH...
 
 ## Coding
+
 
 
 
