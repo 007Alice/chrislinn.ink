@@ -5,7 +5,7 @@
 ### 代数结构
 具有一个及以上运算的非空集合。
 
-### 群
+### 群 (group)
 只有一个运算（二元操作）的一个（有限或无限）集合。
 
 满足:
@@ -15,10 +15,10 @@
 + 单位元
 + 逆元
 
-#### 阿贝尔群
-满足交换律，故阿贝尔群又叫交换群。
+#### 阿贝尔群 (Abelian group) 
+满足交换律，故阿贝尔群又叫交换群 (commutative group)。
 
-#### 循环群
+#### 循环群 (cyclic group)
 存在一个元素  ![](http://latex.codecogs.com/gif.latex?g) (生成元，generator)，群中所有元素都可以由生成元的幂运算获得。
 
 #### 循环群 vs 阿贝尔群
@@ -27,7 +27,7 @@
 #### 子群
 一个群的非空子集，若在同样的运算下也构成一个群，则称之为这个群的子群。
 
-### 环
+### 环 (ring)
 具有两个二元操作（加法和乘法）的一个集合。
 
 满足:
@@ -46,8 +46,8 @@
 
 例：整数环是有理数域的一个子环，偶数环是整数环的一个子环。
 
-#### 理想
-理想 (ideal) 是一种特殊的子环。在子环的基础上满足：
+#### 理想 (ideal)
+理想是一种特殊的子环。在子环的基础上满足：
 
 + 如果 ![](http://latex.codecogs.com/gif.latex?B) 是 ![](http://latex.codecogs.com/gif.latex?A) 的一个理想，那么对于任何 ![](http://latex.codecogs.com/gif.latex?a \in A)，![](http://latex.codecogs.com/gif.latex?b \in B)，存在 ![](http://latex.codecogs.com/gif.latex?ab \in B)（左理想），并且 ![](http://latex.codecogs.com/gif.latex?ba \in B)（右理想）。
     * 注意环中乘法不一定可交换，所以 ![](http://latex.codecogs.com/gif.latex?ab) 和 ![](http://latex.codecogs.com/gif.latex?ba) 不同。
@@ -71,7 +71,7 @@
 #### 除法代数
 略
 
-### 域
+### 域 (field)
 满足以下性质的一个集合:
 
 + 加法和乘法的结合律
@@ -82,7 +82,7 @@
 
 实数是域，整数是环。
 
-#### 有限域
+#### 有限域 (finite field)
 集合中元素有限的域。又称为 伽罗瓦域 (Galois field)。
 
 + 如果域上不要求乘法的交换律，就是除法代数。
