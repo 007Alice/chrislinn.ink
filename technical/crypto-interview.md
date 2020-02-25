@@ -10,10 +10,10 @@
 
 满足:
 
-+ 封闭性
-+ 结合律
-+ 单位元
-+ 逆元
++ 封闭性：如果 ![](http://latex.codecogs.com/gif.latex?a,b \in G)，则 ![](http://latex.codecogs.com/gif.latex?ab \in G)
++ 结合律： 如果 ![](http://latex.codecogs.com/gif.latex?a,b,c \in G)，则 ![](http://latex.codecogs.com/gif.latex?(ab)c =a(bc))
++ 单位元：集合中存在一个元素 ![](http://latex.codecogs.com/gif.latex?I)，保证 ![](http://latex.codecogs.com/gif.latex?aI = Ia = a)，对所有的 ![](http://latex.codecogs.com/gif.latex?a \in G) 都成立
++ 逆元：对每个集合的元素 ![](http://latex.codecogs.com/gif.latex?a \in G)，存在对应的 ![](http://latex.codecogs.com/gif.latex?b = a^{-1})，保证 ![](http://latex.codecogs.com/gif.latex?ab = ba = I)。
 
 _另外，有一个叫 类群 (class group) 的东西，和 二元二次型 (Binary quadratic form) 以及 虚二次数域 (Imaginary Quadratic Number Fields) 相关，在 1) 零知识证明 (比如 zkSNARK 的 Marlin 协议中用它来构造 Polynomial commitment) 和 2) 累加器 (用于替代 merkle tree，快速同步快速验证) 中很有用，这个到时值得单独拿出来讲讲。_
 
@@ -106,6 +106,22 @@ _另外，有一个叫 类群 (class group) 的东西，和 二元二次型 (Bin
 该方程被称作 椭圆曲线的 Weierstrass 方程。
 
 ### 基于椭圆曲线的群定义
+
+在椭圆曲线的基础上，可以定义一个加法群：
+
++ 所有椭圆曲线上的点就是这个群里的元素
++ 单位元就是 0
++ 点 P 的逆元是点 P 相对 x 坐标的对称点
++ 加法：在椭圆曲线上，和一条直线相交的 3 个点 P, Q 和 R，三点相加满足 P + Q + R = 0。也就是说 椭圆曲线上两点相加的结果还在这条椭圆曲线上。
+
+结合群的定义可以证明刚定义的这个加法群就是阿贝尔群：
+
++ 封闭性：因为椭圆曲线上的点相加还是椭圆曲线上的点
++ 结合律： P + (Q + R) = (P + Q) + R = 0
++ 单位元：单位元是 0
++ 逆元：一个椭圆曲线上的点 P 的逆元，是相对 x 坐标的对称点
++ 交换律：P + Q = Q + P
+
 
 ### 实数上椭圆曲线的加法计算
 计算 ![](http://latex.codecogs.com/gif.latex?P + Q) 的方法: 连接 ![](http://latex.codecogs.com/gif.latex?Q) 和  ![](http://latex.codecogs.com/gif.latex?Q) 画一条直线，与椭圆曲线的另一个交点为 ![](http://latex.codecogs.com/gif.latex?R)，![](http://latex.codecogs.com/gif.latex?P + Q) 的结果就是 ![](http://latex.codecogs.com/gif.latex?R) 的逆。（![](http://latex.codecogs.com/gif.latex?P + Q + R = 0)，![](http://latex.codecogs.com/gif.latex?P + Q = - R)
