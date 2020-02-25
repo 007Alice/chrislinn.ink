@@ -104,11 +104,11 @@
 
 ### 基于椭圆曲线的群定义
 
-### 椭圆曲线的加法计算
+### 实数上椭圆曲线的加法计算
+计算 ![](http://latex.codecogs.com/gif.latex?P + Q) 的方法: 连接 ![](http://latex.codecogs.com/gif.latex?Q) 和  ![](http://latex.codecogs.com/gif.latex?Q) 画一条直线，与椭圆曲线的另一个交点为 ![](http://latex.codecogs.com/gif.latex?R)，![](http://latex.codecogs.com/gif.latex?P + Q) 的结果就是 ![](http://latex.codecogs.com/gif.latex?R) 的逆。（![](http://latex.codecogs.com/gif.latex?P + Q + R = 0)，![](http://latex.codecogs.com/gif.latex?P + Q = - R)
+）
 
 ### 椭圆曲线的标量乘法
-
-#### 对数问题
 
 ### 有限域上的椭圆曲线
 
@@ -126,7 +126,7 @@
 略
 
 #### 离散对数问题
-
+已知两个在 子群 上的点 ![](http://latex.codecogs.com/gif.latex?P) 和 ![](http://latex.codecogs.com/gif.latex?Q = kP)，求解  ![](http://latex.codecogs.com/gif.latex?k) 是非常困难的问题，目前没有多项式时间的求解算法。
 
 ### 为什么说 ECDSA 签名 不是 deterministics 的?
 签名算法里面有个 随机数k，每次签出来的名可能不一样
