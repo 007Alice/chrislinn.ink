@@ -15,6 +15,9 @@
 + 单位元
 + 逆元
 
+_另外，有一个叫 类群 (class group) 的东西，和 二元二次型 (Binary quadratic form) 以及 虚二次数域 (Imaginary Quadratic Number Fields) 相关，在 1) 零知识证明 (比如 zkSNARK 的 Marlin 协议中用它来构造 Polynomial commitment) 和 2) 累加器 (用于替代 merkle tree，快速同步快速验证) 中很有用，这个到时值得单独拿出来讲讲。_
+
+
 #### 阿贝尔群 (Abelian group) 
 满足交换律，故阿贝尔群又叫交换群 (commutative group)。
 
@@ -198,7 +201,7 @@ Sharding 协议中决定将节点分配至哪个 shard 时可能使用 Randomnes
 
 __答：__ 不同算法中在 SNARK 和 虚拟机中 所需的验证时间不一样。比如 SHA256 是 EVM < SNARK，Pedersen Commitment 是 SNARK < EVM。
 
-## Coding
+## 密码学工程安全性
 
 1. 下面这个检查密码是否相等的代码有什么问题？
 
