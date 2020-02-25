@@ -1,4 +1,4 @@
-# Cryptography Interview
+# 搞 MPC 和 ZKP 所需要的密码学基础
 
 ## 数论
 
@@ -162,12 +162,58 @@ Sharding 协议中决定将节点分配至哪个 shard 时可能使用 Randomnes
 
 ### ETH...
 
+
 ## Coding
 
+1. 下面这个检查密码是否相等的代码有什么问题？
 
+```c
+int
+memcmp(const void *s1, const void *s2, size_t n)
+{
+    if (n != 0) {
+        const unsigned char *p1 = s1, *p2 = s2;
 
+        do {
+            if (*p1++ != *p2++)
+                return (*--p1 - *--p2);
+        } while (--n != 0);
+    }
+    return (0);
+}
+```
 
-<!-- 
-zhong guo yu shu?
-zhan zhuan xiang chu?
- -->
+非 constant-time：可通过执行的时间来推测有多少位相同，侧信道攻击。
+
+2. 下面这个 RSA 快速幂取余算法的代码有什么问题？
+
+```c
+int PowerMod(int a, int b, int c)
+{
+    int ans = 1;
+    a = a % c;
+    while(b>0) {
+        if(b % 2 == 1)
+            ans = (ans * a) % c;
+        b = b/2;
+        a = (a * a) % c;
+    }
+    return ans;
+}
+```
+
+非 constant-time：当b为奇数时会多执行下面的指令，执行的时间不一样，可被侧信道攻击。
+
+2. 下面这个解密代码有什么问题？
+
+```go
+func main() {
+    secret := getSecret()
+    plainText, err := decrypt(cipherText, secret)
+    fmt.Println(plainText)
+}
+```
+
+密码使用完后一直放在内存中不主动清除。
+
+在大多数操作系统上，一个进程所拥有的内存可以被另一个进程重用而不会被清除，比如因为第一个进程终止了或将内存退还给系统了。如果内存中包含秘密密钥，则这些密钥可被第二个进程访问到。在多用户系统上，这可以嗅探其他用户的密钥；即使在单用户系统中，也可能带来隐患。
