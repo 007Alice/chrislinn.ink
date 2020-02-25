@@ -152,6 +152,24 @@ Paillier 是一种原生支持加法同态的非对称加密体系。能同时�
 
 ## 应用题
 
+### MPC communicarion channel
+现有一个 MPC 协议，如果我不想被人窃听，该怎么办？
+
+__答：__ 端到端加密
+
+如果我要证明消息的完整性怎么办？
+
+__答：__ 消息摘要
+
+如果我要证明消息确实是我发的，且没有被篡改，我也不能抵赖说我没有发过呢？
+
+__答：__ 数字签名
+
+现在别人不能伪造消息了，如何防止别人重放呢？
+
+__答：__ 加 nonce
+
+
 ### Sharding & Randomness Beacon
 Sharding 协议中决定将节点分配至哪个 shard 时可能使用 Randomness Beacon，为什么 Randomness Beacon 需要满足:
 
