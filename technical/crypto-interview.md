@@ -160,9 +160,9 @@ Sharding 协议中决定将节点分配至哪个 shard 时可能使用 Randomnes
 + unpredictable
     * 无法预测分配至哪个shard，否则就可以等到轮到那个shard时再加入，并提前和也加入那个shard的人串谋。
 
-### zkp proving time 
+### ZKP proving time
 
-给区块链设计 zkp 协议时需要考虑验证的时间成本取舍，指的是什么？只讨论时间成本，不讨论空间和是否交互式等等。
+给区块链设计 ZKP 协议时需要考虑验证的时间成本取舍，指的是什么？只讨论时间成本，不讨论空间和是否交互式等等。
 
 __答：__ 不同算法中在 SNARK 和 虚拟机中 所需的验证时间不一样。比如 SHA256 是 EVM < SNARK，Pedersen Commitment 是 SNARK < EVM。
 
