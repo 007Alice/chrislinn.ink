@@ -108,7 +108,12 @@
 计算 ![](http://latex.codecogs.com/gif.latex?P + Q) 的方法: 连接 ![](http://latex.codecogs.com/gif.latex?Q) 和  ![](http://latex.codecogs.com/gif.latex?Q) 画一条直线，与椭圆曲线的另一个交点为 ![](http://latex.codecogs.com/gif.latex?R)，![](http://latex.codecogs.com/gif.latex?P + Q) 的结果就是 ![](http://latex.codecogs.com/gif.latex?R) 的逆。（![](http://latex.codecogs.com/gif.latex?P + Q + R = 0)，![](http://latex.codecogs.com/gif.latex?P + Q = - R)
 ）
 
-### 椭圆曲线的标量乘法
+### 标量乘法
+简单方法：逐次相乘
+
+快捷方法: 比如计算 ![](http://latex.codecogs.com/gif.latex?nP), ![](http://latex.codecogs.com/gif.latex?n = 105)
+
+因为 ![](http://latex.codecogs.com/gif.latex?n = 105_{(10)} = 10010111_{(2)} = 2^7 + 2^4 + 2^2 + 2^1 + 2^0), 所以可以将 ![](http://latex.codecogs.com/gif.latex?P) 反复乘2，按标志位加和。
 
 ### 有限域上的椭圆曲线
 
@@ -116,8 +121,10 @@
 扩展欧几里得定理
 
 #### 点加
+类比前面
 
 #### 标量乘法
+类比前面
 
 #### 循环子群的阶
 略
@@ -146,6 +153,8 @@
 通用的可组合性及其变体能提供并发组合下的安全性，不仅是同一协议的并发执行（因为在基于游戏的定义中通常也保证了这一点），还包括与其他任意协议的并发执行，而一般基于游戏的定义不能保证这一点。
 
 独立的基于模拟的定义能提供顺序组合下的安全性，所以也很容易通过使用模块化顺序组合定理将协议插入更大的协议来证明大协议的安全性。
+
+## Pairing
 
 ## Paillier
 Paillier 是一种原生支持加法同态的非对称加密体系。能同时支持 语义安全 (semantically secure) 和 加法同态 (additively homomorphic)；RSA 只能取其一。
