@@ -209,7 +209,7 @@ __答：__ 非 constant-time：当b为奇数时会多执行下面的指令，执
 ```go
 func main() {
     secret := getSecret()
-    plainText, err := decrypt(cipherText, secret)
+    plainText := decrypt(cipherText, secret)
     fmt.Println(plainText)
 }
 ```
