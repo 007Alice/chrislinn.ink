@@ -31,3 +31,10 @@
 
 
 ## Commands
++ macro
+```
+qa...q
+reg@a
+@a[times]
+let @a=''
+```
