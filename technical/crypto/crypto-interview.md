@@ -97,6 +97,9 @@ _另外，有一个叫 类群 (class group) 的东西，和 二元二次型 (Bin
 + 有限域中所有非零元素的集合的每个有限子群都是循环群。
 
 ## 椭圆曲线
+
+https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
+
 两条平行线有没有交点？黎曼几何里面有：交点在无穷远。
 
 椭圆曲线是一系列满足如下方程的点:
