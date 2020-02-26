@@ -5,7 +5,7 @@
     - [(WIP) 阅读列表](technical/reading-list.md)
     - [如何学习编程](technical/programming.md)
     - [Git 阅读](technical/git.md)
-    * distsys
+    * 分布式系统
         - [Learn You a Distributed Computing for Great Good!](technical/distsys/learn-u-a-distcomp-for-great-good.md)
         - [(WIP) Distributed System](technical/distsys/distcomp.md)
     - blockchain
