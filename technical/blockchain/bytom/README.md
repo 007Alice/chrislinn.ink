@@ -275,10 +275,6 @@
     * 看下btc的交易结构及coinbase交易. 没有pre tx所以 就可以利用这个字段来写自定义信息. 比特币是在coinbase交易的输入的脚本里写的.
  -->
 
-<!-- 
-# Why I don't like Bytom
-If you look into the Bytom mining code, you will find it hard to understand. In fact, it's designed to collaborate with bitmain's hardware. How can a blockchain product be promising if it doesn't have its own right to choose the algo?
- --> 
 
 ## Bytom 架构
 
@@ -323,21 +319,6 @@ If you look into the Bytom mining code, you will find it hard to understand. In 
         - btm 只支持标准(P2SH)交易
         - 但有个 解决方案：将合约交易转为 P2SH 交易
 
-
-
-<!-- 
-## blockcenter
-
-最近在负责　blockcenter　session　登录交互这一部分，记录一下开发时的所习所想。
-
-主要基础知识还是来自：
-
-+ 图解密码学
-+ Applied Cryptography: Protocols, Algorithms, and Source Code in C 应用密码学
-+ [An Intensive Introduction to Cryptography](https://intensecrypto.org/public/index.html)
-+ [HTTP 身份验证](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication)
- -->
-
 ### Cross-Origin Resource Sharing (CORS)
 
 XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的Web应用程序只能从加载应用程序的同一个域请求HTTP资源，除非响应报文包含了正确CORS响应头。
@@ -351,28 +332,3 @@ XMLHttpRequest和Fetch API遵循同源策略。 这意味着使用这些API的We
 + WebGL 贴图
 + 使用 drawImage 将 Images/video 画面绘制到 canvas
 + 样式表（使用 CSSOM）
-
-
-<!-- 
-
-## DevCon
-### mine
-    + payment channel
-    + UBC
-        * btcpayserver
-    + dao
-        + smart signature
-        + DEX
-        + games
-
-### other
-+ bytom email system
-+ love wall
-+ 在线生成 bycoin手机钱包打赏二维码
-+ equity debugger
-+ CVE wanner for bytom
-+ bytomd compilation optimizer
-+ terram
-
-
--->
