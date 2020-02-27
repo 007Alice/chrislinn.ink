@@ -13,7 +13,7 @@
         + [Erlay](technical/blockchain/erlay.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
         - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
-        - go-zkp
+        - [go-zkp](technical/blockchain/go-zkp.md)
         * Bytom 源码解读
             + [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
             + [验证交易](technical/blockchain/bytom/validate-tx.md)
