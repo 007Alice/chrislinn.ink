@@ -54,6 +54,7 @@
             unset https_proxy
             unset APT_CONFIG
             # npm config delete proxy
+            git config --global --unset http.https://github.com.proxy
             echo -e "proxy off!"
         }
 
