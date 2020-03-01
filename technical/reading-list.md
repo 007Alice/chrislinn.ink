@@ -121,6 +121,7 @@
     - https://github.com/rustlang-cn/resourses
     - https://rniczh.github.io/#me
 * go
+    * https://blog.gopheracademy.com/
     * https://github.com/developer-learning/reading-go
     * https://github.com/qichengzx/gopher-reading-list-zh_CN
     * https://github.com/wty4427300/learn-tidb
