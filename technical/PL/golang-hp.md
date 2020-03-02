@@ -19,9 +19,7 @@
         - Maps with slice values
         - Maps with string keys
     * 解决办法
-        - If your string takes only a few fixed values then consider using integer constants instead
-        - If you are storing dates and times as strings, then perhaps parse them and store the date or time as an integer
-        - If you fundamentally need to keep hold of a lot of strings
-            + if all the string bytes were in a single piece of memory, we could track the strings by offsets to the start and end of each string in this memory. By tracking offsets we no-longer have pointers in our large slice, and the GC is no longer troubled.
-            + What we give up by doing this is the ability to free up memory for individual strings, and we’ve added some overhead copying the string bodies into our big byte slice.
-            + The principle here is that if you never need to free a string, you can convert it to an index into a larger block of data and avoid having large numbers of pointers. I’ve built a slightly more sophisticated thing that follows this principle here if you are interested.
+        - 如果这个string只可能是几个固定值的其中之一的话，不妨就用整数来表示
+        - 如果要用string来存时间，不妨 parse 成整数来存储
+        - 如果真的需要存很多字符串
+            + 如果在内存中连续，我们可以用 offset 来访问，就不需要 指针了
