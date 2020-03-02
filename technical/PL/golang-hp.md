@@ -9,16 +9,16 @@
 
 ---
 
-+ 要避免指针:
-    * when
-        - when we have large amounts of memory allocated on-heap
-        - when we try to work around this by moving the data to our own off-heap allocations
-    * what kinds of pointers?
-        - Lots of strings
-        - Timestamps on objects using time.Time
++ 要避免指针, 不然 GC 影响性能:
+    * 什么时候会出现这种情况?
+        - 堆上申请了大量内存
+        - 就算想不在堆上申请, 把数据挪到堆下 (那就会不可避免的需要很多指针)
+    * 什么场景需要警觉?
+        - 很多 strings
+        - `time.Time`
         - Maps with slice values
         - Maps with string keys
-    * solution
+    * 解决办法
         - If your string takes only a few fixed values then consider using integer constants instead
         - If you are storing dates and times as strings, then perhaps parse them and store the date or time as an integer
         - If you fundamentally need to keep hold of a lot of strings
