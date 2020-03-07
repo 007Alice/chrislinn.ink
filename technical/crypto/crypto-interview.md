@@ -10,10 +10,13 @@
 
 满足:
 
-+ 封闭性
-+ 结合律
-+ 单位元
-+ 逆元
++ 封闭性：如果 ![](http://latex.codecogs.com/gif.latex?a,b \in G)，则 ![](http://latex.codecogs.com/gif.latex?ab \in G)
++ 结合律： 如果 ![](http://latex.codecogs.com/gif.latex?a,b,c \in G)，则 ![](http://latex.codecogs.com/gif.latex?(ab)c =a(bc))
++ 单位元：集合中存在一个元素 ![](http://latex.codecogs.com/gif.latex?I)，保证 ![](http://latex.codecogs.com/gif.latex?aI = Ia = a)，对所有的 ![](http://latex.codecogs.com/gif.latex?a \in G) 都成立
++ 逆元：对每个集合的元素 ![](http://latex.codecogs.com/gif.latex?a \in G)，存在对应的 ![](http://latex.codecogs.com/gif.latex?b = a^{-1})，保证 ![](http://latex.codecogs.com/gif.latex?ab = ba = I)。
+
+_另外，有一个叫 类群 (class group) 的东西，和 二元二次型 (Binary quadratic form) 以及 虚二次数域 (Imaginary Quadratic Number Fields) 相关，在 1) 零知识证明 (比如 zkSNARK 的 Marlin 协议中用它来构造 Polynomial commitment) 和 2) 累加器 (用于替代 merkle tree，快速同步快速验证) 中很有用，这个到时值得单独拿出来讲讲。_
+
 
 #### 阿贝尔群 (Abelian group) 
 满足交换律，故阿贝尔群又叫交换群 (commutative group)。
@@ -59,7 +62,7 @@
 
 对于整数环，所有偶数组成的子环是一个理想，因为任何整数和偶数的乘积还是一个偶数。
 
-##### 主理想
+##### 主理想 (prime ideal)
 略
 
 #### 商环
@@ -94,6 +97,9 @@
 + 有限域中所有非零元素的集合的每个有限子群都是循环群。
 
 ## 椭圆曲线
+
+https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
+
 两条平行线有没有交点？黎曼几何里面有：交点在无穷远。
 
 椭圆曲线是一系列满足如下方程的点:
@@ -103,6 +109,22 @@
 该方程被称作 椭圆曲线的 Weierstrass 方程。
 
 ### 基于椭圆曲线的群定义
+
+在椭圆曲线的基础上，可以定义一个加法群：
+
++ 所有椭圆曲线上的点就是这个群里的元素
++ 单位元就是 0
++ 点 P 的逆元是点 P 相对 x 坐标的对称点
++ 加法：在椭圆曲线上，和一条直线相交的 3 个点 P, Q 和 R，三点相加满足 P + Q + R = 0。也就是说 椭圆曲线上两点相加的结果还在这条椭圆曲线上。
+
+结合群的定义可以证明刚定义的这个加法群就是阿贝尔群：
+
++ 封闭性：因为椭圆曲线上的点相加还是椭圆曲线上的点
++ 结合律： P + (Q + R) = (P + Q) + R = 0
++ 单位元：单位元是 0
++ 逆元：一个椭圆曲线上的点 P 的逆元，是相对 x 坐标的对称点
++ 交换律：P + Q = Q + P
+
 
 ### 实数上椭圆曲线的加法计算
 计算 ![](http://latex.codecogs.com/gif.latex?P + Q) 的方法: 连接 ![](http://latex.codecogs.com/gif.latex?Q) 和  ![](http://latex.codecogs.com/gif.latex?Q) 画一条直线，与椭圆曲线的另一个交点为 ![](http://latex.codecogs.com/gif.latex?R)，![](http://latex.codecogs.com/gif.latex?P + Q) 的结果就是 ![](http://latex.codecogs.com/gif.latex?R) 的逆。（![](http://latex.codecogs.com/gif.latex?P + Q + R = 0)，![](http://latex.codecogs.com/gif.latex?P + Q = - R)
@@ -155,6 +177,11 @@
 独立的基于模拟的定义能提供顺序组合下的安全性，所以也很容易通过使用模块化顺序组合定理将协议插入更大的协议来证明大协议的安全性。
 
 ## Pairing
+又叫 配对 或 双线性映射
+
+### ZKP 中为什么用了 Pairing？
+如果只用 指数 和 取模来进行同态加密，只能支持一个加密的值和一个未加密的值相乘。引入了 Pairing 之后就可以实现加密值相乘。
+
 
 ## Paillier
 Paillier 是一种原生支持加法同态的非对称加密体系。能同时支持 语义安全 (semantically secure) 和 加法同态 (additively homomorphic)；RSA 只能取其一。
@@ -193,7 +220,7 @@ Sharding 协议中决定将节点分配至哪个 shard 时可能使用 Randomnes
 
 __答：__ 不同算法中在 SNARK 和 虚拟机中 所需的验证时间不一样。比如 SHA256 是 EVM < SNARK，Pedersen Commitment 是 SNARK < EVM。
 
-## Coding
+## 密码学工程安全性
 
 1. 下面这个检查密码是否相等的代码有什么问题？
 
@@ -247,3 +274,5 @@ func main() {
 __答：__ 密码使用完后一直放在内存中不主动清除。
 
 在大多数操作系统上，一个进程所拥有的内存可以被另一个进程重用而不会被清除，比如因为第一个进程终止了或将内存退还给系统了。如果内存中包含秘密密钥，则这些密钥可被第二个进程访问到。在多用户系统上，这可以嗅探其他用户的密钥；即使在单用户系统中，也可能带来隐患。
+
+像 Java、GoLang 这种带 GC 的就会比较尴尬，无法可靠地清除内存。

@@ -2,20 +2,18 @@
 
 * [About Me](README.md)
 * Technical
+    - [(WIP) 阅读列表](technical/reading-list.md)
     - [如何学习编程](technical/programming.md)
-    - [Kerberos](technical/kerberos.md)
-    - [也体验一把密码朋克](technical/cypher-punk.md)
-    - [Noise Protocol](technical/noise-protocol.md)
-    - [爬虫抓代理](technical/proxy-crawler.md)
-    - [Interpreter in Python](technical/py-interpreter.md)
-    - [(WIP) Distributed System](technical/distcomp.md)
-    - [Learn You a Distributed Computing for Great Good!](technical/learn-u-a-distcomp-for-great-good.md)
     - [Git 阅读](technical/git.md)
+    * 分布式系统
+        - [Learn You a Distributed Computing for Great Good!](technical/distsys/learn-u-a-distcomp-for-great-good.md)
+        - [(WIP) Distributed System](technical/distsys/distcomp.md)
     - blockchain
         + [通过 VRF 来消灭矿池](technical/blockchain/vrf-mining.md)
         + [Erlay](technical/blockchain/erlay.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
         - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
+        - [go-zkp](technical/blockchain/go-zkp.md)
         * Bytom 源码解读
             + [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
             + [验证交易](technical/blockchain/bytom/validate-tx.md)
@@ -23,12 +21,18 @@
             + [跨链](technical/blockchain/bytom/cross-chain.md)
             + [(WIP) processBlock](technical/blockchain/bytom/process-block.md)
             + [(WIP) 虚拟机验证](technical/blockchain/bytom/vm-verification.md)
-    - [(WIP) GoLang](technical/golang.md)
+    - crypto
+        - [Cryptography Interview](technical/crypto/crypto-interview.md)
+        - [也体验一把密码朋克](technical/crypto/cypher-punk.md)
+        + [Kerberos](technical/crypto/kerberos.md)
+        + [Noise Protocol](technical/crypto/noise-protocol.md)
     - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
-    - [(WIP) compiler](technical/compiler.md)
-    - [(WIP) Programming Language Picked](technical/prog-lang.md)
-    - [(WIP) 阅读列表](technical/reading-list.md)
-    - [Cryptography Interview](technical/crypto-interview.md)
+    * PL
+        - [(WIP) GoLang](technical/PL/golang.md)
+        - [(WIP) Programming Language Picked](technical/PL/prog-lang.md)
+        - [(WIP) compiler](technical/PL/compiler.md)
+        - [Interpreter in Python](technical/PL/py-interpreter.md)
+    - [爬虫抓代理](technical/proxy-crawler.md)
 * 自我提升
     - [为什么我应该开始写笔记/博客](life-hacks/hello-blog.md)
     - [Life Hacks](life-hacks/life-hacks.md)

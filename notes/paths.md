@@ -37,14 +37,14 @@
     * 检查一下  naming convention
     * [X] codes/
 
+
+<!-- 
+
 ## Slides
 + https://github.com/gnab/remark
 + https://github.com/yhatt/marp
 + https://github.com/hiroppy/fusuma
 + https://github.com/jacksingleton/hacker-slides
-
-<!-- 
-
 
 ## coinjoin
 + https://github.com/6102bitcoin/CoinJoin-Research 
@@ -56,21 +56,6 @@
 + https://github.com/kendricktan/heiswap-dapp 
 + instant poker?
 + https://github.com/stonecoldpat/anonymousvoting 
-
-
-## SoK sharding
-+ membership -> consensus -> PoW sybil
-    + jiangshan, selection type 
-    + SoK sharding randomness
-+ all strongest
-+ tradeoff operability
-pic
-    operability vs chunk
-    layers
-    add Fig1
-
-
-
 
 
 <!-- 
