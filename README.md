@@ -60,6 +60,8 @@ My SNS accounts:
     * [Snick language compiler](https://github.com/ChrisLinn/COMP90045_2017_SM1), __a compiler in OCaml__
     * Rank __7/100__ in UC Berkeley Pacman AI campus competition
 
+<!-- 
+
 ## Open-source contribution
 
 | Project | Description |
@@ -77,6 +79,7 @@ My SNS accounts:
 | binance-chain/tss-lib | [PR#79](https://github.com/binance-chain/tss-lib/pull/79) ![](/img/PR/merged.png) |
 | mit-dci/lit | [PR#464](https://github.com/mit-dci/lit/pull/464) ![](/img/PR/open.png) |
 
+ -->
 
 ---
 
