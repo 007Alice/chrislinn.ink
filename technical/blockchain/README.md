@@ -60,6 +60,8 @@
         - https://www.coursera.org/learn/cryptocurrency
     * https://nakamotoinstitute.org/
 + eth
+    * [Combining GHOST and Casper](https://arxiv.org/abs/2003.03052)
+        - an idealized version of the proposed Ethereum 2.0 beacon chain. The protocol combines Casper FFG, a finality tool, with LMD GHOST, a fork-choice rule. We prove safety, plausible liveness, and probabilistic liveness under different sets of assumptions.
     + [Ethereum Research](https://ethresear.ch/)
     * [ethereumbook](https://github.com/ethereumbook/ethereumbook)
     * [以太坊白皮书](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
