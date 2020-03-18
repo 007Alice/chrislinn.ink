@@ -60,4 +60,3 @@
     * [黑镜 第三季 影评](mics/black-mirror-s3.md)
     * [影评《不在让你孤单》](mics/a-beautiful-life.md)
     * [(WIP) 王小波读后感](mics/wangxiaobo.md)
-    - [(WIP) 我读周金涛](mics/zhoujintao.md)
