@@ -29,6 +29,7 @@
     - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
     * PL
         - [(WIP) GoLang](technical/PL/golang.md)
+        - [High performance GoLang](technical/PL/hp-golang.md)
         - [(WIP) Programming Language Picked](technical/PL/prog-lang.md)
         - [(WIP) compiler](technical/PL/compiler.md)
         - [Interpreter in Python](technical/PL/py-interpreter.md)
