@@ -13,7 +13,6 @@
         + [Erlay](technical/blockchain/erlay.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
         - [MimbleWimble Origin](technical/blockchain/mimblewimble-origin.md)
-        - [go-zkp](technical/blockchain/go-zkp.md)
         * Bytom 源码解读
             + [UTXO 选择](technical/blockchain/bytom/utxo-selection.md)
             + [验证交易](technical/blockchain/bytom/validate-tx.md)
@@ -28,8 +27,8 @@
         + [Noise Protocol](technical/crypto/noise-protocol.md)
     - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
     * PL
-        - [(WIP) GoLang](technical/PL/golang.md)
         - [High performance GoLang](technical/PL/hp-golang.md)
+        - [(WIP) GoLang](technical/PL/golang.md)
         - [(WIP) Programming Language Picked](technical/PL/prog-lang.md)
         - [(WIP) compiler](technical/PL/compiler.md)
         - [Interpreter in Python](technical/PL/py-interpreter.md)
