@@ -63,9 +63,9 @@
             + 70
             + ~~71-76~~
             + ~~89~~
-    - __https://www.liancai01.cn/__
     - https://zkcapital.substack.com/
     - https://distsys.substack.com/
+    - https://csruiliu.github.io/blog/tag/distcomp/
     - https://blog.quarkslab.com/
     - https://joinmarket.me/blog/
     - https://blog.patternsinthevoid.net/index.html
