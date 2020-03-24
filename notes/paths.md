@@ -2,6 +2,15 @@
 
 > There are paths for everyone
 
++ 你做的这个东西对 product 有什么 impact
++ 你写的这个东西，有什么 contribution
+    * 讨论的前提成立吗
+        - 需要讨论吗
+    * 命题为真吗
+        - 逻辑正确吗
+        - 有什么支撑吗
+
+
 ## Leetcode
 + https://zhuanlan.zhihu.com/p/90664857
 + https://zhuanlan.zhihu.com/p/89392459
