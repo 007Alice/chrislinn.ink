@@ -59,9 +59,10 @@
         }
 
         function proxy_on() {
-                sudo service privoxy restart
-                pkill ss-local
-                nohup ss-local -c ~/.shadowsocks/config.json >> ~/.shadowsocks/log.txt 2>&1 &
+                sudo service v2ray restart
+                # sudo service privoxy restart
+                # pkill ss-local
+                # nohup ss-local -c ~/.shadowsocks/config.json >> ~/.shadowsocks/log.txt 2>&1 &
                 export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
                 export http_proxy="http://127.0.0.1:8118"
                 export https_proxy=$http_proxy
