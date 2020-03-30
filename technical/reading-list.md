@@ -32,6 +32,7 @@
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
+    - https://research.nccgroup.com/
     - https://github.com/denisnazarov/awesome-crypto-trackers
     - https://github.com/jonatack/bitcoin-development
         + IRC
