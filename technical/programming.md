@@ -137,6 +137,9 @@
     * 代码的中间变更是否清理了？(变来变去过程中，中途曾经有用但最后其实没用了)
     * 不用的函数是否清理了
 + 当涉及设计 API
+    * https://cloud.google.com/apis/design/
+        * and ...
+            - https://microservices.io/patterns/apigateway.html
     * 什么是合理的接口
         - 合理的名称
         - 合理的输入输出

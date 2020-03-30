@@ -2,6 +2,16 @@
 
 > There are paths for everyone
 
++ 你做的这个东西对 product 有什么 impact
++ 你写的这个东西，有什么 contribution
+    * 讨论的前提成立吗
+        - 需要讨论吗
+    * 命题为真吗
+        - 逻辑正确吗
+        - 有什么支撑吗
++ 和文章的主题有什么区别与联系
+
+
 ## Leetcode
 + https://zhuanlan.zhihu.com/p/90664857
 + https://zhuanlan.zhihu.com/p/89392459
@@ -31,11 +41,6 @@
     * PingCAP
     * nervos
 + eth book
-    * 这些 缩进都不对
-    * event 应该放在 function 前面吧
-        - 尤其是 auction_dapp 里面的
-    * 检查一下  naming convention
-    * [X] codes/
 
 
 <!-- 
