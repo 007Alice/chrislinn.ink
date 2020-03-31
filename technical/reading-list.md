@@ -32,6 +32,7 @@
         + https://gitcoin.co/explorer
         + https://github.com/gitcoinco/beyondblockchainteams/issues
 * blockchain
+    - https://distsys.substack.com/
     - https://github.com/SebastianElvis/distributed-computing-lecture-notes/
     - https://github.com/denisnazarov/awesome-crypto-trackers
     - https://github.com/jonatack/bitcoin-development
