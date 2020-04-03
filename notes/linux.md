@@ -71,6 +71,36 @@
                 echo -e "proxy on!"
         }
         ```
+    + `~/.config/fish/functions/proxy_on.fish`
+        ```
+        function proxy_on
+            sudo service privoxy restart
+            # sudo service v2ray restart
+            # pkill ss-local
+            # nohup ss-local -c ~/.shadowsocks/config.json >> ~/.shadowsocks/log.txt 2>&1 &
+            # pkill trojan
+            # nohup ~/Misc/trojan/trojan ~/Misc/trojan/config.json >> ~/Misc/trojan/log.txt 2>&1 &
+            set -xU no_proxy "localhost,127.0.0.1,localaddress,.localdomain.com"
+            set -xU http_proxy "http://127.0.0.1:1091" # 6666 for v2ray_http, 2333 for v2ray_socks5, 1091 for trojan
+            set -xU https_proxy "http://127.0.0.1:1091"
+            npm config set proxy=http://127.0.0.1:1091
+            # git config --global http.proxy http://127.0.0.1:8118
+            git config --global http.proxy socks5://127.0.0.1:1091
+            echo -e "proxy on!"
+        end
+        ```
+    + `~/.config/fish/functions/proxy_off.fish`
+        ```
+        function proxy_off
+            sudo service v2ray stop
+            set -xU no_proxy ""
+            set -xU http_proxy ""
+            set -xU https_proxy ""
+            npm config delete proxy
+            git config --global --unset http.proxy
+            echo -e "proxy off!"
+        end
+        ```
     + `/etc/apt/apt.conf`
         ```
         Acquire::http::proxy "http://127.0.0.1:8118/";
