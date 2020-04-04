@@ -75,7 +75,7 @@
         ```
         function proxy_on
             sudo service privoxy restart
-            # sudo service v2ray restart
+            sudo service v2ray restart
             # pkill ss-local
             # nohup ss-local -c ~/.shadowsocks/config.json >> ~/.shadowsocks/log.txt 2>&1 &
             pkill trojan
