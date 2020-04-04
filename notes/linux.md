@@ -78,26 +78,28 @@
             # sudo service v2ray restart
             # pkill ss-local
             # nohup ss-local -c ~/.shadowsocks/config.json >> ~/.shadowsocks/log.txt 2>&1 &
-            # pkill trojan
-            # nohup ~/Misc/trojan/trojan ~/Misc/trojan/config.json >> ~/Misc/trojan/log.txt 2>&1 &
+            pkill trojan
+            nohup ~/Misc/trojan/trojan ~/Misc/trojan/config.json >> ~/Misc/trojan/log.txt 2>&1 &
             set -xU no_proxy "localhost,127.0.0.1,localaddress,.localdomain.com"
-            set -xU http_proxy "http://127.0.0.1:1091" # 6666 for v2ray_http, 2333 for v2ray_socks5, 1091 for trojan
-            set -xU https_proxy "http://127.0.0.1:1091"
-            npm config set proxy=http://127.0.0.1:1091
+            set -xU http_proxy "http://127.0.0.1:8118" # 6666 for v2ray_http, 8118 for privoxy
+            set -xU https_proxy "http://127.0.0.1:8118"
+            npm config set proxy=http://127.0.0.1:8118
             # git config --global http.proxy http://127.0.0.1:8118
-            git config --global http.proxy socks5://127.0.0.1:1091
+            git config --global http.proxy socks5://127.0.0.1:1081 # 2333 for v2ray_socks5, 1081 for ss/trojan sock5
             echo -e "proxy on!"
         end
         ```
     + `~/.config/fish/functions/proxy_off.fish`
         ```
         function proxy_off
-            sudo service v2ray stop
+            # sudo service v2ray stop
+            # sudo service privoxy stop
+            # pkill trojan
             set -xU no_proxy ""
             set -xU http_proxy ""
             set -xU https_proxy ""
             npm config delete proxy
-            git config --global --unset http.proxy
+            git config --global --unset http.proxy # keep sock5 running, for github ssh
             echo -e "proxy off!"
         end
         ```
@@ -473,7 +475,9 @@ function sproxy_goflyway() {
     - Copy the themes from the konsole directory to `$HOME/.config/konsole` (in some versions of KDE, the theme directory may be located at `$HOME/.local/share/konsole`), restart Konsole and choose your new theme from the profile preferences window.
 + Check occupied ports
     ```bash
-    netstat -ntl
+    sudo netstat -tulpn | grep LISTEN
+    sudo lsof -i -P -n | grep LISTEN
+    sudo nmap -sTU -O IP-address-Here
     ```
 + Kill process by port
     ```bash
