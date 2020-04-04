@@ -85,7 +85,8 @@
             set -xU https_proxy "http://127.0.0.1:8118"
             npm config set proxy=http://127.0.0.1:8118
             # git config --global http.proxy http://127.0.0.1:8118
-            git config --global https.proxy socks5://127.0.0.1:1080 # 2333 for git config --global http.proxy socks5://127.0.0.1:1080 # 2333 for v2ray_socks5, 1080 for ss/trojan sock5
+            git config --global https.proxy socks5://127.0.0.1:1080 # 2333 for v2ray_socks5, 1080 for ss/trojan sock5
+            git config --global http.proxy socks5://127.0.0.1:1080 # 2333 for v2ray_socks5, 1080 for ss/trojan sock5
             echo -e "proxy on!"
         end
         ```
