@@ -85,7 +85,7 @@
             set -xU https_proxy "http://127.0.0.1:8118"
             npm config set proxy=http://127.0.0.1:8118
             # git config --global http.proxy http://127.0.0.1:8118
-            git config --global http.proxy socks5://127.0.0.1:1081 # 2333 for v2ray_socks5, 1081 for ss/trojan sock5
+            git config --global http.proxy socks5://127.0.0.1:1080 # 2333 for v2ray_socks5, 1080 for ss/trojan sock5
             echo -e "proxy on!"
         end
         ```
@@ -119,14 +119,14 @@
     ```
     * socks5
     ```
-    git config --global http.proxy socks5://127.0.0.1:1081
-    #or git config --global http.proxy socks5h://127.0.0.1:1081
-    #specifically git config --global http.https://github.com.proxy socks5://127.0.0.1:1081
+    git config --global http.proxy socks5://127.0.0.1:1080
+    #or git config --global http.proxy socks5h://127.0.0.1:1080
+    #specifically git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
     ```
     * SSH git@ -- `~/.ssh/config`
     ```
     Host github.com
-    ProxyCommand nc -X 5 -x 127.0.0.1:1081 %h %p # (For linux. Change to "ProxyCommand connect -S 127.0.0.1:1081 %h %p" for Windows.)
+    ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p # (For linux. Change to "ProxyCommand connect -S 127.0.0.1:1080 %h %p" for Windows.)
     ```
     * `git config --global --unset http.https://github.com.proxy`
     * squash
