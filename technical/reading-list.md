@@ -35,6 +35,8 @@
     - https://distsys.substack.com/
     - https://decentralizedthoughts.github.io/
     - https://github.com/DistributedSystemsWiki/wiki
+    - https://github.com/zhenlohuang/awesome-distributed-systems
+    - https://github.com/theanalyst/awesome-distributed-systems
     - https://research.nccgroup.com/
     - https://github.com/SebastianElvis/distributed-computing-lecture-notes/
     - https://github.com/denisnazarov/awesome-crypto-trackers
