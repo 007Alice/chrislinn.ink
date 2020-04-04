@@ -34,6 +34,7 @@
 * blockchain
     - https://distsys.substack.com/
     - https://decentralizedthoughts.github.io/
+    - https://blog.cryptographyengineering.com/
     - https://github.com/DistributedSystemsWiki/wiki
     - https://github.com/zhenlohuang/awesome-distributed-systems
     - https://github.com/theanalyst/awesome-distributed-systems
