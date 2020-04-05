@@ -7,6 +7,13 @@
 
 [Linux命令行有这么多的好东西？](https://zhuanlan.zhihu.com/p/30720022)
 
+## fisher
++ https://github.com/jethrokuan/fzf
++ https://github.com/junegunn/fzf
++ https://github.com/jorgebucaran/fisher
+    * alternative: https://github.com/oh-my-fish/oh-my-fish
++ https://github.com/jorgebucaran/fish-nvm
+
 ## Shadowsocks
 + ss-qt5
     ```bash
