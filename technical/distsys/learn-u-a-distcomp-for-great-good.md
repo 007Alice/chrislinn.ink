@@ -195,6 +195,8 @@ __TODO:__
         > guarantees liveness without making any timing assumptions
             + HoneyBadgerBFT 还是太慢
     + Tendermint BFT
+        * elastico: "tendermint is essentially a variant of PBFT"
+            - http://tendermint.com/posts/tendermint-vs-pbft
     + 广播
         * [Asynchronous Byzantine agreement protocols](https://dl.acm.org/citation.cfm?id=806743) by Bracha
             - 存在的问题是 scalability
