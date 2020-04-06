@@ -280,6 +280,9 @@ http://www.conferenceranks.com/ ,randA & rankB
 
  -->
 
+## system model, network model, threat model
+可以看 omniledger
+
 
 ## I like the way they criticise other works
 
