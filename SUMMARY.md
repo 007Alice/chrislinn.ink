@@ -25,6 +25,7 @@
         - [也体验一把密码朋克](technical/crypto/cypher-punk.md)
         + [Kerberos](technical/crypto/kerberos.md)
         + [Noise Protocol](technical/crypto/noise-protocol.md)
+        + [modulus](technical/crypto/modulus.md)
     - [(WIP) concurrent & parallel](technical/concurrent-parallel.md)
     * PL
         - [High performance GoLang](technical/PL/hp-golang.md)
