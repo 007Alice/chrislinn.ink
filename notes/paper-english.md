@@ -7,3 +7,9 @@
 + trivial?
 + without loss of generality
 + from a usability perspective
++ w.h.p
+    * with high probability
++ forfeit
++ embody
++ at present
++ irrespective of ...
