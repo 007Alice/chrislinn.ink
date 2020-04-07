@@ -9,6 +9,7 @@
         - [Learn You a Distributed Computing for Great Good!](technical/distsys/learn-u-a-distcomp-for-great-good.md)
         - [(WIP) Distributed System](technical/distsys/distcomp.md)
     - blockchain
+        + [(WIP) 区块链代码实现中的常见漏洞](technical/blockchain/coinbugs.md)
         + [通过 VRF 来消灭矿池](technical/blockchain/vrf-mining.md)
         + [Erlay](technical/blockchain/erlay.md)
         + [Fairness & Privacy](technical/blockchain/fairness_privacy.md)
