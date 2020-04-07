@@ -32,7 +32,7 @@
 **例子：**
 
 + https://blog.ethereum.org/2016/11/25/security-alert-11242016-consensus-bug-geth-v1-4-19-v1-5-2/
-    * `geth` vs `Parity` state update 不同, 是否允许 reverting empty account deletions (以防 out-of-gas exception):
+    * `geth` vs `Parity` state update 不同, 当 out-of-gas exception 时是否能成功 revert empty account deletions
 
 
 
