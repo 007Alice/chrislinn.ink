@@ -1,7 +1,5 @@
 # 区块链代码实现中的常见漏洞
 
-
-
 由 [Whitepaper – Coinbugs: Enumerating Common Blockchain Implementation-Level Vulnerabilities](https://research.nccgroup.com/2020/03/26/whitepaper-coinbugs-enumerating-common-blockchain-implementation-level-vulnerabilities/) 翻译总结而来
 
 ## 网络分割
@@ -33,14 +31,25 @@
 
 + https://blog.ethereum.org/2016/11/25/security-alert-11242016-consensus-bug-geth-v1-4-19-v1-5-2/
     * `geth` vs `Parity` state update 不同, 当 out-of-gas exception 时是否能成功 revert empty account deletions
-
-
-
++ https://bitcointalk.org/index.php?topic=260595.0
+    * 处理有问题的 `SIGHASH_SINGLE` 交易时, `bitcoin-ruby` 的实现是对的，但关键是 `bitcoin-core` 本身的实现是错的。(一些 edge case 可能一开始考虑不到)
 
 **Note**: *文档作为 spec 其实是不够的，实际如何 implement 才最有可信力。bitcoin 的代码才是最准确的文档。*
 
+**HY注**: *事实上，就算是软分叉也会有这个问题吧。*
+
+如何尽量避免: 只能手把手比对源码, 设计 input tests, 甚至 cross-implementation fuzzing.
+
 
 ### 运行环境差异造成的网络分割
+
+就算只有一种客户端实现, 运行环境不同也可能导致执行结果不同。(架构 32-bit vs 64-bit, 操作系统, 时间/地区设置, 配置...)
+
+Furthermore, the blockchain client may rely on the libraries that are installed on the system
+and automatically updated (without fixing the libraries’ versions).
+
+比如说 bitcoin OpenSSL’s ECDSA signature handling 
+
 
 ### 区块 hash 投毒造成的网络分割
 
