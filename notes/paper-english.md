@@ -16,3 +16,4 @@
 + a simple but inadequate strawman approach to ...
 + resilient
 + hinder
++ prescribe
