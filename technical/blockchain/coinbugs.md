@@ -38,17 +38,17 @@
 
 **HY注**: *事实上，就算是软分叉也会有这个问题吧。*
 
-如何尽量避免: 只能手把手比对源码, 设计 input tests, 甚至 cross-implementation fuzzing.
+如何尽量避免? 只能手把手比对源码, 设计 input tests, 甚至 cross-implementation fuzzing.
 
 
 ### 运行环境差异造成的网络分割
 
-就算只有一种客户端实现, 运行环境不同也可能导致执行结果不同。(架构 32-bit vs 64-bit, 操作系统, 时间/地区设置, 配置...)
+就算只有一种客户端实现, 运行环境不同也可能导致执行结果不同。(架构 32-bit vs 64-bit, 操作系统, 时间/地区设置, 配置...)。另外依赖的系统库版本也有可能不同（甚至没有固定住版本、开启了自动升级）。
 
-Furthermore, the blockchain client may rely on the libraries that are installed on the system
-and automatically updated (without fixing the libraries’ versions).
+比如说 bitcoin OpenSSL’s ECDSA signature handling 就导致过两次共识问题:
 
-比如说 bitcoin OpenSSL’s ECDSA signature handling 
++ 1
++ 2
 
 
 ### 区块 hash 投毒造成的网络分割
